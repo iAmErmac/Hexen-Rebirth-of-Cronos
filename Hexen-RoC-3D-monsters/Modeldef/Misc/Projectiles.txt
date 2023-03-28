@@ -1,0 +1,94 @@
+
+Model CArrow
+{
+	Path models 
+	Model 0 Projectiles/Arrow.md3 
+	Skin 0 "materials/Projectiles/Projectiles.png"
+	Scale  0.2 0.2 0.2
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex PROJ A 0 0
+}
+
+Model CDart
+{
+	Path models 
+	Model 0 Projectiles/Dart.md3 
+	Skin 0 "materials/Projectiles/Projectiles.png"
+	Scale  0.2 0.2 0.2
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex PROJ A 0 0
+}
+
+Model CPoisonDart
+{
+	Path models 
+	Model 0 Projectiles/Dart.md3 
+	Skin 0 "materials/Projectiles/Projectiles.png"
+	Scale  0.2 0.2 0.2
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex PROJ A 0 0
+}
+
+Model CBolt
+{
+	Path models 
+	Model 0 Projectiles/Bolt.md3 
+	Skin 0 "materials/Projectiles/Projectiles.png"
+	Scale  0.2 0.2 0.2
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex PROJ A 0 0
+}
+
+Model CRipper
+{
+	Path models 
+	Model 0 Projectiles/Ripper.md3 
+	Skin 0 "materials/Projectiles/Projectiles.png"
+	Scale  0.2 0.2 0.2
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex PROJ A 0 0
+}
+
+Model CFireball
+{
+	Path models 
+	Model 0 Projectiles/Fireball.md3 
+	SurfaceSkin 0 0 "materials/Fireball/Fireball.png"
+	SurfaceSkin 0 1 "materials/Fireball/Flame1.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex FIRB A 0 0
+    FrameIndex FIRB B 0 1
+    FrameIndex FIRB C 0 2
+    FrameIndex FIRB D 0 3
+    FrameIndex FIRB E 0 4
+    FrameIndex FIRB F 0 5
+    FrameIndex FIRB G 0 6
+    FrameIndex FIRB H 0 7
+    FrameIndex FIRB I 0 8
+    FrameIndex FIRB J 0 9
+}

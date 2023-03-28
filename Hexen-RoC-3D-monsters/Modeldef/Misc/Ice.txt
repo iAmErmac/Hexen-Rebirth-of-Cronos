@@ -1,0 +1,19 @@
+
+Model CIceChunk
+{
+Path models 
+Model 0 IceChunk.md3 
+Skin 0 "materials/Wendigo/Wendigo.png"
+
+Scale 15 15 18 
+Offset 0 0 -32
+
+USEACTORPITCH
+USEACTORROLL
+
+FrameIndex 3DMD A 0 0 
+FrameIndex 3DMD B 0 0 
+FrameIndex 3DMD C 0 0 
+FrameIndex 3DMD D 0 0 
+
+}

@@ -1,0 +1,383 @@
+//Deco
+
+Model FloorBlood
+{
+   Path "models/Blood"
+   Model 0 "BloodPlanar.md3"
+   Skin 0 "decal.png"
+   Scale 1.0 1.0 0.1
+
+   FrameIndex NADA A 0 0
+}
+
+Model FloorBloodStencil
+{
+   Path "models/Blood"
+   Model 0 "BloodPlanar.md3"
+   Skin 0 "splat1.png"
+   Scale 1.0 1.0 0.15
+
+   FrameIndex BPDL A 0 0
+}
+
+Model ZBloodPool
+{
+   Path "models/Blood"
+   Model 0 "BloodPlanar.md3"
+   Skin 0 "splat1.png"
+   Scale 1.0 1.0 0.15
+
+   FrameIndex BPDL A 0 0
+}
+
+Model FloorBloodStencil
+{
+   Path "models/Blood"
+   Model 0 "BloodPlanar.md3"
+   Skin 0 "splat4.png"
+   Scale 1.0 1.0 0.2
+
+   FrameIndex BPDL B 0 0
+}
+
+Model ZBloodPool
+{
+   Path "models/Blood"
+   Model 0 "BloodPlanar.md3"
+   Skin 0 "splat4.png"
+   Scale 1.0 1.0 0.2
+
+   FrameIndex BPDL B 0 0
+}
+
+Model FloorBloodStencil
+{
+   Path "models/Blood"
+   Model 0 "BloodPlanar.md3"
+   Skin 0 "splat5.png"
+   Scale 1.0 1.0 0.25
+
+   FrameIndex BPDL C 0 0
+}
+
+Model ZBloodPool
+{
+   Path "models/Blood"
+   Model 0 "BloodPlanar.md3"
+   Skin 0 "splat5.png"
+   Scale 1.0 1.0 0.25
+
+   FrameIndex BPDL C 0 0
+}
+
+Model FloorBloodStencil
+{
+   Path "models/Blood"
+   Model 0 "BloodPlanar.md3"
+   Skin 0 "splat9.png"
+   Scale 1.0 1.0 0.3
+
+   FrameIndex BPDL D 0 0
+}
+
+Model ZBloodPool
+{
+   Path "models/Blood"
+   Model 0 "BloodPlanar.md3"
+   Skin 0 "splat9.png"
+   Scale 1.0 1.0 0.3
+
+   FrameIndex BPDL D 0 0
+}
+
+Model FloorBloodStencil
+{
+   Path "models/Blood"
+   Model 0 "BloodPlanar.md3"
+   Skin 0 "dsplat2.png"
+   Scale 1.0 1.0 0.35
+
+   FrameIndex BPDL E 0 0
+}
+
+Model ZBloodPool
+{
+   Path "models/Blood"
+   Model 0 "BloodPlanar.md3"
+   Skin 0 "dsplat2.png"
+   Scale 1.0 1.0 0.35
+
+   FrameIndex BPDL E 0 0
+}
+
+Model FloorBloodStencil
+{
+   Path "models/Blood"
+   Model 0 "BloodPlanar.md3"
+   Skin 0 "dsplat5.png"
+   Scale 1.0 1.0 0.4
+
+   FrameIndex BPDL F 0 0
+}
+
+Model ZBloodPool
+{
+   Path "models/Blood"
+   Model 0 "BloodPlanar.md3"
+   Skin 0 "dsplat5.png"
+   Scale 1.0 1.0 0.4
+
+   FrameIndex BPDL F 0 0
+}
+
+Model FloorBloodStencil
+{
+   Path "models/Blood"
+   Model 0 "BloodPlanar.md3"
+   Skin 0 "dsplat7.png"
+   Scale 1.0 1.0 0.45
+
+   FrameIndex BPDL G 0 0
+}
+
+Model ZBloodPool
+{
+   Path "models/Blood"
+   Model 0 "BloodPlanar.md3"
+   Skin 0 "dsplat7.png"
+   Scale 1.0 1.0 0.45
+
+   FrameIndex BPDL G 0 0
+}
+
+Model CeilBlood
+{
+   Path "models/Blood"
+   Model 0 "BloodPlanar.md3"
+   Skin 0 "decal.png"
+   Scale 1.0 1.0 0.1
+
+   FrameIndex BPDL A 0 0
+}
+
+Model CeilBloodStencil
+{
+   Path "models/Blood"
+   Model 0 "BloodPlanar.md3"
+   Skin 0 "splat1.png"
+   Scale 1.0 1.0 0.15
+
+   FrameIndex BPDL A 0 0
+}
+
+Model CeilBloodStencil
+{
+   Path "models/Blood"
+   Model 0 "BloodPlanar.md3"
+   Skin 0 "splat4.png"
+   Scale 1.0 1.0 0.2
+
+   FrameIndex BPDL B 0 0
+}
+
+Model CeilBloodStencil
+{
+   Path "models/Blood"
+   Model 0 "BloodPlanar.md3"
+   Skin 0 "splat5.png"
+   Scale 1.0 1.0 0.25
+
+   FrameIndex BPDL C 0 0
+}
+
+Model CeilBloodStencil
+{
+   Path "models/Blood"
+   Model 0 "BloodPlanar.md3"
+   Skin 0 "splat9.png"
+   Scale 1.0 1.0 0.3
+
+   FrameIndex BPDL D 0 0
+}
+
+Model CeilBloodStencil
+{
+   Path "models/Blood"
+   Model 0 "BloodPlanar.md3"
+   Skin 0 "dsplat2.png"
+   Scale 1.0 1.0 0.35
+
+   FrameIndex BPDL E 0 0
+}
+
+Model CeilBloodStencil
+{
+   Path "models/Blood"
+   Model 0 "BloodPlanar.md3"
+   Skin 0 "dsplat5.png"
+   Scale 1.0 1.0 0.4
+
+   FrameIndex BPDL F 0 0
+}
+
+Model CeilBloodStencil
+{
+   Path "models/Blood"
+   Model 0 "BloodPlanar.md3"
+   Skin 0 "dsplat7.png"
+   Scale 1.0 1.0 0.45
+
+   FrameIndex BPDL G 0 0
+}
+
+Model XDeathDecaler
+{
+   Path "models/Blood"
+   Model 0 "Blood.md3"
+   Skin 0 "DSplat5.png"
+   Scale 1.2 1.2 1.2
+   PITCHFROMMOMENTUM
+
+   FrameIndex NADA A 0 0
+   FrameIndex NADA B 0 9
+}
+
+Model ModelFlyingBlood1
+{ 
+   Path "models/Blood"
+   Model 0 "Blood.md3"
+   Skin 0 "Splat1.png"
+   PITCHFROMMOMENTUM
+   Scale 1.0 1.0 1.0
+
+   FrameIndex NADA A 0 0
+   FrameIndex NADA B 0 1
+   FrameIndex NADA C 0 2
+   FrameIndex NADA D 0 3
+   FrameIndex NADA E 0 4
+   FrameIndex NADA F 0 5
+   FrameIndex NADA G 0 6
+   FrameIndex NADA H 0 7
+   FrameIndex NADA I 0 8
+   FrameIndex NADA J 0 9
+}
+
+Model ModelFlyingBlood2
+{ 
+   Path "models/Blood"
+   Model 0 "Blood.md3"
+   Skin 0 "Splat4.png"
+   PITCHFROMMOMENTUM
+   Scale 1.0 1.0 1.0
+
+   FrameIndex NADA A 0 0
+   FrameIndex NADA B 0 1
+   FrameIndex NADA C 0 2
+   FrameIndex NADA D 0 3
+   FrameIndex NADA E 0 4
+   FrameIndex NADA F 0 5
+   FrameIndex NADA G 0 6
+   FrameIndex NADA H 0 7
+   FrameIndex NADA I 0 8
+   FrameIndex NADA J 0 9
+}
+
+Model ModelFlyingBlood3
+{ 
+   Path "models/Blood"
+   Model 0 "Blood.md3"
+   Skin 0 "Splat5.png"
+   PITCHFROMMOMENTUM
+   Scale 1.0 1.0 1.0
+
+   FrameIndex NADA A 0 0
+   FrameIndex NADA B 0 1
+   FrameIndex NADA C 0 2
+   FrameIndex NADA D 0 3
+   FrameIndex NADA E 0 4
+   FrameIndex NADA F 0 5
+   FrameIndex NADA G 0 6
+   FrameIndex NADA H 0 7
+   FrameIndex NADA I 0 8
+   FrameIndex NADA J 0 9
+}
+
+Model ModelFlyingBlood4
+{ 
+   Path "models/Blood"
+   Model 0 "Blood.md3"
+   Skin 0 "Splat9.png"
+   PITCHFROMMOMENTUM
+   Scale 1.0 1.0 1.0
+
+   FrameIndex NADA A 0 0
+   FrameIndex NADA B 0 1
+   FrameIndex NADA C 0 2
+   FrameIndex NADA D 0 3
+   FrameIndex NADA E 0 4
+   FrameIndex NADA F 0 5
+   FrameIndex NADA G 0 6
+   FrameIndex NADA H 0 7
+   FrameIndex NADA I 0 8
+   FrameIndex NADA J 0 9
+}
+
+Model ModelFlyingBlood5
+{ 
+   Path "models/Blood"
+   Model 0 "Blood.md3"
+   Skin 0 "DSplat2.png"
+   PITCHFROMMOMENTUM
+   Scale 1.0 1.0 1.0
+
+   FrameIndex NADA A 0 0
+   FrameIndex NADA B 0 1
+   FrameIndex NADA C 0 2
+   FrameIndex NADA D 0 3
+   FrameIndex NADA E 0 4
+   FrameIndex NADA F 0 5
+   FrameIndex NADA G 0 6
+   FrameIndex NADA H 0 7
+   FrameIndex NADA I 0 8
+   FrameIndex NADA J 0 9
+}
+
+Model ModelFlyingBlood6
+{ 
+   Path "models/Blood"
+   Model 0 "Blood.md3"
+   Skin 0 "DSplat5.png"
+   PITCHFROMMOMENTUM
+   Scale 1.0 1.0 1.0
+
+   FrameIndex NADA A 0 0
+   FrameIndex NADA B 0 1
+   FrameIndex NADA C 0 2
+   FrameIndex NADA D 0 3
+   FrameIndex NADA E 0 4
+   FrameIndex NADA F 0 5
+   FrameIndex NADA G 0 6
+   FrameIndex NADA H 0 7
+   FrameIndex NADA I 0 8
+   FrameIndex NADA J 0 9
+}
+
+Model ModelFlyingBlood7
+{ 
+   Path "models/Blood"
+   Model 0 "Blood.md3"
+   Skin 0 "DSplat7.png"
+   PITCHFROMMOMENTUM
+   Scale 1.0 1.0 1.0
+
+   FrameIndex NADA A 0 0
+   FrameIndex NADA B 0 1
+   FrameIndex NADA C 0 2
+   FrameIndex NADA D 0 3
+   FrameIndex NADA E 0 4
+   FrameIndex NADA F 0 5
+   FrameIndex NADA G 0 6
+   FrameIndex NADA H 0 7
+   FrameIndex NADA I 0 8
+   FrameIndex NADA J 0 9
+}

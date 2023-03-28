@@ -1,0 +1,185 @@
+Model CEttin
+{
+	Path models
+    Model 0 "Ettin.md3"
+	Skin 0 "materials/Ettin/Ettin.png"
+    Scale 8.0 8.0 9.8
+    USEACTORPITCH
+    USEACTORROLL
+
+	FrameIndex EATA A 0 0 //DeathStart
+    FrameIndex EATA B 0 1
+    FrameIndex EATA C 0 2
+    FrameIndex EATA D 0 3
+    FrameIndex EATA E 0 4
+    FrameIndex EATA F 0 5
+    FrameIndex EATA G 0 6
+    FrameIndex EATA H 0 7
+    FrameIndex EATA I 0 8
+    FrameIndex EATA J 0 9
+    FrameIndex EATA K 0 10
+    FrameIndex EATA L 0 11
+    FrameIndex EATA M 0 12
+    FrameIndex EATA N 0 13
+    FrameIndex EATA O 0 14
+    FrameIndex EATA P 0 15
+    FrameIndex EATA Q 0 16
+    FrameIndex EATA R 0 17
+    FrameIndex EATA S 0 18
+    FrameIndex EATA T 0 19
+    FrameIndex EATA U 0 20
+    FrameIndex EATA V 0 21
+    FrameIndex EATA W 0 22
+    FrameIndex EATA X 0 23
+    FrameIndex EATA Y 0 24
+    FrameIndex EATA Z 0 25
+    FrameIndex EATA [ 0 26
+    FrameIndex EATA \ 0 27
+    FrameIndex EATA ] 0 28
+    FrameIndex EATB A 0 29
+    FrameIndex EATB B 0 30
+    FrameIndex EATB C 0 31
+    FrameIndex EATB D 0 32
+    FrameIndex EATB E 0 33
+    FrameIndex EATB F 0 34
+    FrameIndex EATB G 0 35
+    FrameIndex EATB H 0 36
+    FrameIndex EATB I 0 37
+    FrameIndex EATB J 0 38
+    FrameIndex EATB K 0 39
+    FrameIndex EATB L 0 40
+    FrameIndex EATB M 0 41
+    FrameIndex EATB N 0 42
+    FrameIndex EATB O 0 43
+    FrameIndex EATB P 0 44
+    FrameIndex EATB Q 0 45
+    FrameIndex EATB R 0 46
+    FrameIndex EATB S 0 47
+    FrameIndex EATB T 0 48
+    FrameIndex EATB U 0 49
+    FrameIndex EATB V 0 50 //DeathEnd
+    FrameIndex EATB W 0 51 //PainStart
+    FrameIndex EATB X 0 52
+    FrameIndex EATB Y 0 53
+    FrameIndex EATB Z 0 54
+    FrameIndex EATB [ 0 55
+    FrameIndex EATB \ 0 56
+    FrameIndex EATB ] 0 57
+    FrameIndex EATC A 0 58
+    FrameIndex EATC B 0 59
+    FrameIndex EATC C 0 60
+    FrameIndex EATC D 0 61
+    FrameIndex EATC E 0 62
+    FrameIndex EATC F 0 63
+    FrameIndex EATC G 0 64
+    FrameIndex EATC H 0 65
+    FrameIndex EATC I 0 66
+    FrameIndex EATC J 0 67
+    FrameIndex EATC K 0 68 //PainEnd
+    FrameIndex EATC L 0 69 //IdleStart
+    FrameIndex EATC M 0 70
+    FrameIndex EATC N 0 71
+    FrameIndex EATC O 0 72
+    FrameIndex EATC P 0 73
+    FrameIndex EATC Q 0 74
+    FrameIndex EATC R 0 75
+    FrameIndex EATC S 0 76
+    FrameIndex EATC T 0 77
+    FrameIndex EATC U 0 78
+    FrameIndex EATC V 0 79
+    FrameIndex EATC W 0 80
+    FrameIndex EATC X 0 81
+    FrameIndex EATC Y 0 82
+    FrameIndex EATC Z 0 83
+    FrameIndex EATC [ 0 84
+    FrameIndex EATC \ 0 85
+    FrameIndex EATC ] 0 86
+    FrameIndex EATD A 0 87 //IdleEnd
+    FrameIndex EATD B 0 88 //WalkStart
+    FrameIndex EATD C 0 89
+    FrameIndex EATD D 0 90
+    FrameIndex EATD E 0 91
+    FrameIndex EATD F 0 92
+    FrameIndex EATD G 0 93
+    FrameIndex EATD H 0 94
+    FrameIndex EATD I 0 95
+    FrameIndex EATD J 0 96
+    FrameIndex EATD K 0 97
+    FrameIndex EATD L 0 98
+    FrameIndex EATD M 0 99
+    FrameIndex EATD N 0 100
+    FrameIndex EATD O 0 101
+    FrameIndex EATD P 0 102
+    FrameIndex EATD Q 0 103
+    FrameIndex EATD R 0 104
+    FrameIndex EATD S 0 105
+    FrameIndex EATD T 0 106
+    FrameIndex EATD U 0 107
+    FrameIndex EATD V 0 108
+    FrameIndex EATD W 0 109
+    FrameIndex EATD X 0 110
+    FrameIndex EATD Y 0 111
+    FrameIndex EATD Z 0 112
+    FrameIndex EATD [ 0 113 //WalkEnd
+	FrameIndex EATD \ 0 114 //AttackStart
+    FrameIndex EATD ] 0 115
+    FrameIndex EATE A 0 116
+    FrameIndex EATE B 0 117
+    FrameIndex EATE C 0 118
+    FrameIndex EATE D 0 119
+    FrameIndex EATE E 0 120
+    FrameIndex EATE F 0 121
+    FrameIndex EATE G 0 122
+    FrameIndex EATE H 0 123
+    FrameIndex EATE I 0 124
+    FrameIndex EATE J 0 125
+    FrameIndex EATE K 0 126
+    FrameIndex EATE L 0 127
+    FrameIndex EATE M 0 128
+    FrameIndex EATE N 0 129
+    FrameIndex EATE O 0 130
+    FrameIndex EATE P 0 131
+    FrameIndex EATE Q 0 132
+    FrameIndex EATE R 0 133
+    FrameIndex EATE S 0 134
+    FrameIndex EATE T 0 135
+    FrameIndex EATE U 0 136
+    FrameIndex EATE V 0 137
+    FrameIndex EATE W 0 138
+    FrameIndex EATE X 0 139
+    FrameIndex EATE Y 0 140
+    FrameIndex EATE Z 0 141
+    FrameIndex EATE [ 0 142
+    FrameIndex EATE \ 0 143 //AttackEnd
+}
+
+Model CEttin
+{
+	Path models
+    Model 0 "EttinX.md3"
+	SurfaceSkin 0 0 "materials/Ettin/Ettin.png"
+	SurfaceSkin 0 1 "materials/Flesh/Flesh.png"
+    Scale 8.0 8.0 9.8
+    USEACTORPITCH
+    USEACTORROLL
+
+	FrameIndex EATX A 0 0
+    FrameIndex EATX B 0 1
+    FrameIndex EATX C 0 2
+    FrameIndex EATX D 0 3
+    FrameIndex EATX E 0 4
+    FrameIndex EATX F 0 5
+    FrameIndex EATX G 0 6
+    FrameIndex EATX H 0 7
+    FrameIndex EATX I 0 8
+    FrameIndex EATX J 0 9
+    FrameIndex EATX K 0 10
+    FrameIndex EATX L 0 11
+	ZOffset -2.0
+    FrameIndex EATX M 0 12
+    FrameIndex EATX N 0 13
+	ZOffset -3.0
+    FrameIndex EATX O 0 14
+    FrameIndex EATX P 0 15
+    FrameIndex EATX Q 0 16
+}

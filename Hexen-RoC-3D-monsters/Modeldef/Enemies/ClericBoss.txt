@@ -1,0 +1,191 @@
+Model CClericBoss
+{
+	Path models
+    Model 0 "ClericBoss.md3"
+	Skin 0 "materials/ClericBoss/Cleric.png"
+    Scale 3.0 3.0 3.6
+	Offset 0 0 0 
+    USEACTORPITCH
+    USEACTORROLL
+	
+	FrameIndex CBTA A 0 0 //AttackStart
+    FrameIndex CBTA B 0 1
+    FrameIndex CBTA C 0 2
+    FrameIndex CBTA D 0 3
+    FrameIndex CBTA E 0 4
+    FrameIndex CBTA F 0 5
+    FrameIndex CBTA G 0 6
+    FrameIndex CBTA H 0 7
+    FrameIndex CBTA I 0 8
+    FrameIndex CBTA J 0 9
+    FrameIndex CBTA K 0 10
+    FrameIndex CBTA L 0 11
+    FrameIndex CBTA M 0 12
+    FrameIndex CBTA N 0 13
+    FrameIndex CBTA O 0 14
+    FrameIndex CBTA P 0 15
+    FrameIndex CBTA Q 0 16
+    FrameIndex CBTA R 0 17
+    FrameIndex CBTA S 0 18
+    FrameIndex CBTA T 0 19
+    FrameIndex CBTA U 0 20
+    FrameIndex CBTA V 0 21
+    FrameIndex CBTA W 0 22
+    FrameIndex CBTA X 0 23
+    FrameIndex CBTA Y 0 24
+    FrameIndex CBTA Z 0 25 //AttackEnd
+    FrameIndex CBTA [ 0 26 //Deathstart
+    FrameIndex CBTA \ 0 27
+    FrameIndex CBTA ] 0 28
+    FrameIndex CBTB A 0 29
+    FrameIndex CBTB B 0 30
+    FrameIndex CBTB C 0 31
+    FrameIndex CBTB D 0 32
+    FrameIndex CBTB E 0 33
+    FrameIndex CBTB F 0 34
+    FrameIndex CBTB G 0 35
+    FrameIndex CBTB H 0 36
+    FrameIndex CBTB I 0 37
+    FrameIndex CBTB J 0 38
+    FrameIndex CBTB K 0 39
+    FrameIndex CBTB L 0 40
+    FrameIndex CBTB M 0 41
+    FrameIndex CBTB N 0 42
+    FrameIndex CBTB O 0 43
+    FrameIndex CBTB P 0 44
+    FrameIndex CBTB Q 0 45
+    FrameIndex CBTB R 0 46
+    FrameIndex CBTB S 0 47
+    FrameIndex CBTB T 0 48
+    FrameIndex CBTB U 0 49
+    FrameIndex CBTB V 0 50
+    FrameIndex CBTB W 0 51
+    FrameIndex CBTB X 0 52
+    FrameIndex CBTB Y 0 53
+    FrameIndex CBTB Z 0 54
+    FrameIndex CBTB [ 0 55
+    FrameIndex CBTB \ 0 56
+    FrameIndex CBTB ] 0 57
+    FrameIndex CBTC A 0 58
+    FrameIndex CBTC B 0 59 //DeathEnd
+    FrameIndex CBTC C 0 60 //PainStart
+    FrameIndex CBTC D 0 61
+    FrameIndex CBTC E 0 62
+    FrameIndex CBTC F 0 63
+    FrameIndex CBTC G 0 64
+    FrameIndex CBTC H 0 65
+    FrameIndex CBTC I 0 66
+    FrameIndex CBTC J 0 67
+    FrameIndex CBTC K 0 68
+    FrameIndex CBTC L 0 69
+    FrameIndex CBTC M 0 70
+    FrameIndex CBTC N 0 71
+    FrameIndex CBTC O 0 72
+    FrameIndex CBTC P 0 73
+    FrameIndex CBTC Q 0 74
+    FrameIndex CBTC R 0 75
+    FrameIndex CBTC S 0 76
+    FrameIndex CBTC T 0 77
+    FrameIndex CBTC U 0 78
+    FrameIndex CBTC V 0 79
+    FrameIndex CBTC W 0 80 //PainEnd
+    FrameIndex CBTC X 0 81 //IdleStart
+    FrameIndex CBTC Y 0 82
+    FrameIndex CBTC Z 0 83
+    FrameIndex CBTC [ 0 84
+    FrameIndex CBTC \ 0 85
+    FrameIndex CBTC ] 0 86
+    FrameIndex CBTD A 0 87
+    FrameIndex CBTD B 0 88
+    FrameIndex CBTD C 0 89
+    FrameIndex CBTD D 0 90
+    FrameIndex CBTD E 0 91
+    FrameIndex CBTD F 0 92
+    FrameIndex CBTD G 0 93
+    FrameIndex CBTD H 0 94
+    FrameIndex CBTD I 0 95
+    FrameIndex CBTD J 0 96
+    FrameIndex CBTD K 0 97
+    FrameIndex CBTD L 0 98
+    FrameIndex CBTD M 0 99
+    FrameIndex CBTD N 0 100
+    FrameIndex CBTD O 0 101
+    FrameIndex CBTD P 0 102
+    FrameIndex CBTD Q 0 103
+    FrameIndex CBTD R 0 104
+    FrameIndex CBTD S 0 105
+    FrameIndex CBTD T 0 106 //IdleEnd
+    FrameIndex CBTD U 0 107 //RunStart
+    FrameIndex CBTD V 0 108
+    FrameIndex CBTD W 0 109
+    FrameIndex CBTD X 0 110
+    FrameIndex CBTD Y 0 111
+    FrameIndex CBTD Z 0 112
+    FrameIndex CBTD [ 0 113
+    FrameIndex CBTD \ 0 114
+    FrameIndex CBTD ] 0 115
+    FrameIndex CBTE A 0 116
+    FrameIndex CBTE B 0 117
+    FrameIndex CBTE C 0 118
+    FrameIndex CBTE D 0 119
+    FrameIndex CBTE E 0 120 //RunEnd
+    FrameIndex CBTE F 0 121 //WalkStart
+    FrameIndex CBTE G 0 122
+    FrameIndex CBTE H 0 123
+    FrameIndex CBTE I 0 124
+    FrameIndex CBTE J 0 125
+    FrameIndex CBTE K 0 126
+    FrameIndex CBTE L 0 127
+    FrameIndex CBTE M 0 128
+    FrameIndex CBTE N 0 129
+    FrameIndex CBTE O 0 130
+    FrameIndex CBTE P 0 131
+    FrameIndex CBTE Q 0 132
+    FrameIndex CBTE R 0 133
+    FrameIndex CBTE S 0 134
+    FrameIndex CBTE T 0 135
+    FrameIndex CBTE U 0 136
+    FrameIndex CBTE V 0 137
+    FrameIndex CBTE W 0 138
+    FrameIndex CBTE X 0 139
+    FrameIndex CBTE Y 0 140
+    FrameIndex CBTE Z 0 141 //WalkEnd
+}
+
+Model ClericMenu
+{
+	Path models
+    Model 0 "ClericBoss.md3"
+	Skin 0 "materials/ClericBoss/Cleric.png"
+    Scale 3.0 3.0 3.6
+	Offset 0 0 0 
+    USEACTORPITCH
+    USEACTORROLL
+	
+    FrameIndex CBTC X 0 81 //IdleStart
+    FrameIndex CBTC Y 0 82
+    FrameIndex CBTC Z 0 83
+    FrameIndex CBTC [ 0 84
+    FrameIndex CBTC \ 0 85
+    FrameIndex CBTC ] 0 86
+    FrameIndex CBTD A 0 87
+    FrameIndex CBTD B 0 88
+    FrameIndex CBTD C 0 89
+    FrameIndex CBTD D 0 90
+    FrameIndex CBTD E 0 91
+    FrameIndex CBTD F 0 92
+    FrameIndex CBTD G 0 93
+    FrameIndex CBTD H 0 94
+    FrameIndex CBTD I 0 95
+    FrameIndex CBTD J 0 96
+    FrameIndex CBTD K 0 97
+    FrameIndex CBTD L 0 98
+    FrameIndex CBTD M 0 99
+    FrameIndex CBTD N 0 100
+    FrameIndex CBTD O 0 101
+    FrameIndex CBTD P 0 102
+    FrameIndex CBTD Q 0 103
+    FrameIndex CBTD R 0 104
+    FrameIndex CBTD S 0 105
+    FrameIndex CBTD T 0 106 //IdleEnd
+}

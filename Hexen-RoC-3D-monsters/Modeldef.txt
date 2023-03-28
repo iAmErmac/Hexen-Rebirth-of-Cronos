@@ -1,0 +1,25 @@
+//Enemies
+#include "Modeldef/Enemies/Wendigo.txt"
+#include "Modeldef/Enemies/Centaur.txt"
+#include "Modeldef/Enemies/DarkBishop.txt"
+#include "Modeldef/Enemies/Ettin.txt"
+#include "Modeldef/Enemies/Afrit.txt"
+#include "Modeldef/Enemies/Serpents.txt"
+#include "Modeldef/Enemies/Reiver.txt"
+#include "Modeldef/Enemies/Stalker.txt"
+#include "Modeldef/Enemies/Maulotaur.txt"
+#include "Modeldef/Enemies/Wyvern.txt"
+#include "Modeldef/Enemies/MageBoss.txt"
+#include "Modeldef/Enemies/FighterBoss.txt"
+#include "Modeldef/Enemies/ClericBoss.txt"
+#include "Modeldef/Enemies/Heresiarch.txt"
+#include "Modeldef/Enemies/Korax.txt"
+#include "Modeldef/Enemies/Ghost.txt"
+
+//Deco
+#include "Modeldef/Misc/Blood.txt"
+#include "Modeldef/Misc/Ice.txt"
+#include "Modeldef/Misc/Projectiles.txt"
+
+//Misc
+#include "Modeldef/Misc/Herefire.txt"

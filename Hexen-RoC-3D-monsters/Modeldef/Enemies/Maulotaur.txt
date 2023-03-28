@@ -1,0 +1,335 @@
+Model CMaulotaur
+{
+	Path models
+    Model 0 "Maulotaur.md3"
+	SurfaceSkin 0 0 "materials/Maulotaur/Maulotaur.png"
+	SurfaceSkin 0 1 "materials/Maulotaur/Maulotaur_Armor.png"
+    Scale 3.0 3.0 3.6
+	Offset 0 0 0 
+    USEACTORPITCH
+    USEACTORROLL
+
+	FrameIndex MLTA A 0 0 //HammerAttackStart
+    FrameIndex MLTA B 0 1
+    FrameIndex MLTA C 0 2
+    FrameIndex MLTA D 0 3
+    FrameIndex MLTA E 0 4
+    FrameIndex MLTA F 0 5
+    FrameIndex MLTA G 0 6
+    FrameIndex MLTA H 0 7
+    FrameIndex MLTA I 0 8
+    FrameIndex MLTA J 0 9
+    FrameIndex MLTA K 0 10
+    FrameIndex MLTA L 0 11
+    FrameIndex MLTA M 0 12
+    FrameIndex MLTA N 0 13
+    FrameIndex MLTA O 0 14
+    FrameIndex MLTA P 0 15
+    FrameIndex MLTA Q 0 16
+    FrameIndex MLTA R 0 17
+    FrameIndex MLTA S 0 18
+    FrameIndex MLTA T 0 19
+    FrameIndex MLTA U 0 20
+    FrameIndex MLTA V 0 21
+    FrameIndex MLTA W 0 22
+    FrameIndex MLTA X 0 23
+    FrameIndex MLTA Y 0 24
+    FrameIndex MLTA Z 0 25
+    FrameIndex MLTA [ 0 26
+    FrameIndex MLTA \ 0 27
+    FrameIndex MLTA ] 0 28
+    FrameIndex MLTB A 0 29
+    FrameIndex MLTB B 0 30 //HammerAttackEnd
+    FrameIndex MLTB C 0 31 //HammerSwingStart
+    FrameIndex MLTB D 0 32
+    FrameIndex MLTB E 0 33
+    FrameIndex MLTB F 0 34
+    FrameIndex MLTB G 0 35
+    FrameIndex MLTB H 0 36
+    FrameIndex MLTB I 0 37
+    FrameIndex MLTB J 0 38
+    FrameIndex MLTB K 0 39
+    FrameIndex MLTB L 0 40
+    FrameIndex MLTB M 0 41
+    FrameIndex MLTB N 0 42
+    FrameIndex MLTB O 0 43
+    FrameIndex MLTB P 0 44
+    FrameIndex MLTB Q 0 45
+    FrameIndex MLTB R 0 46
+    FrameIndex MLTB S 0 47
+    FrameIndex MLTB T 0 48
+    FrameIndex MLTB U 0 49
+    FrameIndex MLTB V 0 50
+    FrameIndex MLTB W 0 51
+    FrameIndex MLTB X 0 52
+    FrameIndex MLTB Y 0 53
+    FrameIndex MLTB Z 0 54
+    FrameIndex MLTB [ 0 55
+    FrameIndex MLTB \ 0 56 //HammerSwingEnd
+    FrameIndex MLTB ] 0 57 //DeathStart
+    FrameIndex MLTC A 0 58
+    FrameIndex MLTC B 0 59
+    FrameIndex MLTC C 0 60
+    FrameIndex MLTC D 0 61
+    FrameIndex MLTC E 0 62
+    FrameIndex MLTC F 0 63
+    FrameIndex MLTC G 0 64
+    FrameIndex MLTC H 0 65
+    FrameIndex MLTC I 0 66
+    FrameIndex MLTC J 0 67
+    FrameIndex MLTC K 0 68
+    FrameIndex MLTC L 0 69
+    FrameIndex MLTC M 0 70
+    FrameIndex MLTC N 0 71
+    FrameIndex MLTC O 0 72
+    FrameIndex MLTC P 0 73
+    FrameIndex MLTC Q 0 74
+    FrameIndex MLTC R 0 75 //DeathEnd
+    FrameIndex MLTC S 0 76 //PainStart
+    FrameIndex MLTC T 0 77
+    FrameIndex MLTC U 0 78
+    FrameIndex MLTC V 0 79
+    FrameIndex MLTC W 0 80
+    FrameIndex MLTC X 0 81
+    FrameIndex MLTC Y 0 82
+    FrameIndex MLTC Z 0 83
+    FrameIndex MLTC [ 0 84
+    FrameIndex MLTC \ 0 85
+    FrameIndex MLTC ] 0 86
+    FrameIndex MLTD A 0 87
+    FrameIndex MLTD B 0 88
+    FrameIndex MLTD C 0 89 //PainEnd
+    FrameIndex MLTD D 0 90 //IdleStart
+    FrameIndex MLTD E 0 91
+    FrameIndex MLTD F 0 92
+    FrameIndex MLTD G 0 93
+    FrameIndex MLTD H 0 94
+    FrameIndex MLTD I 0 95
+    FrameIndex MLTD J 0 96
+    FrameIndex MLTD K 0 97
+    FrameIndex MLTD L 0 98
+    FrameIndex MLTD M 0 99
+    FrameIndex MLTD N 0 100
+    FrameIndex MLTD O 0 101
+    FrameIndex MLTD P 0 102
+    FrameIndex MLTD Q 0 103
+    FrameIndex MLTD R 0 104
+    FrameIndex MLTD S 0 105
+    FrameIndex MLTD T 0 106
+    FrameIndex MLTD U 0 107
+    FrameIndex MLTD V 0 108
+    FrameIndex MLTD W 0 109
+    FrameIndex MLTD X 0 110 //IdleEnd
+    FrameIndex MLTD Y 0 111 //RunAttackStart
+    FrameIndex MLTD Z 0 112
+    FrameIndex MLTD [ 0 113
+    FrameIndex MLTD \ 0 114
+    FrameIndex MLTD ] 0 115
+    FrameIndex MLTE A 0 116
+    FrameIndex MLTE B 0 117
+    FrameIndex MLTE C 0 118
+    FrameIndex MLTE D 0 119
+    FrameIndex MLTE E 0 120
+    FrameIndex MLTE F 0 121 //RunAttackEnd
+    FrameIndex MLTE G 0 122 //WalkStart
+    FrameIndex MLTE H 0 123
+    FrameIndex MLTE I 0 124
+    FrameIndex MLTE J 0 125
+    FrameIndex MLTE K 0 126
+    FrameIndex MLTE L 0 127
+    FrameIndex MLTE M 0 128
+    FrameIndex MLTE N 0 129
+    FrameIndex MLTE O 0 130
+    FrameIndex MLTE P 0 131
+    FrameIndex MLTE Q 0 132
+    FrameIndex MLTE R 0 133
+    FrameIndex MLTE S 0 134
+    FrameIndex MLTE T 0 135
+    FrameIndex MLTE U 0 136
+    FrameIndex MLTE V 0 137
+    FrameIndex MLTE W 0 138
+    FrameIndex MLTE X 0 139
+    FrameIndex MLTE Y 0 140
+    FrameIndex MLTE Z 0 141
+    FrameIndex MLTE [ 0 142 //WalkEnd
+}
+
+Model CMinotaurFriend
+{
+	Path models
+    Model 0 "Maulotaur.md3"
+	SurfaceSkin 0 0 "materials/Maulotaur/Maulotaur.png"
+	SurfaceSkin 0 1 "materials/Maulotaur/Maulotaur_Armor.png"
+    Scale 3.0 3.0 3.6
+	Offset 0 0 0 
+    USEACTORPITCH
+    USEACTORROLL
+
+	FrameIndex MLTA A 0 0 //HammerAttackStart
+    FrameIndex MLTA B 0 1
+    FrameIndex MLTA C 0 2
+    FrameIndex MLTA D 0 3
+    FrameIndex MLTA E 0 4
+    FrameIndex MLTA F 0 5
+    FrameIndex MLTA G 0 6
+    FrameIndex MLTA H 0 7
+    FrameIndex MLTA I 0 8
+    FrameIndex MLTA J 0 9
+    FrameIndex MLTA K 0 10
+    FrameIndex MLTA L 0 11
+    FrameIndex MLTA M 0 12
+    FrameIndex MLTA N 0 13
+    FrameIndex MLTA O 0 14
+    FrameIndex MLTA P 0 15
+    FrameIndex MLTA Q 0 16
+    FrameIndex MLTA R 0 17
+    FrameIndex MLTA S 0 18
+    FrameIndex MLTA T 0 19
+    FrameIndex MLTA U 0 20
+    FrameIndex MLTA V 0 21
+    FrameIndex MLTA W 0 22
+    FrameIndex MLTA X 0 23
+    FrameIndex MLTA Y 0 24
+    FrameIndex MLTA Z 0 25
+    FrameIndex MLTA [ 0 26
+    FrameIndex MLTA \ 0 27
+    FrameIndex MLTA ] 0 28
+    FrameIndex MLTB A 0 29
+    FrameIndex MLTB B 0 30 //HammerAttackEnd
+    FrameIndex MLTB C 0 31 //HammerSwingStart
+    FrameIndex MLTB D 0 32
+    FrameIndex MLTB E 0 33
+    FrameIndex MLTB F 0 34
+    FrameIndex MLTB G 0 35
+    FrameIndex MLTB H 0 36
+    FrameIndex MLTB I 0 37
+    FrameIndex MLTB J 0 38
+    FrameIndex MLTB K 0 39
+    FrameIndex MLTB L 0 40
+    FrameIndex MLTB M 0 41
+    FrameIndex MLTB N 0 42
+    FrameIndex MLTB O 0 43
+    FrameIndex MLTB P 0 44
+    FrameIndex MLTB Q 0 45
+    FrameIndex MLTB R 0 46
+    FrameIndex MLTB S 0 47
+    FrameIndex MLTB T 0 48
+    FrameIndex MLTB U 0 49
+    FrameIndex MLTB V 0 50
+    FrameIndex MLTB W 0 51
+    FrameIndex MLTB X 0 52
+    FrameIndex MLTB Y 0 53
+    FrameIndex MLTB Z 0 54
+    FrameIndex MLTB [ 0 55
+    FrameIndex MLTB \ 0 56 //HammerSwingEnd
+    FrameIndex MLTB ] 0 57 //DeathStart
+    FrameIndex MLTC A 0 58
+    FrameIndex MLTC B 0 59
+    FrameIndex MLTC C 0 60
+    FrameIndex MLTC D 0 61
+    FrameIndex MLTC E 0 62
+    FrameIndex MLTC F 0 63
+    FrameIndex MLTC G 0 64
+    FrameIndex MLTC H 0 65
+    FrameIndex MLTC I 0 66
+    FrameIndex MLTC J 0 67
+    FrameIndex MLTC K 0 68
+    FrameIndex MLTC L 0 69
+    FrameIndex MLTC M 0 70
+    FrameIndex MLTC N 0 71
+    FrameIndex MLTC O 0 72
+    FrameIndex MLTC P 0 73
+    FrameIndex MLTC Q 0 74
+    FrameIndex MLTC R 0 75 //DeathEnd
+    FrameIndex MLTC S 0 76 //PainStart
+    FrameIndex MLTC T 0 77
+    FrameIndex MLTC U 0 78
+    FrameIndex MLTC V 0 79
+    FrameIndex MLTC W 0 80
+    FrameIndex MLTC X 0 81
+    FrameIndex MLTC Y 0 82
+    FrameIndex MLTC Z 0 83
+    FrameIndex MLTC [ 0 84
+    FrameIndex MLTC \ 0 85
+    FrameIndex MLTC ] 0 86
+    FrameIndex MLTD A 0 87
+    FrameIndex MLTD B 0 88
+    FrameIndex MLTD C 0 89 //PainEnd
+    FrameIndex MLTD D 0 90 //IdleStart
+    FrameIndex MLTD E 0 91
+    FrameIndex MLTD F 0 92
+    FrameIndex MLTD G 0 93
+    FrameIndex MLTD H 0 94
+    FrameIndex MLTD I 0 95
+    FrameIndex MLTD J 0 96
+    FrameIndex MLTD K 0 97
+    FrameIndex MLTD L 0 98
+    FrameIndex MLTD M 0 99
+    FrameIndex MLTD N 0 100
+    FrameIndex MLTD O 0 101
+    FrameIndex MLTD P 0 102
+    FrameIndex MLTD Q 0 103
+    FrameIndex MLTD R 0 104
+    FrameIndex MLTD S 0 105
+    FrameIndex MLTD T 0 106
+    FrameIndex MLTD U 0 107
+    FrameIndex MLTD V 0 108
+    FrameIndex MLTD W 0 109
+    FrameIndex MLTD X 0 110 //IdleEnd
+    FrameIndex MLTD Y 0 111 //RunAttackStart
+    FrameIndex MLTD Z 0 112
+    FrameIndex MLTD [ 0 113
+    FrameIndex MLTD \ 0 114
+    FrameIndex MLTD ] 0 115
+    FrameIndex MLTE A 0 116
+    FrameIndex MLTE B 0 117
+    FrameIndex MLTE C 0 118
+    FrameIndex MLTE D 0 119
+    FrameIndex MLTE E 0 120
+    FrameIndex MLTE F 0 121 //RunAttackEnd
+    FrameIndex MLTE G 0 122 //WalkStart
+    FrameIndex MLTE H 0 123
+    FrameIndex MLTE I 0 124
+    FrameIndex MLTE J 0 125
+    FrameIndex MLTE K 0 126
+    FrameIndex MLTE L 0 127
+    FrameIndex MLTE M 0 128
+    FrameIndex MLTE N 0 129
+    FrameIndex MLTE O 0 130
+    FrameIndex MLTE P 0 131
+    FrameIndex MLTE Q 0 132
+    FrameIndex MLTE R 0 133
+    FrameIndex MLTE S 0 134
+    FrameIndex MLTE T 0 135
+    FrameIndex MLTE U 0 136
+    FrameIndex MLTE V 0 137
+    FrameIndex MLTE W 0 138
+    FrameIndex MLTE X 0 139
+    FrameIndex MLTE Y 0 140
+    FrameIndex MLTE Z 0 141
+    FrameIndex MLTE [ 0 142 //WalkEnd
+}
+
+Model CSummoningDoll
+{
+	Path models
+    Model 0 "MauloItem.md3"
+	Skin 0 "materials/Maulotaur/Maulo.png"
+    Scale 0.1 0.1 0.1
+	Offset 0 0 10 
+	ROTATING
+
+    FrameIndex MLTA A 0 0 //IdleStart
+}
+
+Model CArtiDarkServant
+{
+	Path models
+    Model 0 "MauloItem.md3"
+	Skin 0 "materials/Maulotaur/Maulo.png"
+    Scale 0.1 0.1 0.1
+	Offset 0 0 10 
+    ROTATING
+
+    FrameIndex MLTA A 0 0 //IdleStart
+}

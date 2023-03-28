@@ -1,0 +1,258 @@
+//========Decals========//
+decal BloodSplater1 1
+{
+	pic BLODA0
+	translucent 0.85
+	x-scale 0.5
+	y-scale 0.5
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater2 2
+{
+	pic BLODB0
+	translucent 0.85
+	x-scale 0.5
+	y-scale 0.5
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater3 3
+{
+	pic DSPLAT7
+	Shade "40 00 00"
+	x-scale 0.5
+	y-scale 0.5
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater4 4
+{
+	pic DSPLAT2
+	Shade "40 00 00"
+	x-scale 0.5
+	y-scale 0.5
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater5 5
+{
+	pic DSPLAT5
+	Shade "40 00 00"
+	x-scale 0.5
+	y-scale 0.5
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater6 6
+{
+	pic SPLAT1
+	Shade "40 00 00"
+	x-scale 0.5
+	y-scale 0.5
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater7 7
+{
+	pic SPLAT2
+	Shade "40 00 00"
+	x-scale 0.5
+	y-scale 0.5
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater8 8
+{
+	pic SPLAT3
+	Shade "40 00 00"
+	x-scale 0.5
+	y-scale 0.5
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater9 9
+{
+	pic SPLAT4
+	Shade "40 00 00"
+	x-scale 0.5
+	y-scale 0.5
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater10 10
+{
+	pic SPLAT5
+	Shade "40 00 00"
+	x-scale 0.5
+	y-scale 0.5
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater11 11
+{
+	pic SPLAT6
+	Shade "40 00 00"
+	x-scale 0.5
+	y-scale 0.5
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater12 12
+{
+	pic SPLAT7
+	Shade "40 00 00"
+	x-scale 0.5
+	y-scale 0.5
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater13 13
+{
+	pic SPLAT8
+	Shade "40 00 00"
+	x-scale 0.5
+	y-scale 0.5
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater14 14
+{
+	pic SPLAT9
+	Shade "40 00 00"
+	x-scale 0.5
+	y-scale 0.5
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater15 15
+{
+	pic SPLAT10
+	Shade "40 00 00"
+	x-scale 0.5
+	y-scale 0.5
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater16 16
+{
+	pic SPLAT11
+	Shade "40 00 00"
+	x-scale 0.5
+	y-scale 0.5
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater17 17
+{
+	pic SPLAT12
+	Shade "40 00 00"
+	x-scale 0.5
+	y-scale 0.5
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater18 18
+{
+	pic SPLAT13
+	Shade "40 00 00"
+	x-scale 0.5
+	y-scale 0.5
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater19 19
+{
+	pic SPLAT14
+	Shade "40 00 00"
+	x-scale 0.5
+	y-scale 0.5
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater20 20
+{
+	pic SPLAT15
+	Shade "40 00 00"
+	x-scale 0.5
+	y-scale 0.5
+	randomflipx
+	randomflipy
+}
+
+decal BloodSplater21 21
+{
+	pic SPLAT16
+	Shade "40 00 00"
+	x-scale 0.5
+	y-scale 0.5
+	randomflipx
+	randomflipy
+}
+
+decalgroup BloodSplater
+{
+	BloodSplater1	1
+	BloodSplater2	1
+	BloodSplater3	1
+	BloodSplater4	1
+	BloodSplater5	1
+	BloodSplater6	1
+	BloodSplater7	1
+	BloodSplater8	1
+	BloodSplater9	1
+	BloodSplater10	1
+	BloodSplater11	1
+	BloodSplater12	1
+	BloodSplater13	1
+	BloodSplater14	1
+	BloodSplater15	1
+	BloodSplater16	1
+	BloodSplater17	1
+	BloodSplater18	1
+	BloodSplater19	1
+	BloodSplater20	1
+	BloodSplater21	1
+}
+
+decalgroup BloodSplat
+{
+	BloodSplater3	1
+	BloodSplater4	1
+	BloodSplater5	1
+	BloodSplater6	1
+	BloodSplater7	1
+	BloodSplater8	1
+	BloodSplater9	1
+	BloodSplater10	1
+	BloodSplater11	1
+	BloodSplater12	1
+	BloodSplater13	1
+	BloodSplater14	1
+	BloodSplater15	1
+	BloodSplater16	1
+	BloodSplater17	1
+	BloodSplater18	1
+	BloodSplater19	1
+	BloodSplater20	1
+	BloodSplater21	1
+}

@@ -1,0 +1,164 @@
+Model CFighterBoss
+{
+	Path models
+    Model 0 "FighterBoss.md3"
+	Skin 0 "materials/FighterBoss/Fighter.png"
+    Scale 3.0 3.0 3.6
+	Offset 0 0 0 
+    USEACTORPITCH
+    USEACTORROLL
+	
+	FrameIndex FBTA A 0 0 //AttackStart
+    FrameIndex FBTA B 0 1
+    FrameIndex FBTA C 0 2
+    FrameIndex FBTA D 0 3
+    FrameIndex FBTA E 0 4
+    FrameIndex FBTA F 0 5
+    FrameIndex FBTA G 0 6
+    FrameIndex FBTA H 0 7
+    FrameIndex FBTA I 0 8
+    FrameIndex FBTA J 0 9
+    FrameIndex FBTA K 0 10
+    FrameIndex FBTA L 0 11
+    FrameIndex FBTA M 0 12
+    FrameIndex FBTA N 0 13
+    FrameIndex FBTA O 0 14
+    FrameIndex FBTA P 0 15
+    FrameIndex FBTA Q 0 16
+    FrameIndex FBTA R 0 17
+    FrameIndex FBTA S 0 18
+    FrameIndex FBTA T 0 19
+    FrameIndex FBTA U 0 20
+    FrameIndex FBTA V 0 21
+    FrameIndex FBTA W 0 22
+    FrameIndex FBTA X 0 23
+    FrameIndex FBTA Y 0 24
+    FrameIndex FBTA Z 0 25 //AttackEnd
+    FrameIndex FBTA [ 0 26 //DeathStart
+    FrameIndex FBTA \ 0 27
+    FrameIndex FBTA ] 0 28
+    FrameIndex FBTB A 0 29
+    FrameIndex FBTB B 0 30
+    FrameIndex FBTB C 0 31
+    FrameIndex FBTB D 0 32
+    FrameIndex FBTB E 0 33
+    FrameIndex FBTB F 0 34
+    FrameIndex FBTB G 0 35
+    FrameIndex FBTB H 0 36
+    FrameIndex FBTB I 0 37
+    FrameIndex FBTB J 0 38
+    FrameIndex FBTB K 0 39
+    FrameIndex FBTB L 0 40
+    FrameIndex FBTB M 0 41
+    FrameIndex FBTB N 0 42
+    FrameIndex FBTB O 0 43
+    FrameIndex FBTB P 0 44
+    FrameIndex FBTB Q 0 45
+    FrameIndex FBTB R 0 46
+    FrameIndex FBTB S 0 47
+    FrameIndex FBTB T 0 48
+    FrameIndex FBTB U 0 49
+    FrameIndex FBTB V 0 50
+    FrameIndex FBTB W 0 51
+    FrameIndex FBTB X 0 52
+    FrameIndex FBTB Y 0 53
+    FrameIndex FBTB Z 0 54
+    FrameIndex FBTB [ 0 55
+    FrameIndex FBTB \ 0 56 //DeathEnd
+    FrameIndex FBTB ] 0 57 //PainStart
+    FrameIndex FBTC A 0 58
+    FrameIndex FBTC B 0 59
+    FrameIndex FBTC C 0 60
+    FrameIndex FBTC D 0 61
+    FrameIndex FBTC E 0 62
+    FrameIndex FBTC F 0 63
+    FrameIndex FBTC G 0 64
+    FrameIndex FBTC H 0 65
+    FrameIndex FBTC I 0 66
+    FrameIndex FBTC J 0 67
+    FrameIndex FBTC K 0 68
+    FrameIndex FBTC L 0 69
+    FrameIndex FBTC M 0 70
+    FrameIndex FBTC N 0 71
+    FrameIndex FBTC O 0 72 //PainEnd
+    FrameIndex FBTC P 0 73 //IdleStart
+    FrameIndex FBTC Q 0 74
+    FrameIndex FBTC R 0 75
+    FrameIndex FBTC S 0 76
+    FrameIndex FBTC T 0 77
+    FrameIndex FBTC U 0 78
+    FrameIndex FBTC V 0 79
+    FrameIndex FBTC W 0 80
+    FrameIndex FBTC X 0 81
+    FrameIndex FBTC Y 0 82
+    FrameIndex FBTC Z 0 83
+    FrameIndex FBTC [ 0 84
+    FrameIndex FBTC \ 0 85
+    FrameIndex FBTC ] 0 86
+    FrameIndex FBTD A 0 87
+    FrameIndex FBTD B 0 88
+    FrameIndex FBTD C 0 89
+    FrameIndex FBTD D 0 90
+    FrameIndex FBTD E 0 91
+    FrameIndex FBTD F 0 92
+    FrameIndex FBTD G 0 93
+    FrameIndex FBTD H 0 94
+    FrameIndex FBTD I 0 95
+    FrameIndex FBTD J 0 96
+    FrameIndex FBTD K 0 97
+    FrameIndex FBTD L 0 98 //IdleEnd
+    FrameIndex FBTD M 0 99 //RunStart
+    FrameIndex FBTD N 0 100
+    FrameIndex FBTD O 0 101
+    FrameIndex FBTD P 0 102
+    FrameIndex FBTD Q 0 103
+    FrameIndex FBTD R 0 104
+    FrameIndex FBTD S 0 105
+    FrameIndex FBTD T 0 106
+    FrameIndex FBTD U 0 107
+    FrameIndex FBTD V 0 108
+    FrameIndex FBTD W 0 109
+    FrameIndex FBTD X 0 110
+    FrameIndex FBTD Y 0 111
+    FrameIndex FBTD Z 0 112
+    FrameIndex FBTD [ 0 113
+    FrameIndex FBTD \ 0 114 //RunEnd
+}
+
+Model FighterMenu
+{
+	Path models
+    Model 0 "FighterBoss.md3"
+	Skin 0 "materials/FighterBoss/Fighter.png"
+    Scale 3.0 3.0 3.6
+	Offset 0 0 0 
+    USEACTORPITCH
+    USEACTORROLL
+	
+    FrameIndex FBTC P 0 73 //IdleStart
+    FrameIndex FBTC Q 0 74
+    FrameIndex FBTC R 0 75
+    FrameIndex FBTC S 0 76
+    FrameIndex FBTC T 0 77
+    FrameIndex FBTC U 0 78
+    FrameIndex FBTC V 0 79
+    FrameIndex FBTC W 0 80
+    FrameIndex FBTC X 0 81
+    FrameIndex FBTC Y 0 82
+    FrameIndex FBTC Z 0 83
+    FrameIndex FBTC [ 0 84
+    FrameIndex FBTC \ 0 85
+    FrameIndex FBTC ] 0 86
+    FrameIndex FBTD A 0 87
+    FrameIndex FBTD B 0 88
+    FrameIndex FBTD C 0 89
+    FrameIndex FBTD D 0 90
+    FrameIndex FBTD E 0 91
+    FrameIndex FBTD F 0 92
+    FrameIndex FBTD G 0 93
+    FrameIndex FBTD H 0 94
+    FrameIndex FBTD I 0 95
+    FrameIndex FBTD J 0 96
+    FrameIndex FBTD K 0 97
+    FrameIndex FBTD L 0 98 //IdleEnd
+}

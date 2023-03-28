@@ -1,0 +1,145 @@
+Model CKorax
+{
+	Path models
+    Model 0 "Korax.md3"
+	Skin 0 "materials/Korax/Korax.png"
+    Scale 5.0 5.0 6.0
+	Offset 0 0 0 
+    USEACTORPITCH
+    USEACTORROLL
+	
+	FrameIndex KXTA A 0 0 //AttackStart
+    FrameIndex KXTA B 0 1
+    FrameIndex KXTA C 0 2
+    FrameIndex KXTA D 0 3
+    FrameIndex KXTA E 0 4
+    FrameIndex KXTA F 0 5
+    FrameIndex KXTA G 0 6
+    FrameIndex KXTA H 0 7
+    FrameIndex KXTA I 0 8
+    FrameIndex KXTA J 0 9
+    FrameIndex KXTA K 0 10
+    FrameIndex KXTA L 0 11
+    FrameIndex KXTA M 0 12
+    FrameIndex KXTA N 0 13
+    FrameIndex KXTA O 0 14
+    FrameIndex KXTA P 0 15
+    FrameIndex KXTA Q 0 16
+    FrameIndex KXTA R 0 17
+    FrameIndex KXTA S 0 18
+    FrameIndex KXTA T 0 19
+    FrameIndex KXTA U 0 20
+    FrameIndex KXTA V 0 21
+    FrameIndex KXTA W 0 22
+    FrameIndex KXTA X 0 23 //AttackEnd
+    FrameIndex KXTA Y 0 24 //PainStart
+    FrameIndex KXTA Z 0 25
+    FrameIndex KXTA [ 0 26
+    FrameIndex KXTA \ 0 27
+    FrameIndex KXTA ] 0 28
+    FrameIndex KXTB A 0 29
+    FrameIndex KXTB B 0 30
+    FrameIndex KXTB C 0 31
+    FrameIndex KXTB D 0 32
+    FrameIndex KXTB E 0 33
+    FrameIndex KXTB F 0 34
+    FrameIndex KXTB G 0 35
+    FrameIndex KXTB H 0 36
+    FrameIndex KXTB I 0 37
+    FrameIndex KXTB J 0 38 //PainEnd
+    FrameIndex KXTB K 0 39 //IdleStart
+    FrameIndex KXTB L 0 40
+    FrameIndex KXTB M 0 41
+    FrameIndex KXTB N 0 42
+    FrameIndex KXTB O 0 43
+    FrameIndex KXTB P 0 44
+    FrameIndex KXTB Q 0 45
+    FrameIndex KXTB R 0 46
+    FrameIndex KXTB S 0 47
+    FrameIndex KXTB T 0 48
+    FrameIndex KXTB U 0 49
+    FrameIndex KXTB V 0 50
+    FrameIndex KXTB W 0 51
+    FrameIndex KXTB X 0 52
+    FrameIndex KXTB Y 0 53
+    FrameIndex KXTB Z 0 54
+    FrameIndex KXTB [ 0 55
+    FrameIndex KXTB \ 0 56
+    FrameIndex KXTB ] 0 57
+    FrameIndex KXTC A 0 58
+    FrameIndex KXTC B 0 59
+    FrameIndex KXTC C 0 60
+    FrameIndex KXTC D 0 61
+    FrameIndex KXTC E 0 62
+    FrameIndex KXTC F 0 63
+    FrameIndex KXTC G 0 64 //IdleEnd
+    FrameIndex KXTC H 0 65 //SpellcastStart
+    FrameIndex KXTC I 0 66
+    FrameIndex KXTC J 0 67
+    FrameIndex KXTC K 0 68
+    FrameIndex KXTC L 0 69
+    FrameIndex KXTC M 0 70
+    FrameIndex KXTC N 0 71
+    FrameIndex KXTC O 0 72
+    FrameIndex KXTC P 0 73
+    FrameIndex KXTC Q 0 74
+    FrameIndex KXTC R 0 75
+    FrameIndex KXTC S 0 76
+    FrameIndex KXTC T 0 77
+    FrameIndex KXTC U 0 78
+    FrameIndex KXTC V 0 79
+    FrameIndex KXTC W 0 80
+    FrameIndex KXTC X 0 81
+    FrameIndex KXTC Y 0 82
+    FrameIndex KXTC Z 0 83
+    FrameIndex KXTC [ 0 84
+    FrameIndex KXTC \ 0 85
+    FrameIndex KXTC ] 0 86
+    FrameIndex KXTD A 0 87
+    FrameIndex KXTD B 0 88
+    FrameIndex KXTD C 0 89
+    FrameIndex KXTD D 0 90
+    FrameIndex KXTD E 0 91
+    FrameIndex KXTD F 0 92
+    FrameIndex KXTD G 0 93 //SpellcastEnd
+    FrameIndex KXTD H 0 94 //WalkStart
+    FrameIndex KXTD I 0 95
+    FrameIndex KXTD J 0 96
+    FrameIndex KXTD K 0 97
+    FrameIndex KXTD L 0 98
+    FrameIndex KXTD M 0 99
+    FrameIndex KXTD N 0 100
+    FrameIndex KXTD O 0 101
+    FrameIndex KXTD P 0 102
+    FrameIndex KXTD Q 0 103
+    FrameIndex KXTD R 0 104
+    FrameIndex KXTD S 0 105
+    FrameIndex KXTD T 0 106
+    FrameIndex KXTD U 0 107
+    FrameIndex KXTD V 0 108
+    FrameIndex KXTD W 0 109
+    FrameIndex KXTD X 0 110
+    FrameIndex KXTD Y 0 111
+    FrameIndex KXTD Z 0 112
+    FrameIndex KXTD [ 0 113
+    FrameIndex KXTD \ 0 114 //WalkEnd
+	FrameIndex KXTD ] 0 115 //Death
+    FrameIndex KXTE A 0 116
+    FrameIndex KXTE B 0 117
+    FrameIndex KXTE C 0 118
+    FrameIndex KXTE D 0 119
+    FrameIndex KXTE E 0 120
+    FrameIndex KXTE F 0 121
+    FrameIndex KXTE G 0 122
+    FrameIndex KXTE H 0 123
+    FrameIndex KXTE I 0 124
+    FrameIndex KXTE J 0 125
+    FrameIndex KXTE K 0 126
+    FrameIndex KXTE L 0 127
+    FrameIndex KXTE M 0 128
+    FrameIndex KXTE N 0 129
+    FrameIndex KXTE O 0 130
+    FrameIndex KXTE P 0 131
+    FrameIndex KXTE Q 0 132
+    FrameIndex KXTE R 0 133
+}

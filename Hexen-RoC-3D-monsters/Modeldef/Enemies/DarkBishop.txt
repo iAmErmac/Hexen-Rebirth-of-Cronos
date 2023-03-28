@@ -1,0 +1,239 @@
+Model CBishop
+{
+	Path models
+    Model 0 "DarkBishop.md3"
+	Skin 0 "materials/DarkBishop/DarkBishop.png"
+    Scale 3.0 3.0 3.6
+    USEACTORPITCH
+    USEACTORROLL
+
+	FrameIndex DBTA A 0 0 //AttackStart
+    FrameIndex DBTA B 0 1
+    FrameIndex DBTA C 0 2
+    FrameIndex DBTA D 0 3
+    FrameIndex DBTA E 0 4
+    FrameIndex DBTA F 0 5
+    FrameIndex DBTA G 0 6
+    FrameIndex DBTA H 0 7
+    FrameIndex DBTA I 0 8
+    FrameIndex DBTA J 0 9
+    FrameIndex DBTA K 0 10
+    FrameIndex DBTA L 0 11
+    FrameIndex DBTA M 0 12
+    FrameIndex DBTA N 0 13
+    FrameIndex DBTA O 0 14
+    FrameIndex DBTA P 0 15
+    FrameIndex DBTA Q 0 16
+    FrameIndex DBTA R 0 17
+    FrameIndex DBTA S 0 18
+    FrameIndex DBTA T 0 19
+    FrameIndex DBTA U 0 20
+    FrameIndex DBTA V 0 21
+    FrameIndex DBTA W 0 22
+    FrameIndex DBTA X 0 23
+    FrameIndex DBTA Y 0 24
+    FrameIndex DBTA Z 0 25
+    FrameIndex DBTA [ 0 26
+    FrameIndex DBTA \ 0 27
+    FrameIndex DBTA ] 0 28
+    FrameIndex DBTB A 0 29
+    FrameIndex DBTB B 0 30
+    FrameIndex DBTB C 0 31
+    FrameIndex DBTB D 0 32
+    FrameIndex DBTB E 0 33
+    FrameIndex DBTB F 0 34
+    FrameIndex DBTB G 0 35
+    FrameIndex DBTB H 0 36
+    FrameIndex DBTB I 0 37
+    FrameIndex DBTB J 0 38
+    FrameIndex DBTB K 0 39
+    FrameIndex DBTB L 0 40
+    FrameIndex DBTB M 0 41
+    FrameIndex DBTB N 0 42
+    FrameIndex DBTB O 0 43
+    FrameIndex DBTB P 0 44 //AttackEnd
+    FrameIndex DBTB Q 0 45 //PainStart
+    FrameIndex DBTB R 0 46
+    FrameIndex DBTB S 0 47
+    FrameIndex DBTB T 0 48
+    FrameIndex DBTB U 0 49
+    FrameIndex DBTB V 0 50
+    FrameIndex DBTB W 0 51
+    FrameIndex DBTB X 0 52
+    FrameIndex DBTB Y 0 53
+    FrameIndex DBTB Z 0 54
+    FrameIndex DBTB [ 0 55
+    FrameIndex DBTB \ 0 56
+    FrameIndex DBTB ] 0 57
+    FrameIndex DBTC A 0 58 //PainEnd
+    FrameIndex DBTC B 0 59 //IdleStart
+    FrameIndex DBTC C 0 60
+    FrameIndex DBTC D 0 61
+    FrameIndex DBTC E 0 62
+    FrameIndex DBTC F 0 63
+    FrameIndex DBTC G 0 64
+    FrameIndex DBTC H 0 65
+    FrameIndex DBTC I 0 66
+    FrameIndex DBTC J 0 67
+    FrameIndex DBTC K 0 68
+    FrameIndex DBTC L 0 69
+    FrameIndex DBTC M 0 70
+    FrameIndex DBTC N 0 71
+    FrameIndex DBTC O 0 72
+    FrameIndex DBTC P 0 73
+    FrameIndex DBTC Q 0 74
+    FrameIndex DBTC R 0 75
+    FrameIndex DBTC S 0 76
+    FrameIndex DBTC T 0 77
+    FrameIndex DBTC U 0 78
+    FrameIndex DBTC V 0 79
+    FrameIndex DBTC W 0 80
+    FrameIndex DBTC X 0 81
+    FrameIndex DBTC Y 0 82
+    FrameIndex DBTC Z 0 83
+    FrameIndex DBTC [ 0 84
+    FrameIndex DBTC \ 0 85
+    FrameIndex DBTC ] 0 86
+    FrameIndex DBTD A 0 87
+    FrameIndex DBTD B 0 88
+    FrameIndex DBTD C 0 89 //IdleEnd
+    FrameIndex DBTD D 0 90 //MovingStart
+    FrameIndex DBTD E 0 91
+    FrameIndex DBTD F 0 92
+    FrameIndex DBTD G 0 93
+    FrameIndex DBTD H 0 94
+    FrameIndex DBTD I 0 95
+    FrameIndex DBTD J 0 96
+    FrameIndex DBTD K 0 97
+    FrameIndex DBTD L 0 98
+    FrameIndex DBTD M 0 99
+    FrameIndex DBTD N 0 100
+    FrameIndex DBTD O 0 101
+    FrameIndex DBTD P 0 102
+    FrameIndex DBTD Q 0 103
+    FrameIndex DBTD R 0 104
+    FrameIndex DBTD S 0 105
+    FrameIndex DBTD T 0 106
+    FrameIndex DBTD U 0 107
+    FrameIndex DBTD V 0 108
+    FrameIndex DBTD W 0 109
+    FrameIndex DBTD X 0 110
+    FrameIndex DBTD Y 0 111 //MovingEnd
+	Skin 0 "materials/DarkBishop/DarkBishopFreeze.png"
+	FrameIndex DBTD Z 0 90 //Frozen
+}
+
+Model CBishop
+{
+	Path models
+    Model 0 "BishopX.md3"
+	Skin 0 "materials/DarkBishop/DarkBishop.png"
+    Scale 30.0 30.0 36.0
+    USEACTORPITCH
+    USEACTORROLL
+
+	FrameIndex BSHX A 0 0
+    FrameIndex BSHX B 0 1
+    FrameIndex BSHX C 0 2
+    FrameIndex BSHX D 0 3
+    FrameIndex BSHX E 0 4
+    FrameIndex BSHX F 0 5
+    FrameIndex BSHX G 0 6
+    FrameIndex BSHX H 0 7
+    FrameIndex BSHX I 0 8
+    FrameIndex BSHX J 0 9
+    FrameIndex BSHX K 0 10
+    FrameIndex BSHX L 0 11
+    FrameIndex BSHX M 0 12
+    FrameIndex BSHX N 0 13
+    FrameIndex BSHX O 0 14
+    FrameIndex BSHX P 0 15
+    FrameIndex BSHX Q 0 16
+    FrameIndex BSHX R 0 17
+    FrameIndex BSHX S 0 18
+    FrameIndex BSHX T 0 19
+    FrameIndex BSHX U 0 20
+    FrameIndex BSHX V 0 21
+    FrameIndex BSHX W 0 22
+    FrameIndex BSHX X 0 23
+    FrameIndex BSHX Y 0 24
+    FrameIndex BSHX Z 0 25
+    FrameIndex BSHX [ 0 26
+    FrameIndex BSHX \ 0 27
+    FrameIndex BSHX ] 0 28
+    FrameIndex BSHY A 0 29
+    FrameIndex BSHY B 0 30
+    FrameIndex BSHY C 0 31
+    FrameIndex BSHY D 0 32
+    FrameIndex BSHY E 0 33
+    FrameIndex BSHY F 0 34
+    FrameIndex BSHY G 0 35
+    FrameIndex BSHY H 0 36
+    FrameIndex BSHY I 0 37
+    FrameIndex BSHY J 0 38
+    FrameIndex BSHY K 0 39
+    FrameIndex BSHY L 0 40
+    FrameIndex BSHY M 0 41
+    FrameIndex BSHY N 0 42
+    FrameIndex BSHY O 0 43
+    FrameIndex BSHY P 0 44
+    FrameIndex BSHY Q 0 45
+    FrameIndex BSHY R 0 46
+    FrameIndex BSHY S 0 47
+    FrameIndex BSHY T 0 48
+    FrameIndex BSHY U 0 49
+    FrameIndex BSHY V 0 50
+    FrameIndex BSHY W 0 51
+    FrameIndex BSHY X 0 52
+    FrameIndex BSHY Y 0 53
+    FrameIndex BSHY Z 0 54
+    FrameIndex BSHY [ 0 55
+    FrameIndex BSHY \ 0 56
+    FrameIndex BSHY ] 0 57
+    FrameIndex BSHZ A 0 58
+    FrameIndex BSHZ B 0 59
+    FrameIndex BSHZ C 0 60
+    FrameIndex BSHZ D 0 61
+    FrameIndex BSHZ E 0 62
+    FrameIndex BSHZ F 0 63
+    FrameIndex BSHZ G 0 64
+    FrameIndex BSHZ H 0 65
+    FrameIndex BSHZ I 0 66
+}
+
+Model CBishopBlur
+{
+	Path models
+    Model 0 "DarkBishop.md3"
+	Skin 0 "materials/DarkBishop/DarkBishop.png"
+    Scale 3.0 3.0 3.6
+    USEACTORPITCH
+    USEACTORROLL
+
+    FrameIndex DBTD D 0 90 //MovingStart
+}
+
+Model CBishopPainBlur
+{
+	Path models
+    Model 0 "DarkBishop.md3"
+	Skin 0 "materials/DarkBishop/DarkBishop.png"
+    Scale 3.0 3.0 3.6
+    USEACTORPITCH
+    USEACTORROLL
+
+    FrameIndex DBTB Q 0 45 //PainStart
+    FrameIndex DBTB R 0 46
+    FrameIndex DBTB S 0 47
+    FrameIndex DBTB T 0 48
+    FrameIndex DBTB U 0 49
+    FrameIndex DBTB V 0 50
+    FrameIndex DBTB W 0 51
+    FrameIndex DBTB X 0 52
+    FrameIndex DBTB Y 0 53
+    FrameIndex DBTB Z 0 54
+    FrameIndex DBTB [ 0 55
+    FrameIndex DBTB \ 0 56
+    FrameIndex DBTB ] 0 57
+    FrameIndex DBTC A 0 58 //PainEnd
+}

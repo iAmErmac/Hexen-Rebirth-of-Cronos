@@ -1,0 +1,478 @@
+Model CCentaur
+{
+	Path models
+    Model 0 "Centaur.md3"
+	SurfaceSkin 0 1 "materials/Centaur/Centaur_Body.png"
+	SurfaceSkin 0 0 "materials/Centaur/Centaur_Armor_Red.png"
+    Scale 3.0 3.0 3.6
+    USEACTORPITCH
+    USEACTORROLL
+
+	FrameIndex CATA A 0 0 //AttackStart
+    FrameIndex CATA B 0 1
+    FrameIndex CATA C 0 2
+    FrameIndex CATA D 0 3
+    FrameIndex CATA E 0 4
+    FrameIndex CATA F 0 5
+    FrameIndex CATA G 0 6
+    FrameIndex CATA H 0 7
+    FrameIndex CATA I 0 8
+    FrameIndex CATA J 0 9
+    FrameIndex CATA K 0 10
+    FrameIndex CATA L 0 11
+    FrameIndex CATA M 0 12
+    FrameIndex CATA N 0 13
+    FrameIndex CATA O 0 14
+    FrameIndex CATA P 0 15
+    FrameIndex CATA Q 0 16
+    FrameIndex CATA R 0 17
+    FrameIndex CATA S 0 18
+    FrameIndex CATA T 0 19
+    FrameIndex CATA U 0 20
+    FrameIndex CATA V 0 21
+    FrameIndex CATA W 0 22
+    FrameIndex CATA X 0 23
+    FrameIndex CATA Y 0 24
+    FrameIndex CATA Z 0 25
+    FrameIndex CATA [ 0 26
+    FrameIndex CATA \ 0 27 //AttackEnd
+    FrameIndex CATA ] 0 28 //DeathStart
+    FrameIndex CATB A 0 29
+    FrameIndex CATB B 0 30
+    FrameIndex CATB C 0 31
+    FrameIndex CATB D 0 32
+    FrameIndex CATB E 0 33
+    FrameIndex CATB F 0 34
+    FrameIndex CATB G 0 35
+    FrameIndex CATB H 0 36
+    FrameIndex CATB I 0 37
+    FrameIndex CATB J 0 38
+    FrameIndex CATB K 0 39
+    FrameIndex CATB L 0 40
+    FrameIndex CATB M 0 41
+    FrameIndex CATB N 0 42
+    FrameIndex CATB O 0 43
+    FrameIndex CATB P 0 44
+    FrameIndex CATB Q 0 45
+    FrameIndex CATB R 0 46
+    FrameIndex CATB S 0 47
+    FrameIndex CATB T 0 48
+    FrameIndex CATB U 0 49
+    FrameIndex CATB V 0 50 //DeathEnd
+    FrameIndex CATB W 0 51 //DefendStart
+    FrameIndex CATB X 0 52
+    FrameIndex CATB Y 0 53
+    FrameIndex CATB Z 0 54
+    FrameIndex CATB [ 0 55
+    FrameIndex CATB \ 0 56
+    FrameIndex CATB ] 0 57
+    FrameIndex CATC A 0 58
+    FrameIndex CATC B 0 59
+    FrameIndex CATC C 0 60
+    FrameIndex CATC D 0 61
+    FrameIndex CATC E 0 62
+    FrameIndex CATC F 0 63
+    FrameIndex CATC G 0 64
+    FrameIndex CATC H 0 65
+    FrameIndex CATC I 0 66
+    FrameIndex CATC J 0 67
+    FrameIndex CATC K 0 68
+    FrameIndex CATC L 0 69
+    FrameIndex CATC M 0 70
+    FrameIndex CATC N 0 71
+    FrameIndex CATC O 0 72
+    FrameIndex CATC P 0 73 //DefendEnd
+    FrameIndex CATC Q 0 74 //PainStart
+    FrameIndex CATC R 0 75
+    FrameIndex CATC S 0 76
+    FrameIndex CATC T 0 77
+    FrameIndex CATC U 0 78
+    FrameIndex CATC V 0 79
+    FrameIndex CATC W 0 80
+    FrameIndex CATC X 0 81
+    FrameIndex CATC Y 0 82
+    FrameIndex CATC Z 0 83
+    FrameIndex CATC [ 0 84
+    FrameIndex CATC \ 0 85
+    FrameIndex CATC ] 0 86
+    FrameIndex CATD A 0 87 //PainEnd
+    FrameIndex CATD B 0 88 //IdleStart
+    FrameIndex CATD C 0 89
+    FrameIndex CATD D 0 90
+    FrameIndex CATD E 0 91
+    FrameIndex CATD F 0 92
+    FrameIndex CATD G 0 93
+    FrameIndex CATD H 0 94
+    FrameIndex CATD I 0 95
+    FrameIndex CATD J 0 96
+    FrameIndex CATD K 0 97
+    FrameIndex CATD L 0 98
+    FrameIndex CATD M 0 99
+    FrameIndex CATD N 0 100
+    FrameIndex CATD O 0 101
+    FrameIndex CATD P 0 102
+    FrameIndex CATD Q 0 103
+    FrameIndex CATD R 0 104
+    FrameIndex CATD S 0 105
+    FrameIndex CATD T 0 106
+    FrameIndex CATD U 0 107
+    FrameIndex CATD V 0 108
+    FrameIndex CATD W 0 109
+    FrameIndex CATD X 0 110
+    FrameIndex CATD Y 0 111
+    FrameIndex CATD Z 0 112
+    FrameIndex CATD [ 0 113 //IdleEnd
+    FrameIndex CATD \ 0 114 //ShootingStart
+    FrameIndex CATD ] 0 115
+    FrameIndex CATE A 0 116
+    FrameIndex CATE B 0 117
+    FrameIndex CATE C 0 118
+    FrameIndex CATE D 0 119
+    FrameIndex CATE E 0 120
+    FrameIndex CATE F 0 121
+    FrameIndex CATE G 0 122
+    FrameIndex CATE H 0 123
+    FrameIndex CATE I 0 124
+    FrameIndex CATE J 0 125
+    FrameIndex CATE K 0 126
+    FrameIndex CATE L 0 127
+    FrameIndex CATE M 0 128
+    FrameIndex CATE N 0 129
+    FrameIndex CATE O 0 130
+    FrameIndex CATE P 0 131
+    FrameIndex CATE Q 0 132
+    FrameIndex CATE R 0 133
+    FrameIndex CATE S 0 134
+    FrameIndex CATE T 0 135
+    FrameIndex CATE U 0 136
+    FrameIndex CATE V 0 137
+    FrameIndex CATE W 0 138
+    FrameIndex CATE X 0 139
+    FrameIndex CATE Y 0 140
+    FrameIndex CATE Z 0 141 //ShootingEnd
+    FrameIndex CATE [ 0 142 //WalkingStart
+    FrameIndex CATE \ 0 143
+    FrameIndex CATE ] 0 144
+    FrameIndex CATF A 0 145
+    FrameIndex CATF B 0 146
+    FrameIndex CATF C 0 147
+    FrameIndex CATF D 0 148
+    FrameIndex CATF E 0 149
+    FrameIndex CATF F 0 150
+    FrameIndex CATF G 0 151
+    FrameIndex CATF H 0 152
+    FrameIndex CATF I 0 153
+    FrameIndex CATF J 0 154
+    FrameIndex CATF K 0 155
+    FrameIndex CATF L 0 156
+    FrameIndex CATF M 0 157
+    FrameIndex CATF N 0 158
+    FrameIndex CATF O 0 159
+    FrameIndex CATF P 0 160
+    FrameIndex CATF Q 0 161
+    FrameIndex CATF R 0 162 //WalkingEnd
+}
+
+Model CCentaurLeader
+{
+	Path models
+    Model 0 "Centaur.md3"
+	SurfaceSkin 0 1 "materials/Centaur/Centaur_Body.png"
+	SurfaceSkin 0 0 "materials/Centaur/Centaur_Armor_Blue.png"
+    Scale 3.0 3.0 3.6
+    USEACTORPITCH
+    USEACTORROLL
+
+	
+    FrameIndex CATA A 0 0 //AttackStart
+    FrameIndex CATA B 0 1
+    FrameIndex CATA C 0 2
+    FrameIndex CATA D 0 3
+    FrameIndex CATA E 0 4
+    FrameIndex CATA F 0 5
+    FrameIndex CATA G 0 6
+    FrameIndex CATA H 0 7
+    FrameIndex CATA I 0 8
+    FrameIndex CATA J 0 9
+    FrameIndex CATA K 0 10
+    FrameIndex CATA L 0 11
+    FrameIndex CATA M 0 12
+    FrameIndex CATA N 0 13
+    FrameIndex CATA O 0 14
+    FrameIndex CATA P 0 15
+    FrameIndex CATA Q 0 16
+    FrameIndex CATA R 0 17
+    FrameIndex CATA S 0 18
+    FrameIndex CATA T 0 19
+    FrameIndex CATA U 0 20
+    FrameIndex CATA V 0 21
+    FrameIndex CATA W 0 22
+    FrameIndex CATA X 0 23
+    FrameIndex CATA Y 0 24
+    FrameIndex CATA Z 0 25
+    FrameIndex CATA [ 0 26
+    FrameIndex CATA \ 0 27 //AttackEnd
+    FrameIndex CATA ] 0 28 //DeathStart
+    FrameIndex CATB A 0 29
+    FrameIndex CATB B 0 30
+    FrameIndex CATB C 0 31
+    FrameIndex CATB D 0 32
+    FrameIndex CATB E 0 33
+    FrameIndex CATB F 0 34
+    FrameIndex CATB G 0 35
+    FrameIndex CATB H 0 36
+    FrameIndex CATB I 0 37
+    FrameIndex CATB J 0 38
+    FrameIndex CATB K 0 39
+    FrameIndex CATB L 0 40
+    FrameIndex CATB M 0 41
+    FrameIndex CATB N 0 42
+    FrameIndex CATB O 0 43
+    FrameIndex CATB P 0 44
+    FrameIndex CATB Q 0 45
+    FrameIndex CATB R 0 46
+    FrameIndex CATB S 0 47
+    FrameIndex CATB T 0 48
+    FrameIndex CATB U 0 49
+    FrameIndex CATB V 0 50 //DeathEnd
+    FrameIndex CATB W 0 51 //DefendStart
+    FrameIndex CATB X 0 52
+    FrameIndex CATB Y 0 53
+    FrameIndex CATB Z 0 54
+    FrameIndex CATB [ 0 55
+    FrameIndex CATB \ 0 56
+    FrameIndex CATB ] 0 57
+    FrameIndex CATC A 0 58
+    FrameIndex CATC B 0 59
+    FrameIndex CATC C 0 60
+    FrameIndex CATC D 0 61
+    FrameIndex CATC E 0 62
+    FrameIndex CATC F 0 63
+    FrameIndex CATC G 0 64
+    FrameIndex CATC H 0 65
+    FrameIndex CATC I 0 66
+    FrameIndex CATC J 0 67
+    FrameIndex CATC K 0 68
+    FrameIndex CATC L 0 69
+    FrameIndex CATC M 0 70
+    FrameIndex CATC N 0 71
+    FrameIndex CATC O 0 72
+    FrameIndex CATC P 0 73 //DefendEnd
+    FrameIndex CATC Q 0 74 //PainStart
+    FrameIndex CATC R 0 75
+    FrameIndex CATC S 0 76
+    FrameIndex CATC T 0 77
+    FrameIndex CATC U 0 78
+    FrameIndex CATC V 0 79
+    FrameIndex CATC W 0 80
+    FrameIndex CATC X 0 81
+    FrameIndex CATC Y 0 82
+    FrameIndex CATC Z 0 83
+    FrameIndex CATC [ 0 84
+    FrameIndex CATC \ 0 85
+    FrameIndex CATC ] 0 86
+    FrameIndex CATD A 0 87 //PainEnd
+    FrameIndex CATD B 0 88 //IdleStart
+    FrameIndex CATD C 0 89
+    FrameIndex CATD D 0 90
+    FrameIndex CATD E 0 91
+    FrameIndex CATD F 0 92
+    FrameIndex CATD G 0 93
+    FrameIndex CATD H 0 94
+    FrameIndex CATD I 0 95
+    FrameIndex CATD J 0 96
+    FrameIndex CATD K 0 97
+    FrameIndex CATD L 0 98
+    FrameIndex CATD M 0 99
+    FrameIndex CATD N 0 100
+    FrameIndex CATD O 0 101
+    FrameIndex CATD P 0 102
+    FrameIndex CATD Q 0 103
+    FrameIndex CATD R 0 104
+    FrameIndex CATD S 0 105
+    FrameIndex CATD T 0 106
+    FrameIndex CATD U 0 107
+    FrameIndex CATD V 0 108
+    FrameIndex CATD W 0 109
+    FrameIndex CATD X 0 110
+    FrameIndex CATD Y 0 111
+    FrameIndex CATD Z 0 112
+    FrameIndex CATD [ 0 113 //IdleEnd
+    FrameIndex CATD \ 0 114 //ShootingStart
+    FrameIndex CATD ] 0 115
+    FrameIndex CATE A 0 116
+    FrameIndex CATE B 0 117
+    FrameIndex CATE C 0 118
+    FrameIndex CATE D 0 119
+    FrameIndex CATE E 0 120
+    FrameIndex CATE F 0 121
+    FrameIndex CATE G 0 122
+    FrameIndex CATE H 0 123
+    FrameIndex CATE I 0 124
+    FrameIndex CATE J 0 125
+    FrameIndex CATE K 0 126
+    FrameIndex CATE L 0 127
+    FrameIndex CATE M 0 128
+    FrameIndex CATE N 0 129
+    FrameIndex CATE O 0 130
+    FrameIndex CATE P 0 131
+    FrameIndex CATE Q 0 132
+    FrameIndex CATE R 0 133
+    FrameIndex CATE S 0 134
+    FrameIndex CATE T 0 135
+    FrameIndex CATE U 0 136
+    FrameIndex CATE V 0 137
+    FrameIndex CATE W 0 138
+    FrameIndex CATE X 0 139
+    FrameIndex CATE Y 0 140
+    FrameIndex CATE Z 0 141 //ShootingEnd
+    FrameIndex CATE [ 0 142 //WalkingStart
+    FrameIndex CATE \ 0 143
+    FrameIndex CATE ] 0 144
+    FrameIndex CATF A 0 145
+    FrameIndex CATF B 0 146
+    FrameIndex CATF C 0 147
+    FrameIndex CATF D 0 148
+    FrameIndex CATF E 0 149
+    FrameIndex CATF F 0 150
+    FrameIndex CATF G 0 151
+    FrameIndex CATF H 0 152
+    FrameIndex CATF I 0 153
+    FrameIndex CATF J 0 154
+    FrameIndex CATF K 0 155
+    FrameIndex CATF L 0 156
+    FrameIndex CATF M 0 157
+    FrameIndex CATF N 0 158
+    FrameIndex CATF O 0 159
+    FrameIndex CATF P 0 160
+    FrameIndex CATF Q 0 161
+    FrameIndex CATF R 0 162 //WalkingEnd
+}
+
+Model CCentaur
+{
+	Path models
+    Model 0 "CentaurX.md3"
+	SurfaceSkin 0 2 "materials/Centaur/Centaur_Body.png"
+	SurfaceSkin 0 0 "materials/Centaur/Centaur_Armor_Red.png"
+	SurfaceSkin 0 1 "materials/Flesh/Flesh.png"
+    Scale 3.0 3.0 3.6
+    USEACTORPITCH
+    USEACTORROLL
+	
+	FrameIndex CEXA A 0 0
+    FrameIndex CEXA B 0 1
+    FrameIndex CEXA C 0 2
+    FrameIndex CEXA D 0 3
+    FrameIndex CEXA E 0 4
+    FrameIndex CEXA F 0 5
+    FrameIndex CEXA G 0 6
+    FrameIndex CEXA H 0 7
+    FrameIndex CEXA I 0 8
+    FrameIndex CEXA J 0 9
+    FrameIndex CEXA K 0 10
+    FrameIndex CEXA L 0 11
+    FrameIndex CEXA M 0 12
+    FrameIndex CEXA N 0 13
+    FrameIndex CEXA O 0 14
+    FrameIndex CEXA P 0 15
+    FrameIndex CEXA Q 0 16
+    FrameIndex CEXA R 0 17
+    FrameIndex CEXA S 0 18
+    FrameIndex CEXA T 0 19
+    FrameIndex CEXA U 0 20
+    FrameIndex CEXA V 0 21
+    FrameIndex CEXA W 0 22
+    FrameIndex CEXA X 0 23
+    FrameIndex CEXA Y 0 24
+    FrameIndex CEXA Z 0 25
+    FrameIndex CEXA [ 0 26
+    FrameIndex CEXA \ 0 27
+    FrameIndex CEXA ] 0 28
+    FrameIndex CEXB A 0 29
+    FrameIndex CEXB B 0 30
+    FrameIndex CEXB C 0 31
+    FrameIndex CEXB D 0 32
+    FrameIndex CEXB E 0 33
+    FrameIndex CEXB F 0 34
+    FrameIndex CEXB G 0 35
+    FrameIndex CEXB H 0 36
+    FrameIndex CEXB I 0 37
+    FrameIndex CEXB J 0 38
+    FrameIndex CEXB K 0 39
+    FrameIndex CEXB L 0 40
+    FrameIndex CEXB M 0 41
+    FrameIndex CEXB N 0 42
+    FrameIndex CEXB O 0 43
+    FrameIndex CEXB P 0 44
+    FrameIndex CEXB Q 0 45
+    FrameIndex CEXB R 0 46
+    FrameIndex CEXB S 0 47
+    FrameIndex CEXB T 0 48
+    FrameIndex CEXB U 0 49
+	
+}
+
+Model CCentaurLeader
+{
+	Path models
+    Model 0 "CentaurX.md3"
+	SurfaceSkin 0 2 "materials/Centaur/Centaur_Body.png"
+	SurfaceSkin 0 0 "materials/Centaur/Centaur_Armor_Blue.png"
+	SurfaceSkin 0 1 "materials/Flesh/Flesh.png"
+    Scale 3.0 3.0 3.6
+    USEACTORPITCH
+    USEACTORROLL
+	
+	FrameIndex CEXA A 0 0
+    FrameIndex CEXA B 0 1
+    FrameIndex CEXA C 0 2
+    FrameIndex CEXA D 0 3
+    FrameIndex CEXA E 0 4
+    FrameIndex CEXA F 0 5
+    FrameIndex CEXA G 0 6
+    FrameIndex CEXA H 0 7
+    FrameIndex CEXA I 0 8
+    FrameIndex CEXA J 0 9
+    FrameIndex CEXA K 0 10
+    FrameIndex CEXA L 0 11
+    FrameIndex CEXA M 0 12
+    FrameIndex CEXA N 0 13
+    FrameIndex CEXA O 0 14
+    FrameIndex CEXA P 0 15
+    FrameIndex CEXA Q 0 16
+    FrameIndex CEXA R 0 17
+    FrameIndex CEXA S 0 18
+    FrameIndex CEXA T 0 19
+    FrameIndex CEXA U 0 20
+    FrameIndex CEXA V 0 21
+    FrameIndex CEXA W 0 22
+    FrameIndex CEXA X 0 23
+    FrameIndex CEXA Y 0 24
+    FrameIndex CEXA Z 0 25
+    FrameIndex CEXA [ 0 26
+    FrameIndex CEXA \ 0 27
+    FrameIndex CEXA ] 0 28
+    FrameIndex CEXB A 0 29
+    FrameIndex CEXB B 0 30
+    FrameIndex CEXB C 0 31
+    FrameIndex CEXB D 0 32
+    FrameIndex CEXB E 0 33
+    FrameIndex CEXB F 0 34
+    FrameIndex CEXB G 0 35
+    FrameIndex CEXB H 0 36
+    FrameIndex CEXB I 0 37
+    FrameIndex CEXB J 0 38
+    FrameIndex CEXB K 0 39
+    FrameIndex CEXB L 0 40
+    FrameIndex CEXB M 0 41
+    FrameIndex CEXB N 0 42
+    FrameIndex CEXB O 0 43
+    FrameIndex CEXB P 0 44
+    FrameIndex CEXB Q 0 45
+    FrameIndex CEXB R 0 46
+    FrameIndex CEXB S 0 47
+    FrameIndex CEXB T 0 48
+    FrameIndex CEXB U 0 49
+	
+}

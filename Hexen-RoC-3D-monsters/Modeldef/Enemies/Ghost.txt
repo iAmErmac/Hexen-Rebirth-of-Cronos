@@ -1,0 +1,87 @@
+Model CHolySpirit
+{
+	Path models 
+	Model 0 Ghost.md3 
+	Skin 0 materials/Ghost/Ghost.png 
+	Scale 50 50 60 
+	Offset 0 0 0 
+	AngleOffset 0 
+
+	FrameIndex WRTA A 0 0
+    FrameIndex WRTA B 0 1
+    FrameIndex WRTA C 0 2
+    FrameIndex WRTA D 0 3
+    FrameIndex WRTA E 0 4
+    FrameIndex WRTA F 0 5
+    FrameIndex WRTA G 0 6
+    FrameIndex WRTA H 0 7
+    FrameIndex WRTA I 0 8
+    FrameIndex WRTA J 0 9
+    FrameIndex WRTA K 0 10
+    FrameIndex WRTA L 0 11
+    FrameIndex WRTA M 0 12
+    FrameIndex WRTA N 0 13
+    FrameIndex WRTA O 0 14
+    FrameIndex WRTA P 0 15
+    FrameIndex WRTA Q 0 16
+    FrameIndex WRTA R 0 17
+    FrameIndex WRTA S 0 18
+    FrameIndex WRTA T 0 19
+    FrameIndex WRTA U 0 20
+    FrameIndex WRTA V 0 21
+    FrameIndex WRTA W 0 22
+    FrameIndex WRTA X 0 23
+    FrameIndex WRTA Y 0 24
+    FrameIndex WRTA Z 0 25
+    FrameIndex WRTA [ 0 26
+    FrameIndex WRTA \ 0 27
+    FrameIndex WRTA ] 0 28
+    FrameIndex WRTB A 0 29
+    FrameIndex WRTB B 0 30
+    FrameIndex WRTB C 0 31
+
+}
+
+Model CKoraxSpirit
+{
+	Path models 
+	Model 0 Ghost.md3 
+	Skin 0 materials/Ghost/Ghost.png 
+	Scale 50 50 60 
+	Offset 0 0 0 
+	AngleOffset 0 
+
+	FrameIndex WRTA A 0 0
+    FrameIndex WRTA B 0 1
+    FrameIndex WRTA C 0 2
+    FrameIndex WRTA D 0 3
+    FrameIndex WRTA E 0 4
+    FrameIndex WRTA F 0 5
+    FrameIndex WRTA G 0 6
+    FrameIndex WRTA H 0 7
+    FrameIndex WRTA I 0 8
+    FrameIndex WRTA J 0 9
+    FrameIndex WRTA K 0 10
+    FrameIndex WRTA L 0 11
+    FrameIndex WRTA M 0 12
+    FrameIndex WRTA N 0 13
+    FrameIndex WRTA O 0 14
+    FrameIndex WRTA P 0 15
+    FrameIndex WRTA Q 0 16
+    FrameIndex WRTA R 0 17
+    FrameIndex WRTA S 0 18
+    FrameIndex WRTA T 0 19
+    FrameIndex WRTA U 0 20
+    FrameIndex WRTA V 0 21
+    FrameIndex WRTA W 0 22
+    FrameIndex WRTA X 0 23
+    FrameIndex WRTA Y 0 24
+    FrameIndex WRTA Z 0 25
+    FrameIndex WRTA [ 0 26
+    FrameIndex WRTA \ 0 27
+    FrameIndex WRTA ] 0 28
+    FrameIndex WRTB A 0 29
+    FrameIndex WRTB B 0 30
+    FrameIndex WRTB C 0 31
+
+}

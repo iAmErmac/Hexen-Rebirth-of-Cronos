@@ -1,0 +1,97 @@
+Model CWyvern
+{
+	Path models
+    Model 0 "Wyvern.md3"
+	Skin 0 "materials/Wyvern/Wyvern.png"
+    Scale 3.0 3.0 3.6
+	Offset 0 0 -20 
+    USEACTORPITCH
+    USEACTORROLL
+
+	FrameIndex WYTA A 0 0 //BiteStart
+    FrameIndex WYTA B 0 1
+    FrameIndex WYTA C 0 2
+    FrameIndex WYTA D 0 3
+    FrameIndex WYTA E 0 4
+    FrameIndex WYTA F 0 5
+    FrameIndex WYTA G 0 6
+    FrameIndex WYTA H 0 7
+    FrameIndex WYTA I 0 8
+    FrameIndex WYTA J 0 9
+    FrameIndex WYTA K 0 10
+    FrameIndex WYTA L 0 11
+    FrameIndex WYTA M 0 12
+    FrameIndex WYTA N 0 13
+    FrameIndex WYTA O 0 14
+    FrameIndex WYTA P 0 15
+    FrameIndex WYTA Q 0 16
+    FrameIndex WYTA R 0 17
+    FrameIndex WYTA S 0 18 //BiteEnd
+    FrameIndex WYTA T 0 19 //DeathStart
+    FrameIndex WYTA U 0 20
+    FrameIndex WYTA V 0 21
+    FrameIndex WYTA W 0 22
+    FrameIndex WYTA X 0 23
+    FrameIndex WYTA Y 0 24
+    FrameIndex WYTA Z 0 25
+    FrameIndex WYTA [ 0 26
+    FrameIndex WYTA \ 0 27
+    FrameIndex WYTA ] 0 28
+    FrameIndex WYTB A 0 29
+    FrameIndex WYTB B 0 30
+    FrameIndex WYTB C 0 31
+    FrameIndex WYTB D 0 32
+    FrameIndex WYTB E 0 33
+    FrameIndex WYTB F 0 34
+    FrameIndex WYTB G 0 35
+    FrameIndex WYTB H 0 36
+    FrameIndex WYTB I 0 37
+    FrameIndex WYTB J 0 38
+    FrameIndex WYTB K 0 39
+    FrameIndex WYTB L 0 40
+    FrameIndex WYTB M 0 41
+    FrameIndex WYTB N 0 42
+    FrameIndex WYTB O 0 43
+    FrameIndex WYTB P 0 44
+    FrameIndex WYTB Q 0 45
+    FrameIndex WYTB R 0 46
+    FrameIndex WYTB S 0 47
+    FrameIndex WYTB T 0 48
+    FrameIndex WYTB U 0 49 //DeathEnd
+    FrameIndex WYTB V 0 50 //PainStart
+    FrameIndex WYTB W 0 51
+    FrameIndex WYTB X 0 52
+    FrameIndex WYTB Y 0 53
+    FrameIndex WYTB Z 0 54
+    FrameIndex WYTB [ 0 55
+    FrameIndex WYTB \ 0 56
+    FrameIndex WYTB ] 0 57
+    FrameIndex WYTC A 0 58
+    FrameIndex WYTC B 0 59
+    FrameIndex WYTC C 0 60
+    FrameIndex WYTC D 0 61
+    FrameIndex WYTC E 0 62
+    FrameIndex WYTC F 0 63 //PainEnd
+    FrameIndex WYTC G 0 64 //IdleFlyStart
+    FrameIndex WYTC H 0 65
+    FrameIndex WYTC I 0 66
+    FrameIndex WYTC J 0 67
+    FrameIndex WYTC K 0 68
+    FrameIndex WYTC L 0 69
+    FrameIndex WYTC M 0 70
+    FrameIndex WYTC N 0 71
+    FrameIndex WYTC O 0 72
+    FrameIndex WYTC P 0 73
+    FrameIndex WYTC Q 0 74
+    FrameIndex WYTC R 0 75
+    FrameIndex WYTC S 0 76
+    FrameIndex WYTC T 0 77
+    FrameIndex WYTC U 0 78
+    FrameIndex WYTC V 0 79
+    FrameIndex WYTC W 0 80
+    FrameIndex WYTC X 0 81
+    FrameIndex WYTC Y 0 82
+    FrameIndex WYTC Z 0 83
+    FrameIndex WYTC [ 0 84
+    FrameIndex WYTC \ 0 85 //IdleFlyEnd
+}

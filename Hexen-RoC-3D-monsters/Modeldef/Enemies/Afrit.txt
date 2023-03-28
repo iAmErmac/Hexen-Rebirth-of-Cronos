@@ -1,0 +1,125 @@
+Model CAfrit
+{
+	Path models
+    Model 0 "Afrit.md3"
+	Skin 0 "materials/Afrit/Afrit.png"
+    Scale 3.0 3.0 3.6
+	Offset 0 0 -20 
+    USEACTORPITCH
+    USEACTORROLL
+
+	FrameIndex AFTA A 0 0 //AttackStart
+    FrameIndex AFTA B 0 1
+    FrameIndex AFTA C 0 2
+    FrameIndex AFTA D 0 3
+    FrameIndex AFTA E 0 4
+    FrameIndex AFTA F 0 5
+    FrameIndex AFTA G 0 6
+    FrameIndex AFTA H 0 7
+    FrameIndex AFTA I 0 8
+    FrameIndex AFTA J 0 9
+    FrameIndex AFTA K 0 10
+    FrameIndex AFTA L 0 11
+    FrameIndex AFTA M 0 12
+    FrameIndex AFTA N 0 13
+    FrameIndex AFTA O 0 14
+    FrameIndex AFTA P 0 15
+    FrameIndex AFTA Q 0 16
+    FrameIndex AFTA R 0 17
+    FrameIndex AFTA S 0 18
+    FrameIndex AFTA T 0 19
+    FrameIndex AFTA U 0 20
+    FrameIndex AFTA V 0 21
+    FrameIndex AFTA W 0 22 //AttackEnd
+    FrameIndex AFTA X 0 23 //PainStart
+    FrameIndex AFTA Y 0 24
+    FrameIndex AFTA Z 0 25
+    FrameIndex AFTA [ 0 26
+    FrameIndex AFTA \ 0 27
+    FrameIndex AFTA ] 0 28
+    FrameIndex AFTB A 0 29
+    FrameIndex AFTB B 0 30
+    FrameIndex AFTB C 0 31
+    FrameIndex AFTB D 0 32
+    FrameIndex AFTB E 0 33
+    FrameIndex AFTB F 0 34
+    FrameIndex AFTB G 0 35
+    FrameIndex AFTB H 0 36
+    FrameIndex AFTB I 0 37
+    FrameIndex AFTB J 0 38
+    FrameIndex AFTB K 0 39
+    FrameIndex AFTB L 0 40 //PainEnd
+    FrameIndex AFTB M 0 41 //IdleStart
+    FrameIndex AFTB N 0 42
+    FrameIndex AFTB O 0 43
+    FrameIndex AFTB P 0 44
+    FrameIndex AFTB Q 0 45
+    FrameIndex AFTB R 0 46
+    FrameIndex AFTB S 0 47
+    FrameIndex AFTB T 0 48
+    FrameIndex AFTB U 0 49
+    FrameIndex AFTB V 0 50
+    FrameIndex AFTB W 0 51
+    FrameIndex AFTB X 0 52
+    FrameIndex AFTB Y 0 53
+    FrameIndex AFTB Z 0 54
+    FrameIndex AFTB [ 0 55
+    FrameIndex AFTB \ 0 56
+    FrameIndex AFTB ] 0 57
+    FrameIndex AFTC A 0 58
+    FrameIndex AFTC B 0 59
+    FrameIndex AFTC C 0 60
+    FrameIndex AFTC D 0 61 //IdleEnd
+    FrameIndex AFTC E 0 62 //MovingStart
+    FrameIndex AFTC F 0 63
+    FrameIndex AFTC G 0 64
+    FrameIndex AFTC H 0 65
+    FrameIndex AFTC I 0 66
+    FrameIndex AFTC J 0 67
+    FrameIndex AFTC K 0 68
+    FrameIndex AFTC L 0 69
+    FrameIndex AFTC M 0 70
+    FrameIndex AFTC N 0 71
+    FrameIndex AFTC O 0 72
+    FrameIndex AFTC P 0 73
+    FrameIndex AFTC Q 0 74
+    FrameIndex AFTC R 0 75
+    FrameIndex AFTC S 0 76
+    FrameIndex AFTC T 0 77 //MovingEnd
+    FrameIndex AFTC U 0 78 //SphereStart
+    FrameIndex AFTC V 0 79
+    FrameIndex AFTC W 0 80
+    FrameIndex AFTC X 0 81
+    FrameIndex AFTC Y 0 82
+    FrameIndex AFTC Z 0 83
+    FrameIndex AFTC [ 0 84
+    FrameIndex AFTC \ 0 85
+    FrameIndex AFTC ] 0 86
+    FrameIndex AFTD A 0 87 //SphereEnd
+	FrameIndex AFTD B 0 88 //Falling
+    FrameIndex AFTD C 0 89
+    FrameIndex AFTD D 0 90
+    FrameIndex AFTD E 0 91
+    FrameIndex AFTD F 0 92
+    FrameIndex AFTD G 0 93
+    FrameIndex AFTD H 0 94
+    FrameIndex AFTD I 0 95
+    FrameIndex AFTD J 0 96
+    FrameIndex AFTD K 0 97
+    FrameIndex AFTD L 0 98
+    FrameIndex AFTD M 0 99
+    FrameIndex AFTD N 0 100
+    FrameIndex AFTD O 0 101
+    FrameIndex AFTD P 0 102
+    FrameIndex AFTD Q 0 103
+    FrameIndex AFTD R 0 104
+    FrameIndex AFTD S 0 105
+    FrameIndex AFTD T 0 106
+    FrameIndex AFTD U 0 107
+    FrameIndex AFTD V 0 108
+    FrameIndex AFTD W 0 109 //DeathDown
+    FrameIndex AFTD X 0 110
+    FrameIndex AFTD Y 0 111
+    FrameIndex AFTD Z 0 112
+    FrameIndex AFTD [ 0 113
+}

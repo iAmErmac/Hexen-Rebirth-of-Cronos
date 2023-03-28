@@ -1,0 +1,139 @@
+Model CHeresiarch
+{
+	Path models
+    Model 0 "Heresiarch.md3"
+	Skin 0 "materials/Heresiarch/Heresiarch.png"
+    Scale 3.0 3.0 3.6
+	Offset 0 0 0 
+    USEACTORPITCH
+    USEACTORROLL
+	
+	FrameIndex HBTA A 0 0 //CastShotStart
+    FrameIndex HBTA B 0 1
+    FrameIndex HBTA C 0 2
+    FrameIndex HBTA D 0 3
+    FrameIndex HBTA E 0 4
+    FrameIndex HBTA F 0 5
+    FrameIndex HBTA G 0 6
+    FrameIndex HBTA H 0 7
+    FrameIndex HBTA I 0 8
+    FrameIndex HBTA J 0 9
+    FrameIndex HBTA K 0 10
+    FrameIndex HBTA L 0 11
+    FrameIndex HBTA M 0 12
+    FrameIndex HBTA N 0 13
+    FrameIndex HBTA O 0 14
+    FrameIndex HBTA P 0 15
+    FrameIndex HBTA Q 0 16
+    FrameIndex HBTA R 0 17
+    FrameIndex HBTA S 0 18
+    FrameIndex HBTA T 0 19
+    FrameIndex HBTA U 0 20
+    FrameIndex HBTA V 0 21
+    FrameIndex HBTA W 0 22
+    FrameIndex HBTA X 0 23
+    FrameIndex HBTA Y 0 24
+    FrameIndex HBTA Z 0 25
+    FrameIndex HBTA [ 0 26
+    FrameIndex HBTA \ 0 27
+    FrameIndex HBTA ] 0 28
+    FrameIndex HBTB A 0 29
+    FrameIndex HBTB B 0 30
+    FrameIndex HBTB C 0 31
+    FrameIndex HBTB D 0 32
+    FrameIndex HBTB E 0 33 //CastShotEnd
+    FrameIndex HBTB F 0 34 //CastLoopStart
+    FrameIndex HBTB G 0 35
+    FrameIndex HBTB H 0 36
+    FrameIndex HBTB I 0 37
+    FrameIndex HBTB J 0 38
+    FrameIndex HBTB K 0 39
+    FrameIndex HBTB L 0 40
+    FrameIndex HBTB M 0 41
+    FrameIndex HBTB N 0 42
+    FrameIndex HBTB O 0 43
+    FrameIndex HBTB P 0 44
+    FrameIndex HBTB Q 0 45
+    FrameIndex HBTB R 0 46
+    FrameIndex HBTB S 0 47
+    FrameIndex HBTB T 0 48
+    FrameIndex HBTB U 0 49
+    FrameIndex HBTB V 0 50
+    FrameIndex HBTB W 0 51
+    FrameIndex HBTB X 0 52
+    FrameIndex HBTB Y 0 53
+    FrameIndex HBTB Z 0 54
+    FrameIndex HBTB [ 0 55
+    FrameIndex HBTB \ 0 56
+    FrameIndex HBTB ] 0 57
+    FrameIndex HBTC A 0 58
+    FrameIndex HBTC B 0 59
+    FrameIndex HBTC C 0 60
+    FrameIndex HBTC D 0 61
+    FrameIndex HBTC E 0 62
+    FrameIndex HBTC F 0 63
+    FrameIndex HBTC G 0 64 //CastLoopEnd
+    FrameIndex HBTC H 0 65 //PainStart
+    FrameIndex HBTC I 0 66
+    FrameIndex HBTC J 0 67
+    FrameIndex HBTC K 0 68
+    FrameIndex HBTC L 0 69
+    FrameIndex HBTC M 0 70
+    FrameIndex HBTC N 0 71
+    FrameIndex HBTC O 0 72
+    FrameIndex HBTC P 0 73
+    FrameIndex HBTC Q 0 74
+    FrameIndex HBTC R 0 75 //PainEnd
+    FrameIndex HBTC S 0 76 //WalkStart
+    FrameIndex HBTC T 0 77
+    FrameIndex HBTC U 0 78
+    FrameIndex HBTC V 0 79
+    FrameIndex HBTC W 0 80
+    FrameIndex HBTC X 0 81
+    FrameIndex HBTC Y 0 82
+    FrameIndex HBTC Z 0 83
+    FrameIndex HBTC [ 0 84
+    FrameIndex HBTC \ 0 85
+    FrameIndex HBTC ] 0 86
+    FrameIndex HBTD A 0 87
+    FrameIndex HBTD B 0 88
+    FrameIndex HBTD C 0 89
+    FrameIndex HBTD D 0 90
+    FrameIndex HBTD E 0 91
+    FrameIndex HBTD F 0 92
+    FrameIndex HBTD G 0 93
+    FrameIndex HBTD H 0 94
+    FrameIndex HBTD I 0 95
+    FrameIndex HBTD J 0 96 //WalkEnd
+    FrameIndex HBTD K 0 97 //IdleStart
+    FrameIndex HBTD L 0 98
+    FrameIndex HBTD M 0 99
+    FrameIndex HBTD N 0 100
+    FrameIndex HBTD O 0 101
+    FrameIndex HBTD P 0 102
+    FrameIndex HBTD Q 0 103
+    FrameIndex HBTD R 0 104
+    FrameIndex HBTD S 0 105
+    FrameIndex HBTD T 0 106
+    FrameIndex HBTD U 0 107
+    FrameIndex HBTD V 0 108
+    FrameIndex HBTD W 0 109
+    FrameIndex HBTD X 0 110
+    FrameIndex HBTD Y 0 111
+    FrameIndex HBTD Z 0 112
+    FrameIndex HBTD [ 0 113
+    FrameIndex HBTD \ 0 114
+    FrameIndex HBTD ] 0 115
+    FrameIndex HBTE A 0 116
+    FrameIndex HBTE B 0 117
+    FrameIndex HBTE C 0 118
+    FrameIndex HBTE D 0 119
+    FrameIndex HBTE E 0 120
+    FrameIndex HBTE F 0 121
+    FrameIndex HBTE G 0 122
+    FrameIndex HBTE H 0 123
+    FrameIndex HBTE I 0 124
+    FrameIndex HBTE J 0 125
+    FrameIndex HBTE K 0 126
+    FrameIndex HBTE L 0 127 //IdleEnd
+}

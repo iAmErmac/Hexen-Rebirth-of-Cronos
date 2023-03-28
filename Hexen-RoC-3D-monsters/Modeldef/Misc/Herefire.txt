@@ -1,0 +1,32 @@
+
+Model HereFire
+{ 
+   Path "FX/Flame"
+   SKIN 0 "FireG/TRFLA0.jpg"
+   MODEL 0 "ChristmasTreeFire.md3"
+   Scale 0.05 0.05 0.06
+   Offset 0.0 0.0 0.0
+   
+   FrameIndex TFLA A 0 0
+   SKIN 0 "FireG/TRFLB0.jpg"
+   Scale 0.1 0.1 0.12
+   FrameIndex TFLA B 0 0
+   SKIN 0 "FireG/TRFLC0.jpg"
+   Scale 0.15 0.15 0.18
+   FrameIndex TFLA C 0 0
+   SKIN 0 "FireG/TRFLD0.jpg"
+   Scale 0.2 0.2 0.24
+   FrameIndex TFLA D 0 0
+   SKIN 0 "FireG/TRFLE0.jpg"
+   Scale 0.25 0.25 0.30
+   FrameIndex TFLA E 0 0
+   SKIN 0 "FireG/TRFLF0.jpg"
+   Scale 0.3 0.3 0.36
+   FrameIndex TFLA F 0 0
+   SKIN 0 "FireG/TRFLG0.jpg"
+   Scale 0.35 0.35 0.42
+   FrameIndex TFLA G 0 0
+   SKIN 0 "FireG/TRFLH0.jpg"
+   Scale 0.4 0.4 0.48
+   FrameIndex TFLA H 0 0
+}

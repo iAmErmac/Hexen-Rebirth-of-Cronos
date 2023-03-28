@@ -1,0 +1,150 @@
+Model CMageBoss
+{
+	Path models
+    Model 0 "MageBoss.md3"
+	Skin 0 "materials/MageBoss/Mage_Blue.png"
+    Scale 3.0 3.0 3.6
+	Offset 0 0 0 
+    USEACTORPITCH
+    USEACTORROLL
+	
+	FrameIndex MGTA A 0 0 //AttackStart
+    FrameIndex MGTA B 0 1
+    FrameIndex MGTA C 0 2
+    FrameIndex MGTA D 0 3
+    FrameIndex MGTA E 0 4
+    FrameIndex MGTA F 0 5
+    FrameIndex MGTA G 0 6
+    FrameIndex MGTA H 0 7
+    FrameIndex MGTA I 0 8
+    FrameIndex MGTA J 0 9
+    FrameIndex MGTA K 0 10
+    FrameIndex MGTA L 0 11
+    FrameIndex MGTA M 0 12
+    FrameIndex MGTA N 0 13
+    FrameIndex MGTA O 0 14
+    FrameIndex MGTA P 0 15
+    FrameIndex MGTA Q 0 16
+    FrameIndex MGTA R 0 17
+    FrameIndex MGTA S 0 18
+    FrameIndex MGTA T 0 19
+    FrameIndex MGTA U 0 20
+    FrameIndex MGTA V 0 21
+    FrameIndex MGTA W 0 22
+    FrameIndex MGTA X 0 23
+    FrameIndex MGTA Y 0 24
+    FrameIndex MGTA Z 0 25
+    FrameIndex MGTA [ 0 26
+    FrameIndex MGTA \ 0 27
+    FrameIndex MGTA ] 0 28
+    FrameIndex MGTB A 0 29
+    FrameIndex MGTB B 0 30 //AttackEnd
+    FrameIndex MGTB C 0 31 //PainStart
+    FrameIndex MGTB D 0 32
+    FrameIndex MGTB E 0 33
+    FrameIndex MGTB F 0 34
+    FrameIndex MGTB G 0 35
+    FrameIndex MGTB H 0 36
+    FrameIndex MGTB I 0 37
+    FrameIndex MGTB J 0 38
+    FrameIndex MGTB K 0 39
+    FrameIndex MGTB L 0 40
+    FrameIndex MGTB M 0 41
+    FrameIndex MGTB N 0 42
+    FrameIndex MGTB O 0 43
+    FrameIndex MGTB P 0 44 //PainEnd
+    FrameIndex MGTB Q 0 45 //IdleStart
+    FrameIndex MGTB R 0 46
+    FrameIndex MGTB S 0 47
+    FrameIndex MGTB T 0 48
+    FrameIndex MGTB U 0 49
+    FrameIndex MGTB V 0 50
+    FrameIndex MGTB W 0 51
+    FrameIndex MGTB X 0 52
+    FrameIndex MGTB Y 0 53
+    FrameIndex MGTB Z 0 54
+    FrameIndex MGTB [ 0 55
+    FrameIndex MGTB \ 0 56
+    FrameIndex MGTB ] 0 57
+    FrameIndex MGTC A 0 58
+    FrameIndex MGTC B 0 59
+    FrameIndex MGTC C 0 60
+    FrameIndex MGTC D 0 61
+    FrameIndex MGTC E 0 62
+    FrameIndex MGTC F 0 63
+    FrameIndex MGTC G 0 64
+    FrameIndex MGTC H 0 65
+    FrameIndex MGTC I 0 66
+    FrameIndex MGTC J 0 67
+    FrameIndex MGTC K 0 68
+    FrameIndex MGTC L 0 69
+    FrameIndex MGTC M 0 70 //IdleEnd
+    FrameIndex MGTC N 0 71 //WalkStart
+    FrameIndex MGTC O 0 72
+    FrameIndex MGTC P 0 73
+    FrameIndex MGTC Q 0 74
+    FrameIndex MGTC R 0 75
+    FrameIndex MGTC S 0 76
+    FrameIndex MGTC T 0 77
+    FrameIndex MGTC U 0 78
+    FrameIndex MGTC V 0 79
+    FrameIndex MGTC W 0 80
+    FrameIndex MGTC X 0 81
+    FrameIndex MGTC Y 0 82
+    FrameIndex MGTC Z 0 83
+    FrameIndex MGTC [ 0 84
+    FrameIndex MGTC \ 0 85
+    FrameIndex MGTC ] 0 86
+    FrameIndex MGTD A 0 87
+    FrameIndex MGTD B 0 88
+    FrameIndex MGTD C 0 89
+    FrameIndex MGTD D 0 90
+    FrameIndex MGTD E 0 91 //WalkEnd
+    FrameIndex MGTD F 0 92 //DeathStart
+    FrameIndex MGTD G 0 93
+    FrameIndex MGTD H 0 94
+    FrameIndex MGTD I 0 95
+    FrameIndex MGTD J 0 96
+    FrameIndex MGTD K 0 97
+    FrameIndex MGTD L 0 98
+    FrameIndex MGTD M 0 99
+    FrameIndex MGTD N 0 100 //DeathEnd
+}
+
+Model MageMenu
+{
+	Path models
+    Model 0 "MageBoss.md3"
+	Skin 0 "materials/MageBoss/Mage_Red.png"
+    Scale 3.0 3.0 3.6
+	Offset 0 0 0 
+    USEACTORPITCH
+    USEACTORROLL
+
+    FrameIndex MGTB Q 0 45 //IdleStart
+    FrameIndex MGTB R 0 46
+    FrameIndex MGTB S 0 47
+    FrameIndex MGTB T 0 48
+    FrameIndex MGTB U 0 49
+    FrameIndex MGTB V 0 50
+    FrameIndex MGTB W 0 51
+    FrameIndex MGTB X 0 52
+    FrameIndex MGTB Y 0 53
+    FrameIndex MGTB Z 0 54
+    FrameIndex MGTB [ 0 55
+    FrameIndex MGTB \ 0 56
+    FrameIndex MGTB ] 0 57
+    FrameIndex MGTC A 0 58
+    FrameIndex MGTC B 0 59
+    FrameIndex MGTC C 0 60
+    FrameIndex MGTC D 0 61
+    FrameIndex MGTC E 0 62
+    FrameIndex MGTC F 0 63
+    FrameIndex MGTC G 0 64
+    FrameIndex MGTC H 0 65
+    FrameIndex MGTC I 0 66
+    FrameIndex MGTC J 0 67
+    FrameIndex MGTC K 0 68
+    FrameIndex MGTC L 0 69
+    FrameIndex MGTC M 0 70 //IdleEnd
+}

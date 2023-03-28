@@ -1,0 +1,347 @@
+Model CReiver
+{
+	Path models
+    Model 0 "Reiver.md3"
+	Skin 0 "materials/Reiver/Reiver.png"
+    Scale 4.0 4.0 4.8
+	Offset 0 0 0 
+    USEACTORPITCH
+    USEACTORROLL
+
+	FrameIndex RATA A 0 0 //MeleeStart
+    FrameIndex RATA B 0 1
+    FrameIndex RATA C 0 2
+    FrameIndex RATA D 0 3
+    FrameIndex RATA E 0 4
+    FrameIndex RATA F 0 5
+    FrameIndex RATA G 0 6
+    FrameIndex RATA H 0 7
+    FrameIndex RATA I 0 8
+    FrameIndex RATA J 0 9
+    FrameIndex RATA K 0 10
+    FrameIndex RATA L 0 11
+    FrameIndex RATA M 0 12
+    FrameIndex RATA N 0 13
+    FrameIndex RATA O 0 14
+    FrameIndex RATA P 0 15
+    FrameIndex RATA Q 0 16
+    FrameIndex RATA R 0 17
+    FrameIndex RATA S 0 18
+    FrameIndex RATA T 0 19
+    FrameIndex RATA U 0 20
+    FrameIndex RATA V 0 21
+    FrameIndex RATA W 0 22
+    FrameIndex RATA X 0 23 //MeleeEnd
+    FrameIndex RATA Y 0 24 //DiggingStart
+    FrameIndex RATA Z 0 25
+    FrameIndex RATA [ 0 26
+    FrameIndex RATA \ 0 27
+    FrameIndex RATA ] 0 28
+    FrameIndex RATB A 0 29
+    FrameIndex RATB B 0 30
+    FrameIndex RATB C 0 31
+    FrameIndex RATB D 0 32
+    FrameIndex RATB E 0 33
+    FrameIndex RATB F 0 34
+    FrameIndex RATB G 0 35
+    FrameIndex RATB H 0 36
+    FrameIndex RATB I 0 37
+    FrameIndex RATB J 0 38
+    FrameIndex RATB K 0 39
+    FrameIndex RATB L 0 40
+    FrameIndex RATB M 0 41
+    FrameIndex RATB N 0 42
+    FrameIndex RATB O 0 43
+    FrameIndex RATB P 0 44
+    FrameIndex RATB Q 0 45
+    FrameIndex RATB R 0 46
+    FrameIndex RATB S 0 47
+    FrameIndex RATB T 0 48
+    FrameIndex RATB U 0 49
+    FrameIndex RATB V 0 50
+    FrameIndex RATB W 0 51
+    FrameIndex RATB X 0 52
+    FrameIndex RATB Y 0 53
+    FrameIndex RATB Z 0 54
+    FrameIndex RATB [ 0 55
+    FrameIndex RATB \ 0 56
+    FrameIndex RATB ] 0 57
+    FrameIndex RATC A 0 58
+    FrameIndex RATC B 0 59
+    FrameIndex RATC C 0 60
+    FrameIndex RATC D 0 61
+    FrameIndex RATC E 0 62
+    FrameIndex RATC F 0 63 //DiggingEnd
+    FrameIndex RATC G 0 64 //PainStart
+    FrameIndex RATC H 0 65
+    FrameIndex RATC I 0 66
+    FrameIndex RATC J 0 67
+    FrameIndex RATC K 0 68
+    FrameIndex RATC L 0 69
+    FrameIndex RATC M 0 70
+    FrameIndex RATC N 0 71
+    FrameIndex RATC O 0 72
+    FrameIndex RATC P 0 73
+    FrameIndex RATC Q 0 74 //PainEnd
+    FrameIndex RATC R 0 75 //IdleStart
+    FrameIndex RATC S 0 76
+    FrameIndex RATC T 0 77
+    FrameIndex RATC U 0 78
+    FrameIndex RATC V 0 79
+    FrameIndex RATC W 0 80
+    FrameIndex RATC X 0 81
+    FrameIndex RATC Y 0 82
+    FrameIndex RATC Z 0 83
+    FrameIndex RATC [ 0 84
+    FrameIndex RATC \ 0 85
+    FrameIndex RATC ] 0 86
+    FrameIndex RATD A 0 87
+    FrameIndex RATD B 0 88
+    FrameIndex RATD C 0 89
+    FrameIndex RATD D 0 90
+    FrameIndex RATD E 0 91
+    FrameIndex RATD F 0 92
+    FrameIndex RATD G 0 93
+    FrameIndex RATD H 0 94
+    FrameIndex RATD I 0 95
+    FrameIndex RATD J 0 96
+    FrameIndex RATD K 0 97
+    FrameIndex RATD L 0 98
+    FrameIndex RATD M 0 99
+    FrameIndex RATD N 0 100 //IdleEnd
+    FrameIndex RATD O 0 101 //MoveStart
+    FrameIndex RATD P 0 102
+    FrameIndex RATD Q 0 103
+    FrameIndex RATD R 0 104
+    FrameIndex RATD S 0 105
+    FrameIndex RATD T 0 106
+    FrameIndex RATD U 0 107
+    FrameIndex RATD V 0 108
+    FrameIndex RATD W 0 109
+    FrameIndex RATD X 0 110
+    FrameIndex RATD Y 0 111
+    FrameIndex RATD Z 0 112
+    FrameIndex RATD [ 0 113
+    FrameIndex RATD \ 0 114
+    FrameIndex RATD ] 0 115
+    FrameIndex RATE A 0 116
+    FrameIndex RATE B 0 117
+    FrameIndex RATE C 0 118
+    FrameIndex RATE D 0 119
+    FrameIndex RATE E 0 120
+    FrameIndex RATE F 0 121
+    FrameIndex RATE G 0 122
+    FrameIndex RATE H 0 123
+    FrameIndex RATE I 0 124 //MoveEnd
+    FrameIndex RATE J 0 125 //ShootStart
+    FrameIndex RATE K 0 126
+    FrameIndex RATE L 0 127
+    FrameIndex RATE M 0 128
+    FrameIndex RATE N 0 129
+    FrameIndex RATE O 0 130
+    FrameIndex RATE P 0 131
+    FrameIndex RATE Q 0 132
+    FrameIndex RATE R 0 133
+    FrameIndex RATE S 0 134
+    FrameIndex RATE T 0 135
+    FrameIndex RATE U 0 136
+    FrameIndex RATE V 0 137
+    FrameIndex RATE W 0 138
+    FrameIndex RATE X 0 139
+    FrameIndex RATE Y 0 140
+    FrameIndex RATE Z 0 141
+    FrameIndex RATE [ 0 142
+    FrameIndex RATE \ 0 143
+    FrameIndex RATE ] 0 144
+    FrameIndex RATF A 0 145
+    FrameIndex RATF B 0 146
+    FrameIndex RATF C 0 147
+    FrameIndex RATF D 0 148
+    FrameIndex RATF E 0 149
+    FrameIndex RATF F 0 150 //ShootEnd
+    FrameIndex RATF G 0 151 //DeathStart
+    FrameIndex RATF H 0 152
+    FrameIndex RATF I 0 153
+    FrameIndex RATF J 0 154
+    FrameIndex RATF K 0 155
+    FrameIndex RATF L 0 156
+    FrameIndex RATF M 0 157
+    FrameIndex RATF N 0 158
+    FrameIndex RATF O 0 159
+    FrameIndex RATF P 0 160
+    FrameIndex RATF Q 0 161 //DeathEnd
+}
+
+Model CReiverBuried
+{
+	Path models
+    Model 0 "Reiver.md3"
+	Skin 0 "materials/Reiver/Reiver.png"
+    Scale 4.0 4.0 4.8
+	Offset 0 0 0
+    USEACTORPITCH
+    USEACTORROLL
+
+	FrameIndex RATA A 0 0 //MeleeStart
+    FrameIndex RATA B 0 1
+    FrameIndex RATA C 0 2
+    FrameIndex RATA D 0 3
+    FrameIndex RATA E 0 4
+    FrameIndex RATA F 0 5
+    FrameIndex RATA G 0 6
+    FrameIndex RATA H 0 7
+    FrameIndex RATA I 0 8
+    FrameIndex RATA J 0 9
+    FrameIndex RATA K 0 10
+    FrameIndex RATA L 0 11
+    FrameIndex RATA M 0 12
+    FrameIndex RATA N 0 13
+    FrameIndex RATA O 0 14
+    FrameIndex RATA P 0 15
+    FrameIndex RATA Q 0 16
+    FrameIndex RATA R 0 17
+    FrameIndex RATA S 0 18
+    FrameIndex RATA T 0 19
+    FrameIndex RATA U 0 20
+    FrameIndex RATA V 0 21
+    FrameIndex RATA W 0 22
+    FrameIndex RATA X 0 23 //MeleeEnd
+    FrameIndex RATA Y 0 24 //DiggingStart
+    FrameIndex RATA Z 0 25
+    FrameIndex RATA [ 0 26
+    FrameIndex RATA \ 0 27
+    FrameIndex RATA ] 0 28
+    FrameIndex RATB A 0 29
+    FrameIndex RATB B 0 30
+    FrameIndex RATB C 0 31
+    FrameIndex RATB D 0 32
+    FrameIndex RATB E 0 33
+    FrameIndex RATB F 0 34
+    FrameIndex RATB G 0 35
+    FrameIndex RATB H 0 36
+    FrameIndex RATB I 0 37
+    FrameIndex RATB J 0 38
+    FrameIndex RATB K 0 39
+    FrameIndex RATB L 0 40
+    FrameIndex RATB M 0 41
+    FrameIndex RATB N 0 42
+    FrameIndex RATB O 0 43
+    FrameIndex RATB P 0 44
+    FrameIndex RATB Q 0 45
+    FrameIndex RATB R 0 46
+    FrameIndex RATB S 0 47
+    FrameIndex RATB T 0 48
+    FrameIndex RATB U 0 49
+    FrameIndex RATB V 0 50
+    FrameIndex RATB W 0 51
+    FrameIndex RATB X 0 52
+    FrameIndex RATB Y 0 53
+    FrameIndex RATB Z 0 54
+    FrameIndex RATB [ 0 55
+    FrameIndex RATB \ 0 56
+    FrameIndex RATB ] 0 57
+    FrameIndex RATC A 0 58
+    FrameIndex RATC B 0 59
+    FrameIndex RATC C 0 60
+    FrameIndex RATC D 0 61
+    FrameIndex RATC E 0 62
+    FrameIndex RATC F 0 63 //DiggingEnd
+    FrameIndex RATC G 0 64 //PainStart
+    FrameIndex RATC H 0 65
+    FrameIndex RATC I 0 66
+    FrameIndex RATC J 0 67
+    FrameIndex RATC K 0 68
+    FrameIndex RATC L 0 69
+    FrameIndex RATC M 0 70
+    FrameIndex RATC N 0 71
+    FrameIndex RATC O 0 72
+    FrameIndex RATC P 0 73
+    FrameIndex RATC Q 0 74 //PainEnd
+    FrameIndex RATC R 0 75 //IdleStart
+    FrameIndex RATC S 0 76
+    FrameIndex RATC T 0 77
+    FrameIndex RATC U 0 78
+    FrameIndex RATC V 0 79
+    FrameIndex RATC W 0 80
+    FrameIndex RATC X 0 81
+    FrameIndex RATC Y 0 82
+    FrameIndex RATC Z 0 83
+    FrameIndex RATC [ 0 84
+    FrameIndex RATC \ 0 85
+    FrameIndex RATC ] 0 86
+    FrameIndex RATD A 0 87
+    FrameIndex RATD B 0 88
+    FrameIndex RATD C 0 89
+    FrameIndex RATD D 0 90
+    FrameIndex RATD E 0 91
+    FrameIndex RATD F 0 92
+    FrameIndex RATD G 0 93
+    FrameIndex RATD H 0 94
+    FrameIndex RATD I 0 95
+    FrameIndex RATD J 0 96
+    FrameIndex RATD K 0 97
+    FrameIndex RATD L 0 98
+    FrameIndex RATD M 0 99
+    FrameIndex RATD N 0 100 //IdleEnd
+    FrameIndex RATD O 0 101 //MoveStart
+    FrameIndex RATD P 0 102
+    FrameIndex RATD Q 0 103
+    FrameIndex RATD R 0 104
+    FrameIndex RATD S 0 105
+    FrameIndex RATD T 0 106
+    FrameIndex RATD U 0 107
+    FrameIndex RATD V 0 108
+    FrameIndex RATD W 0 109
+    FrameIndex RATD X 0 110
+    FrameIndex RATD Y 0 111
+    FrameIndex RATD Z 0 112
+    FrameIndex RATD [ 0 113
+    FrameIndex RATD \ 0 114
+    FrameIndex RATD ] 0 115
+    FrameIndex RATE A 0 116
+    FrameIndex RATE B 0 117
+    FrameIndex RATE C 0 118
+    FrameIndex RATE D 0 119
+    FrameIndex RATE E 0 120
+    FrameIndex RATE F 0 121
+    FrameIndex RATE G 0 122
+    FrameIndex RATE H 0 123
+    FrameIndex RATE I 0 124 //MoveEnd
+    FrameIndex RATE J 0 125 //ShootStart
+    FrameIndex RATE K 0 126
+    FrameIndex RATE L 0 127
+    FrameIndex RATE M 0 128
+    FrameIndex RATE N 0 129
+    FrameIndex RATE O 0 130
+    FrameIndex RATE P 0 131
+    FrameIndex RATE Q 0 132
+    FrameIndex RATE R 0 133
+    FrameIndex RATE S 0 134
+    FrameIndex RATE T 0 135
+    FrameIndex RATE U 0 136
+    FrameIndex RATE V 0 137
+    FrameIndex RATE W 0 138
+    FrameIndex RATE X 0 139
+    FrameIndex RATE Y 0 140
+    FrameIndex RATE Z 0 141
+    FrameIndex RATE [ 0 142
+    FrameIndex RATE \ 0 143
+    FrameIndex RATE ] 0 144
+    FrameIndex RATF A 0 145
+    FrameIndex RATF B 0 146
+    FrameIndex RATF C 0 147
+    FrameIndex RATF D 0 148
+    FrameIndex RATF E 0 149
+    FrameIndex RATF F 0 150 //ShootEnd
+    FrameIndex RATF G 0 151 //DeathStart
+    FrameIndex RATF H 0 152
+    FrameIndex RATF I 0 153
+    FrameIndex RATF J 0 154
+    FrameIndex RATF K 0 155
+    FrameIndex RATF L 0 156
+    FrameIndex RATF M 0 157
+    FrameIndex RATF N 0 158
+    FrameIndex RATF O 0 159
+    FrameIndex RATF P 0 160
+    FrameIndex RATF Q 0 161 //DeathEnd
+}

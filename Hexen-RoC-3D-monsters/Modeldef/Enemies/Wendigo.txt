@@ -1,0 +1,109 @@
+Model CIceGuy
+{
+	Path models
+    Model 0 "Wendigo.md3"
+	Skin 0 "materials/Wendigo/Wendigo.png"
+    Scale 2.5 2.5 3.0
+    USEACTORPITCH
+    USEACTORROLL
+
+    FrameIndex IATA A 0 0 //Cast Start
+    FrameIndex IATA B 0 1
+    FrameIndex IATA C 0 2
+    FrameIndex IATA D 0 3
+    FrameIndex IATA E 0 4
+    FrameIndex IATA F 0 5
+    FrameIndex IATA G 0 6
+    FrameIndex IATA H 0 7
+    FrameIndex IATA I 0 8
+    FrameIndex IATA J 0 9
+    FrameIndex IATA K 0 10
+    FrameIndex IATA L 0 11
+    FrameIndex IATA M 0 12
+    FrameIndex IATA N 0 13
+    FrameIndex IATA O 0 14
+    FrameIndex IATA P 0 15
+    FrameIndex IATA Q 0 16
+    FrameIndex IATA R 0 17
+    FrameIndex IATA S 0 18
+    FrameIndex IATA T 0 19
+    FrameIndex IATA U 0 20
+    FrameIndex IATA V 0 21
+    FrameIndex IATA W 0 22
+    FrameIndex IATA X 0 23
+    FrameIndex IATA Y 0 24
+    FrameIndex IATA Z 0 25
+    FrameIndex IATA [ 0 26
+    FrameIndex IATA \ 0 27
+    FrameIndex IATA ] 0 28
+    FrameIndex IATB A 0 29
+    FrameIndex IATB B 0 30
+    FrameIndex IATB C 0 31 //Cast End 
+    FrameIndex IATB D 0 32 //Pain Start
+    FrameIndex IATB E 0 33
+    FrameIndex IATB F 0 34
+    FrameIndex IATB G 0 35
+    FrameIndex IATB H 0 36
+    FrameIndex IATB I 0 37
+    FrameIndex IATB J 0 38
+    FrameIndex IATB K 0 39
+    FrameIndex IATB L 0 40
+    FrameIndex IATB M 0 41 //Pain End
+    FrameIndex IATB N 0 42 //Idle Start
+    FrameIndex IATB O 0 43
+    FrameIndex IATB P 0 44
+    FrameIndex IATB Q 0 45
+    FrameIndex IATB R 0 46
+    FrameIndex IATB S 0 47
+    FrameIndex IATB T 0 48
+    FrameIndex IATB U 0 49
+    FrameIndex IATB V 0 50
+    FrameIndex IATB W 0 51
+    FrameIndex IATB X 0 52
+    FrameIndex IATB Y 0 53
+    FrameIndex IATB Z 0 54
+    FrameIndex IATB [ 0 55
+    FrameIndex IATB \ 0 56 //Idle End
+    FrameIndex IATB ] 0 57 //Melee Start
+    FrameIndex IATC A 0 58
+    FrameIndex IATC B 0 59
+    FrameIndex IATC C 0 60
+    FrameIndex IATC D 0 61
+    FrameIndex IATC E 0 62
+    FrameIndex IATC F 0 63
+    FrameIndex IATC G 0 64
+    FrameIndex IATC H 0 65
+    FrameIndex IATC I 0 66
+    FrameIndex IATC J 0 67
+    FrameIndex IATC K 0 68
+    FrameIndex IATC L 0 69
+    FrameIndex IATC M 0 70
+    FrameIndex IATC N 0 71
+    FrameIndex IATC O 0 72
+    FrameIndex IATC P 0 73
+    FrameIndex IATC Q 0 74
+    FrameIndex IATC R 0 75
+    FrameIndex IATC S 0 76
+    FrameIndex IATC T 0 77
+    FrameIndex IATC U 0 78 //Melee End
+    FrameIndex IATC V 0 79 //Walk Start
+    FrameIndex IATC W 0 80
+    FrameIndex IATC X 0 81
+    FrameIndex IATC Y 0 82
+    FrameIndex IATC Z 0 83
+    FrameIndex IATC [ 0 84
+    FrameIndex IATC \ 0 85
+    FrameIndex IATC ] 0 86
+    FrameIndex IATD A 0 87
+    FrameIndex IATD B 0 88
+    FrameIndex IATD C 0 89
+    FrameIndex IATD D 0 90
+    FrameIndex IATD E 0 91
+    FrameIndex IATD F 0 92
+    FrameIndex IATD G 0 93
+    FrameIndex IATD H 0 94
+    FrameIndex IATD I 0 95
+    FrameIndex IATD J 0 96
+    FrameIndex IATD K 0 97
+    FrameIndex IATD L 0 98 //Walk End
+}

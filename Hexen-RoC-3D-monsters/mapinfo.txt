@@ -1,0 +1,12 @@
+GameInfo
+{
+	AddEventHandlers = "WadSupportHandler"
+}
+
+DoomEdNums
+{
+30003 = Minotaur
+31001 = ClericMenu
+31002 = FighterMenu
+31003 = MageMenu
+}

@@ -1,0 +1,519 @@
+Model CStalker
+{
+	Path models
+    Model 0 "Stalker.md3"
+	Skin 0 "materials/Stalker/Stalker.png"
+    Scale 3.0 3.0 3.6
+	Offset 0 0 10 
+    USEACTORPITCH
+    USEACTORROLL
+
+	FrameIndex STTA A 0 0 //MeleeStart
+    FrameIndex STTA B 0 1
+    FrameIndex STTA C 0 2
+    FrameIndex STTA D 0 3
+    FrameIndex STTA E 0 4
+    FrameIndex STTA F 0 5
+    FrameIndex STTA G 0 6
+    FrameIndex STTA H 0 7
+    FrameIndex STTA I 0 8
+    FrameIndex STTA J 0 9
+    FrameIndex STTA K 0 10
+    FrameIndex STTA L 0 11
+    FrameIndex STTA M 0 12
+    FrameIndex STTA N 0 13
+    FrameIndex STTA O 0 14
+    FrameIndex STTA P 0 15
+    FrameIndex STTA Q 0 16
+    FrameIndex STTA R 0 17
+    FrameIndex STTA S 0 18
+    FrameIndex STTA T 0 19
+    FrameIndex STTA U 0 20
+    FrameIndex STTA V 0 21
+    FrameIndex STTA W 0 22 //MeleeEnd
+    FrameIndex STTA X 0 23 //DiveUpStart
+    FrameIndex STTA Y 0 24
+    FrameIndex STTA Z 0 25
+    FrameIndex STTA [ 0 26
+    FrameIndex STTA \ 0 27
+    FrameIndex STTA ] 0 28
+    FrameIndex STTB A 0 29
+    FrameIndex STTB B 0 30
+    FrameIndex STTB C 0 31
+    FrameIndex STTB D 0 32
+    FrameIndex STTB E 0 33
+    FrameIndex STTB F 0 34
+    FrameIndex STTB G 0 35
+    FrameIndex STTB H 0 36
+    FrameIndex STTB I 0 37
+    FrameIndex STTB J 0 38
+    FrameIndex STTB K 0 39
+    FrameIndex STTB L 0 40
+    FrameIndex STTB M 0 41
+    FrameIndex STTB N 0 42
+    FrameIndex STTB O 0 43 //DiveUpEnd
+    FrameIndex STTB P 0 44 //DiveDownStart
+    FrameIndex STTB Q 0 45
+    FrameIndex STTB R 0 46
+    FrameIndex STTB S 0 47
+    FrameIndex STTB T 0 48
+    FrameIndex STTB U 0 49
+    FrameIndex STTB V 0 50
+    FrameIndex STTB W 0 51
+    FrameIndex STTB X 0 52
+    FrameIndex STTB Y 0 53
+    FrameIndex STTB Z 0 54
+    FrameIndex STTB [ 0 55
+    FrameIndex STTB \ 0 56
+    FrameIndex STTB ] 0 57
+    FrameIndex STTC A 0 58
+    FrameIndex STTC B 0 59
+    FrameIndex STTC C 0 60
+    FrameIndex STTC D 0 61
+    FrameIndex STTC E 0 62 //DiveDownEnd
+    FrameIndex STTC F 0 63 //DiveShotStart
+    FrameIndex STTC G 0 64
+    FrameIndex STTC H 0 65
+    FrameIndex STTC I 0 66
+    FrameIndex STTC J 0 67
+    FrameIndex STTC K 0 68
+    FrameIndex STTC L 0 69
+    FrameIndex STTC M 0 70
+    FrameIndex STTC N 0 71
+    FrameIndex STTC O 0 72
+    FrameIndex STTC P 0 73
+    FrameIndex STTC Q 0 74
+    FrameIndex STTC R 0 75
+    FrameIndex STTC S 0 76
+    FrameIndex STTC T 0 77
+    FrameIndex STTC U 0 78
+    FrameIndex STTC V 0 79
+    FrameIndex STTC W 0 80
+    FrameIndex STTC X 0 81
+    FrameIndex STTC Y 0 82
+    FrameIndex STTC Z 0 83
+    FrameIndex STTC [ 0 84
+    FrameIndex STTC \ 0 85
+    FrameIndex STTC ] 0 86
+    FrameIndex STTD A 0 87
+    FrameIndex STTD B 0 88
+    FrameIndex STTD C 0 89
+    FrameIndex STTD D 0 90
+    FrameIndex STTD E 0 91
+    FrameIndex STTD F 0 92
+    FrameIndex STTD G 0 93
+    FrameIndex STTD H 0 94 //DiveShotEnd
+    FrameIndex STTD I 0 95 //PainStart
+    FrameIndex STTD J 0 96
+    FrameIndex STTD K 0 97
+    FrameIndex STTD L 0 98
+    FrameIndex STTD M 0 99
+    FrameIndex STTD N 0 100
+    FrameIndex STTD O 0 101
+    FrameIndex STTD P 0 102
+    FrameIndex STTD Q 0 103
+    FrameIndex STTD R 0 104
+    FrameIndex STTD S 0 105 //PainEnd
+    /*FrameIndex STTD T 0 106 //IdleStart
+    FrameIndex STTD U 0 107
+    FrameIndex STTD V 0 108
+    FrameIndex STTD W 0 109
+    FrameIndex STTD X 0 110
+    FrameIndex STTD Y 0 111
+    FrameIndex STTD Z 0 112
+    FrameIndex STTD [ 0 113
+    FrameIndex STTD \ 0 114
+    FrameIndex STTD ] 0 115
+    FrameIndex STTE A 0 116
+    FrameIndex STTE B 0 117
+    FrameIndex STTE C 0 118
+    FrameIndex STTE D 0 119
+    FrameIndex STTE E 0 120
+    FrameIndex STTE F 0 121
+    FrameIndex STTE G 0 122
+    FrameIndex STTE H 0 123
+    FrameIndex STTE I 0 124
+    FrameIndex STTE J 0 125
+    FrameIndex STTE K 0 126 //IdleEnd*/
+    FrameIndex STTE L 0 127 //SpineDiveStart
+    FrameIndex STTE M 0 128
+    FrameIndex STTE N 0 129
+    FrameIndex STTE O 0 130
+    FrameIndex STTE P 0 131
+    FrameIndex STTE Q 0 132
+    FrameIndex STTE R 0 133
+    FrameIndex STTE S 0 134
+    FrameIndex STTE T 0 135
+    FrameIndex STTE U 0 136
+    FrameIndex STTE V 0 137
+    FrameIndex STTE W 0 138
+    FrameIndex STTE X 0 139
+    FrameIndex STTE Y 0 140
+    FrameIndex STTE Z 0 141
+    FrameIndex STTE [ 0 142
+    FrameIndex STTE \ 0 143
+    FrameIndex STTE ] 0 144
+    FrameIndex STTF A 0 145
+    FrameIndex STTF B 0 146
+    FrameIndex STTF C 0 147
+    FrameIndex STTF D 0 148
+    FrameIndex STTF E 0 149
+    FrameIndex STTF F 0 150
+    FrameIndex STTF G 0 151
+    FrameIndex STTF H 0 152
+    FrameIndex STTF I 0 153
+    FrameIndex STTF J 0 154
+    FrameIndex STTF K 0 155
+    FrameIndex STTF L 0 156
+    FrameIndex STTF M 0 157 //SpineDiveEnd
+    FrameIndex STTF N 0 158 //MovingStart
+    FrameIndex STTF O 0 159
+    FrameIndex STTF P 0 160
+    FrameIndex STTF Q 0 161
+    FrameIndex STTF R 0 162
+    FrameIndex STTF S 0 163
+    FrameIndex STTF T 0 164
+    FrameIndex STTF U 0 165
+    FrameIndex STTF V 0 166
+    FrameIndex STTF W 0 167
+    FrameIndex STTF X 0 168
+    FrameIndex STTF Y 0 169
+    FrameIndex STTF Z 0 170
+    FrameIndex STTF [ 0 171
+    FrameIndex STTF \ 0 172
+    FrameIndex STTF ] 0 173 //MovingEnd
+	FrameIndex STTG A 0 174 //DeathStart
+    FrameIndex STTG B 0 175
+    FrameIndex STTG C 0 176
+    FrameIndex STTG D 0 177
+    FrameIndex STTG E 0 178
+    FrameIndex STTG F 0 179
+    FrameIndex STTG G 0 180
+    FrameIndex STTG H 0 181
+    FrameIndex STTG I 0 182
+    FrameIndex STTG J 0 183
+    FrameIndex STTG K 0 184
+    FrameIndex STTG L 0 185
+    FrameIndex STTG M 0 186
+    FrameIndex STTG N 0 187
+    FrameIndex STTG O 0 188
+    FrameIndex STTG P 0 189
+    FrameIndex STTG Q 0 190
+    FrameIndex STTG R 0 191
+    FrameIndex STTG S 0 192
+    FrameIndex STTG T 0 193
+    FrameIndex STTG U 0 194 //DeathEnd
+}
+
+Model CStalkerBoss
+{
+	Path models
+    Model 0 "Stalker.md3"
+	Skin 0 "materials/Stalker/Stalker_B.png"
+    Scale 3.0 3.0 3.6
+	Offset 0 0 0 
+    USEACTORPITCH
+    USEACTORROLL
+
+	FrameIndex STTA A 0 0 //MeleeStart
+    FrameIndex STTA B 0 1
+    FrameIndex STTA C 0 2
+    FrameIndex STTA D 0 3
+    FrameIndex STTA E 0 4
+    FrameIndex STTA F 0 5
+    FrameIndex STTA G 0 6
+    FrameIndex STTA H 0 7
+    FrameIndex STTA I 0 8
+    FrameIndex STTA J 0 9
+    FrameIndex STTA K 0 10
+    FrameIndex STTA L 0 11
+    FrameIndex STTA M 0 12
+    FrameIndex STTA N 0 13
+    FrameIndex STTA O 0 14
+    FrameIndex STTA P 0 15
+    FrameIndex STTA Q 0 16
+    FrameIndex STTA R 0 17
+    FrameIndex STTA S 0 18
+    FrameIndex STTA T 0 19
+    FrameIndex STTA U 0 20
+    FrameIndex STTA V 0 21
+    FrameIndex STTA W 0 22 //MeleeEnd
+    FrameIndex STTA X 0 23 //DiveUpStart
+    FrameIndex STTA Y 0 24
+    FrameIndex STTA Z 0 25
+    FrameIndex STTA [ 0 26
+    FrameIndex STTA \ 0 27
+    FrameIndex STTA ] 0 28
+    FrameIndex STTB A 0 29
+    FrameIndex STTB B 0 30
+    FrameIndex STTB C 0 31
+    FrameIndex STTB D 0 32
+    FrameIndex STTB E 0 33
+    FrameIndex STTB F 0 34
+    FrameIndex STTB G 0 35
+    FrameIndex STTB H 0 36
+    FrameIndex STTB I 0 37
+    FrameIndex STTB J 0 38
+    FrameIndex STTB K 0 39
+    FrameIndex STTB L 0 40
+    FrameIndex STTB M 0 41
+    FrameIndex STTB N 0 42
+    FrameIndex STTB O 0 43 //DiveUpEnd
+    FrameIndex STTB P 0 44 //DiveDownStart
+    FrameIndex STTB Q 0 45
+    FrameIndex STTB R 0 46
+    FrameIndex STTB S 0 47
+    FrameIndex STTB T 0 48
+    FrameIndex STTB U 0 49
+    FrameIndex STTB V 0 50
+    FrameIndex STTB W 0 51
+    FrameIndex STTB X 0 52
+    FrameIndex STTB Y 0 53
+    FrameIndex STTB Z 0 54
+    FrameIndex STTB [ 0 55
+    FrameIndex STTB \ 0 56
+    FrameIndex STTB ] 0 57
+    FrameIndex STTC A 0 58
+    FrameIndex STTC B 0 59
+    FrameIndex STTC C 0 60
+    FrameIndex STTC D 0 61
+    FrameIndex STTC E 0 62 //DiveDownEnd
+    FrameIndex STTC F 0 63 //DiveShotStart
+    FrameIndex STTC G 0 64
+    FrameIndex STTC H 0 65
+    FrameIndex STTC I 0 66
+    FrameIndex STTC J 0 67
+    FrameIndex STTC K 0 68
+    FrameIndex STTC L 0 69
+    FrameIndex STTC M 0 70
+    FrameIndex STTC N 0 71
+    FrameIndex STTC O 0 72
+    FrameIndex STTC P 0 73
+    FrameIndex STTC Q 0 74
+    FrameIndex STTC R 0 75
+    FrameIndex STTC S 0 76
+    FrameIndex STTC T 0 77
+    FrameIndex STTC U 0 78
+    FrameIndex STTC V 0 79
+    FrameIndex STTC W 0 80
+    FrameIndex STTC X 0 81
+    FrameIndex STTC Y 0 82
+    FrameIndex STTC Z 0 83
+    FrameIndex STTC [ 0 84
+    FrameIndex STTC \ 0 85
+    FrameIndex STTC ] 0 86
+    FrameIndex STTD A 0 87
+    FrameIndex STTD B 0 88
+    FrameIndex STTD C 0 89
+    FrameIndex STTD D 0 90
+    FrameIndex STTD E 0 91
+    FrameIndex STTD F 0 92
+    FrameIndex STTD G 0 93
+    FrameIndex STTD H 0 94 //DiveShotEnd
+    FrameIndex STTD I 0 95 //PainStart
+    FrameIndex STTD J 0 96
+    FrameIndex STTD K 0 97
+    FrameIndex STTD L 0 98
+    FrameIndex STTD M 0 99
+    FrameIndex STTD N 0 100
+    FrameIndex STTD O 0 101
+    FrameIndex STTD P 0 102
+    FrameIndex STTD Q 0 103
+    FrameIndex STTD R 0 104
+    FrameIndex STTD S 0 105 //PainEnd
+    FrameIndex STTD T 0 106 //IdleStart
+    FrameIndex STTD U 0 107
+    FrameIndex STTD V 0 108
+    FrameIndex STTD W 0 109
+    FrameIndex STTD X 0 110
+    FrameIndex STTD Y 0 111
+    FrameIndex STTD Z 0 112
+    FrameIndex STTD [ 0 113
+    FrameIndex STTD \ 0 114
+    FrameIndex STTD ] 0 115
+    FrameIndex STTE A 0 116
+    FrameIndex STTE B 0 117
+    FrameIndex STTE C 0 118
+    FrameIndex STTE D 0 119
+    FrameIndex STTE E 0 120
+    FrameIndex STTE F 0 121
+    FrameIndex STTE G 0 122
+    FrameIndex STTE H 0 123
+    FrameIndex STTE I 0 124
+    FrameIndex STTE J 0 125
+    FrameIndex STTE K 0 126 //IdleEnd
+    FrameIndex STTE L 0 127 //SpineDiveStart
+    FrameIndex STTE M 0 128
+    FrameIndex STTE N 0 129
+    FrameIndex STTE O 0 130
+    FrameIndex STTE P 0 131
+    FrameIndex STTE Q 0 132
+    FrameIndex STTE R 0 133
+    FrameIndex STTE S 0 134
+    FrameIndex STTE T 0 135
+    FrameIndex STTE U 0 136
+    FrameIndex STTE V 0 137
+    FrameIndex STTE W 0 138
+    FrameIndex STTE X 0 139
+    FrameIndex STTE Y 0 140
+    FrameIndex STTE Z 0 141
+    FrameIndex STTE [ 0 142
+    FrameIndex STTE \ 0 143
+    FrameIndex STTE ] 0 144
+    FrameIndex STTF A 0 145
+    FrameIndex STTF B 0 146
+    FrameIndex STTF C 0 147
+    FrameIndex STTF D 0 148
+    FrameIndex STTF E 0 149
+    FrameIndex STTF F 0 150
+    FrameIndex STTF G 0 151
+    FrameIndex STTF H 0 152
+    FrameIndex STTF I 0 153
+    FrameIndex STTF J 0 154
+    FrameIndex STTF K 0 155
+    FrameIndex STTF L 0 156
+    FrameIndex STTF M 0 157 //SpineDiveEnd
+    FrameIndex STTF N 0 158 //MovingStart
+    FrameIndex STTF O 0 159
+    FrameIndex STTF P 0 160
+    FrameIndex STTF Q 0 161
+    FrameIndex STTF R 0 162
+    FrameIndex STTF S 0 163
+    FrameIndex STTF T 0 164
+    FrameIndex STTF U 0 165
+    FrameIndex STTF V 0 166
+    FrameIndex STTF W 0 167
+    FrameIndex STTF X 0 168
+    FrameIndex STTF Y 0 169
+    FrameIndex STTF Z 0 170
+    FrameIndex STTF [ 0 171
+    FrameIndex STTF \ 0 172
+    FrameIndex STTF ] 0 173 //MovingEnd
+	FrameIndex STTG A 0 174 //DeathStart
+    FrameIndex STTG B 0 175
+    FrameIndex STTG C 0 176
+    FrameIndex STTG D 0 177
+    FrameIndex STTG E 0 178
+    FrameIndex STTG F 0 179
+    FrameIndex STTG G 0 180
+    FrameIndex STTG H 0 181
+    FrameIndex STTG I 0 182
+    FrameIndex STTG J 0 183
+    FrameIndex STTG K 0 184
+    FrameIndex STTG L 0 185
+    FrameIndex STTG M 0 186
+    FrameIndex STTG N 0 187
+    FrameIndex STTG O 0 188
+    FrameIndex STTG P 0 189
+    FrameIndex STTG Q 0 190
+    FrameIndex STTG R 0 191
+    FrameIndex STTG S 0 192
+    FrameIndex STTG T 0 193
+    FrameIndex STTG U 0 194 //DeathEnd
+}
+
+Model CStalker
+{
+	Path models
+    Model 0 "StalkerX.md3"
+	SurfaceSkin 0 0 "materials/Stalker/Stalker.png"
+	SurfaceSkin 0 1 "materials/Flesh/Flesh.png"
+    Scale 3.0 3.0 3.6
+	Offset 0 0 10 
+    USEACTORPITCH
+    USEACTORROLL
+	
+	FrameIndex STXA A 0 0
+    FrameIndex STXA B 0 1
+    FrameIndex STXA C 0 2
+    FrameIndex STXA D 0 3
+    FrameIndex STXA E 0 4
+    FrameIndex STXA F 0 5
+    FrameIndex STXA G 0 6
+    FrameIndex STXA H 0 7
+    FrameIndex STXA I 0 8
+    FrameIndex STXA J 0 9
+    FrameIndex STXA K 0 10
+    FrameIndex STXA L 0 11
+    FrameIndex STXA M 0 12
+    FrameIndex STXA N 0 13
+    FrameIndex STXA O 0 14
+    FrameIndex STXA P 0 15
+    FrameIndex STXA Q 0 16
+    FrameIndex STXA R 0 17
+    FrameIndex STXA S 0 18
+    FrameIndex STXA T 0 19
+    FrameIndex STXA U 0 20
+    FrameIndex STXA V 0 21
+    FrameIndex STXA W 0 22
+    FrameIndex STXA X 0 23
+    FrameIndex STXA Y 0 24
+    FrameIndex STXA Z 0 25
+    FrameIndex STXA [ 0 26
+    FrameIndex STXA \ 0 27
+    FrameIndex STXA ] 0 28
+    FrameIndex STXB A 0 29
+    FrameIndex STXB B 0 30
+    FrameIndex STXB C 0 31
+    FrameIndex STXB D 0 32
+    FrameIndex STXB E 0 33
+    FrameIndex STXB F 0 34
+    FrameIndex STXB G 0 35
+    FrameIndex STXB H 0 36
+    FrameIndex STXB I 0 37
+    FrameIndex STXB J 0 38
+	
+}
+
+Model CStalkerBoss
+{
+	Path models
+    Model 0 "StalkerX.md3"
+	SurfaceSkin 0 0 "materials/Stalker/Stalker_B.png"
+	SurfaceSkin 0 1 "materials/Flesh/Flesh.png"
+    Scale 3.0 3.0 3.6
+	Offset 0 0 0 
+    USEACTORPITCH
+    USEACTORROLL
+	
+	FrameIndex STXA A 0 0
+    FrameIndex STXA B 0 1
+    FrameIndex STXA C 0 2
+    FrameIndex STXA D 0 3
+    FrameIndex STXA E 0 4
+    FrameIndex STXA F 0 5
+    FrameIndex STXA G 0 6
+    FrameIndex STXA H 0 7
+    FrameIndex STXA I 0 8
+    FrameIndex STXA J 0 9
+    FrameIndex STXA K 0 10
+    FrameIndex STXA L 0 11
+    FrameIndex STXA M 0 12
+    FrameIndex STXA N 0 13
+    FrameIndex STXA O 0 14
+    FrameIndex STXA P 0 15
+    FrameIndex STXA Q 0 16
+    FrameIndex STXA R 0 17
+    FrameIndex STXA S 0 18
+    FrameIndex STXA T 0 19
+    FrameIndex STXA U 0 20
+    FrameIndex STXA V 0 21
+    FrameIndex STXA W 0 22
+    FrameIndex STXA X 0 23
+    FrameIndex STXA Y 0 24
+    FrameIndex STXA Z 0 25
+    FrameIndex STXA [ 0 26
+    FrameIndex STXA \ 0 27
+    FrameIndex STXA ] 0 28
+    FrameIndex STXB A 0 29
+    FrameIndex STXB B 0 30
+    FrameIndex STXB C 0 31
+    FrameIndex STXB D 0 32
+    FrameIndex STXB E 0 33
+    FrameIndex STXB F 0 34
+    FrameIndex STXB G 0 35
+    FrameIndex STXB H 0 36
+    FrameIndex STXB I 0 37
+    FrameIndex STXB J 0 38
+	
+}

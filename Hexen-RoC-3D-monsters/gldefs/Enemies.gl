@@ -1,0 +1,153 @@
+//Enemies
+brightmap texture "materials/Wendigo/Wendigo.png" { map "materials/Wendigo/Wendigo_E.png" }
+material texture "materials/Wendigo/Wendigo.png"
+{
+    normal "materials/Wendigo/Wendigo_N.png"
+}
+
+material texture "materials/Centaur/Centaur_Body.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Centaur/Centaur_Body_N.png"
+}
+
+material texture "materials/Centaur/Centaur_Armor_Red.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Centaur/Centaur_Armor_N.png"
+}
+
+material texture "materials/Centaur/Centaur_Armor_Blue.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Centaur/Centaur_Armor_N.png"
+}
+
+material texture "materials/DarkBishop/DarkBishop.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/DarkBishop/DarkBishop_N.png"
+}
+
+material texture "materials/DarkBishop/DarkBishopFreeze.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/DarkBishop/DarkBishop_N.png"
+}
+
+brightmap texture "materials/Ettin/Ettin.png" { map "materials/Ettin/Ettin_E.png" }
+material texture "materials/Ettin/Ettin.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Ettin/Ettin_N.png"
+}
+
+brightmap texture "materials/Afrit/Afrit.png" { map "materials/Afrit/Afrit_E.png" }
+material texture "materials/Afrit/Afrit.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Afrit/Afrit_N.png"
+}
+
+material texture "materials/Serpent/Serpent_Brown.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Serpent/Serpent_N.png"
+}
+
+material texture "materials/Serpent/Serpent_Green.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Serpent/Serpent_N.png"
+}
+
+material texture "materials/Reiver/Reiver.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Reiver/Reiver_N.png"
+}
+
+material texture "materials/Stalker/Stalker.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Stalker/Stalker_N.png"
+}
+
+material texture "materials/Stalker/Stalker_B.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Stalker/Stalker_N.png"
+}
+
+material texture "materials/Wyvern/Wyvern.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Wyvern/Wyvern_N.png"
+}
+
+material texture "materials/Maulotaur/Maulo.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Maulotaur/Maulo_N.png"
+}
+
+material texture "materials/Maulotaur/Maulotaur.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Maulotaur/Maulotaur_N.png"
+}
+
+material texture "materials/Maulotaur/Maulotaur_Armor.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Maulotaur/Maulotaur_Armor_N.png"
+}
+
+material texture "materials/MageBoss/Mage_Blue.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/MageBoss/MageBoss_N.png"
+}
+
+material texture "materials/MageBoss/Mage_Blue2.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/MageBoss/MageBoss_N.png"
+}
+
+material texture "materials/MageBoss/Mage_Red.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/MageBoss/MageBoss_N.png"
+}
+
+material texture "materials/FighterBoss/Fighter.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/FighterBoss/Fighter_N.png"
+}
+
+material texture "materials/ClericBoss/Cleric.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/ClericBoss/Cleric_N.png"
+}
+
+material texture "materials/Heresiarch/Heresiarch.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Heresiarch/Heresiarch_N.png"
+}
+
+material texture "materials/Korax/Korax.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Korax/Korax_N.png"
+}
+
+//Misc
+material texture "materials/Flesh/Flesh.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Flesh/Flesh_N.png"
+}

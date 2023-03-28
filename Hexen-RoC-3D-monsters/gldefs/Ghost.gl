@@ -1,0 +1,46 @@
+
+flickerlight2 SpiritGlow
+{
+    attenuate 1
+	color 1.0 1.0 1.0
+    size 15
+    secondarysize 20
+    interval 0.1
+    offset 0 0 0
+}
+
+object CHolySpirit
+{
+	frame WRTAA { light SpiritGlow }
+	frame WRTAB { light SpiritGlow }
+	frame WRTAC { light SpiritGlow }
+	frame WRTAD { light SpiritGlow }
+	frame WRTAE { light SpiritGlow }
+	frame WRTAF { light SpiritGlow }
+	frame WRTAG { light SpiritGlow }
+	frame WRTAH { light SpiritGlow }
+	frame WRTAI { light SpiritGlow }
+	frame WRTAJ { light SpiritGlow }
+	frame WRTAK { light SpiritGlow }
+	frame WRTAL { light SpiritGlow }
+	frame WRTAM { light SpiritGlow }
+	frame WRTAN { light SpiritGlow }
+	frame WRTAO { light SpiritGlow }
+	frame WRTAP { light SpiritGlow }
+	frame WRTAQ { light SpiritGlow }
+	frame WRTAR { light SpiritGlow }
+	frame WRTAS { light SpiritGlow }
+	frame WRTAT { light SpiritGlow }
+	frame WRTAU { light SpiritGlow }
+	frame WRTAV { light SpiritGlow }
+	frame WRTAW { light SpiritGlow }
+	frame WRTAX { light SpiritGlow }
+	frame WRTAY { light SpiritGlow }
+	frame WRTAZ { light SpiritGlow }
+	frame WRTA[ { light SpiritGlow }
+	frame WRTA\ { light SpiritGlow }
+	frame WRTA] { light SpiritGlow }
+	frame WRTBA { light SpiritGlow }
+	frame WRTBB { light SpiritGlow }
+	frame WRTBC { light SpiritGlow }
+}

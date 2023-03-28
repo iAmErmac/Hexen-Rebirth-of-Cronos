@@ -1,0 +1,404 @@
+Model CChaosSerpent
+{
+	Path models
+    Model 0 "Serpent.md3"
+	Skin 0 "materials/Serpent/Serpent_Green.png"
+    Scale 4.0 4.0 4.8
+	Offset 0 0 0 
+    USEACTORPITCH
+    USEACTORROLL
+
+	FrameIndex SATA A 0 0 //BiteStart
+    FrameIndex SATA B 0 1
+    FrameIndex SATA C 0 2
+    FrameIndex SATA D 0 3
+    FrameIndex SATA E 0 4
+    FrameIndex SATA F 0 5
+    FrameIndex SATA G 0 6
+    FrameIndex SATA H 0 7
+    FrameIndex SATA I 0 8
+    FrameIndex SATA J 0 9
+    FrameIndex SATA K 0 10
+    FrameIndex SATA L 0 11
+    FrameIndex SATA M 0 12
+    FrameIndex SATA N 0 13
+    FrameIndex SATA O 0 14
+    FrameIndex SATA P 0 15 //BiteEnd
+    FrameIndex SATA Q 0 16 //PainStart
+    FrameIndex SATA R 0 17
+    FrameIndex SATA S 0 18
+    FrameIndex SATA T 0 19
+    FrameIndex SATA U 0 20
+    FrameIndex SATA V 0 21
+    FrameIndex SATA W 0 22
+    FrameIndex SATA X 0 23
+    FrameIndex SATA Y 0 24
+    FrameIndex SATA Z 0 25
+    FrameIndex SATA [ 0 26
+    FrameIndex SATA \ 0 27
+    FrameIndex SATA ] 0 28
+    FrameIndex SATB A 0 29 //PainEnd
+    FrameIndex SATB B 0 30 //IdleStart
+    FrameIndex SATB C 0 31
+    FrameIndex SATB D 0 32
+    FrameIndex SATB E 0 33
+    FrameIndex SATB F 0 34
+    FrameIndex SATB G 0 35
+    FrameIndex SATB H 0 36
+    FrameIndex SATB I 0 37
+    FrameIndex SATB J 0 38
+    FrameIndex SATB K 0 39
+    FrameIndex SATB L 0 40
+    FrameIndex SATB M 0 41
+    FrameIndex SATB N 0 42
+    FrameIndex SATB O 0 43
+    FrameIndex SATB P 0 44
+    FrameIndex SATB Q 0 45
+    FrameIndex SATB R 0 46
+    FrameIndex SATB S 0 47
+    FrameIndex SATB T 0 48
+    FrameIndex SATB U 0 49
+    FrameIndex SATB V 0 50
+    FrameIndex SATB W 0 51
+    FrameIndex SATB X 0 52
+    FrameIndex SATB Y 0 53
+    FrameIndex SATB Z 0 54
+    FrameIndex SATB [ 0 55 //IdleEnd
+    FrameIndex SATB \ 0 56 //ShootStart
+    FrameIndex SATB ] 0 57
+    FrameIndex SATC A 0 58
+    FrameIndex SATC B 0 59
+    FrameIndex SATC C 0 60
+    FrameIndex SATC D 0 61
+    FrameIndex SATC E 0 62
+    FrameIndex SATC F 0 63
+    FrameIndex SATC G 0 64
+    FrameIndex SATC H 0 65
+    FrameIndex SATC I 0 66
+    FrameIndex SATC J 0 67
+    FrameIndex SATC K 0 68
+    FrameIndex SATC L 0 69
+    FrameIndex SATC M 0 70
+    FrameIndex SATC N 0 71
+    FrameIndex SATC O 0 72
+    FrameIndex SATC P 0 73
+    FrameIndex SATC Q 0 74
+    FrameIndex SATC R 0 75
+    FrameIndex SATC S 0 76 //ShootEnd
+    FrameIndex SATC T 0 77 //WalkStart
+    FrameIndex SATC U 0 78
+    FrameIndex SATC V 0 79
+    FrameIndex SATC W 0 80
+    FrameIndex SATC X 0 81
+    FrameIndex SATC Y 0 82
+    FrameIndex SATC Z 0 83
+    FrameIndex SATC [ 0 84
+    FrameIndex SATC \ 0 85
+    FrameIndex SATC ] 0 86
+    FrameIndex SATD A 0 87
+    FrameIndex SATD B 0 88
+    FrameIndex SATD C 0 89
+    FrameIndex SATD D 0 90
+    FrameIndex SATD E 0 91
+    FrameIndex SATD F 0 92
+    FrameIndex SATD G 0 93
+    FrameIndex SATD H 0 94
+    FrameIndex SATD I 0 95
+    FrameIndex SATD J 0 96
+    FrameIndex SATD K 0 97 //WalkEnd
+    FrameIndex SATD L 0 98 //DeathStart
+    FrameIndex SATD M 0 99
+    FrameIndex SATD N 0 100
+    FrameIndex SATD O 0 101
+    FrameIndex SATD P 0 102
+    FrameIndex SATD Q 0 103
+    FrameIndex SATD R 0 104
+    FrameIndex SATD S 0 105
+    FrameIndex SATD T 0 106
+    FrameIndex SATD U 0 107
+    FrameIndex SATD V 0 108
+    FrameIndex SATD W 0 109
+    FrameIndex SATD X 0 110
+    FrameIndex SATD Y 0 111
+    FrameIndex SATD Z 0 112
+    FrameIndex SATD [ 0 113
+    FrameIndex SATD \ 0 114
+    FrameIndex SATD ] 0 115
+    FrameIndex SATE A 0 116
+    FrameIndex SATE B 0 117
+    FrameIndex SATE C 0 118
+    FrameIndex SATE D 0 119
+    FrameIndex SATE E 0 120
+    FrameIndex SATE F 0 121
+    FrameIndex SATE G 0 122
+    FrameIndex SATE H 0 123
+    FrameIndex SATE I 0 124
+    FrameIndex SATE J 0 125
+    FrameIndex SATE K 0 126
+    FrameIndex SATE L 0 127
+    FrameIndex SATE M 0 128
+    FrameIndex SATE N 0 129
+    FrameIndex SATE O 0 130
+    FrameIndex SATE P 0 131
+    FrameIndex SATE Q 0 132
+    FrameIndex SATE R 0 133
+    FrameIndex SATE S 0 134 //DeathEnd
+}
+
+Model CChaosSerpent
+{
+	Path models
+    Model 0 "SerpentX.md3"
+	SurfaceSkin 0 0 "materials/Serpent/Serpent_Green.png"
+	SurfaceSkin 0 1 "materials/Flesh/Flesh.png"
+    Scale 4.0 4.0 4.8
+	Offset 0 0 0 
+    USEACTORPITCH
+    USEACTORROLL
+
+	FrameIndex SXDA A 0 0
+    FrameIndex SXDA B 0 1
+    FrameIndex SXDA C 0 2
+    FrameIndex SXDA D 0 3
+    FrameIndex SXDA E 0 4
+    FrameIndex SXDA F 0 5
+    FrameIndex SXDA G 0 6
+    FrameIndex SXDA H 0 7
+    FrameIndex SXDA I 0 8
+    FrameIndex SXDA J 0 9
+    FrameIndex SXDA K 0 10
+    FrameIndex SXDA L 0 11
+    FrameIndex SXDA M 0 12
+    FrameIndex SXDA N 0 13
+    FrameIndex SXDA O 0 14
+    FrameIndex SXDA P 0 15
+    FrameIndex SXDA Q 0 16
+    FrameIndex SXDA R 0 17
+    FrameIndex SXDA S 0 18
+    FrameIndex SXDA T 0 19
+    FrameIndex SXDA U 0 20
+    FrameIndex SXDA V 0 21
+    FrameIndex SXDA W 0 22
+	ZOffset -2.0
+    FrameIndex SXDA X 0 23
+    FrameIndex SXDA Y 0 24
+	ZOffset -4.0
+    FrameIndex SXDA Z 0 25
+    FrameIndex SXDA [ 0 26
+	ZOffset -6.0
+    FrameIndex SXDA \ 0 27
+    FrameIndex SXDA ] 0 28
+    FrameIndex SXDB A 0 29
+    FrameIndex SXDB B 0 30
+    FrameIndex SXDB C 0 31
+    FrameIndex SXDB D 0 32
+    FrameIndex SXDB E 0 33
+    FrameIndex SXDB F 0 34
+    FrameIndex SXDB G 0 35
+    FrameIndex SXDB H 0 36
+    FrameIndex SXDB I 0 37
+    FrameIndex SXDB J 0 38
+}
+
+Model CSerpent
+{
+	Path models
+    Model 0 "Serpent.md3"
+	Skin 0 "materials/Serpent/Serpent_Brown.png"
+    Scale 4.0 4.0 4.8
+	Offset 0 0 0 
+    USEACTORPITCH
+    USEACTORROLL
+
+	FrameIndex SATA A 0 0 //BiteStart
+    FrameIndex SATA B 0 1
+    FrameIndex SATA C 0 2
+    FrameIndex SATA D 0 3
+    FrameIndex SATA E 0 4
+    FrameIndex SATA F 0 5
+    FrameIndex SATA G 0 6
+    FrameIndex SATA H 0 7
+    FrameIndex SATA I 0 8
+    FrameIndex SATA J 0 9
+    FrameIndex SATA K 0 10
+    FrameIndex SATA L 0 11
+    FrameIndex SATA M 0 12
+    FrameIndex SATA N 0 13
+    FrameIndex SATA O 0 14
+    FrameIndex SATA P 0 15 //BiteEnd
+    FrameIndex SATA Q 0 16 //PainStart
+    FrameIndex SATA R 0 17
+    FrameIndex SATA S 0 18
+    FrameIndex SATA T 0 19
+    FrameIndex SATA U 0 20
+    FrameIndex SATA V 0 21
+    FrameIndex SATA W 0 22
+    FrameIndex SATA X 0 23
+    FrameIndex SATA Y 0 24
+    FrameIndex SATA Z 0 25
+    FrameIndex SATA [ 0 26
+    FrameIndex SATA \ 0 27
+    FrameIndex SATA ] 0 28
+    FrameIndex SATB A 0 29 //PainEnd
+    FrameIndex SATB B 0 30 //IdleStart
+    FrameIndex SATB C 0 31
+    FrameIndex SATB D 0 32
+    FrameIndex SATB E 0 33
+    FrameIndex SATB F 0 34
+    FrameIndex SATB G 0 35
+    FrameIndex SATB H 0 36
+    FrameIndex SATB I 0 37
+    FrameIndex SATB J 0 38
+    FrameIndex SATB K 0 39
+    FrameIndex SATB L 0 40
+    FrameIndex SATB M 0 41
+    FrameIndex SATB N 0 42
+    FrameIndex SATB O 0 43
+    FrameIndex SATB P 0 44
+    FrameIndex SATB Q 0 45
+    FrameIndex SATB R 0 46
+    FrameIndex SATB S 0 47
+    FrameIndex SATB T 0 48
+    FrameIndex SATB U 0 49
+    FrameIndex SATB V 0 50
+    FrameIndex SATB W 0 51
+    FrameIndex SATB X 0 52
+    FrameIndex SATB Y 0 53
+    FrameIndex SATB Z 0 54
+    FrameIndex SATB [ 0 55 //IdleEnd
+    FrameIndex SATB \ 0 56 //ShootStart
+    FrameIndex SATB ] 0 57
+    FrameIndex SATC A 0 58
+    FrameIndex SATC B 0 59
+    FrameIndex SATC C 0 60
+    FrameIndex SATC D 0 61
+    FrameIndex SATC E 0 62
+    FrameIndex SATC F 0 63
+    FrameIndex SATC G 0 64
+    FrameIndex SATC H 0 65
+    FrameIndex SATC I 0 66
+    FrameIndex SATC J 0 67
+    FrameIndex SATC K 0 68
+    FrameIndex SATC L 0 69
+    FrameIndex SATC M 0 70
+    FrameIndex SATC N 0 71
+    FrameIndex SATC O 0 72
+    FrameIndex SATC P 0 73
+    FrameIndex SATC Q 0 74
+    FrameIndex SATC R 0 75
+    FrameIndex SATC S 0 76 //ShootEnd
+    FrameIndex SATC T 0 77 //WalkStart
+    FrameIndex SATC U 0 78
+    FrameIndex SATC V 0 79
+    FrameIndex SATC W 0 80
+    FrameIndex SATC X 0 81
+    FrameIndex SATC Y 0 82
+    FrameIndex SATC Z 0 83
+    FrameIndex SATC [ 0 84
+    FrameIndex SATC \ 0 85
+    FrameIndex SATC ] 0 86
+    FrameIndex SATD A 0 87
+    FrameIndex SATD B 0 88
+    FrameIndex SATD C 0 89
+    FrameIndex SATD D 0 90
+    FrameIndex SATD E 0 91
+    FrameIndex SATD F 0 92
+    FrameIndex SATD G 0 93
+    FrameIndex SATD H 0 94
+    FrameIndex SATD I 0 95
+    FrameIndex SATD J 0 96
+    FrameIndex SATD K 0 97 //WalkEnd
+    FrameIndex SATD L 0 98 //DeathStart
+    FrameIndex SATD M 0 99
+    FrameIndex SATD N 0 100
+    FrameIndex SATD O 0 101
+    FrameIndex SATD P 0 102
+    FrameIndex SATD Q 0 103
+    FrameIndex SATD R 0 104
+    FrameIndex SATD S 0 105
+    FrameIndex SATD T 0 106
+    FrameIndex SATD U 0 107
+    FrameIndex SATD V 0 108
+    FrameIndex SATD W 0 109
+    FrameIndex SATD X 0 110
+    FrameIndex SATD Y 0 111
+    FrameIndex SATD Z 0 112
+    FrameIndex SATD [ 0 113
+    FrameIndex SATD \ 0 114
+    FrameIndex SATD ] 0 115
+    FrameIndex SATE A 0 116
+    FrameIndex SATE B 0 117
+    FrameIndex SATE C 0 118
+    FrameIndex SATE D 0 119
+    FrameIndex SATE E 0 120
+    FrameIndex SATE F 0 121
+    FrameIndex SATE G 0 122
+    FrameIndex SATE H 0 123
+    FrameIndex SATE I 0 124
+    FrameIndex SATE J 0 125
+    FrameIndex SATE K 0 126
+    FrameIndex SATE L 0 127
+    FrameIndex SATE M 0 128
+    FrameIndex SATE N 0 129
+    FrameIndex SATE O 0 130
+    FrameIndex SATE P 0 131
+    FrameIndex SATE Q 0 132
+    FrameIndex SATE R 0 133
+    FrameIndex SATE S 0 134 //DeathEnd
+}
+
+Model CSerpent
+{
+	Path models
+    Model 0 "SerpentX.md3"
+	SurfaceSkin 0 0 "materials/Serpent/Serpent_Brown.png"
+	SurfaceSkin 0 1 "materials/Flesh/Flesh.png"
+    Scale 4.0 4.0 4.8
+	Offset 0 0 0 
+    USEACTORPITCH
+    USEACTORROLL
+	
+	FrameIndex SXDA A 0 0
+    FrameIndex SXDA B 0 1
+    FrameIndex SXDA C 0 2
+    FrameIndex SXDA D 0 3
+    FrameIndex SXDA E 0 4
+    FrameIndex SXDA F 0 5
+    FrameIndex SXDA G 0 6
+    FrameIndex SXDA H 0 7
+    FrameIndex SXDA I 0 8
+    FrameIndex SXDA J 0 9
+    FrameIndex SXDA K 0 10
+    FrameIndex SXDA L 0 11
+    FrameIndex SXDA M 0 12
+    FrameIndex SXDA N 0 13
+    FrameIndex SXDA O 0 14
+    FrameIndex SXDA P 0 15
+    FrameIndex SXDA Q 0 16
+    FrameIndex SXDA R 0 17
+    FrameIndex SXDA S 0 18
+    FrameIndex SXDA T 0 19
+    FrameIndex SXDA U 0 20
+    FrameIndex SXDA V 0 21
+    FrameIndex SXDA W 0 22
+	ZOffset -2.0
+    FrameIndex SXDA X 0 23
+    FrameIndex SXDA Y 0 24
+	ZOffset -4.0
+    FrameIndex SXDA Z 0 25
+    FrameIndex SXDA [ 0 26
+	ZOffset -6.0
+    FrameIndex SXDA \ 0 27
+    FrameIndex SXDA ] 0 28
+    FrameIndex SXDB A 0 29
+    FrameIndex SXDB B 0 30
+    FrameIndex SXDB C 0 31
+    FrameIndex SXDB D 0 32
+    FrameIndex SXDB E 0 33
+    FrameIndex SXDB F 0 34
+    FrameIndex SXDB G 0 35
+    FrameIndex SXDB H 0 36
+    FrameIndex SXDB I 0 37
+    FrameIndex SXDB J 0 38
+
+}
