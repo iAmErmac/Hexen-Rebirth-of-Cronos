@@ -1,0 +1,27 @@
+
+brightmap texture "materials/Fireball/Flame1.png" { map "materials/Fireball/Flame1.png" }
+brightmap texture "materials/Fireball/Flame2.png" { map "materials/Fireball/Flame2.png" }
+brightmap texture "materials/Fireball/Flame3.png" { map "materials/Fireball/Flame3.png" }
+brightmap texture "materials/Fireball/Flame4.png" { map "materials/Fireball/Flame4.png" }
+brightmap texture "materials/Fireball/Flame5.png" { map "materials/Fireball/Flame5.png" }
+brightmap texture "materials/Fireball/Flame6.png" { map "materials/Fireball/Flame6.png" }
+brightmap texture "materials/Fireball/Flame7.png" { map "materials/Fireball/Flame7.png" }
+brightmap texture "materials/Fireball/Flame8.png" { map "materials/Fireball/Flame8.png" }
+brightmap texture "materials/Fireball/Flame9.png" { map "materials/Fireball/Flame9.png" }
+
+brightmap texture "materials/Fireball/Fireball.png" { map "materials/Fireball/Fireball.png" }
+material texture "materials/Fireball/Fireball.png"
+{
+    normal "materials/Fireball/Fireball_N.png"
+    specular "materials/Fireball/Fireball_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Projectiles/Projectiles.png"
+{
+    normal "materials/Projectiles/Projectiles_N.png"
+    specular "materials/Projectiles/Projectiles_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}

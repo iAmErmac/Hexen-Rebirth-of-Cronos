@@ -1,0 +1,3241 @@
+material texture "BOOKS01"
+{
+	normal "materials/Textures/BOOKS01_N.png"
+	specular "materials/Textures/BOOKS01_S.png"
+	metallic "materials/Textures/BOOKS01_S.png"
+	roughness "materials/Textures/BOOKS01_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "BOOKS02"
+{
+	normal "materials/Textures/BOOKS02_N.png"
+	specular "materials/Textures/BOOKS02_S.png"
+	metallic "materials/Textures/BOOKS02_S.png"
+	roughness "materials/Textures/BOOKS02_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "BOOKS03"
+{
+	normal "materials/Textures/BOOKS03_N.png"
+	specular "materials/Textures/BOOKS03_S.png"
+	metallic "materials/Textures/BOOKS03_S.png"
+	roughness "materials/Textures/BOOKS03_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "BOOKS04"
+{
+	normal "materials/Textures/BOOKS04_N.png"
+	specular "materials/Textures/BOOKS04_S.png"
+	metallic "materials/Textures/BOOKS04_S.png"
+	roughness "materials/Textures/BOOKS04_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "BOSSK1"
+{
+	normal "materials/Textures/BOSSK1_N.png"
+	specular "materials/Textures/BOSSK1_S.png"
+	metallic "materials/Textures/BOSSK1_S.png"
+	roughness "materials/Textures/BOSSK1_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+brightmap texture "BOSSK2" { map "materials/Textures/BOSSK2_E.png" }
+material texture "BOSSK2"
+{
+	normal "materials/Textures/BOSSK2_N.png"
+	specular "materials/Textures/BOSSK2_S.png"
+	metallic "materials/Textures/BOSSK2_S.png"
+	roughness "materials/Textures/BOSSK2_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "BRASS1"
+{
+	normal "materials/Textures/BRASS1_N.png"
+	specular "materials/Textures/BRASS1_S.png"
+	metallic "materials/Textures/BRASS1_S.png"
+	roughness "materials/Textures/BRASS1_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "BRASS3"
+{
+	normal "materials/Textures/BRASS3_N.png"
+	specular "materials/Textures/BRASS3_S.png"
+	metallic "materials/Textures/BRASS3_S.png"
+	roughness "materials/Textures/BRASS3_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "BRASS4"
+{
+	normal "materials/Textures/BRASS4_N.png"
+	specular "materials/Textures/BRASS4_S.png"
+	metallic "materials/Textures/BRASS4_S.png"
+	roughness "materials/Textures/BRASS4_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CASTLE01"
+{
+	normal "materials/Textures/CASTLE01_N.png"
+	specular "materials/Textures/CASTLE01_S.png"
+	metallic "materials/Textures/CASTLE01_S.png"
+	roughness "materials/Textures/CASTLE01_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CASTLE02"
+{
+	normal "materials/Textures/CASTLE02_N.png"
+	specular "materials/Textures/CASTLE02_S.png"
+	metallic "materials/Textures/CASTLE02_S.png"
+	roughness "materials/Textures/CASTLE02_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CASTLE03"
+{
+	normal "materials/Textures/CASTLE03_N.png"
+	specular "materials/Textures/CASTLE03_S.png"
+	metallic "materials/Textures/CASTLE03_S.png"
+	roughness "materials/Textures/CASTLE03_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CASTLE04"
+{
+	normal "materials/Textures/CASTLE04_N.png"
+	specular "materials/Textures/CASTLE04_S.png"
+	metallic "materials/Textures/CASTLE04_S.png"
+	roughness "materials/Textures/CASTLE04_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CASTLE05"
+{
+	normal "materials/Textures/CASTLE05_N.png"
+	specular "materials/Textures/CASTLE05_S.png"
+	metallic "materials/Textures/CASTLE05_S.png"
+	roughness "materials/Textures/CASTLE05_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CASTLE06"
+{
+	normal "materials/Textures/CASTLE06_N.png"
+	specular "materials/Textures/CASTLE06_S.png"
+	metallic "materials/Textures/CASTLE06_S.png"
+	roughness "materials/Textures/CASTLE06_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CASTLE07"
+{
+	normal "materials/Textures/CASTLE07_N.png"
+	specular "materials/Textures/CASTLE07_S.png"
+	metallic "materials/Textures/CASTLE07_S.png"
+	roughness "materials/Textures/CASTLE07_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CASTLE08"
+{
+	normal "materials/Textures/CASTLE08_N.png"
+	specular "materials/Textures/CASTLE08_S.png"
+	metallic "materials/Textures/CASTLE08_S.png"
+	roughness "materials/Textures/CASTLE08_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CASTLE09"
+{
+	normal "materials/Textures/CASTLE09_N.png"
+	specular "materials/Textures/CASTLE09_S.png"
+	metallic "materials/Textures/CASTLE09_S.png"
+	roughness "materials/Textures/CASTLE09_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CASTLE11"
+{
+	normal "materials/Textures/CASTLE11_N.png"
+	specular "materials/Textures/CASTLE11_S.png"
+	metallic "materials/Textures/CASTLE11_S.png"
+	roughness "materials/Textures/CASTLE11_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CAVE01"
+{
+	normal "materials/Textures/CAVE01_N.png"
+	specular "materials/Textures/CAVE01_S.png"
+	metallic "materials/Textures/CAVE01_S.png"
+	roughness "materials/Textures/CAVE01_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CAVE02"
+{
+	normal "materials/Textures/CAVE02_N.png"
+	specular "materials/Textures/CAVE02_S.png"
+	metallic "materials/Textures/CAVE02_S.png"
+	roughness "materials/Textures/CAVE02_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CAVE03"
+{
+	normal "materials/Textures/CAVE03_N.png"
+	specular "materials/Textures/CAVE03_S.png"
+	metallic "materials/Textures/CAVE03_S.png"
+	roughness "materials/Textures/CAVE03_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CAVE04"
+{
+	normal "materials/Textures/CAVE04_N.png"
+	specular "materials/Textures/CAVE04_S.png"
+	metallic "materials/Textures/CAVE04_S.png"
+	roughness "materials/Textures/CAVE04_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CAVE05"
+{
+	normal "materials/Textures/CAVE05_N.png"
+	specular "materials/Textures/CAVE05_S.png"
+	metallic "materials/Textures/CAVE05_S.png"
+	roughness "materials/Textures/CAVE05_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CAVE06"
+{
+	normal "materials/Textures/CAVE06_N.png"
+	specular "materials/Textures/CAVE06_S.png"
+	metallic "materials/Textures/CAVE06_S.png"
+	roughness "materials/Textures/CAVE06_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CAVE07"
+{
+	normal "materials/Textures/CAVE07_N.png"
+	specular "materials/Textures/CAVE07_S.png"
+	metallic "materials/Textures/CAVE07_S.png"
+	roughness "materials/Textures/CAVE07_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CAVE11"
+{
+	normal "materials/Textures/CAVE11_N.png"
+	specular "materials/Textures/CAVE11_S.png"
+	metallic "materials/Textures/CAVE11_S.png"
+	roughness "materials/Textures/CAVE11_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CAVE12"
+{
+	normal "materials/Textures/CAVE12_N.png"
+	specular "materials/Textures/CAVE12_S.png"
+	metallic "materials/Textures/CAVE12_S.png"
+	roughness "materials/Textures/CAVE12_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CHAP1"
+{
+	normal "materials/Textures/CHAP1_N.png"
+	specular "materials/Textures/CHAP1_R.png"
+	roughness "materials/Textures/CHAP1_R.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CHAP2"
+{
+	normal "materials/Textures/CHAP2_N.png"
+	specular "materials/Textures/CHAP2_R.png"
+	roughness "materials/Textures/CHAP2_R.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CHAP3"
+{
+	normal "materials/Textures/CHAP3_N.png"
+	specular "materials/Textures/CHAP3_R.png"
+	roughness "materials/Textures/CHAP3_R.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CLOCK01"
+{
+	normal "materials/Textures/CLOCK01_N.png"
+	specular "materials/Textures/CLOCK01_S.png"
+	metallic "materials/Textures/CLOCK01_S.png"
+	roughness "materials/Textures/CLOCK01_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CLOCK02"
+{
+	normal "materials/Textures/CLOCK02_N.png"
+	specular "materials/Textures/CLOCK02_S.png"
+	metallic "materials/Textures/CLOCK02_S.png"
+	roughness "materials/Textures/CLOCK02_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CLOCK03"
+{
+	normal "materials/Textures/CLOCK03_N.png"
+	specular "materials/Textures/CLOCK03_S.png"
+	metallic "materials/Textures/CLOCK03_S.png"
+	roughness "materials/Textures/CLOCK03_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CLOCK04"
+{
+	normal "materials/Textures/CLOCK04_N.png"
+	specular "materials/Textures/CLOCK04_S.png"
+	metallic "materials/Textures/CLOCK04_S.png"
+	roughness "materials/Textures/CLOCK04_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CLOCK05"
+{
+	normal "materials/Textures/CLOCK05_N.png"
+	specular "materials/Textures/CLOCK05_S.png"
+	metallic "materials/Textures/CLOCK05_S.png"
+	roughness "materials/Textures/CLOCK05_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CLOCK06"
+{
+	normal "materials/Textures/CLOCK06_N.png"
+	specular "materials/Textures/CLOCK06_S.png"
+	metallic "materials/Textures/CLOCK06_S.png"
+	roughness "materials/Textures/CLOCK06_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CLOCK07"
+{
+	normal "materials/Textures/CLOCK07_N.png"
+	specular "materials/Textures/CLOCK07_S.png"
+	metallic "materials/Textures/CLOCK07_S.png"
+	roughness "materials/Textures/CLOCK07_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CLOCK08"
+{
+	normal "materials/Textures/CLOCK08_N.png"
+	specular "materials/Textures/CLOCK08_S.png"
+	metallic "materials/Textures/CLOCK08_S.png"
+	roughness "materials/Textures/CLOCK08_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CLOCK11"
+{
+	normal "materials/Textures/CLOCK11_N.png"
+	specular "materials/Textures/CLOCK11_S.png"
+	metallic "materials/Textures/CLOCK11_S.png"
+	roughness "materials/Textures/CLOCK11_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CLOCK12"
+{
+	normal "materials/Textures/CLOCK12_N.png"
+	specular "materials/Textures/CLOCK12_S.png"
+	metallic "materials/Textures/CLOCK12_S.png"
+	roughness "materials/Textures/CLOCK12_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CLOCK13"
+{
+	normal "materials/Textures/CLOCK13_N.png"
+	specular "materials/Textures/CLOCK13_S.png"
+	metallic "materials/Textures/CLOCK13_S.png"
+	roughness "materials/Textures/CLOCK13_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CLOCK14"
+{
+	normal "materials/Textures/CLOCK14_N.png"
+	specular "materials/Textures/CLOCK14_S.png"
+	metallic "materials/Textures/CLOCK14_S.png"
+	roughness "materials/Textures/CLOCK14_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CLOCK15"
+{
+	normal "materials/Textures/CLOCK15_N.png"
+	specular "materials/Textures/CLOCK15_S.png"
+	metallic "materials/Textures/CLOCK15_S.png"
+	roughness "materials/Textures/CLOCK15_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CLOCK16"
+{
+	normal "materials/Textures/CLOCK16_N.png"
+	specular "materials/Textures/CLOCK16_S.png"
+	metallic "materials/Textures/CLOCK16_S.png"
+	roughness "materials/Textures/CLOCK16_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CLOCK17"
+{
+	normal "materials/Textures/CLOCK17_N.png"
+	specular "materials/Textures/CLOCK17_S.png"
+	metallic "materials/Textures/CLOCK17_S.png"
+	roughness "materials/Textures/CLOCK17_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CLOCK18"
+{
+	normal "materials/Textures/CLOCK18_N.png"
+	specular "materials/Textures/CLOCK18_S.png"
+	metallic "materials/Textures/CLOCK18_S.png"
+	roughness "materials/Textures/CLOCK18_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CLOCKA"
+{
+	normal "materials/Textures/CLOCKA_N.png"
+	specular "materials/Textures/CLOCKA_R.png"
+	metallic "materials/Textures/CLOCKA_M.png"
+	roughness "materials/Textures/CLOCKA_R.png"
+	ao "materials/Textures/CLOCKA_AO.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CLOCKB"
+{
+	normal "materials/Textures/CLOCKB_N.png"
+	specular "materials/Textures/CLOCKB_S.png"
+	metallic "materials/Textures/CLOCKB_S.png"
+	roughness "materials/Textures/CLOCKB_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CLOCKC"
+{
+	normal "materials/Textures/CLOCKC_N.png"
+	specular "materials/Textures/CLOCKC_S.png"
+	metallic "materials/Textures/CLOCKC_S.png"
+	roughness "materials/Textures/CLOCKC_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CRATE01"
+{
+	normal "materials/Textures/CRATE01_N.png"
+	specular "materials/Textures/CRATE01_S.png"
+	metallic "materials/Textures/CRATE01_S.png"
+	roughness "materials/Textures/CRATE01_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CRATE02"
+{
+	normal "materials/Textures/CRATE02_N.png"
+	specular "materials/Textures/CRATE02_S.png"
+	metallic "materials/Textures/CRATE02_S.png"
+	roughness "materials/Textures/CRATE02_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CRATE03"
+{
+	normal "materials/Textures/CRATE03_N.png"
+	specular "materials/Textures/CRATE03_S.png"
+	metallic "materials/Textures/CRATE03_S.png"
+	roughness "materials/Textures/CRATE03_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CRATE04"
+{
+	normal "materials/Textures/CRATE04_N.png"
+	specular "materials/Textures/CRATE04_S.png"
+	metallic "materials/Textures/CRATE04_S.png"
+	roughness "materials/Textures/CRATE04_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "CRATE05"
+{
+	normal "materials/Textures/CRATE05_N.png"
+	specular "materials/Textures/CRATE05_S.png"
+	metallic "materials/Textures/CRATE05_S.png"
+	roughness "materials/Textures/CRATE05_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "D_AXE"
+{
+	normal "materials/Textures/D_AXE_N.png"
+	specular "materials/Textures/D_AXE_S.png"
+	metallic "materials/Textures/D_AXE_S.png"
+	roughness "materials/Textures/D_AXE_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "D_BRASS1"
+{
+	normal "materials/Textures/D_BRASS1_N.png"
+	specular "materials/Textures/D_BRASS1_S.png"
+	metallic "materials/Textures/D_BRASS1_S.png"
+	roughness "materials/Textures/D_BRASS1_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "D_BRASS2"
+{
+	normal "materials/Textures/D_BRASS2_N.png"
+	specular "materials/Textures/D_BRASS2_S.png"
+	metallic "materials/Textures/D_BRASS2_S.png"
+	roughness "materials/Textures/D_BRASS2_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "D_CAST"
+{
+	normal "materials/Textures/D_CAST_N.png"
+	specular "materials/Textures/D_CAST_S.png"
+	metallic "materials/Textures/D_CAST_S.png"
+	roughness "materials/Textures/D_CAST_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "D_ENDBR"
+{
+	normal "materials/Textures/D_END_N.png"
+	specular "materials/Textures/D_END_S.png"
+	metallic "materials/Textures/D_END_S.png"
+	roughness "materials/Textures/D_END_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "D_ENDSLV"
+{
+	normal "materials/Textures/D_END_N.png"
+	specular "materials/Textures/D_END_S.png"
+	metallic "materials/Textures/D_END_S.png"
+	roughness "materials/Textures/D_END_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "D_SLV1"
+{
+	normal "materials/Textures/D_SLV1_N.png"
+	specular "materials/Textures/D_SLV1_S.png"
+	metallic "materials/Textures/D_SLV1_S.png"
+	roughness "materials/Textures/D_SLV1_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "D_SLV2"
+{
+	normal "materials/Textures/D_SLV2_N.png"
+	specular "materials/Textures/D_SLV2_S.png"
+	metallic "materials/Textures/D_SLV2_S.png"
+	roughness "materials/Textures/D_SLV2_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "D_SWAMP2"
+{
+	normal "materials/Textures/D_SWAMP2_N.png"
+	specular "materials/Textures/D_SWAMP2_S.png"
+	metallic "materials/Textures/D_SWAMP2_S.png"
+	roughness "materials/Textures/D_SWAMP2_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "D_WASTE"
+{
+	normal "materials/Textures/D_WASTE_N.png"
+	specular "materials/Textures/D_WASTE_S.png"
+	metallic "materials/Textures/D_WASTE_S.png"
+	roughness "materials/Textures/D_WASTE_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "D_STEEL"
+{
+	normal "materials/Textures/D_STEEL_N.png"
+	specular "materials/Textures/D_STEEL_S.png"
+	metallic "materials/Textures/D_STEEL_S.png"
+	roughness "materials/Textures/D_STEEL_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "D_CAVE"
+{
+	normal "materials/Textures/D_CAVE_N.png"
+	specular "materials/Textures/D_CAVE_S.png"
+	metallic "materials/Textures/D_CAVE_S.png"
+	roughness "materials/Textures/D_CAVE_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "D_CAVE2"
+{
+	normal "materials/Textures/D_CAVE2_N.png"
+	specular "materials/Textures/D_CAVE2_S.png"
+	metallic "materials/Textures/D_CAVE2_S.png"
+	roughness "materials/Textures/D_CAVE2_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "D_DUNGEO"
+{
+	normal "materials/Textures/D_DUNGEO_N.png"
+	specular "materials/Textures/D_DUNGEO_S.png"
+	metallic "materials/Textures/D_DUNGEO_S.png"
+	roughness "materials/Textures/D_DUNGEO_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "D_END1"
+{
+	normal "materials/Textures/D_END1_N.png"
+	specular "materials/Textures/D_END1_S.png"
+	metallic "materials/Textures/D_END1_S.png"
+	roughness "materials/Textures/D_END1_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "D_END2"
+{
+	normal "materials/Textures/D_END2_N.png"
+	specular "materials/Textures/D_END2_S.png"
+	metallic "materials/Textures/D_END2_S.png"
+	roughness "materials/Textures/D_END2_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "D_END3"
+{
+	normal "materials/Textures/D_END3_N.png"
+	specular "materials/Textures/D_END3_S.png"
+	metallic "materials/Textures/D_END3_S.png"
+	roughness "materials/Textures/D_END3_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "D_END4"
+{
+	normal "materials/Textures/D_END4_N.png"
+	specular "materials/Textures/D_END4_S.png"
+	metallic "materials/Textures/D_END4_S.png"
+	roughness "materials/Textures/D_END4_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "D_FIRE"
+{
+	normal "materials/Textures/D_FIRE_N.png"
+	specular "materials/Textures/D_FIRE_S.png"
+	metallic "materials/Textures/D_FIRE_S.png"
+	roughness "materials/Textures/D_FIRE_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "D_RUST"
+{
+	normal "materials/Textures/D_RUST_N.png"
+	specular "materials/Textures/D_RUST_S.png"
+	metallic "materials/Textures/D_RUST_S.png"
+	roughness "materials/Textures/D_RUST_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "D_SILVER"
+{
+	normal "materials/Textures/D_SILVER_N.png"
+	specular "materials/Textures/D_SILVER_S.png"
+	metallic "materials/Textures/D_SILVER_S.png"
+	roughness "materials/Textures/D_SILVER_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "D_WD01"
+{
+	normal "materials/Textures/D_WD01_N.png"
+	specular "materials/Textures/D_WD01_S.png"
+	metallic "materials/Textures/D_WD01_S.png"
+	roughness "materials/Textures/D_WD01_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "D_WD02"
+{
+	normal "materials/Textures/D_WD02_N.png"
+	specular "materials/Textures/D_WD02_S.png"
+	metallic "materials/Textures/D_WD02_S.png"
+	roughness "materials/Textures/D_WD02_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "D_WD03"
+{
+	normal "materials/Textures/D_WD03_N.png"
+	specular "materials/Textures/D_WD03_S.png"
+	metallic "materials/Textures/D_WD03_S.png"
+	roughness "materials/Textures/D_WD03_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "D_WD04"
+{
+	normal "materials/Textures/D_WD04_N.png"
+	specular "materials/Textures/D_WD04_S.png"
+	metallic "materials/Textures/D_WD04_S.png"
+	roughness "materials/Textures/D_WD04_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "D_WD05"
+{
+	normal "materials/Textures/D_WD05_N.png"
+	specular "materials/Textures/D_WD05_S.png"
+	metallic "materials/Textures/D_WD05_S.png"
+	roughness "materials/Textures/D_WD05_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "D_WD06"
+{
+	normal "materials/Textures/D_WD06_N.png"
+	specular "materials/Textures/D_WD06_S.png"
+	metallic "materials/Textures/D_WD06_S.png"
+	roughness "materials/Textures/D_WD06_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "D_WD07"
+{
+	normal "materials/Textures/D_WD07_N.png"
+	specular "materials/Textures/D_WD07_S.png"
+	metallic "materials/Textures/D_WD07_S.png"
+	roughness "materials/Textures/D_WD07_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "D_WD08"
+{
+	normal "materials/Textures/D_WD08_N.png"
+	specular "materials/Textures/D_WD08_S.png"
+	metallic "materials/Textures/D_WD08_S.png"
+	roughness "materials/Textures/D_WD08_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "D_WD09"
+{
+	normal "materials/Textures/D_WD09_N.png"
+	specular "materials/Textures/D_WD09_S.png"
+	metallic "materials/Textures/D_WD09_S.png"
+	roughness "materials/Textures/D_WD09_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "D_WD10"
+{
+	normal "materials/Textures/D_WD10_N.png"
+	specular "materials/Textures/D_WD10_S.png"
+	metallic "materials/Textures/D_WD10_S.png"
+	roughness "materials/Textures/D_WD10_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "D_WINNOW"
+{
+	normal "materials/Textures/D_WINNOW_N.png"
+	specular "materials/Textures/D_WINNOW_S.png"
+	metallic "materials/Textures/D_WINNOW_S.png"
+	roughness "materials/Textures/D_WINNOW_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "DOOR51"
+{
+	normal "materials/Textures/DOOR51_N.png"
+	specular "materials/Textures/DOOR51_S.png"
+	metallic "materials/Textures/DOOR51_S.png"
+	roughness "materials/Textures/DOOR51_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "FIRE01"
+{
+	normal "materials/Textures/FIRE01_N.png"
+	specular "materials/Textures/FIRE01_S.png"
+	metallic "materials/Textures/FIRE01_S.png"
+	roughness "materials/Textures/FIRE01_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "FIRE02"
+{
+	normal "materials/Textures/FIRE02_N.png"
+	specular "materials/Textures/FIRE02_S.png"
+	metallic "materials/Textures/FIRE02_S.png"
+	roughness "materials/Textures/FIRE02_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "FIRE03"
+{
+	normal "materials/Textures/FIRE03_N.png"
+	specular "materials/Textures/FIRE03_S.png"
+	metallic "materials/Textures/FIRE03_S.png"
+	roughness "materials/Textures/FIRE03_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "FIRE04"
+{
+	normal "materials/Textures/FIRE04_N.png"
+	specular "materials/Textures/FIRE04_S.png"
+	metallic "materials/Textures/FIRE04_S.png"
+	roughness "materials/Textures/FIRE04_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "FIRE05"
+{
+	normal "materials/Textures/FIRE05_N.png"
+	specular "materials/Textures/FIRE05_S.png"
+	metallic "materials/Textures/FIRE05_S.png"
+	roughness "materials/Textures/FIRE05_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "FIRE06"
+{
+	normal "materials/Textures/FIRE06_N.png"
+	specular "materials/Textures/FIRE06_S.png"
+	metallic "materials/Textures/FIRE06_S.png"
+	roughness "materials/Textures/FIRE06_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "FIRE07"
+{
+	normal "materials/Textures/FIRE07_N.png"
+	specular "materials/Textures/FIRE07_S.png"
+	metallic "materials/Textures/FIRE07_S.png"
+	roughness "materials/Textures/FIRE07_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "FIRE08"
+{
+	normal "materials/Textures/FIRE08_N.png"
+	specular "materials/Textures/FIRE08_S.png"
+	metallic "materials/Textures/FIRE08_S.png"
+	roughness "materials/Textures/FIRE08_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "FIRE09"
+{
+	normal "materials/Textures/FIRE09_N.png"
+	specular "materials/Textures/FIRE09_S.png"
+	metallic "materials/Textures/FIRE09_S.png"
+	roughness "materials/Textures/FIRE09_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "FIRE10"
+{
+	normal "materials/Textures/FIRE10_N.png"
+	specular "materials/Textures/FIRE10_S.png"
+	metallic "materials/Textures/FIRE10_S.png"
+	roughness "materials/Textures/FIRE10_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "FIRE11"
+{
+	normal "materials/Textures/FIRE11_N.png"
+	specular "materials/Textures/FIRE11_S.png"
+	metallic "materials/Textures/FIRE11_S.png"
+	roughness "materials/Textures/FIRE11_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "FIRE12"
+{
+	normal "materials/Textures/FIRE12_N.png"
+	specular "materials/Textures/FIRE12_S.png"
+	metallic "materials/Textures/FIRE12_S.png"
+	roughness "materials/Textures/FIRE12_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "FIRE14"
+{
+	normal "materials/Textures/FIRE14_N.png"
+	specular "materials/Textures/FIRE14_S.png"
+	metallic "materials/Textures/FIRE14_S.png"
+	roughness "materials/Textures/FIRE14_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "FIRE15"
+{
+	normal "materials/Textures/FIRE15_N.png"
+	specular "materials/Textures/FIRE15_S.png"
+	metallic "materials/Textures/FIRE15_S.png"
+	roughness "materials/Textures/FIRE15_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "FIRE16"
+{
+	normal "materials/Textures/FIRE16_N.png"
+	specular "materials/Textures/FIRE16_S.png"
+	metallic "materials/Textures/FIRE16_S.png"
+	roughness "materials/Textures/FIRE16_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "FIRE17"
+{
+	normal "materials/Textures/FIRE17_N.png"
+	specular "materials/Textures/FIRE17_S.png"
+	metallic "materials/Textures/FIRE17_S.png"
+	roughness "materials/Textures/FIRE17_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "FOREST01"
+{
+	normal "materials/Textures/FOREST01_N.png"
+	specular "materials/Textures/FOREST01_S.png"
+	metallic "materials/Textures/FOREST01_S.png"
+	roughness "materials/Textures/FOREST01_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "FOREST02"
+{
+	normal "materials/Textures/FOREST02_N.png"
+	specular "materials/Textures/FOREST02_S.png"
+	metallic "materials/Textures/FOREST02_S.png"
+	roughness "materials/Textures/FOREST02_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "FOREST03"
+{
+	normal "materials/Textures/FOREST03_N.png"
+	specular "materials/Textures/FOREST03_S.png"
+	metallic "materials/Textures/FOREST03_S.png"
+	roughness "materials/Textures/FOREST03_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "FOREST04"
+{
+	normal "materials/Textures/FOREST04_N.png"
+	specular "materials/Textures/FOREST04_S.png"
+	metallic "materials/Textures/FOREST04_S.png"
+	roughness "materials/Textures/FOREST04_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "FOREST05"
+{
+	normal "materials/Textures/FOREST05_N.png"
+	specular "materials/Textures/FOREST05_S.png"
+	metallic "materials/Textures/FOREST05_S.png"
+	roughness "materials/Textures/FOREST05_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "FOREST06"
+{
+	normal "materials/Textures/FOREST06_N.png"
+	specular "materials/Textures/FOREST06_S.png"
+	metallic "materials/Textures/FOREST06_S.png"
+	roughness "materials/Textures/FOREST06_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "FOREST07"
+{
+	normal "materials/Textures/FOREST07_N.png"
+	specular "materials/Textures/FOREST07_S.png"
+	metallic "materials/Textures/FOREST07_S.png"
+	roughness "materials/Textures/FOREST07_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "FOREST10"
+{
+	normal "materials/Textures/FOREST10_N.png"
+	specular "materials/Textures/FOREST10_S.png"
+	metallic "materials/Textures/FOREST10_S.png"
+	roughness "materials/Textures/FOREST10_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "FOREST11"
+{
+	normal "materials/Textures/FOREST11_N.png"
+	specular "materials/Textures/FOREST11_S.png"
+	metallic "materials/Textures/FOREST11_S.png"
+	roughness "materials/Textures/FOREST11_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "FOREST12"
+{
+	normal "materials/Textures/FOREST12_N.png"
+	specular "materials/Textures/FOREST12_S.png"
+	metallic "materials/Textures/FOREST12_S.png"
+	roughness "materials/Textures/FOREST12_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "FORPUZ1"
+{
+	normal "materials/Textures/FORPUZ1_N.png"
+	specular "materials/Textures/FORPUZ1_S.png"
+	metallic "materials/Textures/FORPUZ1_S.png"
+	roughness "materials/Textures/FORPUZ1_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "FORPUZ2"
+{
+	normal "materials/Textures/FORPUZ2_N.png"
+	specular "materials/Textures/FORPUZ2_S.png"
+	metallic "materials/Textures/FORPUZ2_S.png"
+	roughness "materials/Textures/FORPUZ2_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "FORPUZ3"
+{
+	normal "materials/Textures/FORPUZ3_N.png"
+	specular "materials/Textures/FORPUZ3_S.png"
+	metallic "materials/Textures/FORPUZ3_S.png"
+	roughness "materials/Textures/FORPUZ3_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "GATE01"
+{
+	normal "materials/Textures/GATE01_N.png"
+	specular "materials/Textures/GATE01_S.png"
+	metallic "materials/Textures/GATE01_S.png"
+	roughness "materials/Textures/GATE01_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "GATE02"
+{
+	normal "materials/Textures/GATE02_N.png"
+	specular "materials/Textures/GATE02_S.png"
+	metallic "materials/Textures/GATE02_S.png"
+	roughness "materials/Textures/GATE02_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "GATE03"
+{
+	normal "materials/Textures/GATE03_N.png"
+	specular "materials/Textures/GATE03_S.png"
+	metallic "materials/Textures/GATE03_S.png"
+	roughness "materials/Textures/GATE03_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "GATE04"
+{
+	normal "materials/Textures/GATE04_N.png"
+	specular "materials/Textures/GATE04_S.png"
+	metallic "materials/Textures/GATE04_S.png"
+	roughness "materials/Textures/GATE04_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "GATE51"
+{
+	normal "materials/Textures/GATE51_N.png"
+	specular "materials/Textures/GATE51_S.png"
+	metallic "materials/Textures/GATE51_S.png"
+	roughness "materials/Textures/GATE51_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "GATE52"
+{
+	normal "materials/Textures/GATE52_N.png"
+	specular "materials/Textures/GATE52_S.png"
+	metallic "materials/Textures/GATE52_S.png"
+	roughness "materials/Textures/GATE52_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "GATE53"
+{
+	normal "materials/Textures/GATE53_N.png"
+	specular "materials/Textures/GATE53_S.png"
+	metallic "materials/Textures/GATE53_S.png"
+	roughness "materials/Textures/GATE53_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "GEAR01"
+{
+	normal "materials/Textures/GEAR01_N.png"
+	metallic "materials/Textures/GEAR01_M.png"
+	roughness "materials/Textures/GEAR01_R.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "GEAR02"
+{
+	normal "materials/Textures/GEAR02_N.png"
+	metallic "materials/Textures/GEAR02_M.png"
+	roughness "materials/Textures/GEAR02_R.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "GEAR03"
+{
+	normal "materials/Textures/GEAR03_N.png"
+	metallic "materials/Textures/GEAR03_M.png"
+	roughness "materials/Textures/GEAR03_R.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "GEAR04"
+{
+	normal "materials/Textures/GEAR04_N.png"
+	metallic "materials/Textures/GEAR04_M.png"
+	roughness "materials/Textures/GEAR04_R.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "GEAR05"
+{
+	normal "materials/Textures/GEAR05_N.png"
+	metallic "materials/Textures/GEAR05_M.png"
+	roughness "materials/Textures/GEAR05_R.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "GEAR0A"
+{
+	normal "materials/Textures/GEAR0A_N.png"
+	metallic "materials/Textures/GEAR0A_M.png"
+	roughness "materials/Textures/GEAR0A_R.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "GEAR0B"
+{
+	normal "materials/Textures/GEAR0B_N.png"
+	metallic "materials/Textures/GEAR0B_M.png"
+	roughness "materials/Textures/GEAR0B_R.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "GEARW"
+{
+	normal "materials/Textures/GEARW_N.png"
+	specular "materials/Textures/GEARW_S.png"
+	metallic "materials/Textures/GEARW_S.png"
+	roughness "materials/Textures/GEARW_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "GEARX"
+{
+	normal "materials/Textures/GEARX_N.png"
+	specular "materials/Textures/GEARX_S.png"
+	metallic "materials/Textures/GEARX_S.png"
+	roughness "materials/Textures/GEARX_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "GEARY"
+{
+	normal "materials/Textures/GEARY_N.png"
+	specular "materials/Textures/GEARY_S.png"
+	metallic "materials/Textures/GEARY_S.png"
+	roughness "materials/Textures/GEARY_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "GEARZ"
+{
+	normal "materials/Textures/GEARZ_N.png"
+	specular "materials/Textures/GEARZ_S.png"
+	metallic "materials/Textures/GEARZ_S.png"
+	roughness "materials/Textures/GEARZ_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "GILO1"
+{
+	normal "materials/Textures/GILO1_N.png"
+	specular "materials/Textures/GILO1_S.png"
+	metallic "materials/Textures/GILO1_M.png"
+	roughness "materials/Textures/GILO1_R.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "GILO2"
+{
+	normal "materials/Textures/GILO2_N.png"
+	specular "materials/Textures/GILO2_S.png"
+	metallic "materials/Textures/GILO2_M.png"
+	roughness "materials/Textures/GILO2_R.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+brightmap texture "GLASS01" { map "materials/Textures/GLASS01_E.png" }
+material texture "GLASS01"
+{
+	normal "materials/Textures/GLASS01_N.png"
+	specular "materials/Textures/GLASS01_S.png"
+	metallic "materials/Textures/GLASS01_S.png"
+	roughness "materials/Textures/GLASS01_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+brightmap texture "GLASS02" { map "materials/Textures/GLASS02_E.png" }
+material texture "GLASS02"
+{
+	normal "materials/Textures/GLASS02_N.png"
+	specular "materials/Textures/GLASS02_S.png"
+	metallic "materials/Textures/GLASS02_S.png"
+	roughness "materials/Textures/GLASS02_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+brightmap texture "GLASS03" { map "materials/Textures/GLASS03_E.png" }
+material texture "GLASS03"
+{
+	normal "materials/Textures/GLASS03_N.png"
+	specular "materials/Textures/GLASS03_S.png"
+	metallic "materials/Textures/GLASS03_S.png"
+	roughness "materials/Textures/GLASS03_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+brightmap texture "GLASS04" { map "materials/Textures/GLASS04_E.png" }
+material texture "GLASS04"
+{
+	normal "materials/Textures/GLASS04_N.png"
+	specular "materials/Textures/GLASS04_S.png"
+	metallic "materials/Textures/GLASS04_S.png"
+	roughness "materials/Textures/GLASS04_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+brightmap texture "GLASS05" { map "materials/Textures/GLASS05_E.png" }
+material texture "GLASS05"
+{
+	normal "materials/Textures/GLASS05_N.png"
+	specular "materials/Textures/GLASS05_S.png"
+	metallic "materials/Textures/GLASS05_S.png"
+	roughness "materials/Textures/GLASS05_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+brightmap texture "GLASS06" { map "materials/Textures/GLASS06_E.png" }
+material texture "GLASS06"
+{
+	normal "materials/Textures/GLASS06_N.png"
+	specular "materials/Textures/GLASS06_S.png"
+	metallic "materials/Textures/GLASS06_S.png"
+	roughness "materials/Textures/GLASS06_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+brightmap texture "GLASS07" { map "materials/Textures/GLASS07_E.png" }
+material texture "GLASS07"
+{
+	normal "materials/Textures/GLASS07_N.png"
+	specular "materials/Textures/GLASS07_R.png"
+	metallic "materials/Textures/GLASS07_M.png"
+	roughness "materials/Textures/GLASS07_R.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "GRAVE01"
+{
+	normal "materials/Textures/GRAVE01_N.png"
+	specular "materials/Textures/GRAVE01_S.png"
+	metallic "materials/Textures/GRAVE01_S.png"
+	roughness "materials/Textures/GRAVE01_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "GRAVE03"
+{
+	normal "materials/Textures/GRAVE03_N.png"
+	specular "materials/Textures/GRAVE03_S.png"
+	metallic "materials/Textures/GRAVE03_S.png"
+	roughness "materials/Textures/GRAVE03_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "GRAVE04"
+{
+	normal "materials/Textures/GRAVE04_N.png"
+	specular "materials/Textures/GRAVE04_S.png"
+	metallic "materials/Textures/GRAVE04_S.png"
+	roughness "materials/Textures/GRAVE04_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "GRAVE05"
+{
+	normal "materials/Textures/GRAVE05_N.png"
+	specular "materials/Textures/GRAVE05_S.png"
+	metallic "materials/Textures/GRAVE05_S.png"
+	roughness "materials/Textures/GRAVE05_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "GRAVE06"
+{
+	normal "materials/Textures/GRAVE06_N.png"
+	specular "materials/Textures/GRAVE06_S.png"
+	metallic "materials/Textures/GRAVE06_S.png"
+	roughness "materials/Textures/GRAVE06_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "GRAVE07"
+{
+	normal "materials/Textures/GRAVE07_N.png"
+	specular "materials/Textures/GRAVE07_S.png"
+	metallic "materials/Textures/GRAVE07_S.png"
+	roughness "materials/Textures/GRAVE07_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "GRAVE08"
+{
+	normal "materials/Textures/GRAVE08_N.png"
+	specular "materials/Textures/GRAVE08_S.png"
+	metallic "materials/Textures/GRAVE08_S.png"
+	roughness "materials/Textures/GRAVE08_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "ICE01"
+{
+	normal "materials/Textures/ICE01_N.png"
+	specular "materials/Textures/ICE01_S.png"
+	metallic "materials/Textures/ICE01_S.png"
+	roughness "materials/Textures/ICE01_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "ICE02"
+{
+	normal "materials/Textures/ICE02_N.png"
+	specular "materials/Textures/ICE02_S.png"
+	metallic "materials/Textures/ICE02_S.png"
+	roughness "materials/Textures/ICE02_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "ICE03"
+{
+	normal "materials/Textures/ICE03_N.png"
+	specular "materials/Textures/ICE03_S.png"
+	metallic "materials/Textures/ICE03_S.png"
+	roughness "materials/Textures/ICE03_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "ICE06"
+{
+	normal "materials/Textures/ICE06_N.png"
+	specular "materials/Textures/ICE06_S.png"
+	metallic "materials/Textures/ICE06_S.png"
+	roughness "materials/Textures/ICE06_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "MONK01"
+{
+	normal "materials/Textures/MONK01_N.png"
+	specular "materials/Textures/MONK01_S.png"
+	metallic "materials/Textures/MONK01_S.png"
+	roughness "materials/Textures/MONK01_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "MONK02"
+{
+	normal "materials/Textures/MONK02_N.png"
+	specular "materials/Textures/MONK02_S.png"
+	metallic "materials/Textures/MONK02_S.png"
+	roughness "materials/Textures/MONK02_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "MONK03"
+{
+	normal "materials/Textures/MONK03_N.png"
+	specular "materials/Textures/MONK03_S.png"
+	metallic "materials/Textures/MONK03_S.png"
+	roughness "materials/Textures/MONK03_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "MONK04"
+{
+	normal "materials/Textures/MONK04_N.png"
+	specular "materials/Textures/MONK04_S.png"
+	metallic "materials/Textures/MONK04_S.png"
+	roughness "materials/Textures/MONK04_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "MONK05"
+{
+	normal "materials/Textures/MONK05_N.png"
+	specular "materials/Textures/MONK05_S.png"
+	metallic "materials/Textures/MONK05_S.png"
+	roughness "materials/Textures/MONK05_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "MONK06"
+{
+	normal "materials/Textures/MONK06_N.png"
+	specular "materials/Textures/MONK06_S.png"
+	metallic "materials/Textures/MONK06_S.png"
+	roughness "materials/Textures/MONK06_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "MONK07"
+{
+	normal "materials/Textures/MONK07_N.png"
+	specular "materials/Textures/MONK07_S.png"
+	metallic "materials/Textures/MONK07_S.png"
+	roughness "materials/Textures/MONK07_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "MONK08"
+{
+	normal "materials/Textures/MONK08_N.png"
+	specular "materials/Textures/MONK08_S.png"
+	metallic "materials/Textures/MONK08_S.png"
+	roughness "materials/Textures/MONK08_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "MONK09"
+{
+	normal "materials/Textures/MONK09_N.png"
+	specular "materials/Textures/MONK09_S.png"
+	metallic "materials/Textures/MONK09_S.png"
+	roughness "materials/Textures/MONK09_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "MONK11"
+{
+	normal "materials/Textures/MONK11_N.png"
+	specular "materials/Textures/MONK11_S.png"
+	metallic "materials/Textures/MONK11_S.png"
+	roughness "materials/Textures/MONK11_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "MONK12"
+{
+	normal "materials/Textures/MONK12_N.png"
+	specular "materials/Textures/MONK12_S.png"
+	metallic "materials/Textures/MONK12_S.png"
+	roughness "materials/Textures/MONK12_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "MONK14"
+{
+	normal "materials/Textures/MONK14_N.png"
+	specular "materials/Textures/MONK14_R.png"
+	metallic "materials/Textures/MONK14_R.png"
+	roughness "materials/Textures/MONK14_R.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "MONK15"
+{
+	normal "materials/Textures/MONK15_N.png"
+	specular "materials/Textures/MONK15_R.png"
+	metallic "materials/Textures/MONK15_R.png"
+	roughness "materials/Textures/MONK15_R.png"
+	ao "materials/Textures/MONK15_AO.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "MONK16"
+{
+	normal "materials/Textures/MONK16_N.png"
+	specular "materials/Textures/MONK16_S.png"
+	metallic "materials/Textures/MONK16_S.png"
+	roughness "materials/Textures/MONK16_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "MONK17"
+{
+	normal "materials/Textures/MONK17_N.png"
+	specular "materials/Textures/MONK17_S.png"
+	metallic "materials/Textures/MONK17_S.png"
+	roughness "materials/Textures/MONK17_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "MONK18"
+{
+	normal "materials/Textures/MONK18_N.png"
+	specular "materials/Textures/MONK18_S.png"
+	metallic "materials/Textures/MONK18_S.png"
+	roughness "materials/Textures/MONK18_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "MONK19"
+{
+	normal "materials/Textures/MONK19_N.png"
+	specular "materials/Textures/MONK19_S.png"
+	metallic "materials/Textures/MONK19_S.png"
+	roughness "materials/Textures/MONK19_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "MONK21"
+{
+	normal "materials/Textures/MONK21_N.png"
+	specular "materials/Textures/MONK21_S.png"
+	metallic "materials/Textures/MONK21_S.png"
+	roughness "materials/Textures/MONK21_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "MONK22"
+{
+	normal "materials/Textures/MONK22_N.png"
+	specular "materials/Textures/MONK22_S.png"
+	metallic "materials/Textures/MONK22_S.png"
+	roughness "materials/Textures/MONK22_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "MONK23"
+{
+	normal "materials/Textures/MONK23_N.png"
+	specular "materials/Textures/MONK23_S.png"
+	metallic "materials/Textures/MONK23_S.png"
+	roughness "materials/Textures/MONK23_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "MONK24"
+{
+	normal "materials/Textures/MONK24_N.png"
+	specular "materials/Textures/MONK24_S.png"
+	metallic "materials/Textures/MONK24_S.png"
+	roughness "materials/Textures/MONK24_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "PILLAR01"
+{
+	normal "materials/Textures/PILLAR01_N.png"
+	specular "materials/Textures/PILLAR01_S.png"
+	metallic "materials/Textures/PILLAR01_S.png"
+	roughness "materials/Textures/PILLAR01_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "PILLAR02"
+{
+	normal "materials/Textures/PILLAR02_N.png"
+	specular "materials/Textures/PILLAR02_S.png"
+	metallic "materials/Textures/PILLAR02_S.png"
+	roughness "materials/Textures/PILLAR02_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "PLANET1"
+{
+	normal "materials/Textures/PLANET1_N.png"
+	specular "materials/Textures/PLANET1_S.png"
+	metallic "materials/Textures/PLANET1_S.png"
+	roughness "materials/Textures/PLANET1_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "PLANET2"
+{
+	normal "materials/Textures/PLANET2_N.png"
+	specular "materials/Textures/PLANET2_S.png"
+	metallic "materials/Textures/PLANET2_S.png"
+	roughness "materials/Textures/PLANET2_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "PRTL02"
+{
+	normal "materials/Textures/PRTL02_N.png"
+	specular "materials/Textures/PRTL02_S.png"
+	metallic "materials/Textures/PRTL02_S.png"
+	roughness "materials/Textures/PRTL02_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "PRTL02"
+{
+	normal "materials/Textures/PRTL03_N.png"
+	specular "materials/Textures/PRTL03_S.png"
+	metallic "materials/Textures/PRTL03_S.png"
+	roughness "materials/Textures/PRTL03_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "PRTL04"
+{
+	normal "materials/Textures/PRTL04_N.png"
+	specular "materials/Textures/PRTL04_S.png"
+	metallic "materials/Textures/PRTL04_S.png"
+	roughness "materials/Textures/PRTL04_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "PRTL05"
+{
+	normal "materials/Textures/PRTL05_N.png"
+	specular "materials/Textures/PRTL05_S.png"
+	metallic "materials/Textures/PRTL05_S.png"
+	roughness "materials/Textures/PRTL05_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "PRTL06"
+{
+	normal "materials/Textures/PRTL06_N.png"
+	specular "materials/Textures/PRTL06_S.png"
+	metallic "materials/Textures/PRTL06_S.png"
+	roughness "materials/Textures/PRTL06_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "PRTL07"
+{
+	normal "materials/Textures/PRTL07_N.png"
+	specular "materials/Textures/PRTL07_S.png"
+	metallic "materials/Textures/PRTL07_S.png"
+	roughness "materials/Textures/PRTL07_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "PUZZLE1"
+{
+	normal "materials/Textures/PUZZLE1_N.png"
+	specular "materials/Textures/PUZZLE1_S.png"
+	metallic "materials/Textures/PUZZLE1_S.png"
+	roughness "materials/Textures/PUZZLE1_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "PUZZLE2"
+{
+	normal "materials/Textures/PUZZLE2_N.png"
+	specular "materials/Textures/PUZZLE2_S.png"
+	metallic "materials/Textures/PUZZLE2_S.png"
+	roughness "materials/Textures/PUZZLE2_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "PUZZLE3"
+{
+	normal "materials/Textures/PUZZLE3_N.png"
+	specular "materials/Textures/PUZZLE3_S.png"
+	metallic "materials/Textures/PUZZLE3_S.png"
+	roughness "materials/Textures/PUZZLE3_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "PUZZLE4"
+{
+	normal "materials/Textures/PUZZLE4_N.png"
+	specular "materials/Textures/PUZZLE4_S.png"
+	metallic "materials/Textures/PUZZLE4_S.png"
+	roughness "materials/Textures/PUZZLE4_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "PUZZLE5"
+{
+	normal "materials/Textures/PUZZLE5_N.png"
+	specular "materials/Textures/PUZZLE5_S.png"
+	metallic "materials/Textures/PUZZLE5_S.png"
+	roughness "materials/Textures/PUZZLE5_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "PUZZLE6"
+{
+	normal "materials/Textures/PUZZLE6_N.png"
+	specular "materials/Textures/PUZZLE6_S.png"
+	metallic "materials/Textures/PUZZLE6_S.png"
+	roughness "materials/Textures/PUZZLE6_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "PUZZLE7"
+{
+	normal "materials/Textures/PUZZLE7_N.png"
+	specular "materials/Textures/PUZZLE7_S.png"
+	metallic "materials/Textures/PUZZLE7_S.png"
+	roughness "materials/Textures/PUZZLE7_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "PUZZLE8"
+{
+	normal "materials/Textures/PUZZLE8_N.png"
+	specular "materials/Textures/PUZZLE8_S.png"
+	metallic "materials/Textures/PUZZLE8_S.png"
+	roughness "materials/Textures/PUZZLE8_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "PUZZLE9"
+{
+	normal "materials/Textures/PUZZLE9_N.png"
+	specular "materials/Textures/PUZZLE9_S.png"
+	metallic "materials/Textures/PUZZLE9_S.png"
+	roughness "materials/Textures/PUZZLE9_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "PUZZLE10"
+{
+	normal "materials/Textures/PUZZLE10_N.png"
+	specular "materials/Textures/PUZZLE10_S.png"
+	metallic "materials/Textures/PUZZLE10_S.png"
+	roughness "materials/Textures/PUZZLE10_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "PUZZLE11"
+{
+	normal "materials/Textures/PUZZLE11_N.png"
+	specular "materials/Textures/PUZZLE11_S.png"
+	metallic "materials/Textures/PUZZLE11_S.png"
+	roughness "materials/Textures/PUZZLE11_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "PUZZLE12"
+{
+	normal "materials/Textures/PUZZLE12_N.png"
+	specular "materials/Textures/PUZZLE12_S.png"
+	metallic "materials/Textures/PUZZLE12_S.png"
+	roughness "materials/Textures/PUZZLE12_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "S_01"
+{
+	normal "materials/Textures/S_01_N.png"
+	specular "materials/Textures/S_01_S.png"
+	metallic "materials/Textures/S_01_S.png"
+	roughness "materials/Textures/S_01_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "S_02"
+{
+	normal "materials/Textures/S_02_N.png"
+	specular "materials/Textures/S_02_S.png"
+	metallic "materials/Textures/S_02_S.png"
+	roughness "materials/Textures/S_02_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "S_04"
+{
+	normal "materials/Textures/S_04_N.png"
+	specular "materials/Textures/S_04_S.png"
+	metallic "materials/Textures/S_04_S.png"
+	roughness "materials/Textures/S_04_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "S_05"
+{
+	normal "materials/Textures/S_05_N.png"
+	specular "materials/Textures/S_05_S.png"
+	metallic "materials/Textures/S_05_S.png"
+	roughness "materials/Textures/S_05_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "S_06"
+{
+	normal "materials/Textures/S_06_N.png"
+	specular "materials/Textures/S_06_S.png"
+	metallic "materials/Textures/S_06_S.png"
+	roughness "materials/Textures/S_06_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "S_07"
+{
+	normal "materials/Textures/S_07_N.png"
+	specular "materials/Textures/S_07_S.png"
+	metallic "materials/Textures/S_07_S.png"
+	roughness "materials/Textures/S_07_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "S_09"
+{
+	normal "materials/Textures/S_09_N.png"
+	specular "materials/Textures/S_09_S.png"
+	metallic "materials/Textures/S_09_S.png"
+	roughness "materials/Textures/S_09_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "S_11"
+{
+	normal "materials/Textures/S_11_N.png"
+	specular "materials/Textures/S_11_S.png"
+	metallic "materials/Textures/S_11_S.png"
+	roughness "materials/Textures/S_11_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "S_12"
+{
+	normal "materials/Textures/S_12_N.png"
+	specular "materials/Textures/S_12_S.png"
+	metallic "materials/Textures/S_12_S.png"
+	roughness "materials/Textures/S_12_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "S_13"
+{
+	normal "materials/Textures/S_13_N.png"
+	specular "materials/Textures/S_13_S.png"
+	metallic "materials/Textures/S_13_S.png"
+	roughness "materials/Textures/S_13_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SEWER01"
+{
+	normal "materials/Textures/SEWER01_N.png"
+	specular "materials/Textures/SEWER01_S.png"
+	metallic "materials/Textures/SEWER01_S.png"
+	roughness "materials/Textures/SEWER01_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SEWER02"
+{
+	normal "materials/Textures/SEWER02_N.png"
+	specular "materials/Textures/SEWER02_S.png"
+	metallic "materials/Textures/SEWER02_S.png"
+	roughness "materials/Textures/SEWER02_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SEWER03"
+{
+	normal "materials/Textures/SEWER03_N.png"
+	specular "materials/Textures/SEWER03_S.png"
+	metallic "materials/Textures/SEWER03_S.png"
+	roughness "materials/Textures/SEWER03_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SEWER04"
+{
+	normal "materials/Textures/SEWER04_N.png"
+	specular "materials/Textures/SEWER04_S.png"
+	metallic "materials/Textures/SEWER04_S.png"
+	roughness "materials/Textures/SEWER04_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SEWER05"
+{
+	normal "materials/Textures/SEWER05_N.png"
+	specular "materials/Textures/SEWER05_S.png"
+	metallic "materials/Textures/SEWER05_S.png"
+	roughness "materials/Textures/SEWER05_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SEWER06"
+{
+	normal "materials/Textures/SEWER06_N.png"
+	specular "materials/Textures/SEWER06_S.png"
+	metallic "materials/Textures/SEWER06_S.png"
+	roughness "materials/Textures/SEWER06_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SEWER07"
+{
+	normal "materials/Textures/SEWER07_N.png"
+	specular "materials/Textures/SEWER07_R.png"
+	metallic "materials/Textures/SEWER07_R.png"
+	roughness "materials/Textures/SEWER07_R.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SEWER08"
+{
+	normal "materials/Textures/SEWER08_N.png"
+	specular "materials/Textures/SEWER08_R.png"
+	metallic "materials/Textures/SEWER08_R.png"
+	roughness "materials/Textures/SEWER08_R.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SEWER09"
+{
+	normal "materials/Textures/SEWER09_N.png"
+	specular "materials/Textures/SEWER09_R.png"
+	metallic "materials/Textures/SEWER09_R.png"
+	roughness "materials/Textures/SEWER09_R.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SEWER10"
+{
+	normal "materials/Textures/SEWER10_N.png"
+	specular "materials/Textures/SEWER10_R.png"
+	metallic "materials/Textures/SEWER10_R.png"
+	roughness "materials/Textures/SEWER10_R.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SEWER11"
+{
+	normal "materials/Textures/SEWER11_N.png"
+	specular "materials/Textures/SEWER11_R.png"
+	metallic "materials/Textures/SEWER11_R.png"
+	roughness "materials/Textures/SEWER11_R.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SEWER12"
+{
+	normal "materials/Textures/SEWER12_N.png"
+	specular "materials/Textures/SEWER12_R.png"
+	metallic "materials/Textures/SEWER12_R.png"
+	roughness "materials/Textures/SEWER12_R.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SEWER13"
+{
+	normal "materials/Textures/SEWER13_N.png"
+	specular "materials/Textures/SEWER13_S.png"
+	metallic "materials/Textures/SEWER13_S.png"
+	roughness "materials/Textures/SEWER13_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+
+material texture "SEWER14"
+{
+	normal "materials/Textures/SEWER14_N.png"
+	specular "materials/Textures/SEWER14_S.png"
+	metallic "materials/Textures/SEWER14_S.png"
+	roughness "materials/Textures/SEWER14_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+
+material texture "SPAWN01"
+{
+	normal "materials/Textures/SPAWN01_N.png"
+	specular "materials/Textures/SPAWN01_S.png"
+	metallic "materials/Textures/SPAWN01_S.png"
+	roughness "materials/Textures/SPAWN01_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+brightmap texture "SPAWN02" { map "materials/Textures/SPAWN02_E.png" }
+material texture "SPAWN02"
+{
+	normal "materials/Textures/SPAWN02_N.png"
+	specular "materials/Textures/SPAWN02_S.png"
+	metallic "materials/Textures/SPAWN02_S.png"
+	roughness "materials/Textures/SPAWN02_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+brightmap texture "SPAWN03" { map "materials/Textures/SPAWN03_E.png" }
+material texture "SPAWN03"
+{
+	normal "materials/Textures/SPAWN03_N.png"
+	specular "materials/Textures/SPAWN03_S.png"
+	metallic "materials/Textures/SPAWN03_S.png"
+	roughness "materials/Textures/SPAWN03_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SPAWN04"
+{
+	normal "materials/Textures/SPAWN04_N.png"
+	specular "materials/Textures/SPAWN04_S.png"
+	metallic "materials/Textures/SPAWN04_S.png"
+	roughness "materials/Textures/SPAWN04_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SPAWN05"
+{
+	normal "materials/Textures/SPAWN05_N.png"
+	specular "materials/Textures/SPAWN05_S.png"
+	metallic "materials/Textures/SPAWN05_S.png"
+	roughness "materials/Textures/SPAWN05_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SPAWN06"
+{
+	normal "materials/Textures/SPAWN06_N.png"
+	specular "materials/Textures/SPAWN06_S.png"
+	metallic "materials/Textures/SPAWN06_S.png"
+	roughness "materials/Textures/SPAWN06_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SPAWN07"
+{
+	normal "materials/Textures/SPAWN07_N.png"
+	specular "materials/Textures/SPAWN07_S.png"
+	metallic "materials/Textures/SPAWN07_S.png"
+	roughness "materials/Textures/SPAWN07_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SPAWN08"
+{
+	normal "materials/Textures/SPAWN08_N.png"
+	specular "materials/Textures/SPAWN08_S.png"
+	metallic "materials/Textures/SPAWN08_S.png"
+	roughness "materials/Textures/SPAWN08_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+brightmap texture "SPAWN09" { map "materials/Textures/SPAWN09_E.png" }
+material texture "SPAWN09"
+{
+	normal "materials/Textures/SPAWN09_N.png"
+	specular "materials/Textures/SPAWN09_S.png"
+	metallic "materials/Textures/SPAWN09_S.png"
+	roughness "materials/Textures/SPAWN09_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+brightmap texture "SPAWN10" { map "materials/Textures/SPAWN10_E.png" }
+material texture "SPAWN10"
+{
+	normal "materials/Textures/SPAWN10_N.png"
+	specular "materials/Textures/SPAWN10_S.png"
+	metallic "materials/Textures/SPAWN10_S.png"
+	roughness "materials/Textures/SPAWN10_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SPAWN11"
+{
+	normal "materials/Textures/SPAWN11_N.png"
+	specular "materials/Textures/SPAWN11_S.png"
+	metallic "materials/Textures/SPAWN11_S.png"
+	roughness "materials/Textures/SPAWN11_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+brightmap texture "SPAWN12" { map "materials/Textures/SPAWN12_E.png" }
+material texture "SPAWN12"
+{
+	normal "materials/Textures/SPAWN12_N.png"
+	specular "materials/Textures/SPAWN12_S.png"
+	metallic "materials/Textures/SPAWN12_S.png"
+	roughness "materials/Textures/SPAWN12_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SPAWN13"
+{
+	normal "materials/Textures/SPAWN13_N.png"
+	specular "materials/Textures/SPAWN13_S.png"
+	metallic "materials/Textures/SPAWN13_S.png"
+	roughness "materials/Textures/SPAWN13_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "STEEL01"
+{
+	normal "materials/Textures/STEEL01_N.png"
+	specular "materials/Textures/STEEL01_S.png"
+	metallic "materials/Textures/STEEL01_S.png"
+	roughness "materials/Textures/STEEL01_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "STEEL02"
+{
+	normal "materials/Textures/STEEL02_N.png"
+	specular "materials/Textures/STEEL02_S.png"
+	metallic "materials/Textures/STEEL02_S.png"
+	roughness "materials/Textures/STEEL02_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "STEEL05"
+{
+	normal "materials/Textures/STEEL05_N.png"
+	specular "materials/Textures/STEEL05_S.png"
+	metallic "materials/Textures/STEEL05_S.png"
+	roughness "materials/Textures/STEEL05_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+
+material texture "STEEL06"
+{
+	normal "materials/Textures/STEEL06_N.png"
+	specular "materials/Textures/STEEL06_S.png"
+	metallic "materials/Textures/STEEL06_S.png"
+	roughness "materials/Textures/STEEL06_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+
+material texture "STEEL07"
+{
+	normal "materials/Textures/STEEL07_N.png"
+	specular "materials/Textures/STEEL07_S.png"
+	metallic "materials/Textures/STEEL07_S.png"
+	roughness "materials/Textures/STEEL07_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+
+material texture "STEEL08"
+{
+	normal "materials/Textures/STEEL08_N.png"
+	specular "materials/Textures/STEEL08_S.png"
+	metallic "materials/Textures/STEEL08_S.png"
+	roughness "materials/Textures/STEEL08_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+brightmap texture "SW_1_DN" { map "materials/Textures/SW_1_DN_E.png" }
+material texture "SW_1_DN"
+{
+	normal "materials/Textures/SW_1_DN_N.png"
+	specular "materials/Textures/SW_1_DN_S.png"
+	metallic "materials/Textures/SW_1_DN_S.png"
+	roughness "materials/Textures/SW_1_DN_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+brightmap texture "SW_1_MD" { map "materials/Textures/SW_1_MD_E.png" }
+material texture "SW_1_MD"
+{
+	normal "materials/Textures/SW_1_MD_N.png"
+	specular "materials/Textures/SW_1_MD_S.png"
+	metallic "materials/Textures/SW_1_MD_S.png"
+	roughness "materials/Textures/SW_1_MD_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SW_1_UP"
+{
+	normal "materials/Textures/SW_1_UP_N.png"
+	specular "materials/Textures/SW_1_UP_S.png"
+	metallic "materials/Textures/SW_1_UP_S.png"
+	roughness "materials/Textures/SW_1_UP_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+brightmap texture "SW_2_DN" { map "materials/Textures/SW_2_DN_E.png" }
+material texture "SW_2_DN"
+{
+	normal "materials/Textures/SW_2_DN_N.png"
+	specular "materials/Textures/SW_2_DN_S.png"
+	metallic "materials/Textures/SW_2_DN_S.png"
+	roughness "materials/Textures/SW_2_DN_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+brightmap texture "SW_2_MD" { map "materials/Textures/SW_2_MD_E.png" }
+material texture "SW_2_MD"
+{
+	normal "materials/Textures/SW_2_MD_N.png"
+	specular "materials/Textures/SW_2_MD_S.png"
+	metallic "materials/Textures/SW_2_MD_S.png"
+	roughness "materials/Textures/SW_2_MD_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SW_2_UP"
+{
+	normal "materials/Textures/SW_2_UP_N.png"
+	specular "materials/Textures/SW_2_UP_S.png"
+	metallic "materials/Textures/SW_2_UP_S.png"
+	roughness "materials/Textures/SW_2_UP_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SW_EL1"
+{
+	normal "materials/Textures/SW_EL1_N.png"
+	specular "materials/Textures/SW_EL1_S.png"
+	metallic "materials/Textures/SW_EL1_S.png"
+	roughness "materials/Textures/SW_EL1_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SW_EL2"
+{
+	normal "materials/Textures/SW_EL2_N.png"
+	specular "materials/Textures/SW_EL2_S.png"
+	metallic "materials/Textures/SW_EL2_S.png"
+	roughness "materials/Textures/SW_EL2_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SW_EL3"
+{
+	normal "materials/Textures/SW_EL3_N.png"
+	specular "materials/Textures/SW_EL3_S.png"
+	metallic "materials/Textures/SW_EL3_S.png"
+	roughness "materials/Textures/SW_EL3_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SW_EL4"
+{
+	normal "materials/Textures/SW_EL4_N.png"
+	specular "materials/Textures/SW_EL4_S.png"
+	metallic "materials/Textures/SW_EL4_S.png"
+	roughness "materials/Textures/SW_EL4_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SW_EL5"
+{
+	normal "materials/Textures/SW_EL5_N.png"
+	specular "materials/Textures/SW_EL5_S.png"
+	metallic "materials/Textures/SW_EL5_S.png"
+	roughness "materials/Textures/SW_EL5_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SW_OL1"
+{
+	normal "materials/Textures/SW_OL1_N.png"
+	specular "materials/Textures/SW_OL1_S.png"
+	metallic "materials/Textures/SW_OL1_S.png"
+	roughness "materials/Textures/SW_OL1_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SW_OL2"
+{
+	normal "materials/Textures/SW_OL2_N.png"
+	specular "materials/Textures/SW_OL2_S.png"
+	metallic "materials/Textures/SW_OL2_S.png"
+	roughness "materials/Textures/SW_OL2_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SW_OL3"
+{
+	normal "materials/Textures/SW_OL3_N.png"
+	specular "materials/Textures/SW_OL3_S.png"
+	metallic "materials/Textures/SW_OL3_S.png"
+	roughness "materials/Textures/SW_OL3_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SW_OL4"
+{
+	normal "materials/Textures/SW_OL4_N.png"
+	specular "materials/Textures/SW_OL4_S.png"
+	metallic "materials/Textures/SW_OL4_S.png"
+	roughness "materials/Textures/SW_OL4_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SW_OL5"
+{
+	normal "materials/Textures/SW_OL5_N.png"
+	specular "materials/Textures/SW_OL5_S.png"
+	metallic "materials/Textures/SW_OL5_S.png"
+	roughness "materials/Textures/SW_OL5_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SW51_OFF"
+{
+	normal "materials/Textures/SW51_OFF_N.png"
+	specular "materials/Textures/SW51_OFF_S.png"
+	metallic "materials/Textures/SW51_OFF_S.png"
+	roughness "materials/Textures/SW51_OFF_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+brightmap texture "SW51_ON" { map "materials/Textures/SW51_ON_E.png" }
+material texture "SW51_ON"
+{
+	normal "materials/Textures/SW51_ON_N.png"
+	specular "materials/Textures/SW51_ON_S.png"
+	metallic "materials/Textures/SW51_ON_S.png"
+	roughness "materials/Textures/SW51_ON_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SW52_OFF"
+{
+	normal "materials/Textures/SW52_OFF_N.png"
+	specular "materials/Textures/SW52_OFF_S.png"
+	metallic "materials/Textures/SW52_OFF_S.png"
+	roughness "materials/Textures/SW52_OFF_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+brightmap texture "SW52_ON" { map "materials/Textures/SW52_ON_E.png" }
+material texture "SW52_ON"
+{
+	normal "materials/Textures/SW52_ON_N.png"
+	specular "materials/Textures/SW52_ON_S.png"
+	metallic "materials/Textures/SW52_ON_S.png"
+	roughness "materials/Textures/SW52_ON_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SW53_DN"
+{
+	normal "materials/Textures/SW53_DN_N.png"
+	specular "materials/Textures/SW53_DN_S.png"
+	metallic "materials/Textures/SW53_DN_S.png"
+	roughness "materials/Textures/SW53_DN_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SW53_MD"
+{
+	normal "materials/Textures/SW53_MD_N.png"
+	specular "materials/Textures/SW53_MD_S.png"
+	metallic "materials/Textures/SW53_MD_S.png"
+	roughness "materials/Textures/SW53_MD_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SW53_UP"
+{
+	normal "materials/Textures/SW53_UP_N.png"
+	specular "materials/Textures/SW53_UP_S.png"
+	metallic "materials/Textures/SW53_UP_S.png"
+	roughness "materials/Textures/SW53_UP_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SWAMP01"
+{
+	normal "materials/Textures/SWAMP01_N.png"
+	specular "materials/Textures/SWAMP01_S.png"
+	metallic "materials/Textures/SWAMP01_S.png"
+	roughness "materials/Textures/SWAMP01_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SWAMP03"
+{
+	normal "materials/Textures/SWAMP03_N.png"
+	specular "materials/Textures/SWAMP03_S.png"
+	metallic "materials/Textures/SWAMP03_S.png"
+	roughness "materials/Textures/SWAMP03_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+material texture "SWAMP04"
+{
+	normal "materials/Textures/SWAMP04_N.png"
+	specular "materials/Textures/SWAMP04_S.png"
+	metallic "materials/Textures/SWAMP04_S.png"
+	roughness "materials/Textures/SWAMP04_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SWAMP06"
+{
+	normal "materials/Textures/SWAMP06_N.png"
+	specular "materials/Textures/SWAMP06_S.png"
+	metallic "materials/Textures/SWAMP06_S.png"
+	roughness "materials/Textures/SWAMP06_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "SWAMP07"
+{
+	normal "materials/Textures/SWAMP07_N.png"
+	specular "materials/Textures/SWAMP07_S.png"
+	metallic "materials/Textures/SWAMP07_S.png"
+	roughness "materials/Textures/SWAMP07_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "T2_STEP"
+{
+	normal "materials/Textures/T2_STEP_N.png"
+	specular "materials/Textures/T2_STEP_S.png"
+	metallic "materials/Textures/T2_STEP_S.png"
+	roughness "materials/Textures/T2_STEP_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "TOMB01"
+{
+	normal "materials/Textures/TOMB01_N.png"
+	specular "materials/Textures/TOMB01_S.png"
+	metallic "materials/Textures/TOMB01_S.png"
+	roughness "materials/Textures/TOMB01_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "TOMB02"
+{
+	normal "materials/Textures/TOMB02_N.png"
+	specular "materials/Textures/TOMB02_S.png"
+	metallic "materials/Textures/TOMB02_S.png"
+	roughness "materials/Textures/TOMB02_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+brightmap texture "TOMB03" { map "materials/Textures/TOMB03_E.png" }
+material texture "TOMB03"
+{
+	normal "materials/Textures/TOMB03_N.png"
+	specular "materials/Textures/TOMB03_S.png"
+	metallic "materials/Textures/TOMB03_S.png"
+	roughness "materials/Textures/TOMB03_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "TOMB04"
+{
+	normal "materials/Textures/TOMB04_N.png"
+	specular "materials/Textures/TOMB04_S.png"
+	metallic "materials/Textures/TOMB04_S.png"
+	roughness "materials/Textures/TOMB04_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "TOMB05"
+{
+	normal "materials/Textures/TOMB05_N.png"
+	specular "materials/Textures/TOMB05_S.png"
+	metallic "materials/Textures/TOMB05_S.png"
+	roughness "materials/Textures/TOMB05_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "TOMB06"
+{
+	normal "materials/Textures/TOMB06_N.png"
+	specular "materials/Textures/TOMB06_S.png"
+	metallic "materials/Textures/TOMB06_S.png"
+	roughness "materials/Textures/TOMB06_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "TOMB07"
+{
+	normal "materials/Textures/TOMB07_N.png"
+	specular "materials/Textures/TOMB07_S.png"
+	metallic "materials/Textures/TOMB07_S.png"
+	roughness "materials/Textures/TOMB07_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "TOMB08"
+{
+	normal "materials/Textures/TOMB08_N.png"
+	specular "materials/Textures/TOMB08_S.png"
+	metallic "materials/Textures/TOMB08_S.png"
+	roughness "materials/Textures/TOMB08_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "TOMB09"
+{
+	normal "materials/Textures/TOMB09_N.png"
+	specular "materials/Textures/TOMB09_S.png"
+	metallic "materials/Textures/TOMB09_S.png"
+	roughness "materials/Textures/TOMB09_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "TOMB10"
+{
+	normal "materials/Textures/TOMB10_N.png"
+	specular "materials/Textures/TOMB10_S.png"
+	metallic "materials/Textures/TOMB10_S.png"
+	roughness "materials/Textures/TOMB10_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "TOMB11"
+{
+	normal "materials/Textures/TOMB11_N.png"
+	specular "materials/Textures/TOMB11_S.png"
+	metallic "materials/Textures/TOMB11_S.png"
+	roughness "materials/Textures/TOMB11_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "TOMB12"
+{
+	normal "materials/Textures/TOMB12_N.png"
+	specular "materials/Textures/TOMB12_S.png"
+	metallic "materials/Textures/TOMB12_S.png"
+	roughness "materials/Textures/TOMB12_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "TOMB13"
+{
+	normal "materials/Textures/TOMB13_N.png"
+	specular "materials/Textures/TOMB13_S.png"
+	metallic "materials/Textures/TOMB13_S.png"
+	roughness "materials/Textures/TOMB13_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+brightmap texture "TOMB18" { map "materials/Textures/TOMB18_E.png" }
+material texture "TOMB18"
+{
+	normal "materials/Textures/TOMB18_N.png"
+	specular "materials/Textures/TOMB18_R.png"
+	metallic "materials/Textures/TOMB18_M.png"
+	roughness "materials/Textures/TOMB18_R.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+brightmap texture "TPORTX" { map "materials/Textures/TPORTX_E.png" }
+material texture "TPORTX"
+{
+	normal "materials/Textures/TPORTX_N.png"
+	specular "materials/Textures/TPORTX_S.png"
+	metallic "materials/Textures/TPORTX_S.png"
+	roughness "materials/Textures/TPORTX_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "VILL01"
+{
+	normal "materials/Textures/VILL01_N.png"
+	specular "materials/Textures/VILL01_S.png"
+	metallic "materials/Textures/VILL01_S.png"
+	roughness "materials/Textures/VILL01_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "VILL04"
+{
+	normal "materials/Textures/VILL04_N.png"
+	specular "materials/Textures/VILL04_S.png"
+	metallic "materials/Textures/VILL04_S.png"
+	roughness "materials/Textures/VILL04_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "VILL05"
+{
+	normal "materials/Textures/VILL05_N.png"
+	specular "materials/Textures/VILL05_S.png"
+	metallic "materials/Textures/VILL05_S.png"
+	roughness "materials/Textures/VILL05_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "VILL06"
+{
+	normal "materials/Textures/VILL06_N.png"
+	specular "materials/Textures/VILL06_S.png"
+	metallic "materials/Textures/VILL06_S.png"
+	roughness "materials/Textures/VILL06_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "VILL07"
+{
+	normal "materials/Textures/VILL07_N.png"
+	specular "materials/Textures/VILL07_S.png"
+	metallic "materials/Textures/VILL07_S.png"
+	roughness "materials/Textures/VILL07_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "VILL08"
+{
+	normal "materials/Textures/VILL08_N.png"
+	specular "materials/Textures/VILL08_S.png"
+	metallic "materials/Textures/VILL08_S.png"
+	roughness "materials/Textures/VILL08_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "WASTE01"
+{
+	normal "materials/Textures/WASTE01_N.png"
+	specular "materials/Textures/WASTE01_S.png"
+	metallic "materials/Textures/WASTE01_S.png"
+	roughness "materials/Textures/WASTE01_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "WASTE02"
+{
+	normal "materials/Textures/WASTE01_N.png"
+	specular "materials/Textures/WASTE01_S.png"
+	metallic "materials/Textures/WASTE01_S.png"
+	roughness "materials/Textures/WASTE01_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "WASTE03"
+{
+	normal "materials/Textures/WASTE03_N.png"
+	specular "materials/Textures/WASTE03_S.png"
+	metallic "materials/Textures/WASTE03_S.png"
+	roughness "materials/Textures/WASTE03_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "WASTE04"
+{
+	normal "materials/Textures/WASTE04_N.png"
+	specular "materials/Textures/WASTE04_S.png"
+	metallic "materials/Textures/WASTE04_S.png"
+	roughness "materials/Textures/WASTE04_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "WEB1_L"
+{
+	normal "materials/Textures/WEB1_L_N.png"
+	specular "materials/Textures/WEB1_L_S.png"
+	metallic "materials/Textures/WEB1_L_S.png"
+	roughness "materials/Textures/WEB1_L_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "WEB1_R"
+{
+	normal "materials/Textures/WEB1_R_N.png"
+	specular "materials/Textures/WEB1_R_S.png"
+	metallic "materials/Textures/WEB1_R_S.png"
+	roughness "materials/Textures/WEB1_R_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "WEB2_L"
+{
+	normal "materials/Textures/WEB2_L_N.png"
+	specular "materials/Textures/WEB2_L_S.png"
+	metallic "materials/Textures/WEB2_L_S.png"
+	roughness "materials/Textures/WEB2_L_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "WEB2_R"
+{
+	normal "materials/Textures/WEB2_R_N.png"
+	specular "materials/Textures/WEB2_R_S.png"
+	metallic "materials/Textures/WEB2_R_S.png"
+	roughness "materials/Textures/WEB2_R_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "WEB3"
+{
+	normal "materials/Textures/WEB3_N.png"
+	specular "materials/Textures/WEB3_S.png"
+	metallic "materials/Textures/WEB3_S.png"
+	roughness "materials/Textures/WEB3_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "WINN01"
+{
+	normal "materials/Textures/WINN01_N.png"
+	specular "materials/Textures/WINN01_S.png"
+	metallic "materials/Textures/WINN01_S.png"
+	roughness "materials/Textures/WINN01_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "WINNOW02"
+{
+	normal "materials/Textures/WINNOW02_N.png"
+	specular "materials/Textures/WINNOW02_S.png"
+	metallic "materials/Textures/WINNOW02_S.png"
+	roughness "materials/Textures/WINNOW02_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "WOOD01"
+{
+	normal "materials/Textures/WOOD01_N.png"
+	specular "materials/Textures/WOOD01_S.png"
+	metallic "materials/Textures/WOOD01_S.png"
+	roughness "materials/Textures/WOOD01_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "WOOD02"
+{
+	normal "materials/Textures/WOOD02_N.png"
+	specular "materials/Textures/WOOD02_S.png"
+	metallic "materials/Textures/WOOD02_S.png"
+	roughness "materials/Textures/WOOD02_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "WOOD03"
+{
+	normal "materials/Textures/WOOD04_N.png"
+	specular "materials/Textures/WOOD04_S.png"
+	metallic "materials/Textures/WOOD04_S.png"
+	roughness "materials/Textures/WOOD04_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "WOOD04"
+{
+	normal "materials/Textures/WOOD04_N.png"
+	specular "materials/Textures/WOOD04_S.png"
+	metallic "materials/Textures/WOOD04_S.png"
+	roughness "materials/Textures/WOOD04_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "X_FIRE01"
+{
+	normal "hires/Flats/X_Lava_N.png"
+	specular "hires/Flats/X_Lava_S.png"
+	ao "hires/Flats/X_Lava_AO.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "X_FIRE02"
+{
+	normal "hires/Flats/X_Lava_N.png"
+	specular "hires/Flats/X_Lava_S.png"
+	ao "hires/Flats/X_Lava_AO.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "X_FIRE03"
+{
+	normal "hires/Flats/X_Lava_N.png"
+	specular "hires/Flats/X_Lava_S.png"
+	ao "hires/Flats/X_Lava_AO.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "X_FIRE04"
+{
+	normal "hires/Flats/X_Lava_N.png"
+	specular "hires/Flats/X_Lava_S.png"
+	ao "hires/Flats/X_Lava_AO.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "TPORT1"
+{
+	normal "materials/Textures/TPORT1_N.png"
+	specular "materials/Textures/TPORT1_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "TPORT2"
+{
+	normal "materials/Textures/TPORT2_N.png"
+	specular "materials/Textures/TPORT2_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "TPORT3"
+{
+	normal "materials/Textures/TPORT3_N.png"
+	specular "materials/Textures/TPORT3_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "TPORT4"
+{
+	normal "materials/Textures/TPORT4_N.png"
+	specular "materials/Textures/TPORT4_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "TPORT5"
+{
+	normal "materials/Textures/TPORT5_N.png"
+	specular "materials/Textures/TPORT5_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "TPORT6"
+{
+	normal "materials/Textures/TPORT6_N.png"
+	specular "materials/Textures/TPORT6_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "TPORT7"
+{
+	normal "materials/Textures/TPORT7_N.png"
+	specular "materials/Textures/TPORT7_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "TPORT8"
+{
+	normal "materials/Textures/TPORT8_N.png"
+	specular "materials/Textures/TPORT8_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "TPORT9"
+{
+	normal "materials/Textures/TPORT9_N.png"
+	specular "materials/Textures/TPORT9_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "VALVE1"
+{
+	normal "materials/Textures/VALVE_N.png"
+	specular "materials/Textures/VALVE_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "VALVE2"
+{
+	normal "materials/Textures/VALVE_N.png"
+	specular "materials/Textures/VALVE_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "VALVE01"
+{
+	normal "materials/Textures/VALVE01_N.png"
+	specular "materials/Textures/VALVE01_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "VALVE02"
+{
+	normal "materials/Textures/VALVE02_N.png"
+	specular "materials/Textures/VALVE02_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "X_SWR1"
+{
+	normal "materials/Textures/X_SWR1_N.png"
+	specular "materials/Textures/X_SWR_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "X_SWR2"
+{
+	normal "materials/Textures/X_SWR2_N.png"
+	specular "materials/Textures/X_SWR_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}
+
+material texture "X_SWR3"
+{
+	normal "materials/Textures/X_SWR3_N.png"
+	specular "materials/Textures/X_SWR_S.png"
+	specularlevel 2.0
+	glossiness 2.0
+}

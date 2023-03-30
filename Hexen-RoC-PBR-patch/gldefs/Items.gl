@@ -1,0 +1,235 @@
+material texture "materials/FalconShield/Shield.png"
+{
+    normal "materials/FalconShield/Shield_N.png"
+    specular "materials/FalconShield/Shield_s.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+brightmap texture "materials/Amulet/Amulet.png" { map "materials/Amulet/Amulet_E.png" }
+material texture "materials/Amulet/Amulet.png"
+{
+    normal "materials/Amulet/Amulet_N.png"
+    specular "materials/Amulet/Amulet_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+brightmap texture "materials/Gems/Gems.png" { map "materials/Gems/Gems_E.png" }
+material texture "materials/Gems/Gems.png"
+{
+    normal "materials/Gems/Gems_N.png"
+    specular "materials/Gems/Gems_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Torch/Torch.png"
+{
+    normal "materials/Torch/Torch_N.png"
+    specular "materials/Torch/Torch_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/WingsOfWrath/WingsOfWrath.png"
+{
+    normal "materials/WingsOfWrath/WingsOfWrath_N.png"
+    specular "materials/WingsOfWrath/WingsOfWrath_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+
+brightmap texture "materials/TinyWeps/TinyWeps.png" { map "materials/TinyWeps/TinyWeps_E.png" }
+material texture "materials/TinyWeps/TinyWeps.png"
+{
+    normal "materials/TinyWeps/TinyWeps_N.png"
+    specular "materials/TinyWeps/TinyWeps_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/PlatinumHelm/Helmet.png"
+{
+    normal "materials/PlatinumHelm/Helmet_N.png"
+    specular "materials/PlatinumHelm/Helmet_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/MysticUrn/MysticUrn.png"
+{
+    normal "materials/MysticUrn/MysticUrn_N.png"
+    specular "materials/MysticUrn/MysticUrn_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/MysticIncant/MysticIncant.png"
+{
+    normal "materials/MysticIncant/MysticIncant_N.png"
+    specular "materials/MysticIncant/MysticIncant_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Gears/Gears.png"
+{
+    normal "materials/Gears/Gears_N.png"
+    specular "materials/Gears/Gears_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Porkelator/Porkelator.png"
+{
+    normal "materials/Porkelator/Porkelator_N.png"
+    specular "materials/Porkelator/Porkelator_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Pig/Pig.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Pig/Pig_N.png"
+	specular "materials/Pig/Pig_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/IconOfDefender/IconOfDefender.png"
+{
+    normal "materials/IconOfDefender/IconOfDefender_N.png"
+    specular "materials/IconOfDefender/IconOfDefender_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/DiskOfRepulsion/DiskOfRepulsion.png"
+{
+    normal "materials/DiskOfRepulsion/DiskOfRepulsion_N.png"
+    specular "materials/DiskOfRepulsion/DiskOfRepulsion_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/MeshArmor/Armor.png"
+{
+    normal "materials/MeshArmor/Armor_N.png"
+    specular "materials/MeshArmor/Armor_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/PuzzBook/PuzzBook.png"
+{
+    normal "materials/PuzzBook/PuzzBook_N.png"
+	specular "materials/PuzzBook/PuzzBook_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Boots/Boots.png"
+{
+    normal "materials/Boots/Boots_N.png"
+	specular "materials/Boots/Boots_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/DragonskinBracers/DragonskinBracers.png"
+{
+    normal "materials/DragonskinBracers/DragonskinBracers_N.png"
+	specular "materials/DragonskinBracers/DragonskinBracers_S.png"
+    specularlevel 5.0
+    glossiness 5.0
+}
+
+material texture "materials/Vial/Vial.png"
+{
+    normal "materials/Vial/Vial_N.png"
+	specular "materials/Vial/Vial_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Flask/Flask.png"
+{
+    normal "materials/Flask/Flask_N.png"
+	specular "materials/Flask/Flask_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+brightmap texture "materials/Mana/Runes.png" { map "materials/Mana/Runes_E.png" disablefullbright}
+material texture "materials/Mana/Runes.png"
+{
+    normal "materials/Mana/Runes_N.png"
+	specular "materials/Mana/Runes_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+
+brightmap texture "materials/CraterOfMagic/CraterOfMagic.png" { map "materials/CraterOfMagic/CraterOfMagic_E.png" }
+material texture "materials/Keys/Keys.png"
+{
+    normal "materials/CraterOfMagic/CraterOfMagic_N.png"
+	specular "materials/CraterOfMagic/CraterOfMagic_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+brightmap texture "materials/Keys/Keys.png" { map "materials/Keys/Keys_E.png"  }
+material texture "materials/Keys/Keys.png"
+{
+    normal "materials/Keys/Keys_N.png"
+	specular "materials/Keys/Keys_S.png"
+	metallic "materials/Keys/Keys_S.png"
+	roughness "materials/Keys/Keys_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+brightmap texture "materials/Flechette/Flechette2.png" { map "materials/Flechette/Flechette_E.png" }
+material texture "materials/Flechette/Flechette2.png"
+{
+    normal "materials/Flechette/Flechette_N.png"
+	specular "materials/Flechette/Flechette_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+brightmap texture "materials/ChaosDevice/ChaosDevice.png" { map "materials/ChaosDevice/ChaosDevice_E.png" }
+material texture "materials/ChaosDevice/ChaosDevice.png"
+{
+    normal "materials/ChaosDevice/ChaosDevice_N.png"
+	specular "materials/ChaosDevice/ChaosDevice_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Flechette/Flechette.png"
+{
+    normal "materials/Flechette/Flechette_N.png"
+	specular "materials/Flechette/Flechette_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Flechette/Bubbles.png"
+{
+	shader "shaders/bubbles.fp"
+}
+
+material texture "materials/Flechette/Noise.png"
+{
+	shader "shaders/scroll.fp"
+}
+
+material texture "materials/Flechette/Line.png"
+{
+	shader "shaders/scroll.fp"
+}

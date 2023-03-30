@@ -1,0 +1,886 @@
+material texture "F_001"
+{	
+	normal "hires/Flats/F_001_N.png"
+	specular "hires/Flats/F_001_S.png"
+	metallic "hires/Flats/F_001_S.png"
+	roughness "hires/Flats/F_001_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_002"
+{
+	normal "hires/Flats/F_002_N.png"
+	specular "hires/Flats/F_002_S.png"
+	metallic "hires/Flats/F_002_S.png"
+	roughness "hires/Flats/F_002_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_003"
+{
+	normal "hires/Flats/F_003_N.png"
+	specular "hires/Flats/F_003_S.png"
+	metallic "hires/Flats/F_003_S.png"
+	roughness "hires/Flats/F_003_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_004"
+{
+	normal "hires/Flats/F_004_N.png"
+	specular "hires/Flats/F_004_S.png"
+	metallic "hires/Flats/F_004_S.png"
+	roughness "hires/Flats/F_004_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_005"
+{
+	normal "hires/Flats/F_005_N.png"
+	specular "hires/Flats/F_005_S.png"
+	metallic "hires/Flats/F_005_S.png"
+	roughness "hires/Flats/F_005_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_006"
+{
+	normal "hires/Flats/F_006_N.png"
+	specular "hires/Flats/F_006_S.png"
+	metallic "hires/Flats/F_006_S.png"
+	roughness "hires/Flats/F_006_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_007"
+{
+	normal "hires/Flats/F_007_N.png"
+	specular "hires/Flats/F_007_S.png"
+	metallic "hires/Flats/F_007_S.png"
+	roughness "hires/Flats/F_007_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_008"
+{
+	normal "hires/Flats/F_008_N.png"
+	specular "hires/Flats/F_008_S.png"
+	metallic "hires/Flats/F_008_S.png"
+	roughness "hires/Flats/F_008_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_009"
+{
+	normal "hires/Flats/F_009_N.png"
+	specular "hires/Flats/F_009_S.png"
+	metallic "hires/Flats/F_009_S.png"
+	roughness "hires/Flats/F_009_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_010"
+{
+	normal "hires/Flats/F_010_N.png"
+	specular "hires/Flats/F_010_S.png"
+	metallic "hires/Flats/F_010_S.png"
+	roughness "hires/Flats/F_010_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_011"
+{
+	normal "hires/Flats/F_011_N.png"
+	specular "hires/Flats/F_011_S.png"
+	metallic "hires/Flats/F_011_S.png"
+	roughness "hires/Flats/F_011_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_012"
+{
+	normal "hires/Flats/F_022_N.png"
+	specular "hires/Flats/F_022_S.png"
+	metallic "hires/Flats/F_022_S.png"
+	roughness "hires/Flats/F_022_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_013"
+{
+	normal "hires/Flats/F_013_N.png"
+	specular "hires/Flats/F_013_S.png"
+	metallic "hires/Flats/F_013_S.png"
+	roughness "hires/Flats/F_013_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_014"
+{
+	normal "hires/Flats/F_014_N.png"
+	specular "hires/Flats/F_014_S.png"
+	metallic "hires/Flats/F_014_S.png"
+	roughness "hires/Flats/F_014_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_015"
+{
+	normal "hires/Flats/F_015_N.png"
+	specular "hires/Flats/F_015_S.png"
+	metallic "hires/Flats/F_015_S.png"
+	roughness "hires/Flats/F_015_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_017"
+{
+	normal "hires/Flats/F_017_N.png"
+	specular "hires/Flats/F_017_S.png"
+	metallic "hires/Flats/F_017_S.png"
+	roughness "hires/Flats/F_017_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_019"
+{
+	normal "hires/Flats/F_019_N.png"
+	specular "hires/Flats/F_019_S.png"
+	metallic "hires/Flats/F_019_S.png"
+	roughness "hires/Flats/F_019_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_020"
+{
+	normal "hires/Flats/F_020_N.png"
+	specular "hires/Flats/F_020_S.png"
+	metallic "hires/Flats/F_020_S.png"
+	roughness "hires/Flats/F_020_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_021"
+{
+	normal "hires/Flats/F_021_N.png"
+	specular "hires/Flats/F_021_S.png"
+	metallic "hires/Flats/F_021_S.png"
+	roughness "hires/Flats/F_021_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_022"
+{
+	normal "hires/Flats/F_022_N.png"
+	specular "hires/Flats/F_022_S.png"
+	metallic "hires/Flats/F_022_S.png"
+	roughness "hires/Flats/F_022_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_023"
+{
+	normal "hires/Flats/F_023_N.png"
+	specular "hires/Flats/F_023_S.png"
+	metallic "hires/Flats/F_023_S.png"
+	roughness "hires/Flats/F_023_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_024"
+{
+	normal "hires/Flats/F_024_N.png"
+	specular "hires/Flats/F_024_S.png"
+	metallic "hires/Flats/F_024_S.png"
+	roughness "hires/Flats/F_024_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_025"
+{
+	normal "hires/Flats/F_025_N.png"
+	specular "hires/Flats/F_025_S.png"
+	metallic "hires/Flats/F_025_S.png"
+	roughness "hires/Flats/F_025_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_027"
+{
+	normal "hires/Flats/F_027_N.png"
+	specular "hires/Flats/F_027_S.png"
+	metallic "hires/Flats/F_027_S.png"
+	roughness "hires/Flats/F_027_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_028"
+{
+	normal "hires/Flats/F_028_N.png"
+	specular "hires/Flats/F_028_S.png"
+	metallic "hires/Flats/F_028_S.png"
+	roughness "hires/Flats/F_028_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_029"
+{
+	normal "hires/Flats/F_029_N.png"
+	specular "hires/Flats/F_029_S.png"
+	metallic "hires/Flats/F_029_S.png"
+	roughness "hires/Flats/F_029_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_030"
+{
+	normal "hires/Flats/F_030_N.png"
+	specular "hires/Flats/F_030_S.png"
+	metallic "hires/Flats/F_030_S.png"
+	roughness "hires/Flats/F_030_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_031"
+{
+	normal "hires/Flats/F_031_N.png"
+	specular "hires/Flats/F_031_S.png"
+	metallic "hires/Flats/F_031_S.png"
+	roughness "hires/Flats/F_031_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_032"
+{
+	normal "hires/Flats/F_032_N.png"
+	specular "hires/Flats/F_032_S.png"
+	metallic "hires/Flats/F_032_S.png"
+	roughness "hires/Flats/F_032_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_033"
+{
+	normal "hires/Flats/F_033_N.png"
+	specular "hires/Flats/F_033_S.png"
+	metallic "hires/Flats/F_033_S.png"
+	roughness "hires/Flats/F_033_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_034"
+{
+	normal "hires/Flats/F_034_N.png"
+	specular "hires/Flats/F_034_S.png"
+	metallic "hires/Flats/F_034_S.png"
+	roughness "hires/Flats/F_034_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_037"
+{
+	normal "hires/Flats/F_037_N.png"
+	specular "hires/Flats/F_037_S.png"
+	metallic "hires/Flats/F_037_S.png"
+	roughness "hires/Flats/F_037_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_038"
+{
+	normal "hires/Flats/F_038_N.png"
+	specular "hires/Flats/F_038_S.png"
+	metallic "hires/Flats/F_038_S.png"
+	roughness "hires/Flats/F_038_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_039"
+{
+	normal "hires/Flats/F_039_N.png"
+	specular "hires/Flats/F_039_S.png"
+	metallic "hires/Flats/F_039_S.png"
+	roughness "hires/Flats/F_039_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_040"
+{
+	normal "hires/Flats/F_040_N.png"
+	specular "hires/Flats/F_040_S.png"
+	metallic "hires/Flats/F_040_S.png"
+	roughness "hires/Flats/F_040_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_041"
+{
+	normal "hires/Flats/F_041_N.png"
+	specular "hires/Flats/F_041_S.png"
+	metallic "hires/Flats/F_041_S.png"
+	roughness "hires/Flats/F_041_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_042"
+{
+	normal "hires/Flats/F_042_N.png"
+	specular "hires/Flats/F_042_S.png"
+	metallic "hires/Flats/F_042_S.png"
+	roughness "hires/Flats/F_042_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_043"
+{
+	normal "hires/Flats/F_043_N.png"
+	specular "hires/Flats/F_043_S.png"
+	metallic "hires/Flats/F_043_S.png"
+	roughness "hires/Flats/F_043_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_044"
+{
+	normal "hires/Flats/F_044_N.png"
+	specular "hires/Flats/F_044_S.png"
+	metallic "hires/Flats/F_044_S.png"
+	roughness "hires/Flats/F_044_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_045"
+{
+	normal "hires/Flats/F_045_N.png"
+	specular "hires/Flats/F_045_S.png"
+	metallic "hires/Flats/F_045_S.png"
+	roughness "hires/Flats/F_045_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_046"
+{
+	normal "hires/Flats/F_046_N.png"
+	specular "hires/Flats/F_046_S.png"
+	metallic "hires/Flats/F_046_S.png"
+	roughness "hires/Flats/F_046_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_047"
+{
+	normal "hires/Flats/F_047_N.png"
+	specular "hires/Flats/F_047_S.png"
+	metallic "hires/Flats/F_047_S.png"
+	roughness "hires/Flats/F_047_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_048"
+{
+	normal "hires/Flats/F_048_N.png"
+	specular "hires/Flats/F_048_S.png"
+	metallic "hires/Flats/F_048_S.png"
+	roughness "hires/Flats/F_048_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_049"
+{
+	normal "hires/Flats/F_049_N.png"
+	specular "hires/Flats/F_049_S.png"
+	metallic "hires/Flats/F_049_S.png"
+	roughness "hires/Flats/F_049_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_050"
+{
+	normal "hires/Flats/F_050_N.png"
+	specular "hires/Flats/F_050_S.png"
+	metallic "hires/Flats/F_050_S.png"
+	roughness "hires/Flats/F_050_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_051"
+{
+	normal "hires/Flats/F_051_N.png"
+	specular "hires/Flats/F_051_S.png"
+	metallic "hires/Flats/F_051_S.png"
+	roughness "hires/Flats/F_051_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_052"
+{
+	normal "hires/Flats/F_052_N.png"
+	specular "hires/Flats/F_052_S.png"
+	metallic "hires/Flats/F_052_S.png"
+	roughness "hires/Flats/F_052_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_053"
+{
+	normal "hires/Flats/F_053_N.png"
+	specular "hires/Flats/F_053_S.png"
+	metallic "hires/Flats/F_053_S.png"
+	roughness "hires/Flats/F_053_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_054"
+{
+	normal "hires/Flats/F_054_N.png"
+	specular "hires/Flats/F_054_S.png"
+	metallic "hires/Flats/F_054_S.png"
+	roughness "hires/Flats/F_054_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_055"
+{
+	normal "hires/Flats/F_055_N.png"
+	specular "hires/Flats/F_055_S.png"
+	metallic "hires/Flats/F_055_S.png"
+	roughness "hires/Flats/F_055_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_057"
+{
+	normal "hires/Flats/F_057_N.png"
+	specular "hires/Flats/F_057_S.png"
+	metallic "hires/Flats/F_057_S.png"
+	roughness "hires/Flats/F_057_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_058"
+{
+	normal "hires/Flats/F_058_N.png"
+	specular "hires/Flats/F_058_S.png"
+	metallic "hires/Flats/F_058_S.png"
+	roughness "hires/Flats/F_058_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_059"
+{
+	normal "hires/Flats/F_059_N.png"
+	specular "hires/Flats/F_059_S.png"
+	metallic "hires/Flats/F_059_S.png"
+	roughness "hires/Flats/F_059_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_061"
+{
+	normal "hires/Flats/F_061_N.png"
+	specular "hires/Flats/F_061_S.png"
+	metallic "hires/Flats/F_061_S.png"
+	roughness "hires/Flats/F_061_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_062"
+{
+	normal "hires/Flats/F_062_N.png"
+	specular "hires/Flats/F_062_S.png"
+	metallic "hires/Flats/F_062_S.png"
+	roughness "hires/Flats/F_062_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_063"
+{
+	normal "hires/Flats/F_063_N.png"
+	specular "hires/Flats/F_063_S.png"
+	metallic "hires/Flats/F_063_S.png"
+	roughness "hires/Flats/F_063_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_064"
+{
+	normal "hires/Flats/F_064_N.png"
+	specular "hires/Flats/F_064_S.png"
+	metallic "hires/Flats/F_064_S.png"
+	roughness "hires/Flats/F_064_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_065"
+{
+	normal "hires/Flats/F_065_N.png"
+	specular "hires/Flats/F_065_S.png"
+	metallic "hires/Flats/F_065_S.png"
+	roughness "hires/Flats/F_065_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_066"
+{
+	normal "hires/Flats/F_066_N.png"
+	specular "hires/Flats/F_066_S.png"
+	metallic "hires/Flats/F_066_S.png"
+	roughness "hires/Flats/F_066_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_067"
+{
+	normal "hires/Flats/F_067_N.png"
+	specular "hires/Flats/F_067_S.png"
+	metallic "hires/Flats/F_067_S.png"
+	roughness "hires/Flats/F_067_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_068"
+{
+	normal "hires/Flats/F_068_N.png"
+	specular "hires/Flats/F_068_S.png"
+	metallic "hires/Flats/F_068_S.png"
+	roughness "hires/Flats/F_068_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_069"
+{
+	normal "hires/Flats/F_069_N.png"
+	specular "hires/Flats/F_069_S.png"
+	metallic "hires/Flats/F_069_S.png"
+	roughness "hires/Flats/F_069_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_070"
+{
+	normal "hires/Flats/F_070_N.png"
+	specular "hires/Flats/F_070_S.png"
+	metallic "hires/Flats/F_070_S.png"
+	roughness "hires/Flats/F_070_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_071"
+{
+	normal "hires/Flats/F_071_N.png"
+	specular "hires/Flats/F_071_S.png"
+	metallic "hires/Flats/F_071_S.png"
+	roughness "hires/Flats/F_071_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_072"
+{
+	normal "hires/Flats/F_072_N.png"
+	specular "hires/Flats/F_072_S.png"
+	metallic "hires/Flats/F_072_S.png"
+	roughness "hires/Flats/F_072_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_073"
+{
+	normal "hires/Flats/F_073_N.png"
+	specular "hires/Flats/F_073_S.png"
+	metallic "hires/Flats/F_073_S.png"
+	roughness "hires/Flats/F_073_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_074"
+{
+	normal "hires/Flats/F_074_N.png"
+	specular "hires/Flats/F_074_S.png"
+	metallic "hires/Flats/F_074_S.png"
+	roughness "hires/Flats/F_074_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_075"
+{
+	normal "hires/Flats/F_075_N.png"
+	specular "hires/Flats/F_075_S.png"
+	metallic "hires/Flats/F_075_S.png"
+	roughness "hires/Flats/F_075_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_076"
+{
+	normal "hires/Flats/F_076_N.png"
+	specular "hires/Flats/F_076_S.png"
+	metallic "hires/Flats/F_076_S.png"
+	roughness "hires/Flats/F_076_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_077"
+{
+	normal "hires/Flats/F_077_N.png"
+	specular "hires/Flats/F_077_S.png"
+	metallic "hires/Flats/F_077_S.png"
+	roughness "hires/Flats/F_077_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_078"
+{
+	normal "hires/Flats/F_078_N.png"
+	specular "hires/Flats/F_078_S.png"
+	metallic "hires/Flats/F_078_S.png"
+	roughness "hires/Flats/F_078_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+brightmap texture "F_081" { map "hires/Flats/F_081_E.png" }
+material texture "F_081"
+{
+	normal "hires/Flats/F_081_N.png"
+	specular "hires/Flats/F_081_S.png"
+	metallic "hires/Flats/F_081_S.png"
+	roughness "hires/Flats/F_081_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_082"
+{
+	normal "hires/Flats/F_082_N.png"
+	specular "hires/Flats/F_082_S.png"
+	metallic "hires/Flats/F_082_S.png"
+	roughness "hires/Flats/F_082_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_083"
+{
+	normal "hires/Flats/F_083_N.png"
+	specular "hires/Flats/F_083_S.png"
+	metallic "hires/Flats/F_083_S.png"
+	roughness "hires/Flats/F_083_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_084"
+{
+	normal "hires/Flats/F_PORT_N.png"
+	specular "hires/Flats/F_PORT_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_085"
+{
+	normal "hires/Flats/F_PORT_N.png"
+	specular "hires/Flats/F_PORT_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_086"
+{
+	normal "hires/Flats/F_PORT_N.png"
+	specular "hires/Flats/F_PORT_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_087"
+{
+	normal "hires/Flats/F_PORT_N.png"
+	specular "hires/Flats/F_PORT_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_088"
+{
+	normal "hires/Flats/F_PORT_N.png"
+	specular "hires/Flats/F_PORT_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_089"
+{
+	normal "hires/Flats/F_089_N.png"
+	specular "hires/Flats/F_089_S.png"
+	metallic "hires/Flats/F_089_S.png"
+	roughness "hires/Flats/F_089_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_091"
+{
+	normal "hires/Flats/F_091_N.png"
+	specular "hires/Flats/F_091_S.png"
+	metallic "hires/Flats/F_091_S.png"
+	roughness "hires/Flats/F_091_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "F_092"
+{
+	normal "hires/Flats/F_092_N.png"
+	specular "hires/Flats/F_092_S.png"
+	metallic "hires/Flats/F_092_S.png"
+	roughness "hires/Flats/F_092_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "X_001"
+{
+	normal "hires/Flats/X_Lava_N.png"
+	specular "hires/Flats/X_Lava_S.png"
+	ao "hires/Flats/X_Lava_AO.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "X_002"
+{
+	normal "hires/Flats/X_Lava_N.png"
+	specular "hires/Flats/X_Lava_S.png"
+	ao "hires/Flats/X_Lava_AO.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "X_003"
+{
+	normal "hires/Flats/X_Lava_N.png"
+	specular "hires/Flats/X_Lava_S.png"
+	ao "hires/Flats/X_Lava_AO.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "X_004"
+{
+	normal "hires/Flats/X_Lava_N.png"
+	specular "hires/Flats/X_Lava_S.png"
+	ao "hires/Flats/X_Lava_AO.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "X_012"
+{
+	normal "hires/Flats/F_PORT_N.png"
+	specular "hires/Flats/F_PORT_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "X_013"
+{
+	normal "hires/Flats/F_PORT_N.png"
+	specular "hires/Flats/F_PORT_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "X_014"
+{
+	normal "hires/Flats/F_PORT_N.png"
+	specular "hires/Flats/F_PORT_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "X_015"
+{
+	normal "hires/Flats/F_PORT_N.png"
+	specular "hires/Flats/F_PORT_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}
+
+material texture "X_016"
+{
+	normal "hires/Flats/F_PORT_N.png"
+	specular "hires/Flats/F_PORT_S.png"
+	specularlevel 5.0
+	glossiness 5.0
+}

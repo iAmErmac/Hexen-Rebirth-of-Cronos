@@ -1,0 +1,472 @@
+#include "gldefs/Flats.gl"
+#include "gldefs/Textures.gl"
+
+material texture "materials/BucketBarrel/Barrel.png"
+{
+    normal "materials/BucketBarrel/Barrel_N.png"
+    specular "materials/BucketBarrel/Barrel_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Bell/Bell.png"
+{
+    normal "materials/Bell/Bell_N.png"
+    specular "materials/Bell/Bell_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Shrubs/Shrubs.png"
+{
+    normal "materials/Shrubs/Shrubs_N.png"
+    specular "materials/Shrubs/Shrubs_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Shrubs/ShrubsBurned.png"
+{
+    normal "materials/Shrubs/Shrubs_N.png"
+    specular "materials/Shrubs/Shrubs_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/WingedStatue/WingedStatue.png"
+{
+    normal "materials/WingedStatue/WingedStatue_N.png"
+    specular "materials/WingedStatue/WingedStatue_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/WingedStatue/WingedStatueM.png"
+{
+    normal "materials/WingedStatue/WingedStatueM_N.png"
+    specular "materials/WingedStatue/WingedStatueM_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Stones/Stones.png"
+{
+    normal "materials/Stones/Stones_N.png"
+    specular "materials/Stones/Stones_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Tombs/Tombs.png"
+{
+    normal "materials/Tombs/Tombs_N.png"
+    specular "materials/Tombs/Tombs_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/SwampTree/SwampTree.png"
+{
+    normal "materials/SwampTree/SwampTree_N.png"
+    specular "materials/SwampTree/SwampTree_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/SwampTree2/SwampTree2.png"
+{
+    normal "materials/SwampTree2/SwampTree2_N.png"
+    specular "materials/SwampTree2/SwampTree2_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Spike/Spike.png"
+{
+    normal "materials/Spike/Spike_N.png"
+    specular "materials/Spike/Spike_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Stumps/Stumps.png"
+{
+    normal "materials/Stumps/Stumps_N.png"
+    specular "materials/Stumps/Stumps_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Stumps/Stumps2.png"
+{
+    normal "materials/Stumps/Stumps2_N.png"
+    specular "materials/Stumps/Stumps2_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+brightmap texture "materials/StalacIce/StalacIce.png" { map "materials/StalacIce/StalacIce_E.png" }
+material texture "materials/StalacIce/StalacIce.png"
+{
+    normal "materials/StalacIce/StalacIce_N.png"
+    specular "materials/StalacIce/StalacIce_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/ScrewTorch/ScrewTorch.png"
+{
+    normal "materials/ScrewTorch/ScrewTorch_N.png"
+    specular "materials/ScrewTorch/ScrewTorch_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/TwinedTorch/TwinedTorch.png"
+{
+    normal "materials/TwinedTorch/TwinedTorch_N.png"
+    specular "materials/TwinedTorch/TwinedTorch_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/PillarVase/PillarVase.png"
+{
+    normal "materials/PillarVase/PillarVase_N.png"
+    specular "materials/PillarVase/PillarVase_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Shrooms/Shrooms.png"
+{
+    normal "materials/Shrooms/Shrooms_N.png"
+    specular "materials/Shrooms/Shrooms_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Projectiles/Projectiles.png"
+{
+    normal "materials/Projectiles/Projectiles_N.png"
+    specular "materials/Projectiles/Projectiles_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Piedestal/Piedestal.png"
+{
+    normal "materials/Piedestal/Piedestal_N.png"
+    specular "materials/Piedestal/Piedestal_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Rocks/Rocks.png"
+{
+    normal "materials/Rocks/Rocks_N.png"
+    specular "materials/Rocks/Rocks_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Stalactite/Stalactite.png"
+{
+    normal "materials/Stalactite/Stalactite_N.png"
+    specular "materials/Stalactite/Stalactite_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Knight/Knight.png"
+{
+    normal "materials/Knight/Knight_N.png"
+    specular "materials/Knight/Knight_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Logs/Logs.png"
+{
+    normal "materials/Logs/Logs_N.png"
+    specular "materials/Logs/Logs_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Hooks/Hooks.png"
+{
+    normal "materials/Hooks/Hooks_N.png"
+    specular "materials/Hooks/Hooks_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Vases/Vases.png"
+{
+    normal "materials/Vases/Vases_N.png"
+    specular "materials/Vases/Vases_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/TreeCrush/TreeCrush.png"
+{
+    normal "materials/TreeCrush/TreeCrush_N.png"
+    specular "materials/TreeCrush/TreeCrush_S.png"
+	roughness "materials/Metallic.png"
+    specularlevel 5.0
+    glossiness 5.0
+}
+
+material texture "materials/Dishes/Dishes.png"
+{
+    normal "materials/Dishes/Dishes_N.png"
+    specular "materials/Dishes/Dishes_S.png"
+    specularlevel 2.0
+    glossiness 2.0
+}
+
+
+material texture "materials/DeadTree/DeadTree.png"
+{
+    normal "materials/DeadTree/DeadTree_N.png"
+    specular "materials/DeadTree/DeadTree_S.png"
+	roughness "materials/Metallic.png"
+    specularlevel 5.0
+    glossiness 5.0
+}
+
+material texture "materials/TreeCrush/TreeCrushB.png"
+{
+    normal "materials/TreeCrush/TreeCrush_N.png"
+    specular "materials/TreeCrush/TreeCrush_S.png"
+	roughness "materials/Metallic.png"
+    specularlevel 5.0
+    glossiness 5.0
+}
+
+material texture "materials/ChristmasTree/ChristmasTree.png"
+{
+    normal "materials/ChristmasTree/ChristmasTree_N.png"
+	specular "materials/ChristmasTree/ChristmasTree_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/BigTree1/BigTree1.png"
+{
+    normal "materials/BigTree1/BigTree1_N.png"
+	roughness "materials/Metallic.png"
+    specularlevel 2.0
+    glossiness 2.0
+}
+
+material texture "materials/Flag/Flag.png"
+{
+    normal "materials/Flag/Flag_N.png"
+	specular "materials/Flag/Flag_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Gargoyles/Bronze.png"
+{
+    normal "materials/Gargoyles/Bronze_N.png"
+	specular "materials/Gargoyles/Bronze_S.png"
+	metallic "materials/Gargoyles/Bronze_S.png"
+	roughness "materials/Gargoyles/Bronze_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/FaceTorch/FaceTorch.png"
+{
+    normal "materials/FaceTorch/FaceTorch_N.png"
+	specular "materials/FaceTorch/FaceTorch_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+brightmap texture "materials/Gargoyles/Lava.png" { map "materials/Gargoyles/Lava_E.png" }
+material texture "materials/Gargoyles/Lava.png"
+{
+    normal "materials/Gargoyles/Lava_N.png"
+	specular "materials/Gargoyles/Lava_S.png"
+	metallic "materials/Gargoyles/Lava_S.png"
+	roughness "materials/Gargoyles/Lava_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+brightmap texture "materials/Frostshard/Frostshard.png" { map "materials/Frostshard/Frostshard_E.png" }
+material texture "materials/Frostshard/Frostshard.png"
+{
+    normal "materials/Frostshard/Frostshard_N.png"
+	specular "materials/Frostshard/Frostshard_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+brightmap texture "materials/FlameMask/FlameMask.png" { map "materials/FlameMask/FlameMask_E.png" }
+material texture "materials/FlameMask/FlameMask.png"
+{
+    normal "materials/FlameMask/FlameMask_N.png"
+	specular "materials/FlameMask/FlameMask_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+brightmap texture "FX/Flame/CandleFlame2.png" { map "FX/Flame/CandleFlame2.png" }
+brightmap texture "materials/Candles/Candles.png" { map "materials/Candles/Candles_E.png" }
+material texture "materials/Candles/Candles.png"
+{
+    normal "materials/Candles/Candles_N.png"
+	specular "materials/Candles/Candles_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+brightmap texture "materials/BullTorch/BullTorch.png" { map "materials/BullTorch/BullTorch_E.png" }
+material texture "materials/BullTorch/BullTorch.png"
+{
+    normal "materials/BullTorch/BullTorch_N.png"
+	specular "materials/BullTorch/BullTorch_S.png"
+	metallic "materials/BullTorch/BullTorch_S.png"
+	roughness "materials/BullTorch/BullTorch_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Chandelier/Chandelier.png"
+{
+    normal "materials/Chandelier/Chandelier_N.png"
+	specular "materials/Chandelier/Chandelier_S.png"
+    glossiness 1.0
+}
+
+brightmap texture "materials/Gargoyles/Ice.png" { map "materials/Gargoyles/Ice_E.png" }
+material texture "materials/Gargoyles/Ice.png"
+{
+    normal "materials/Gargoyles/Ice_N.png"
+	specular "materials/Gargoyles/Ice_S.png"
+	metallic "materials/Gargoyles/Ice_S.png"
+	roughness "materials/Gargoyles/Ice_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+brightmap texture "materials/Cauldron/Cauldron.png" { map "materials/Cauldron/Cauldron_E.png" }
+material texture "materials/Cauldron/Cauldron.png"
+{
+    normal "materials/Cauldron/Cauldron_N.png"
+	specular "materials/Cauldron/Cauldron_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Gargoyles/Metal.png"
+{
+    normal "materials/Gargoyles/Metal_N.png"
+	specular "materials/Gargoyles/Metal_S.png"
+	metallic "materials/Gargoyles/Metal_S.png"
+	roughness "materials/Gargoyles/Metal_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Corpses/Corpse1.png"
+{
+    normal "materials/Corpses/Corpse1_N.png"
+	specular "materials/Corpses/Corpse1_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Corpses/Corpse2.png"
+{
+    normal "materials/Corpses/Corpse2_N.png"
+	specular "materials/Corpses/Corpse2_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Corpses/Corpse3-4.png"
+{
+    normal "materials/Corpses/Corpse3-4_N.png"
+	specular "materials/Corpses/Corpse3-4_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Corpses/Corpse5.png"
+{
+    normal "materials/Corpses/Corpse5_N.png"
+	specular "materials/Corpses/Corpse5_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Corpses/Corpse6.png"
+{
+    normal "materials/Corpses/Corpse6_N.png"
+	specular "materials/Corpses/Corpse6_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Corpses/CorpseHair3-6.png"
+{
+    normal "materials/Corpses/CorpseHair3-6_N.png"
+	specular "materials/Corpses/CorpseHair3-6_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Corpses/CorpseHair1.png"
+{
+    normal "materials/Corpses/CorpseHair1_N.png"
+	roughness "materials/Corpses/CorpseHair1_R.jpg"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Gargoyles/Jasper.png"
+{
+    normal "materials/Gargoyles/Jasper_N.png"
+	specular "materials/Gargoyles/Jasper_S.png"
+	metallic "materials/Gargoyles/Jasper_S.png"
+	roughness "materials/Gargoyles/Jasper_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Gargoyles/Stone.png"
+{
+    normal "materials/Gargoyles/Stone_N.png"
+	specular "materials/Gargoyles/Stone_S.png"
+	metallic "materials/Gargoyles/Stone_S.png"
+	roughness "materials/Gargoyles/Stone_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/Gargoyles/Wood.png"
+{
+    normal "materials/Gargoyles/Wood_N.png"
+	specular "materials/Gargoyles/Wood_S.png"
+	metallic "materials/Gargoyles/Wood_S.png"
+	roughness "materials/Gargoyles/Wood_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
+
+material texture "materials/SwampVine/SwampVine.png"
+{
+    normal "materials/SwampVine/SwampVine_N.png"
+	specular "materials/SwampVine/SwampVine_S.png"
+	metallic "materials/SwampVine/SwampVine_S.png"
+	roughness "materials/SwampVine/SwampVine_S.png"
+    specularlevel 1.0
+    glossiness 1.0
+}
