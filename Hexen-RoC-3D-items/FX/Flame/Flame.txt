@@ -1,0 +1,388 @@
+Model TorchFlame1
+{ 
+   Path "FX/Flame"
+   SKIN 0 "TRFLA0.jpg"
+   MODEL 0 "TorchFlame.md3"
+   Scale 1.0 1.0 1.2
+   Offset 0.0 0.0 0.0
+   
+   FrameIndex TFLA A 0 0
+   SKIN 0 "TRFLB0.jpg"
+   FrameIndex TFLA B 0 0
+   SKIN 0 "TRFLC0.jpg"
+   FrameIndex TFLA C 0 0
+   SKIN 0 "TRFLD0.jpg"
+   FrameIndex TFLA D 0 0
+   SKIN 0 "TRFLE0.jpg"
+   FrameIndex TFLA E 0 0
+   SKIN 0 "TRFLF0.jpg"
+   FrameIndex TFLA F 0 0
+   SKIN 0 "TRFLG0.jpg"
+   FrameIndex TFLA G 0 0
+   SKIN 0 "TRFLH0.jpg"
+   FrameIndex TFLA H 0 0
+}
+
+Model TorchFire
+{ 
+   Path "FX/Flame"
+   SKIN 0 "TRFLA0.jpg"
+   MODEL 0 "TorchFire.md3"
+   Scale 0.4 0.4 0.48
+   Offset 0.0 0.0 0.0
+   
+   FrameIndex TFLA A 0 0
+   SKIN 0 "TRFLB0.jpg"
+   FrameIndex TFLA B 0 0
+   SKIN 0 "TRFLC0.jpg"
+   FrameIndex TFLA C 0 0
+   SKIN 0 "TRFLD0.jpg"
+   FrameIndex TFLA D 0 0
+   SKIN 0 "TRFLE0.jpg"
+   FrameIndex TFLA E 0 0
+   SKIN 0 "TRFLF0.jpg"
+   FrameIndex TFLA F 0 0
+   SKIN 0 "TRFLG0.jpg"
+   FrameIndex TFLA G 0 0
+   SKIN 0 "TRFLH0.jpg"
+   FrameIndex TFLA H 0 0
+}
+
+Model BullFlame1
+{ 
+   Path "FX/Flame"
+   SKIN 0 "TRFLA0.jpg"
+   MODEL 0 "BullFlame.md3"
+   Scale 0.4 0.4 0.48
+   Offset 0.0 0.0 0.0
+   
+   FrameIndex TFLA A 0 0
+   SKIN 0 "TRFLB0.jpg"
+   FrameIndex TFLA B 0 0
+   SKIN 0 "TRFLC0.jpg"
+   FrameIndex TFLA C 0 0
+   SKIN 0 "TRFLD0.jpg"
+   FrameIndex TFLA D 0 0
+   SKIN 0 "TRFLE0.jpg"
+   FrameIndex TFLA E 0 0
+   SKIN 0 "TRFLF0.jpg"
+   FrameIndex TFLA F 0 0
+   SKIN 0 "TRFLG0.jpg"
+   FrameIndex TFLA G 0 0
+   SKIN 0 "TRFLH0.jpg"
+   FrameIndex TFLA H 0 0
+}
+
+Model CauldronFire
+{ 
+   Path "FX/Flame"
+   SKIN 0 "TRFLA0.jpg"
+   MODEL 0 "CauldronFire.md3"
+   Scale 0.4 0.4 0.48
+   Offset 0.0 0.0 0.0
+   
+   FrameIndex TFLA A 0 0
+   SKIN 0 "TRFLB0.jpg"
+   FrameIndex TFLA B 0 0
+   SKIN 0 "TRFLC0.jpg"
+   FrameIndex TFLA C 0 0
+   SKIN 0 "TRFLD0.jpg"
+   FrameIndex TFLA D 0 0
+   SKIN 0 "TRFLE0.jpg"
+   FrameIndex TFLA E 0 0
+   SKIN 0 "TRFLF0.jpg"
+   FrameIndex TFLA F 0 0
+   SKIN 0 "TRFLG0.jpg"
+   FrameIndex TFLA G 0 0
+   SKIN 0 "TRFLH0.jpg"
+   FrameIndex TFLA H 0 0
+}
+
+Model ChandelierFlame
+{ 
+   Path "FX/Flame"
+   SKIN 0 "CandleFlame.png"
+   MODEL 0 "ChandelierFlame.md3"
+   Scale  0.8 0.8 0.96
+   Offset 0.0 0.0 0.0
+   
+   FrameIndex CHNF A 0 0
+   FrameIndex CHNF B 0 1
+   FrameIndex CHNF C 0 2
+   FrameIndex CHNF D 0 3
+   FrameIndex CHNF E 0 4
+   FrameIndex CHNF F 0 5
+   FrameIndex CHNF G 0 6
+   FrameIndex CHNF H 0 7
+   FrameIndex CHNF I 0 8
+   FrameIndex CHNF J 0 9
+   FrameIndex CHNF K 0 10
+   FrameIndex CHNF L 0 11
+   FrameIndex CHNF M 0 12
+   FrameIndex CHNF N 0 13
+}
+
+Model ChristmasTreeFire
+{ 
+   Path "FX/Flame"
+   SKIN 0 "TRFLA0.jpg"
+   MODEL 0 "ChristmasTreeFire.md3"
+   Scale 0.05 0.05 0.06
+   Offset 0.0 0.0 0.0
+   
+   FrameIndex TFLA A 0 0
+   SKIN 0 "TRFLB0.jpg"
+   Scale 0.1 0.1 0.12
+   FrameIndex TFLA B 0 0
+   SKIN 0 "TRFLC0.jpg"
+   Scale 0.15 0.15 0.18
+   FrameIndex TFLA C 0 0
+   SKIN 0 "TRFLD0.jpg"
+   Scale 0.2 0.2 0.24
+   FrameIndex TFLA D 0 0
+   SKIN 0 "TRFLE0.jpg"
+   Scale 0.25 0.25 0.30
+   FrameIndex TFLA E 0 0
+   SKIN 0 "TRFLF0.jpg"
+   Scale 0.3 0.3 0.36
+   FrameIndex TFLA F 0 0
+   SKIN 0 "TRFLG0.jpg"
+   Scale 0.35 0.35 0.42
+   FrameIndex TFLA G 0 0
+   SKIN 0 "TRFLH0.jpg"
+   Scale 0.4 0.4 0.48
+   FrameIndex TFLA H 0 0
+}
+
+Model TreeCrushFire
+{ 
+   Path "FX/Flame"
+   SKIN 0 "TRFLA0.jpg"
+   MODEL 0 "ChristmasTreeFire.md3"
+   Scale 0.25 0.25 0.3
+   Offset 0.0 0.0 0.0
+   
+   FrameIndex TFLA A 0 0
+   SKIN 0 "TRFLB0.jpg"
+   Scale 0.25 0.25 0.3
+   FrameIndex TFLA B 0 0
+   SKIN 0 "TRFLC0.jpg"
+   Scale 0.375 0.375 0.45
+   FrameIndex TFLA C 0 0
+   SKIN 0 "TRFLD0.jpg"
+   Scale 0.5 0.5 0.6
+   FrameIndex TFLA D 0 0
+   SKIN 0 "TRFLE0.jpg"
+   Scale 0.625 0.625 0.75
+   FrameIndex TFLA E 0 0
+   SKIN 0 "TRFLF0.jpg"
+   Scale 0.750 0.750 0.90
+   FrameIndex TFLA F 0 0
+   SKIN 0 "TRFLG0.jpg"
+   Scale 0.875 0.875 1.05
+   FrameIndex TFLA G 0 0
+   SKIN 0 "TRFLH0.jpg"
+   Scale 1.0 1.0 1.2
+   FrameIndex TFLA H 0 0
+}
+
+Model FaceTorchFire
+{ 
+   Path "FX/Flame"
+   SKIN 0 "TRFLA0.jpg"
+   MODEL 0 "FaceTorchFire.md3"
+   Scale 0.2 0.2 0.24
+   Offset 0.0 0.0 0.0
+   
+   FrameIndex TFLA A 0 0
+   SKIN 0 "TRFLB0.jpg"
+   FrameIndex TFLA B 0 0
+   SKIN 0 "TRFLC0.jpg"
+   FrameIndex TFLA C 0 0
+   SKIN 0 "TRFLD0.jpg"
+   FrameIndex TFLA D 0 0
+   SKIN 0 "TRFLE0.jpg"
+   FrameIndex TFLA E 0 0
+   SKIN 0 "TRFLF0.jpg"
+   FrameIndex TFLA F 0 0
+   SKIN 0 "TRFLG0.jpg"
+   FrameIndex TFLA G 0 0
+   SKIN 0 "TRFLH0.jpg"
+   FrameIndex TFLA H 0 0
+}
+
+Model ScrewTorchFire
+{ 
+   Path "FX/Flame"
+   SKIN 0 "TRFLA0.jpg"
+   MODEL 0 "ScrewTorchFire.md3"
+   Scale 0.4 0.4 0.4
+   Offset 0.0 0.0 0.0
+   
+   FrameIndex TFLA A 0 0
+   SKIN 0 "TRFLB0.jpg"
+   FrameIndex TFLA B 0 0
+   SKIN 0 "TRFLC0.jpg"
+   FrameIndex TFLA C 0 0
+   SKIN 0 "TRFLD0.jpg"
+   FrameIndex TFLA D 0 0
+   SKIN 0 "TRFLE0.jpg"
+   FrameIndex TFLA E 0 0
+   SKIN 0 "TRFLF0.jpg"
+   FrameIndex TFLA F 0 0
+   SKIN 0 "TRFLG0.jpg"
+   FrameIndex TFLA G 0 0
+   SKIN 0 "TRFLH0.jpg"
+   FrameIndex TFLA H 0 0
+}
+
+Model TorchItemFire
+{ 
+   Path "FX/Flame"
+   SKIN 0 "TRFLA0.jpg"
+   MODEL 0 "TorchItemFire.md3"
+   Scale 0.2 0.2 0.2
+   Offset 0.0 0.0 10.0
+   ROTATING
+   
+   FrameIndex TFLA A 0 0
+   SKIN 0 "TRFLB0.jpg"
+   FrameIndex TFLA B 0 0
+   SKIN 0 "TRFLC0.jpg"
+   FrameIndex TFLA C 0 0
+   SKIN 0 "TRFLD0.jpg"
+   FrameIndex TFLA D 0 0
+   SKIN 0 "TRFLE0.jpg"
+   FrameIndex TFLA E 0 0
+   SKIN 0 "TRFLF0.jpg"
+   FrameIndex TFLA F 0 0
+   SKIN 0 "TRFLG0.jpg"
+   FrameIndex TFLA G 0 0
+   SKIN 0 "TRFLH0.jpg"
+   FrameIndex TFLA H 0 0
+}
+
+Model CandleBigFire
+{ 
+   Path "FX/Flame"
+   SKIN 0 "CandleFlame.jpg"
+   MODEL 0 "CandleBigFire.md3"
+   Scale 1.0 1.0 1.2
+   Offset 0.0 0.0 0.0
+   
+    FrameIndex CBBF A 0 0
+    FrameIndex CBBF B 0 1
+    FrameIndex CBBF C 0 2
+    FrameIndex CBBF D 0 3
+    FrameIndex CBBF E 0 4
+    FrameIndex CBBF F 0 5
+    FrameIndex CBBF G 0 6
+    FrameIndex CBBF H 0 7
+    FrameIndex CBBF I 0 8
+    FrameIndex CBBF J 0 9
+    FrameIndex CBBF K 0 10
+    FrameIndex CBBF L 0 11
+    FrameIndex CBBF M 0 12
+    FrameIndex CBBF N 0 13
+    FrameIndex CBBF O 0 14
+    FrameIndex CBBF P 0 15
+    FrameIndex CBBF Q 0 16
+    FrameIndex CBBF R 0 17
+    FrameIndex CBBF S 0 18
+    FrameIndex CBBF T 0 19
+	
+}
+
+Model CandleBlueFire
+{ 
+   Path "FX/Flame"
+   SKIN 0 "CandleFlame2.png"
+   MODEL 0 "CandleBlueFire.md3"
+   Scale 1.0 1.0 1.2
+   Offset 0.0 0.0 0.0
+   
+	FrameIndex CNBF A 0 0
+    FrameIndex CNBF B 0 1
+    FrameIndex CNBF C 0 2
+    FrameIndex CNBF D 0 3
+    FrameIndex CNBF E 0 4
+    FrameIndex CNBF F 0 5
+    FrameIndex CNBF G 0 6
+    FrameIndex CNBF H 0 7
+    FrameIndex CNBF I 0 8
+    FrameIndex CNBF J 0 9
+    FrameIndex CNBF K 0 10
+    FrameIndex CNBF L 0 11
+    FrameIndex CNBF M 0 12
+    FrameIndex CNBF N 0 13
+    FrameIndex CNBF O 0 14
+    FrameIndex CNBF P 0 15
+    FrameIndex CNBF Q 0 16
+    FrameIndex CNBF R 0 17
+    FrameIndex CNBF S 0 18
+    FrameIndex CNBF T 0 19
+}
+
+Model ShrubBigFire
+{ 
+   Path "FX/Flame"
+   SKIN 0 "TRFLA0.jpg"
+   MODEL 0 "ShrubBigFire.md3"
+   Scale 0.0 0.0 0.0
+   Offset 0.0 0.0 -5.0
+   
+   FrameIndex TFLA A 0 0
+   SKIN 0 "TRFLB0.jpg"
+   Scale 0.085 0.085 0.102
+   FrameIndex TFLA B 0 0
+   SKIN 0 "TRFLC0.jpg"
+   Scale 0.171 0.171 0.204
+   FrameIndex TFLA C 0 0
+   SKIN 0 "TRFLD0.jpg"
+   Scale 0.255 0.255 0.306
+   FrameIndex TFLA D 0 0
+   SKIN 0 "TRFLE0.jpg"
+   Scale 0.34 0.34 0.408
+   FrameIndex TFLA E 0 0
+   SKIN 0 "TRFLF0.jpg"
+   Scale 0.425 0.425 0.51
+   FrameIndex TFLA F 0 0
+   SKIN 0 "TRFLG0.jpg"
+   Scale 0.51 0.51 0.612
+   FrameIndex TFLA G 0 0
+   SKIN 0 "TRFLH0.jpg"
+   Scale 0.6 0.6 0.72
+   FrameIndex TFLA H 0 0
+}
+
+Model ShrubSmallFire
+{ 
+   Path "FX/Flame"
+   SKIN 0 "TRFLA0.jpg"
+   MODEL 0 "ShrubSmallFire.md3"
+   Scale 0.0 0.0 0.0
+   Offset 0.0 0.0 -5.0
+   
+   FrameIndex TFLA A 0 0
+   SKIN 0 "TRFLB0.jpg"
+   Scale 0.085 0.085 0.102
+   FrameIndex TFLA B 0 0
+   SKIN 0 "TRFLC0.jpg"
+   Scale 0.171 0.171 0.204
+   FrameIndex TFLA C 0 0
+   SKIN 0 "TRFLD0.jpg"
+   Scale 0.255 0.255 0.306
+   FrameIndex TFLA D 0 0
+   SKIN 0 "TRFLE0.jpg"
+   Scale 0.34 0.34 0.408
+   FrameIndex TFLA E 0 0
+   SKIN 0 "TRFLF0.jpg"
+   Scale 0.425 0.425 0.51
+   FrameIndex TFLA F 0 0
+   SKIN 0 "TRFLG0.jpg"
+   Scale 0.51 0.51 0.612
+   FrameIndex TFLA G 0 0
+   SKIN 0 "TRFLH0.jpg"
+   Scale 0.6 0.6 0.72
+   FrameIndex TFLA H 0 0
+}
