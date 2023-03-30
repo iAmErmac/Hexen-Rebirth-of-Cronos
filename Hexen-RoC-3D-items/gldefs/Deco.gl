@@ -1,0 +1,324 @@
+material texture "materials/BucketBarrel/Barrel.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/BucketBarrel/Barrel_N.png"
+}
+
+material texture "materials/Bell/Bell.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Bell/Bell_N.png"
+}
+
+material texture "materials/Shrubs/Shrubs.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Shrubs/Shrubs_N.png"
+}
+
+material texture "materials/Shrubs/ShrubsBurned.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Shrubs/Shrubs_N.png"
+}
+
+material texture "materials/WingedStatue/WingedStatue.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/WingedStatue/WingedStatue_N.png"
+}
+
+material texture "materials/WingedStatue/WingedStatueM.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/WingedStatue/WingedStatueM_N.png"
+}
+
+material texture "materials/Stones/Stones.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Stones/Stones_N.png"
+}
+
+material texture "materials/Tombs/Tombs.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Tombs/Tombs_N.png"
+}
+
+material texture "materials/SwampTree/SwampTree.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/SwampTree/SwampTree_N.png"
+}
+
+material texture "materials/SwampTree2/SwampTree2.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/SwampTree2/SwampTree2_N.png"
+}
+
+material texture "materials/Spike/Spike.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Spike/Spike_N.png"
+}
+
+material texture "materials/Stumps/Stumps.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Stumps/Stumps_N.png"
+}
+
+material texture "materials/Stumps/Stumps2.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Stumps/Stumps2_N.png"
+}
+
+brightmap texture "materials/StalacIce/StalacIce.png" { map "materials/StalacIce/StalacIce_E.png" }
+material texture "materials/StalacIce/StalacIce.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/StalacIce/StalacIce_N.png"
+}
+
+material texture "materials/ScrewTorch/ScrewTorch.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/ScrewTorch/ScrewTorch_N.png"
+}
+
+material texture "materials/TwinedTorch/TwinedTorch.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/TwinedTorch/TwinedTorch_N.png"
+}
+
+material texture "materials/PillarVase/PillarVase.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/PillarVase/PillarVase_N.png"
+}
+
+material texture "materials/Shrooms/Shrooms.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Shrooms/Shrooms_N.png"
+}
+
+material texture "materials/Piedestal/Piedestal.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Piedestal/Piedestal_N.png"
+}
+
+material texture "materials/Rocks/Rocks.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Rocks/Rocks_N.png"
+}
+
+material texture "materials/Stalactite/Stalactite.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Stalactite/Stalactite_N.png"
+}
+
+material texture "materials/Knight/Knight.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Knight/Knight_N.png"
+}
+
+material texture "materials/Logs/Logs.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Logs/Logs_N.png"
+}
+
+material texture "materials/Hooks/Hooks.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Hooks/Hooks_N.png"
+}
+
+material texture "materials/Vases/Vases.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Vases/Vases_N.png"
+}
+
+material texture "materials/TreeCrush/TreeCrush.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/TreeCrush/TreeCrush_N.png"
+}
+
+material texture "materials/Dishes/Dishes.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Dishes/Dishes_N.png"
+}
+
+material texture "materials/DeadTree/DeadTree.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/DeadTree/DeadTree_N.png"
+}
+
+material texture "materials/TreeCrush/TreeCrushB.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/TreeCrush/TreeCrush_N.png"
+}
+
+material texture "materials/ChristmasTree/ChristmasTree.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/ChristmasTree/ChristmasTree_N.png"
+}
+
+material texture "materials/BigTree1/BigTree1.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/BigTree1/BigTree1_N.png"
+}
+
+material texture "materials/Flag/Flag.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Flag/Flag_N.png"
+}
+
+material texture "materials/Gargoyles/Bronze.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Gargoyles/Bronze_N.png"
+}
+
+material texture "materials/FaceTorch/FaceTorch.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/FaceTorch/FaceTorch_N.png"
+}
+
+brightmap texture "materials/Gargoyles/Lava.png" { map "materials/Gargoyles/Lava_E.png" }
+material texture "materials/Gargoyles/Lava.png"
+{
+    normal "materials/Gargoyles/Lava_N.png"
+}
+
+brightmap texture "materials/FlameMask/FlameMask.png" { map "materials/FlameMask/FlameMask_E.png" }
+material texture "materials/FlameMask/FlameMask.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/FlameMask/FlameMask_N.png"
+}
+
+brightmap texture "FX/Flame/CandleFlame2.png" { map "FX/Flame/CandleFlame2.png" }
+brightmap texture "materials/Candles/Candles.png" { map "materials/Candles/Candles_E.png" }
+material texture "materials/Candles/Candles.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Candles/Candles_N.png"
+}
+
+brightmap texture "materials/BullTorch/BullTorch.png" { map "materials/BullTorch/BullTorch_E.png" }
+material texture "materials/BullTorch/BullTorch.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/BullTorch/BullTorch_N.png"
+}
+
+material texture "materials/Chandelier/Chandelier.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Chandelier/Chandelier_N.png"
+}
+
+brightmap texture "materials/Gargoyles/Ice.png" { map "materials/Gargoyles/Ice_E.png" }
+material texture "materials/Gargoyles/Ice.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Gargoyles/Ice_N.png"
+}
+
+brightmap texture "materials/Cauldron/Cauldron.png" { map "materials/Cauldron/Cauldron_E.png" }
+material texture "materials/Cauldron/Cauldron.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Cauldron/Cauldron_N.png"
+}
+
+material texture "materials/Gargoyles/Metal.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Gargoyles/Metal_N.png"
+}
+
+material texture "materials/Corpses/Corpse1.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Corpses/Corpse1_N.png"
+}
+
+material texture "materials/Corpses/Corpse2.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Corpses/Corpse2_N.png"
+}
+
+material texture "materials/Corpses/Corpse3-4.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Corpses/Corpse3-4_N.png"
+}
+
+material texture "materials/Corpses/Corpse5.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Corpses/Corpse5_N.png"
+}
+
+material texture "materials/Corpses/Corpse6.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Corpses/Corpse6_N.png"
+}
+
+material texture "materials/Corpses/CorpseHair3-6.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Corpses/CorpseHair3-6_N.png"
+}
+
+material texture "materials/Corpses/CorpseHair1.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Corpses/CorpseHair1_N.png"
+}
+
+material texture "materials/Gargoyles/Jasper.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Gargoyles/Jasper_N.png"
+}
+
+material texture "materials/Gargoyles/Stone.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Gargoyles/Stone_N.png"
+}
+
+material texture "materials/Gargoyles/Wood.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Gargoyles/Wood_N.png"
+}
+
+material texture "materials/SwampVine/SwampVine.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/SwampVine/SwampVine_N.png"
+}

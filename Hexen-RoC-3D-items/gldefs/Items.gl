@@ -1,0 +1,178 @@
+material texture "materials/FalconShield/Shield.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/FalconShield/Shield_N.png"
+}
+
+brightmap texture "materials/Amulet/Amulet.png" { map "materials/Amulet/Amulet_E.png" }
+material texture "materials/Amulet/Amulet.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Amulet/Amulet_N.png"
+}
+
+brightmap texture "materials/Gems/Gems.png" { map "materials/Gems/Gems_E.png" }
+material texture "materials/Gems/Gems.png"
+{
+    normal "materials/Gems/Gems_N.png"
+}
+
+material texture "materials/Torch/Torch.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Torch/Torch_N.png"
+}
+
+material texture "materials/WingsOfWrath/WingsOfWrath.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/WingsOfWrath/WingsOfWrath_N.png"
+}
+
+brightmap texture "materials/TinyWeps/TinyWeps.png" { map "materials/TinyWeps/TinyWeps_E.png" }
+material texture "materials/TinyWeps/TinyWeps.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/TinyWeps/TinyWeps_N.png"
+}
+
+material texture "materials/PlatinumHelm/Helmet.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/PlatinumHelm/Helmet_N.png"
+}
+
+material texture "materials/MysticUrn/MysticUrn.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/MysticUrn/MysticUrn_N.png"
+}
+
+material texture "materials/MysticIncant/MysticIncant.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/MysticIncant/MysticIncant_N.png"
+}
+
+material texture "materials/Gears/Gears.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Gears/Gears_N.png"
+}
+
+material texture "materials/Porkelator/Porkelator.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Porkelator/Porkelator_N.png"
+}
+
+material texture "materials/Pig/Pig.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Pig/Pig_N.png"
+}
+
+material texture "materials/IconOfDefender/IconOfDefender.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/IconOfDefender/IconOfDefender_N.png"
+}
+
+material texture "materials/DiskOfRepulsion/DiskOfRepulsion.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/DiskOfRepulsion/DiskOfRepulsion_N.png"
+}
+
+material texture "materials/MeshArmor/Armor.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/MeshArmor/Armor_N.png"
+}
+
+material texture "materials/PuzzBook/PuzzBook.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/PuzzBook/PuzzBook_N.png"
+}
+
+material texture "materials/Boots/Boots.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Boots/Boots_N.png"
+}
+
+material texture "materials/DragonskinBracers/DragonskinBracers.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/DragonskinBracers/DragonskinBracers_N.png"
+}
+
+material texture "materials/Vial/Vial.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Vial/Vial_N.png"
+}
+
+material texture "materials/Flask/Flask.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Flask/Flask_N.png"
+}
+
+brightmap texture "materials/Mana/Runes.png" { map "materials/Mana/Runes_E.png" disablefullbright}
+material texture "materials/Mana/Runes.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Mana/Runes_N.png"
+}
+
+
+brightmap texture "materials/CraterOfMagic/CraterOfMagic.png" { map "materials/CraterOfMagic/CraterOfMagic_E.png" }
+material texture "materials/Keys/Keys.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/CraterOfMagic/CraterOfMagic_N.png"
+}
+
+brightmap texture "materials/Keys/Keys.png" { map "materials/Keys/Keys_E.png"  }
+material texture "materials/Keys/Keys.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Keys/Keys_N.png"
+}
+
+brightmap texture "materials/Flechette/Flechette2.png" { map "materials/Flechette/Flechette_E.png" }
+material texture "materials/Flechette/Flechette2.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Flechette/Flechette_N.png"
+}
+
+brightmap texture "materials/ChaosDevice/ChaosDevice.png" { map "materials/ChaosDevice/ChaosDevice_E.png" }
+material texture "materials/ChaosDevice/ChaosDevice.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/ChaosDevice/ChaosDevice_N.png"
+}
+
+material texture "materials/Flechette/Flechette.png"
+{
+	shader "shaders/SimSun.fp"
+    normal "materials/Flechette/Flechette_N.png"
+}
+
+material texture "materials/Flechette/Bubbles.png"
+{
+	shader "shaders/bubbles.fp"
+}
+
+material texture "materials/Flechette/Noise.png"
+{
+	shader "shaders/scroll.fp"
+}
+
+material texture "materials/Flechette/Line.png"
+{
+	shader "shaders/scroll.fp"
+}

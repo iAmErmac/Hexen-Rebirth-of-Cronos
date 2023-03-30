@@ -1,0 +1,14 @@
+version "3.0"
+
+//Monsters
+#include "zscript/Actors/ELV/ELV_Pig.zs"
+
+//Misc
+#include "zscript/Actors/ELV/ELV_Armor.zs"
+#include "zscript/Actors/ELV/ELV_Artifacts.zs"
+#include "zscript/Actors/ELV/ELV_Decorations.zs"
+#include "zscript/Actors/ELV/ELV_SpecialDeco.zs"
+#include "zscript/Actors/ELV/ELV_PuzzleItems.zs"
+#include "zscript/Actors/ELV/ELV_Flechette.zs"
+#include "zscript/Actors/ELV/ELV_Keys.zs"
+#include "zscript/Actors/ELV/ELV_Transform.zs"

@@ -1,0 +1,8 @@
+//Enemies
+#include "Modeldef/Enemies/Pig.txt"
+
+//Deco & Items
+#include "Modeldef/Misc/Deco-Items.txt"
+
+//Misc
+#include "FX/Flame/Flame.txt"

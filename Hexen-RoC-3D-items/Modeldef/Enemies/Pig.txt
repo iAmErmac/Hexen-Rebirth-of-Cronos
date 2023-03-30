@@ -1,0 +1,76 @@
+Model CPig
+{
+	Path models
+    Model 0 "Pig.md3"
+	Skin 0 "materials/Pig/Pig.png"
+    Scale 40.0 40.0 48.0
+	Offset 0 0 0 
+    USEACTORPITCH
+    USEACTORROLL
+
+	FrameIndex PGTA A 0 0
+    FrameIndex PGTA B 0 1
+    FrameIndex PGTA C 0 2
+    FrameIndex PGTA D 0 3
+    FrameIndex PGTA E 0 4
+    FrameIndex PGTA F 0 5
+    FrameIndex PGTA G 0 6
+    FrameIndex PGTA H 0 7
+    FrameIndex PGTA I 0 8
+    FrameIndex PGTA J 0 9
+    FrameIndex PGTA K 0 10
+    FrameIndex PGTA L 0 11
+    FrameIndex PGTA M 0 12
+    FrameIndex PGTA N 0 13
+}
+
+Model CPig
+{
+	Path models
+    Model 0 "PigX.md3"
+	SurfaceSkin 0 1 "materials/Pig/Pig.png"
+	SurfaceSkin 0 0 "materials/Flesh/Flesh.png"
+    Scale 4.0 4.0 4.8
+	Offset 0 0 0 
+    USEACTORPITCH
+    USEACTORROLL
+
+	FrameIndex PIXA A 0 0
+    FrameIndex PIXA B 0 1
+    FrameIndex PIXA C 0 2
+    FrameIndex PIXA D 0 3
+    FrameIndex PIXA E 0 4
+    FrameIndex PIXA F 0 5
+    FrameIndex PIXA G 0 6
+    FrameIndex PIXA H 0 7
+    FrameIndex PIXA I 0 8
+    FrameIndex PIXA J 0 9
+    FrameIndex PIXA K 0 10
+    FrameIndex PIXA L 0 11
+    FrameIndex PIXA M 0 12
+    FrameIndex PIXA N 0 13
+    FrameIndex PIXA O 0 14
+    FrameIndex PIXA P 0 15
+    FrameIndex PIXA Q 0 16
+    FrameIndex PIXA R 0 17
+    FrameIndex PIXA S 0 18
+    FrameIndex PIXA T 0 19
+    FrameIndex PIXA U 0 20
+    FrameIndex PIXA V 0 21
+    FrameIndex PIXA W 0 22
+    FrameIndex PIXA X 0 23
+    FrameIndex PIXA Y 0 24
+    FrameIndex PIXA Z 0 25
+    FrameIndex PIXA [ 0 26
+    FrameIndex PIXA \ 0 27
+    FrameIndex PIXA ] 0 28
+    FrameIndex PIXB A 0 29
+    FrameIndex PIXB B 0 30
+    FrameIndex PIXB C 0 31
+    FrameIndex PIXB D 0 32
+    FrameIndex PIXB E 0 33
+    FrameIndex PIXB F 0 34
+    FrameIndex PIXB G 0 35
+    FrameIndex PIXB H 0 36
+    FrameIndex PIXB I 0 37
+}

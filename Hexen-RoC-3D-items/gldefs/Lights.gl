@@ -1,0 +1,326 @@
+flickerlight2 TFlame1
+{
+    attenuate 1
+	color 0.7 0.5 0.03
+    size 130
+    secondarysize 150
+    interval 0.1
+    offset 0 64 0
+}
+
+flickerlight2 TFlame2
+{
+    attenuate 1
+	color 0.7 0.5 0.03
+    size 110
+    secondarysize 130
+    interval 0.1
+    offset 0 28 0
+}
+
+
+object TorchFlame1
+{
+    frame TFLAA { light TFlame1 }
+	frame TFLAB { light TFlame1 }
+	frame TFLAC { light TFlame1 }
+	frame TFLAD { light TFlame1 }
+	frame TFLAE { light TFlame1 }
+	frame TFLAF { light TFlame1 }
+	frame TFLAG { light TFlame1 }
+	frame TFLAH { light TFlame1 }
+}
+
+object FaceTorchFire
+{
+    frame TFLAA { light TFlame2 }
+	frame TFLAB { light TFlame2 }
+	frame TFLAC { light TFlame2 }
+	frame TFLAD { light TFlame2 }
+	frame TFLAE { light TFlame2 }
+	frame TFLAF { light TFlame2 }
+	frame TFLAG { light TFlame2 }
+	frame TFLAH { light TFlame2 }
+}
+
+object TorchItemFire
+{
+    frame TFLAA { light TFlame1 }
+	frame TFLAB { light TFlame1 }
+	frame TFLAC { light TFlame1 }
+	frame TFLAD { light TFlame1 }
+	frame TFLAE { light TFlame1 }
+	frame TFLAF { light TFlame1 }
+	frame TFLAG { light TFlame1 }
+	frame TFLAH { light TFlame1 }
+}
+
+object ScrewTorchFire
+{
+    frame TFLAA { light TFlame2 }
+	frame TFLAB { light TFlame2 }
+	frame TFLAC { light TFlame2 }
+	frame TFLAD { light TFlame2 }
+	frame TFLAE { light TFlame2 }
+	frame TFLAF { light TFlame2 }
+	frame TFLAG { light TFlame2 }
+	frame TFLAH { light TFlame2 }
+}
+
+object BullFlame1
+{
+    frame TFLAA { light TFlame1 }
+	frame TFLAB { light TFlame1 }
+	frame TFLAC { light TFlame1 }
+	frame TFLAD { light TFlame1 }
+	frame TFLAE { light TFlame1 }
+	frame TFLAF { light TFlame1 }
+	frame TFLAG { light TFlame1 }
+	frame TFLAH { light TFlame1 }
+}
+
+object TorchFire
+{
+    frame TFLAA { light TFlame2 }
+	frame TFLAB { light TFlame2 }
+	frame TFLAC { light TFlame2 }
+	frame TFLAD { light TFlame2 }
+	frame TFLAE { light TFlame2 }
+	frame TFLAF { light TFlame2 }
+	frame TFLAG { light TFlame2 }
+	frame TFLAH { light TFlame2 }
+}
+
+pointlight MWPGlow
+{
+    attenuate 1
+	color 1.0 0.0 0.0
+    size 15
+}
+
+pointlight CWPGlow
+{
+    attenuate 1
+	color 0.216 0.216 1.0
+    size 15
+}
+
+pointlight FWPGlow
+{
+    attenuate 1
+	color 0.48 1.0 0.48
+    size 15
+}
+
+pointlight BlueGlow
+{
+    attenuate 1
+	color 0.0 0.216 1.0
+    size 15
+}
+
+object CVial
+{
+	frame VIALA { light BlueGlow }
+}
+
+pointlight PurpleGlow
+{
+    attenuate 1
+	color 0.694 0.066 0.871
+    size 15
+}
+
+object CArtiBoostMana
+{
+	frame COMI { light PurpleGlow }
+}
+
+object CArtiHealth
+{
+	frame FLSK { light PurpleGlow }
+}
+
+object PurpleFog
+{
+	frame IFOGE { light FlaskGlow }
+}
+
+object BlueFog
+{
+	frame IFOGD { light VialGlow }
+}
+
+object GreenFog
+{
+	frame IFOGC { light FWPGlow }
+}
+
+object BSHFog
+{
+	frame IFOGC { light FWPGlow }
+}
+
+
+pointlight RedGlow
+{
+    attenuate 1
+	color 1.0 0.0 0.0
+    size 15
+}
+
+object CArtiTeleport
+{
+	frame CHDVA { light RedGlow }
+	frame CHDVB { light RedGlow }
+	frame CHDVC { light RedGlow }
+	frame CHDVD { light RedGlow }
+	frame CHDVE { light RedGlow }
+	frame CHDVF { light RedGlow }
+	frame CHDVG { light RedGlow }
+	frame CHDVH { light RedGlow }
+	frame CHDVI { light RedGlow }
+	frame CHDVJ { light RedGlow }
+	frame CHDVK { light RedGlow }
+	frame CHDVL { light RedGlow }
+	frame CHDVM { light RedGlow }
+	frame CHDVN { light RedGlow }
+	frame CHDVO { light RedGlow }
+	frame CHDVP { light RedGlow }
+}
+
+object CArtiTeleportOther
+{
+	frame CHDVA { light RedGlow }
+	frame CHDVB { light RedGlow }
+	frame CHDVC { light RedGlow }
+	frame CHDVD { light RedGlow }
+	frame CHDVE { light RedGlow }
+	frame CHDVF { light RedGlow }
+	frame CHDVG { light RedGlow }
+	frame CHDVH { light RedGlow }
+	frame CHDVI { light RedGlow }
+	frame CHDVJ { light RedGlow }
+	frame CHDVK { light RedGlow }
+	frame CHDVL { light RedGlow }
+	frame CHDVM { light RedGlow }
+	frame CHDVN { light RedGlow }
+	frame CHDVO { light RedGlow }
+	frame CHDVP { light RedGlow }
+}
+
+pointlight GreenGlow
+{
+    attenuate 1
+	color 0.48 1.0 0.48
+    size 15
+}
+
+object CArtiPoisonBag
+{
+	frame FLECA { light GreenGlow }
+}
+
+object CArtiPoisonBag1
+{
+	frame FLECA { light GreenGlow }
+}
+
+object CArtiPoisonBag2
+{
+	frame FLECA { light GreenGlow }
+}
+
+object CArtiPoisonBag3
+{
+	frame FLECA { light GreenGlow }
+}
+
+object CMana1
+{
+	frame MAN1 { light BlueGlow }
+}
+
+object CMana2
+{
+	frame MAN2 { light GreenGlow }
+}
+
+object CMana3
+{
+	frame MAN3 { light RedGlow }
+}
+
+object CArtiSuperHealth
+{
+	frame MYST { light PurpleGlow }
+}
+
+flickerlight2 CandleBig
+{
+    attenuate 1
+	color 0.7 0.5 0.03
+    size 12
+    secondarysize 18
+    interval 0.1
+    offset 0 0 0
+}
+
+flickerlight2 CandleBlue
+{
+    attenuate 1
+	color 0.0 0.725 1.0
+    size 5
+    secondarysize 12
+    interval 0.1
+    offset 0 0 0
+}
+
+object CandleBigFire
+{
+	frame CBBFA { light CandleBig }
+	frame CBBFB { light CandleBig }
+	frame CBBFC { light CandleBig }
+	frame CBBFD { light CandleBig }
+	frame CBBFE { light CandleBig }
+	frame CBBFF { light CandleBig }
+	frame CBBFG { light CandleBig }
+	frame CBBFH { light CandleBig }
+	frame CBBFI { light CandleBig }
+	frame CBBFJ { light CandleBig }
+	frame CBBFK { light CandleBig }
+	frame CBBFL { light CandleBig }
+	frame CBBFM { light CandleBig }
+	frame CBBFN { light CandleBig }
+	frame CBBFO { light CandleBig }
+	frame CBBFP { light CandleBig }
+	frame CBBFQ { light CandleBig }
+	frame CBBFR { light CandleBig }
+	frame CBBFS { light CandleBig }
+	frame CBBFT { light CandleBig }
+}
+
+object CandleBlueFire
+{
+	frame CNBFA { light CandleBlue }
+	frame CNBFB { light CandleBlue }
+	frame CNBFC { light CandleBlue }
+	frame CNBFD { light CandleBlue }
+	frame CNBFE { light CandleBlue }
+	frame CNBFF { light CandleBlue }
+	frame CNBFG { light CandleBlue }
+	frame CNBFH { light CandleBlue }
+	frame CNBFI { light CandleBlue }
+	frame CNBFJ { light CandleBlue }
+	frame CNBFK { light CandleBlue }
+	frame CNBFL { light CandleBlue }
+	frame CNBFM { light CandleBlue }
+	frame CNBFN { light CandleBlue }
+	frame CNBFO { light CandleBlue }
+	frame CNBFP { light CandleBlue }
+	frame CNBFQ { light CandleBlue }
+	frame CNBFR { light CandleBlue }
+	frame CNBFS { light CandleBlue }
+	frame CNBFT { light CandleBlue }
+}
+

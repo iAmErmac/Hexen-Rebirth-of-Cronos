@@ -1,0 +1,819 @@
+// ------------------------------------------------------
+// ----------------- HEXEN GAME LIGHTS ------------------
+// ------------------------------------------------------
+
+// -----------------------
+// -- Hexen Decorations --
+// -----------------------
+
+// Candles
+flickerlight2 HCANDLES
+{
+    attenuate 1
+	color 0.7 0.7 0.7
+    size 64
+    secondarysize 80
+    interval 0.1
+}
+
+object ZCandle
+{
+    frame CNDL { light HCANDLES }
+}
+
+// Twined torch----------------------------------------------------------
+flickerlight2 TWINETORCH
+{
+    attenuate 1
+	color 0.7 0.5 0.03
+    size 130
+    secondarysize 150
+    interval 0.1
+    offset 0 64 0
+}
+
+object ZTwinedTorch
+{
+    frame TWTRA { light TWINETORCH }
+    frame TWTRB { light TWINETORCH }
+    frame TWTRC { light TWINETORCH }
+    frame TWTRD { light TWINETORCH }
+    frame TWTRE { light TWINETORCH }
+    frame TWTRF { light TWINETORCH }
+    frame TWTRG { light TWINETORCH }
+    frame TWTRH { light TWINETORCH }
+}
+
+flickerlight2 TWINETORCH
+{
+    attenuate 1
+	color 0.7 0.5 0.03
+    size 130
+    secondarysize 150
+    interval 0.1
+    offset 0 64 0
+}
+
+object ZTwinedTorchUnlit
+{
+    frame TWTRA { light TWINETORCH }
+    frame TWTRB { light TWINETORCH }
+    frame TWTRC { light TWINETORCH }
+    frame TWTRD { light TWINETORCH }
+    frame TWTRE { light TWINETORCH }
+    frame TWTRF { light TWINETORCH }
+    frame TWTRG { light TWINETORCH }
+    frame TWTRH { light TWINETORCH }
+}
+
+
+// Wall torch -----------------------------------------------------------------------------------------------
+flickerlight2 WALLTORCH2
+{
+    attenuate 1
+	color 0.7 0.4 0.03
+    size 150
+    secondarysize 155
+    interval 0.1
+    offset 1 24 0
+}
+flickerlight2 WALLTORCH21
+{
+    attenuate 1
+	color 0.6 0.3 0.03
+    size 150
+    secondarysize 155
+    interval 0.1
+    offset 1 23 1
+}
+flickerlight2 WALLTORCH22
+{
+    attenuate 1
+	color 0.7 0.4 0.03
+    size 150
+    secondarysize 155
+    interval 0.1
+    offset 0 24 0
+}
+flickerlight2 WALLTORCH23
+{
+    attenuate 1
+	color 0.6 0.3 0.03
+    size 150
+    secondarysize 155
+    interval 0.1
+    offset 0 25 1
+}
+flickerlight2 WALLTORCH24
+{
+    attenuate 1
+	color 0.7 0.4 0.03
+    size 150
+    secondarysize 155
+    interval 0.1
+    offset 1 24 0
+}
+flickerlight2 WALLTORCH25
+{
+    attenuate 1
+	color 0.6 0.3 0.03
+    size 150
+    secondarysize 155
+    interval 0.1
+    offset 1 23 1
+}
+flickerlight2 WALLTORCH26
+{
+    attenuate 1
+	color 0.7 0.5 0.03
+    size 150
+    secondarysize 155
+    interval 0.1
+    offset 0 24 0
+}
+flickerlight2 WALLTORCH27
+{
+    attenuate 1
+	color 0.6 0.3 0.03
+    size 150
+    secondarysize 155
+    interval 0.1
+    offset 1 23 1
+}
+object ZWallTorch
+{
+    frame WLTRA { light WALLTORCH2 }
+    frame WLTRB { light WALLTORCH21 }
+    frame WLTRC { light WALLTORCH22 }
+    frame WLTRD { light WALLTORCH23 }
+    frame WLTRE { light WALLTORCH21 }
+    frame WLTRF { light WALLTORCH22 }
+    frame WLTRG { light WALLTORCH2 }
+    frame WLTRH { light WALLTORCH23 }
+}
+
+// Wall torch modern -----------------------------------------------------------------------------------------------
+flickerlight2 WALLTORCHM2
+{
+    attenuate 1
+	color 0.7 0.5 0.03
+    size 150
+    secondarysize 150
+    interval 0.1
+    offset 1 24 0
+}
+flickerlight2 WALLTORCHM21
+{
+    attenuate 1
+	color 0.7 0.5 0.03
+    size 150
+    secondarysize 150
+    interval 0.1
+    offset 1 23 1
+}
+flickerlight2 WALLTORCHM22
+{
+    attenuate 1
+	color 0.7 0.5 0.03
+    size 150
+    secondarysize 150
+    interval 0.1
+    offset 0 24 0
+}
+flickerlight2 WALLTORCHM23
+{
+    attenuate 1
+	color 0.7 0.5 0.03
+    size 150
+    secondarysize 150
+    interval 0.1
+    offset 0 25 1
+}
+flickerlight2 WALLTORCHM24
+{
+    attenuate 1
+	color 0.7 0.5 0.03
+    size 150
+    secondarysize 150
+    interval 0.1
+    offset 1 24 0
+}
+flickerlight2 WALLTORCHM25
+{
+    attenuate 1
+	color 0.7 0.5 0.03
+    size 150
+    secondarysize 150
+    interval 0.1
+    offset 1 23 1
+}
+flickerlight2 WALLTORCHM26
+{
+    attenuate 1
+	color 0.7 0.5 0.03
+    size 150
+    secondarysize 150
+    interval 0.1
+    offset 0 24 0
+}
+flickerlight2 WALLTORCHM27
+{
+    attenuate 1
+	color 0.7 0.5 0.03
+    size 150
+    secondarysize 150
+    interval 0.1
+    offset 1 23 1
+}
+
+
+flickerlight2 WALLTORCHM28
+{
+    attenuate 1
+	color 0.7 0.5 0.03
+    size 150
+    secondarysize 150
+    interval 0.1
+    offset 1 24 0
+}
+flickerlight2 WALLTORCHM29
+{
+    attenuate 1
+	color 0.7 0.5 0.03
+    size 150
+    secondarysize 150
+    interval 0.1
+    offset 1 23 1
+}
+flickerlight2 WALLTORCHM210
+{
+    attenuate 1
+	color 0.7 0.5 0.03
+    size 150
+    secondarysize 150
+    interval 0.1
+    offset 0 24 0
+}
+flickerlight2 WALLTORCHM211
+{
+    attenuate 1
+	color 0.7 0.5 0.03
+    size 150
+    secondarysize 150
+    interval 0.1
+    offset 0 25 1
+}
+flickerlight2 WALLTORCHM212
+{
+    attenuate 1
+	color 0.7 0.5 0.03
+    size 150
+    secondarysize 150
+    interval 0.1
+    offset 1 24 0
+}
+flickerlight2 WALLTORCHM213
+{
+    attenuate 1
+	color 0.7 0.5 0.03
+    size 150
+    secondarysize 150
+    interval 0.1
+    offset 1 23 1
+}
+flickerlight2 WALLTORCHM214
+{
+    attenuate 1
+	color 0.7 0.5 0.03
+    size 150
+    secondarysize 150
+    interval 0.1
+    offset 0 24 0
+}
+flickerlight2 WALLTORCHM215
+{
+    attenuate 1
+	color 0.7 0.5 0.03
+    size 150
+    secondarysize 150
+    interval 0.1
+    offset 1 23 1
+}
+flickerlight2 WALLTORCHM216
+{
+    attenuate 1
+	color 0.7 0.5 0.03
+    size 150
+    secondarysize 150
+    interval 0.1
+    offset 1 23 1
+}
+
+flickerlight2 ATORCH
+{
+    attenuate 1
+	color 0.7 0.5 0.03
+    size 180
+    secondarysize 200
+    interval 0.1
+    offset 1 24 0
+}
+
+
+object ZWallTorchUnlit
+{
+    frame WLTRA { light WALLTORCH2 }
+    frame WLTRB { light WALLTORCH2 }
+    frame WLTRC { light WALLTORCH2 }
+    frame WLTRD { light WALLTORCH2 }
+    frame WLTRE { light WALLTORCH2 }
+    frame WLTRF { light WALLTORCH2 }
+    frame WLTRG { light WALLTORCH2 }
+    frame WLTRH { light WALLTORCH2 }
+}
+
+
+// Fire bull
+flickerlight2 FIREBULL
+{
+    attenuate 1
+	color 0.7 0.5 0.03
+    size 190
+    secondarysize 210
+    interval 0.1
+    offset 0 40 0
+}
+
+flickerlight2 FIREBULL2
+{
+    attenuate 1
+	color 0.7 0.5 0.03
+    size 180
+    secondarysize 210
+    interval 0.1
+    offset 0 40 0
+}
+
+object ZFireBull
+{
+    frame FBULA { light FIREBULL }
+    frame FBULB { light FIREBULL }
+    frame FBULC { light FIREBULL }
+    frame FBULD { light FIREBULL }
+    frame FBULE { light FIREBULL }
+    frame FBULF { light FIREBULL }
+    frame FBULG { light FIREBULL }
+    frame FBULI { light FIREBULL2 }
+    frame FBULJ { light FIREBULL }
+}
+
+object ZFireBullUnlit
+{
+    frame FBULA { light FIREBULL }
+    frame FBULB { light FIREBULL }
+    frame FBULC { light FIREBULL }
+    frame FBULD { light FIREBULL }
+    frame FBULE { light FIREBULL }
+    frame FBULF { light FIREBULL }
+    frame FBULG { light FIREBULL }
+    frame FBULI { light FIREBULL2 }
+    frame FBULJ { light FIREBULL }
+}
+
+
+// Cauldron
+flickerlight2 CAULFLAME
+{
+    attenuate 1
+	color 7.0 0.6 0.03
+    size 130
+    secondarysize 150
+    interval 0.1
+}
+
+object ZCauldron
+{
+    frame CDRNB { light CAULFLAME }
+    frame CDRNC { light CAULFLAME }
+    frame CDRND { light CAULFLAME }
+    frame CDRNE { light CAULFLAME }
+    frame CDRNF { light CAULFLAME }
+    frame CDRNG { light CAULFLAME }
+    frame CDRNH { light CAULFLAME }
+}
+
+object ZCauldronUnlit
+{
+    frame CDRNB { light CAULFLAME }
+    frame CDRNC { light CAULFLAME }
+    frame CDRND { light CAULFLAME }
+    frame CDRNE { light CAULFLAME }
+    frame CDRNF { light CAULFLAME }
+    frame CDRNG { light CAULFLAME }
+    frame CDRNH { light CAULFLAME }
+}
+
+// Blue candle
+flickerlight2 BCANDLE
+{
+    attenuate 1
+	color 0.2 0.2 0.8
+    size 81
+    secondarysize 91
+    interval 0.1
+}
+
+object ZBlueCandle
+{
+    frame BCAN { light BCANDLE }
+}
+
+// Small flame
+object FlameSmall
+{
+    frame FFSM { light HCANDLES }
+}
+
+object FlameSmallTemp
+{
+    frame FFSM { light HCANDLES }
+}
+
+// Large flame
+flickerlight2 LARGEFLAME
+{
+    attenuate 1
+	color 0.7 0.5 0.03
+    size 130
+    secondarysize 152
+    interval 0.1
+}
+
+object FlameLarge
+{
+    frame FFLG { light LARGEFLAME }
+}
+
+object FlameLargeTemp
+{
+    frame FFLG { light LARGEFLAME }
+}
+
+// Chandelier
+flickerlight2 CHANDELIER
+{
+    attenuate 1
+	color 0.8 0.6 0.04
+    size 160
+    secondarysize 160
+    interval 0.1
+}
+flickerlight2 CHANDELIER2
+{
+    attenuate 1
+	color 0.9 0.5 0.04
+    size 160
+    secondarysize 160
+    interval 0.1
+}
+flickerlight2 CHANDELIER3
+{
+    attenuate 1
+	color 0.8 0.5 0.04
+    size 160
+    secondarysize 160
+    interval 0.1
+}
+
+object ZChandelier
+{
+    frame CDLRA { light CHANDELIER }
+    frame CDLRB { light CHANDELIER2 }
+    frame CDLRC { light CHANDELIER3 }
+}
+
+// Brass torch
+flickerlight2 BRASSTORCH
+{
+    attenuate 1
+	color 0.9 0.4 0.03
+    size 130
+    secondarysize 150
+    interval 0.1
+    offset 0 32 0
+}
+
+object BrassTorch
+{
+    frame BRTR { light BRASSTORCH }
+}
+
+// Skull flame
+object FireThing
+{
+    frame FSKL { light BRASSTORCH }
+}
+
+// Teleport smoke
+flickerlight2 TELESMOKE
+{
+    attenuate 1
+	color 0.7 0.0 0.0
+    size 216
+    secondarysize 248
+    interval 0.1
+    offset 0 44 0
+}
+
+object TeleSmoke
+{
+    frame TSMK { light TELESMOKE }
+}
+
+// Fireball
+pointlight HFIREBALL
+{
+    attenuate 1
+	color 1.0 0.4 0.03
+    size 102
+}
+
+pointlight HFIREBALL2
+{
+    attenuate 1
+	color 2.0 0.8 0.03
+    size 182
+}
+
+
+// IceCrystall /////////////////////////////////////////////////////////////////////////////////////////////////
+pointlight ICECRYSTAL
+{
+    attenuate 1
+	color 0.35 0.3 0.5
+    size 200
+}
+
+
+pointlight ICECRYSTAL2
+{
+    attenuate 1
+	color 0.4 0.4 0.5
+    size 150
+}
+
+
+
+
+
+// Alternative light1---------------------------------------------------------------
+pointlight Altlight1yellow
+{
+    attenuate 1
+	color 0.7 0.5 0.03
+    size 130
+    offset 0 0 0
+}
+
+
+// Alternative light2
+pointlight Altlight2red
+{
+    attenuate 1
+	color 0.7 0.0 0.0
+    size 130
+    offset 0 0 0
+}
+
+
+// Alternative light3
+pointlight Altlight3orange
+{
+    attenuate 1
+	color 1.0 0.2 0.0
+    size 230
+    offset 0 0 0
+}
+
+pointlight Altlight3orange2
+{
+    attenuate 1
+	color 1.0 0.2 0.0
+    size 330
+    offset 0 0 0
+}
+
+
+// Alternative light4
+pointlight Altlight4blue
+{
+    attenuate 1
+    color 0.2 0.2 0.1
+    offset 0 0 0
+}
+
+
+// -----------------
+// -- Hexen Items --
+// -----------------
+
+// Blue mana
+pointlight MANA1
+{
+    attenuate 1
+	color 0.1 0.1 0.7
+    size 36
+    offset 0 36 0
+}
+
+object Mana1
+{
+    frame MAN1 { light MANA1 }
+}
+
+// Green mana
+pointlight MANA2
+{
+    attenuate 1
+	color 0.1 0.6 0.1
+    size 36
+    offset 0 36 0
+}
+object Mana2
+{
+    frame MAN2 { light MANA2 }
+}
+
+// Combined mana
+pointlight MANA3
+{
+    attenuate 1
+	color 0.7 0.0 0.0
+    size 36
+    offset 0 36 0
+}
+
+object Mana3
+{
+    frame MAN3 { light MANA3 }
+}
+
+// ZXmasTree
+flickerlight2 XMASFIRE1
+{
+    attenuate 1
+	color 1.0 0.7 0.0
+    size 24
+    secondarysize 36
+    interval 0.1
+    offset 0 48 0
+}
+
+
+flickerlight2 XMASFIRE2
+{
+    attenuate 1
+	color 1.0 0.8 0.0
+    size 48
+    secondarysize 72
+    interval 0.1
+    offset 0 48 0
+}
+
+
+flickerlight2 XMASFIRE3
+{
+    attenuate 1
+	color 1.0 0.9 0.0
+    size 72
+    secondarysize 96
+    interval 0.1
+    offset 0 32 0
+}
+
+
+flickerlight2 XMASFIRE4
+{
+    attenuate 1
+	color 1.0 0.8 0.0
+    size 48
+    secondarysize 60
+    interval 0.1
+    offset 0 120 0
+}
+
+
+flickerlight2 XMASFIRE5
+{
+    attenuate 1
+	color 1.0 0.7 0.0
+    size 18
+    secondarysize 30
+    interval 0.1
+    offset 0 140 0
+}
+
+
+flickerlight2 XMASFIRE6
+{
+    attenuate 1
+	color 1.0 0.8 0.0
+    size 15
+    secondarysize 21
+    interval 0.1
+    offset 0 148 0
+}
+
+
+object ZXmasTree
+{
+    frame XMASB { light XMASFIRE1 }
+    frame XMASC { light XMASFIRE2 }
+    frame XMASD { light XMASFIRE3 }
+    frame XMASE { light XMASFIRE3 }
+    frame XMASF { light XMASFIRE4 }
+    frame XMASG { light XMASFIRE5 }
+    frame XMASH { light XMASFIRE6 }
+}
+
+
+
+
+// TreeDestructible
+flickerlight2 TDESTRUCT1
+{
+    attenuate 1
+	color 1.0 0.8 0.0
+    size 72
+    secondarysize 84
+    interval 0.1
+    offset 0 32 0
+}
+
+
+flickerlight2 TDESTRUCT2
+{
+    attenuate 1
+	color 1.0 0.9 0.0
+    size 84
+    secondarysize 108
+    interval 0.1
+    offset 0 32 0
+}
+
+
+flickerlight2 TDESTRUCT3
+{
+    attenuate 1
+	color 1.0 0.8 0.0
+    size 60
+    secondarysize 72
+    interval 0.1
+    offset 0 20 0
+}
+
+
+flickerlight2 TDESTRUCT4
+{
+    attenuate 1
+	color 1.0 0.7 0.0
+    size 24
+    secondarysize 36
+    interval 0.1
+    offset 0 12 0
+}
+
+flickerlight2 TDESTRUCT5
+{
+    attenuate 1
+	color 1.0 0.7 0.0
+    size 12
+    secondarysize 18
+    interval 0.1
+    offset 0 4 0
+}
+
+
+
+
+object TreeDestructible
+{
+    frame TRDTH { light TDESTRUCT1 }
+    frame TRDTI { light TDESTRUCT2 }
+    frame TRDTJ { light TDESTRUCT2 }
+    frame TRDTK { light TDESTRUCT2 }
+    frame TRDTL { light TDESTRUCT2 }
+    frame TRDTM { light TDESTRUCT3 }
+    frame TRDTN { light TDESTRUCT4 }
+    frame TRDTO { light TDESTRUCT4 }
+    frame TRDTP { light TDESTRUCT5 }
+}
+
+// Torch
+pointlight ATORCH1
+{
+    attenuate 1
+	color 0.7 0.5 0.1
+    size 76
+    offset 0 36 0
+}

@@ -1,0 +1,3544 @@
+//Deco & Items
+
+
+Model CFalconShield 
+{
+Path models 
+Model 0 FalconShield.md3 
+Skin 0 materials/FalconShield/Shield.png 
+Scale 20 20 24 
+Offset 0 0 20 
+AngleOffset 0 
+ROTATING
+
+FrameIndex 3DMD A 0 0 
+
+}
+
+Model CAmuletOfWarding
+{
+Path models 
+Model 0 AmuletOfWarding.md3 
+SurfaceSkin 0 1 "materials/Amulet/Amulet.png"
+SurfaceSkin 0 0 "materials/Amulet/Amulet.png"
+Scale 20 20 24 
+Offset 0 0 20 
+AngleOffset 0 
+ROTATING
+
+FrameIndex 3DMD A 0 0 
+
+}
+
+Model CPlatinumHelm
+{
+Path models 
+Model 0 PlatinumHelm.md3 
+Skin 0 "materials/PlatinumHelm/Helmet.png"
+Scale 10 10 12 
+Offset 0 0 20 
+AngleOffset 0 
+ROTATING
+
+FrameIndex 3DMD A 0 0 
+
+}
+
+Model CMeshArmor
+{
+Path models 
+Model 0 MeshArmor.md3 
+Skin 0 "materials/MeshArmor/Armor.png"
+Scale 20 20 24 
+Offset 0 0 20 
+AngleOffset 0 
+ROTATING
+
+FrameIndex 3DMD A 0 0 
+
+}
+
+Model CZBarrel
+{
+Path models 
+Model 0 Barrel.md3 
+Skin 0 "materials/Bucketbarrel/Barrel.png"
+
+Scale 40 40 48 
+Offset 0 0 0
+AngleOffset 0 
+
+FrameIndex 3DMD A 0 0 
+
+}
+
+Model CZBucket
+{
+Path models 
+Model 0 HangingBucket.md3 
+Skin 0 "materials/Bucketbarrel/Barrel.png"
+
+Scale 40 40 48 
+Offset 0 0 0
+AngleOffset 0 
+
+FrameIndex 3DMD A 0 0 
+
+}
+
+Model CZBell
+{
+	Path models 
+	Model 0 Bell.md3 
+	Skin 0 "materials/Bell/Bell.png"
+
+	Scale 16.6 16.6 20.0
+	Offset 0 0 0
+    USEACTORPITCH
+    USEACTORROLL
+
+	FrameIndex BELA A 0 0
+    FrameIndex BELA B 0 1
+    FrameIndex BELA C 0 2
+    FrameIndex BELA D 0 3
+    FrameIndex BELA E 0 4
+    FrameIndex BELA F 0 5
+    FrameIndex BELA G 0 6
+    FrameIndex BELA H 0 7
+    FrameIndex BELA I 0 8
+    FrameIndex BELA J 0 9
+    FrameIndex BELA K 0 10
+    FrameIndex BELA L 0 11
+    FrameIndex BELA M 0 12
+    FrameIndex BELA N 0 13
+    FrameIndex BELA O 0 14
+    FrameIndex BELA P 0 15
+    FrameIndex BELA Q 0 16
+    FrameIndex BELA R 0 17
+    FrameIndex BELA S 0 18
+    FrameIndex BELA T 0 19
+    FrameIndex BELA U 0 20
+    FrameIndex BELA V 0 21
+    FrameIndex BELA W 0 22
+    FrameIndex BELA X 0 23
+    FrameIndex BELA Y 0 24
+    FrameIndex BELA Z 0 25
+    FrameIndex BELA [ 0 26
+    FrameIndex BELA \ 0 27
+    FrameIndex BELA ] 0 28
+    FrameIndex BELB A 0 29
+    FrameIndex BELB B 0 30
+    FrameIndex BELB C 0 31
+    FrameIndex BELB D 0 32
+    FrameIndex BELB E 0 33
+    FrameIndex BELB F 0 34
+    FrameIndex BELB G 0 35
+    FrameIndex BELB H 0 36
+    FrameIndex BELB I 0 37
+    FrameIndex BELB J 0 38
+    FrameIndex BELB K 0 39
+    FrameIndex BELB L 0 40
+    FrameIndex BELB M 0 41
+    FrameIndex BELB N 0 42
+    FrameIndex BELB O 0 43
+    FrameIndex BELB P 0 44
+    FrameIndex BELB Q 0 45
+    FrameIndex BELB R 0 46
+    FrameIndex BELB S 0 47
+    FrameIndex BELB T 0 48
+    FrameIndex BELB U 0 49
+    FrameIndex BELB V 0 50
+    FrameIndex BELB W 0 51
+    FrameIndex BELB X 0 52
+    FrameIndex BELB Y 0 53
+    FrameIndex BELB Z 0 54
+    FrameIndex BELB [ 0 55
+    FrameIndex BELB \ 0 56
+    FrameIndex BELB ] 0 57
+    FrameIndex BELC A 0 58
+    FrameIndex BELC B 0 59
+    FrameIndex BELC C 0 60
+    FrameIndex BELC D 0 61
+    FrameIndex BELC E 0 62
+    FrameIndex BELC F 0 63
+    FrameIndex BELC G 0 64
+    FrameIndex BELC H 0 65
+    FrameIndex BELC I 0 66
+    FrameIndex BELC J 0 67
+    FrameIndex BELC K 0 68
+    FrameIndex BELC L 0 69
+    FrameIndex BELC M 0 70 
+
+}
+
+Model CZTwinedTorch
+{
+Path models 
+Model 0 TwinedTorch.md3 
+Skin 0 "materials/TwinedTorch/TwinedTorch.png"
+
+Scale 1 1 1.2 
+Offset 0 0 0
+AngleOffset 0 
+
+FrameIndex TORA A 0 0 
+
+}
+
+Model CZTwinedTorchUnlit
+{
+Path models 
+Model 0 TwinedTorch.md3 
+Skin 0 "materials/TwinedTorch/TwinedTorch.png"
+
+Scale 1 1 1.2 
+Offset 0 0 0
+AngleOffset 0 
+
+FrameIndex TORA A 0 0 
+
+}
+
+Model CBigTree1
+{
+Path models 
+Model 0 BigTree1.md3 
+Skin 0 "materials/BigTree1/BigTree1.png"
+
+Scale 5 5 6 
+Offset 0 0 0
+AngleOffset 0 
+USEACTORPITCH
+	USEACTORROLL
+
+FrameIndex TREA A 0 0 
+
+}
+
+Model CBigTree1Leaves
+{
+Path models 
+Model 0 BigTree1Leaves.md3 
+Skin 0 "materials/BigTree1/BigTree1.png"
+USEACTORPITCH
+USEACTORROLL
+
+Scale 5 5 6 
+Offset 0 0 0
+AngleOffset 0 
+
+FrameIndex TRLA A 0 0 
+
+}
+
+Model CBigTree2
+{
+Path models 
+Model 0 BigTree2.md3 
+Skin 0 "materials/BigTree1/BigTree1.png"
+
+Scale 5 5 6 
+Offset 0 0 0
+AngleOffset 0 
+USEACTORPITCH
+USEACTORROLL
+
+FrameIndex TREB A 0 0 
+
+}
+
+Model CBigTree2Leaves
+{
+Path models 
+Model 0 BigTree2Leaves.md3 
+Skin 0 "materials/BigTree1/BigTree1.png"
+
+Scale 5 5 6 
+Offset 0 0 0
+AngleOffset 0 
+USEACTORPITCH
+USEACTORROLL
+
+FrameIndex TRLB A 0 0 
+
+}
+
+Model CPuzzBook1
+{
+Path models 
+Model 0 PuzzBook1.md3 
+Skin 0 "materials/PuzzBook/PuzzBook.png"
+
+Scale 4 4 4.8 
+Offset 0 0 0
+AngleOffset 0 
+PitchOffset 0
+RollOffset 90
+
+FrameIndex PBK1 A 0 0 
+
+}
+
+Model CPuzzBook2
+{
+Path models 
+Model 0 PuzzBook2.md3 
+Skin 0 "materials/PuzzBook/PuzzBook.png"
+
+Scale 4 4 4.8 
+Offset 0 0 0
+AngleOffset 0 
+PitchOffset 0
+RollOffset 90
+
+FrameIndex PBK2 A 0 0 
+
+}
+
+Model CArtiSpeedBoots
+{
+Path models 
+Model 0 Boots.md3 
+Skin 0 "materials/Boots/Boots.png"
+
+Scale 0.5 0.5 0.6 
+Offset 0 0 10
+AngleOffset 0 
+ROTATING
+
+FrameIndex SBOA A 0 0 
+
+}
+
+Model CVial
+{
+	Path models 
+	Model 0 VialTop.md3 
+	Skin 0 "materials/Vial/Vial.png"
+
+Scale 0.5 0.5 0.6 
+Offset 0 0 10
+AngleOffset 0 
+ROTATING
+
+FrameIndex VIAL A 0 0
+
+}
+
+Model CVialGlass
+{
+	Path models 
+	Model 0 VialBottom.md3 
+	Skin 0 "materials/Vial/Vial.png"
+
+Scale 0.5 0.5 0.6 
+Offset 0 0 10
+AngleOffset 0 
+ROTATING
+
+FrameIndex VIAL A 0 0
+
+}
+
+Model CArtiHealth
+{
+	Path models 
+	Model 0 FlaskTop.md3 
+	Skin 0 "materials/Flask/Flask.png"
+	Scale 1.0 1.0 1.0 
+	Offset 0 0 10
+	AngleOffset 0 
+	ROTATING
+
+	FrameIndex FLSK A 0 0
+
+}
+
+Model CArtiHealthGlass
+{
+	Path models 
+	Model 0 FlaskBottom.md3 
+	Skin 0 "materials/Flask/Flask.png"
+	Scale 1.0 1.0 1.0 
+	Offset 0 0 10
+	AngleOffset 0 
+	ROTATING
+
+	FrameIndex FLSK A 0 0
+
+}
+
+Model CPoisonBag
+{
+	Path models 
+	Model 0 FlechetteTop.md3 
+	Skin 0 "materials/Flechette/Flechette.png"
+	Scale 1.0 1.0 1.0 
+	Offset 0 0 10
+	AngleOffset 0 
+
+	FrameIndex FLEC A 0 0 //SpawnCleric
+    /*FrameIndex FLEC B 0 1 //Fighter
+    FrameIndex FLEC C 0 2
+    FrameIndex FLEC D 0 3
+    FrameIndex FLEC E 0 4
+    FrameIndex FLEC F 0 5
+    FrameIndex FLEC G 0 6
+    FrameIndex FLEC H 0 7
+    FrameIndex FLEC I 0 8
+    FrameIndex FLEC J 0 9
+    FrameIndex FLEC K 0 10
+    FrameIndex FLEC L 0 11
+    FrameIndex FLEC M 0 12
+    FrameIndex FLEC N 0 13
+    FrameIndex FLEC O 0 14
+    FrameIndex FLEC P 0 15
+    FrameIndex FLEC Q 0 16
+    FrameIndex FLEC R 0 17 //Fighter
+    FrameIndex FLEC S 0 18 //Mage
+    FrameIndex FLEC T 0 19
+    FrameIndex FLEC U 0 20
+    FrameIndex FLEC V 0 21
+    FrameIndex FLEC W 0 22
+    FrameIndex FLEC X 0 23
+    FrameIndex FLEC Y 0 24
+    FrameIndex FLEC Z 0 25
+    FrameIndex FLEC [ 0 26
+    FrameIndex FLEC \ 0 27
+    FrameIndex FLEC ] 0 28
+    FrameIndex FLED A 0 29
+    FrameIndex FLED B 0 30
+    FrameIndex FLED C 0 31
+    FrameIndex FLED D 0 32
+    FrameIndex FLED E 0 33
+    FrameIndex FLED F 0 34
+    FrameIndex FLED G 0 35
+    FrameIndex FLED H 0 36
+    FrameIndex FLED I 0 37
+    FrameIndex FLED J 0 38
+    FrameIndex FLED K 0 39
+    FrameIndex FLED L 0 40
+    FrameIndex FLED M 0 41
+    FrameIndex FLED N 0 42 //Mage*/
+
+}
+
+Model CPoisonBagBottom
+{
+	Path models 
+	Model 0 FlechetteBottom.md3 
+	SurfaceSkin 0 0 "materials/Flechette/Noise.png"
+	SurfaceSkin 0 1 "materials/Flechette/Bubbles.png"
+	SurfaceSkin 0 2 "materials/Flechette/Line.png"
+	SurfaceSkin 0 3 "materials/Flechette/Flechette2.png"
+	Scale 1.0 1.0 1.0 
+	Offset 0 0 10
+	AngleOffset 0 
+
+	FrameIndex FLEC A 0 0 //SpawnCleric
+    /*FrameIndex FLEC B 0 1 //Fighter
+    FrameIndex FLEC C 0 2
+    FrameIndex FLEC D 0 3
+    FrameIndex FLEC E 0 4
+    FrameIndex FLEC F 0 5
+    FrameIndex FLEC G 0 6
+    FrameIndex FLEC H 0 7
+    FrameIndex FLEC I 0 8
+    FrameIndex FLEC J 0 9
+    FrameIndex FLEC K 0 10
+    FrameIndex FLEC L 0 11
+    FrameIndex FLEC M 0 12
+    FrameIndex FLEC N 0 13
+    FrameIndex FLEC O 0 14
+    FrameIndex FLEC P 0 15
+    FrameIndex FLEC Q 0 16
+    FrameIndex FLEC R 0 17 //Fighter
+    FrameIndex FLEC S 0 18 //Mage
+    FrameIndex FLEC T 0 19
+    FrameIndex FLEC U 0 20
+    FrameIndex FLEC V 0 21
+    FrameIndex FLEC W 0 22
+    FrameIndex FLEC X 0 23
+    FrameIndex FLEC Y 0 24
+    FrameIndex FLEC Z 0 25
+    FrameIndex FLEC [ 0 26
+    FrameIndex FLEC \ 0 27
+    FrameIndex FLEC ] 0 28
+    FrameIndex FLED A 0 29
+    FrameIndex FLED B 0 30
+    FrameIndex FLED C 0 31
+    FrameIndex FLED D 0 32
+    FrameIndex FLED E 0 33
+    FrameIndex FLED F 0 34
+    FrameIndex FLED G 0 35
+    FrameIndex FLED H 0 36
+    FrameIndex FLED I 0 37
+    FrameIndex FLED J 0 38
+    FrameIndex FLED K 0 39
+    FrameIndex FLED L 0 40
+    FrameIndex FLED M 0 41
+    FrameIndex FLED N 0 42 //Mage*/
+
+}
+
+Model CFireBomb
+{
+	Path models 
+	Model 0 FlechetteTop.md3 
+	Skin 0 "materials/Flechette/Flechette.png"
+	Scale 1.0 1.0 1.0 
+	Offset 0 0 10
+	AngleOffset 0 
+
+	FrameIndex FLEC A 0 0 //SpawnCleric
+    /*FrameIndex FLEC B 0 1 //Fighter
+    FrameIndex FLEC C 0 2
+    FrameIndex FLEC D 0 3
+    FrameIndex FLEC E 0 4
+    FrameIndex FLEC F 0 5
+    FrameIndex FLEC G 0 6
+    FrameIndex FLEC H 0 7
+    FrameIndex FLEC I 0 8
+    FrameIndex FLEC J 0 9
+    FrameIndex FLEC K 0 10
+    FrameIndex FLEC L 0 11
+    FrameIndex FLEC M 0 12
+    FrameIndex FLEC N 0 13
+    FrameIndex FLEC O 0 14
+    FrameIndex FLEC P 0 15
+    FrameIndex FLEC Q 0 16
+    FrameIndex FLEC R 0 17 //Fighter*/
+    FrameIndex FLEC S 0 18 //Mage
+    FrameIndex FLEC T 0 19
+    FrameIndex FLEC U 0 20
+    FrameIndex FLEC V 0 21
+    FrameIndex FLEC W 0 22
+    FrameIndex FLEC X 0 23
+    FrameIndex FLEC Y 0 24
+    FrameIndex FLEC Z 0 25
+    FrameIndex FLEC [ 0 26
+    FrameIndex FLEC \ 0 27
+    FrameIndex FLEC ] 0 28
+    FrameIndex FLED A 0 29
+    FrameIndex FLED B 0 30
+    FrameIndex FLED C 0 31
+    FrameIndex FLED D 0 32
+    FrameIndex FLED E 0 33
+    FrameIndex FLED F 0 34
+    FrameIndex FLED G 0 35
+    FrameIndex FLED H 0 36
+    FrameIndex FLED I 0 37
+    FrameIndex FLED J 0 38
+    FrameIndex FLED K 0 39
+    FrameIndex FLED L 0 40
+    FrameIndex FLED M 0 41
+    FrameIndex FLED N 0 42 //Mage
+
+}
+
+Model CFireBombBottom
+{
+	Path models 
+	Model 0 FlechetteBottom.md3 
+	SurfaceSkin 0 0 "materials/Flechette/Noise.png"
+	SurfaceSkin 0 1 "materials/Flechette/Bubbles.png"
+	SurfaceSkin 0 2 "materials/Flechette/Line.png"
+	SurfaceSkin 0 3 "materials/Flechette/Flechette2.png"
+	Scale 1.0 1.0 1.0 
+	Offset 0 0 10
+	AngleOffset 0 
+
+	FrameIndex FLEC A 0 0 //SpawnCleric
+    /*FrameIndex FLEC B 0 1 //Fighter
+    FrameIndex FLEC C 0 2
+    FrameIndex FLEC D 0 3
+    FrameIndex FLEC E 0 4
+    FrameIndex FLEC F 0 5
+    FrameIndex FLEC G 0 6
+    FrameIndex FLEC H 0 7
+    FrameIndex FLEC I 0 8
+    FrameIndex FLEC J 0 9
+    FrameIndex FLEC K 0 10
+    FrameIndex FLEC L 0 11
+    FrameIndex FLEC M 0 12
+    FrameIndex FLEC N 0 13
+    FrameIndex FLEC O 0 14
+    FrameIndex FLEC P 0 15
+    FrameIndex FLEC Q 0 16
+    FrameIndex FLEC R 0 17 //Fighter*/
+    FrameIndex FLEC S 0 18 //Mage
+    FrameIndex FLEC T 0 19
+    FrameIndex FLEC U 0 20
+    FrameIndex FLEC V 0 21
+    FrameIndex FLEC W 0 22
+    FrameIndex FLEC X 0 23
+    FrameIndex FLEC Y 0 24
+    FrameIndex FLEC Z 0 25
+    FrameIndex FLEC [ 0 26
+    FrameIndex FLEC \ 0 27
+    FrameIndex FLEC ] 0 28
+    FrameIndex FLED A 0 29
+    FrameIndex FLED B 0 30
+    FrameIndex FLED C 0 31
+    FrameIndex FLED D 0 32
+    FrameIndex FLED E 0 33
+    FrameIndex FLED F 0 34
+    FrameIndex FLED G 0 35
+    FrameIndex FLED H 0 36
+    FrameIndex FLED I 0 37
+    FrameIndex FLED J 0 38
+    FrameIndex FLED K 0 39
+    FrameIndex FLED L 0 40
+    FrameIndex FLED M 0 41
+    FrameIndex FLED N 0 42 //Mage
+
+}
+
+Model CThrowingBomb
+{
+	Path models 
+	Model 0 Flechette.md3 
+	SurfaceSkin 0 0 "materials/Flechette/Flechette2.png"
+	SurfaceSkin 0 1 "materials/Flechette/Noise.png"
+	SurfaceSkin 0 2 "materials/Flechette/Bubbles.png"
+	SurfaceSkin 0 3 "materials/Flechette/Line.png"
+	SurfaceSkin 0 4 "materials/Flechette/Flechette2.png"
+	Scale 1.0 1.0 1.0 
+	Offset 0 0 10
+	AngleOffset 0 
+
+	FrameIndex FLEC A 0 0 //SpawnCleric
+    FrameIndex FLEC B 0 1 //Fighter
+    FrameIndex FLEC C 0 2
+    FrameIndex FLEC D 0 3
+    FrameIndex FLEC E 0 4
+    FrameIndex FLEC F 0 5
+    FrameIndex FLEC G 0 6
+    FrameIndex FLEC H 0 7
+    FrameIndex FLEC I 0 8
+    FrameIndex FLEC J 0 9
+    FrameIndex FLEC K 0 10
+    FrameIndex FLEC L 0 11
+    FrameIndex FLEC M 0 12
+    FrameIndex FLEC N 0 13
+    FrameIndex FLEC O 0 14
+    FrameIndex FLEC P 0 15
+    FrameIndex FLEC Q 0 16
+    FrameIndex FLEC R 0 17 //Fighter
+    /*FrameIndex FLEC S 0 18 //Mage
+    FrameIndex FLEC T 0 19
+    FrameIndex FLEC U 0 20
+    FrameIndex FLEC V 0 21
+    FrameIndex FLEC W 0 22
+    FrameIndex FLEC X 0 23
+    FrameIndex FLEC Y 0 24
+    FrameIndex FLEC Z 0 25
+    FrameIndex FLEC [ 0 26
+    FrameIndex FLEC \ 0 27
+    FrameIndex FLEC ] 0 28
+    FrameIndex FLED A 0 29
+    FrameIndex FLED B 0 30
+    FrameIndex FLED C 0 31
+    FrameIndex FLED D 0 32
+    FrameIndex FLED E 0 33
+    FrameIndex FLED F 0 34
+    FrameIndex FLED G 0 35
+    FrameIndex FLED H 0 36
+    FrameIndex FLED I 0 37
+    FrameIndex FLED J 0 38
+    FrameIndex FLED K 0 39
+    FrameIndex FLED L 0 40
+    FrameIndex FLED M 0 41
+    FrameIndex FLED N 0 42 //Mage*/
+
+}
+
+Model CArtiPoisonBag
+{
+	Path models 
+	Model 0 FlechetteTop.md3 
+	Skin 0 "materials/Flechette/Flechette.png"
+	Scale 1.0 1.0 1.0 
+	Offset 0 0 10
+	AngleOffset 0 
+	ROTATING
+
+	FrameIndex FLEC A 0 0 //SpawnCleric
+    /*FrameIndex FLEC B 0 1 //Fighter
+    FrameIndex FLEC C 0 2
+    FrameIndex FLEC D 0 3
+    FrameIndex FLEC E 0 4
+    FrameIndex FLEC F 0 5
+    FrameIndex FLEC G 0 6
+    FrameIndex FLEC H 0 7
+    FrameIndex FLEC I 0 8
+    FrameIndex FLEC J 0 9
+    FrameIndex FLEC K 0 10
+    FrameIndex FLEC L 0 11
+    FrameIndex FLEC M 0 12
+    FrameIndex FLEC N 0 13
+    FrameIndex FLEC O 0 14
+    FrameIndex FLEC P 0 15
+    FrameIndex FLEC Q 0 16
+    FrameIndex FLEC R 0 17 //Fighter*/
+    FrameIndex FLEC S 0 18 //Mage
+    FrameIndex FLEC T 0 19
+    FrameIndex FLEC U 0 20
+    FrameIndex FLEC V 0 21
+    FrameIndex FLEC W 0 22
+    FrameIndex FLEC X 0 23
+    FrameIndex FLEC Y 0 24
+    FrameIndex FLEC Z 0 25
+    FrameIndex FLEC [ 0 26
+    FrameIndex FLEC \ 0 27
+    FrameIndex FLEC ] 0 28
+    FrameIndex FLED A 0 29
+    FrameIndex FLED B 0 30
+    FrameIndex FLED C 0 31
+    FrameIndex FLED D 0 32
+    FrameIndex FLED E 0 33
+    FrameIndex FLED F 0 34
+    FrameIndex FLED G 0 35
+    FrameIndex FLED H 0 36
+    FrameIndex FLED I 0 37
+    FrameIndex FLED J 0 38
+    FrameIndex FLED K 0 39
+    FrameIndex FLED L 0 40
+    FrameIndex FLED M 0 41
+    FrameIndex FLED N 0 42 //Mage
+
+}
+
+Model CArtiPoisonBagBottom
+{
+	Path models 
+	Model 0 FlechetteBottom.md3 
+	SurfaceSkin 0 0 "materials/Flechette/Noise.png"
+	SurfaceSkin 0 1 "materials/Flechette/Bubbles.png"
+	SurfaceSkin 0 2 "materials/Flechette/Line.png"
+	SurfaceSkin 0 3 "materials/Flechette/Flechette2.png"
+	Scale 1.0 1.0 1.0 
+	Offset 0 0 10
+	AngleOffset 0 
+	ROTATING
+
+	FrameIndex FLEC A 0 0 //SpawnCleric
+    /*FrameIndex FLEC B 0 1 //Fighter
+    FrameIndex FLEC C 0 2
+    FrameIndex FLEC D 0 3
+    FrameIndex FLEC E 0 4
+    FrameIndex FLEC F 0 5
+    FrameIndex FLEC G 0 6
+    FrameIndex FLEC H 0 7
+    FrameIndex FLEC I 0 8
+    FrameIndex FLEC J 0 9
+    FrameIndex FLEC K 0 10
+    FrameIndex FLEC L 0 11
+    FrameIndex FLEC M 0 12
+    FrameIndex FLEC N 0 13
+    FrameIndex FLEC O 0 14
+    FrameIndex FLEC P 0 15
+    FrameIndex FLEC Q 0 16
+    FrameIndex FLEC R 0 17 //Fighter*/
+    FrameIndex FLEC S 0 18 //Mage
+    FrameIndex FLEC T 0 19
+    FrameIndex FLEC U 0 20
+    FrameIndex FLEC V 0 21
+    FrameIndex FLEC W 0 22
+    FrameIndex FLEC X 0 23
+    FrameIndex FLEC Y 0 24
+    FrameIndex FLEC Z 0 25
+    FrameIndex FLEC [ 0 26
+    FrameIndex FLEC \ 0 27
+    FrameIndex FLEC ] 0 28
+    FrameIndex FLED A 0 29
+    FrameIndex FLED B 0 30
+    FrameIndex FLED C 0 31
+    FrameIndex FLED D 0 32
+    FrameIndex FLED E 0 33
+    FrameIndex FLED F 0 34
+    FrameIndex FLED G 0 35
+    FrameIndex FLED H 0 36
+    FrameIndex FLED I 0 37
+    FrameIndex FLED J 0 38
+    FrameIndex FLED K 0 39
+    FrameIndex FLED L 0 40
+    FrameIndex FLED M 0 41
+    FrameIndex FLED N 0 42 //Mage
+
+}
+
+Model CPickupFlash
+{
+	Path models 
+	Model 0 PickupFlash.md3 
+	Skin 0 "materials/Lightning/FX1.png"
+	Scale 1.0 1.0 1.2 
+	Offset 0 0 10
+	AngleOffset 0 
+	ROTATING
+
+	FrameIndex PUP1 A 0 0
+    FrameIndex PUP1 B 0 1
+    FrameIndex PUP1 C 0 2
+    FrameIndex PUP1 D 0 3
+    FrameIndex PUP1 E 0 4
+    FrameIndex PUP1 F 0 5
+    FrameIndex PUP1 G 0 6
+    FrameIndex PUP1 H 0 7
+    FrameIndex PUP1 I 0 8
+    FrameIndex PUP1 J 0 9
+    FrameIndex PUP1 K 0 10
+    FrameIndex PUP1 L 0 11
+    FrameIndex PUP1 M 0 12
+    FrameIndex PUP1 N 0 13
+    FrameIndex PUP1 O 0 14
+    FrameIndex PUP1 P 0 15
+    FrameIndex PUP1 Q 0 16
+    FrameIndex PUP1 R 0 17
+    FrameIndex PUP1 S 0 18
+    FrameIndex PUP1 T 0 19
+    FrameIndex PUP1 U 0 20
+    FrameIndex PUP1 V 0 21
+    FrameIndex PUP1 W 0 22
+    FrameIndex PUP1 X 0 23
+    FrameIndex PUP1 Y 0 24
+    FrameIndex PUP1 Z 0 25
+
+}
+
+Model CGargoyleBronze
+{
+	Path models 
+	Model 0 GargBronze.md3 
+	Skin 0 "materials/Gargoyles/Bronze.png"
+	Scale 1.5 1.5 1.8 
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex GRG1 A 0 0
+}
+
+Model CGargoyleBronzeSmall
+{
+	Path models 
+	Model 0 GargBronzeSmall.md3 
+	Skin 0 "materials/Gargoyles/Bronze.png"
+	Scale 1.5 1.5 1.8 
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex GRG1 A 0 0
+}
+
+Model CGargoyleLava
+{
+	Path models 
+	Model 0 GargJLava.md3 
+	Skin 0 "materials/Gargoyles/Lava.png"
+	Scale 1.5 1.5 1.8 
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex GRG1 A 0 0
+}
+
+Model CGargoyleLavaSmall
+{
+	Path models 
+	Model 0 GargJLavaSmall.md3 
+	Skin 0 "materials/Gargoyles/Lava.png"
+	Scale 1.5 1.5 1.8  
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex GRG1 A 0 0
+}
+
+Model CGargoyleWood
+{
+	Path models 
+	Model 0 GargWood.md3 
+	Skin 0 "materials/Gargoyles/Wood.png"
+	Scale 1.5 1.5 1.8  
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex GRG1 A 0 0
+}
+
+Model CGargoyleWoodSmall
+{
+	Path models 
+	Model 0 GargWoodSmall.md3 
+	Skin 0 "materials/Gargoyles/Wood.png"
+	Scale 1.5 1.5 1.8 
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex GRG1 A 0 0
+}
+
+Model CGargoyleJasper
+{
+	Path models 
+	Model 0 GargJLava.md3 
+	Skin 0 "materials/Gargoyles/Jasper.png"
+	Scale 1.5 1.5 1.8 
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex GRG1 A 0 0
+}
+
+Model CGargoyleJasperSmall
+{
+	Path models 
+	Model 0 GargJLavaSmall.md3 
+	Skin 0 "materials/Gargoyles/Jasper.png"
+	Scale 1.5 1.5 1.8 
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex GRG1 A 0 0
+}
+
+Model CGargoyleMetal
+{
+	Path models 
+	Model 0 GargMetal.md3 
+	Skin 0 "materials/Gargoyles/Metal.png"
+	Scale 1.5 1.5 1.8 
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex GRG1 A 0 0
+}
+
+Model CGargoyleMetalSmall
+{
+	Path models 
+	Model 0 GargMetalSmall.md3 
+	Skin 0 "materials/Gargoyles/Metal.png"
+	Scale 1.5 1.5 1.8 
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex GRG1 A 0 0
+}
+
+Model CGargoyleIce
+{
+	Path models 
+	Model 0 GargIce.md3 
+	Skin 0 "materials/Gargoyles/Ice.png"
+	Scale 1.5 1.5 1.8 
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex GRG1 A 0 0
+}
+
+Model CGargoyleIceSmall
+{
+	Path models 
+	Model 0 GargIceSmall.md3 
+	Skin 0 "materials/Gargoyles/Ice.png"
+	Scale 1.5 1.5 1.8 
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex GRG1 A 0 0
+}
+
+Model CGargoyleStone
+{
+	Path models 
+	Model 0 GargStone.md3 
+	Skin 0 "materials/Gargoyles/Stone.png"
+	Scale 1.5 1.5 1.8 
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex GRG1 A 0 0
+}
+
+Model CGargoyleStoneSmall
+{
+	Path models 
+	Model 0 GargStoneSmall.md3 
+	Skin 0 "materials/Gargoyles/Stone.png"
+	Scale 1.5 1.5 1.8 
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex GRG1 A 0 0
+}
+
+Model CZSwampVine
+{
+	Path models 
+	Model 0 SwampVine.md3 
+	Skin 0 "materials/SwampVine/SwampVine.png"
+	Scale 0.7 0.7 0.84
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex SWAM A 0 0
+}
+
+Model CZSwampVines
+{
+	Path models 
+	Model 0 SwampVines.md3 
+	Skin 0 "materials/SwampVine/SwampVine.png"
+	Scale 0.7 0.7 0.84
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex SWAM A 0 0
+}
+
+Model CZFireBull
+{
+	Path models 
+	Model 0 BullTorch.md3 
+	Skin 0 "materials/BullTorch/BullTorch.png"
+	Scale 0.4 0.4 0.48
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex BTRC A 0 0
+}
+
+Model CZFireBullUnlit
+{
+	Path models 
+	Model 0 BullTorch.md3 
+	Skin 0 "materials/BullTorch/BullTorch.png"
+	Scale 0.4 0.4 0.48
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex BTRC A 0 0
+}
+
+Model CKeySteel
+{
+	Path "models/Keys" 
+	Model 0 SteelKey.md3 
+	Skin 0 "materials/Keys/Keys.png"
+	Scale 0.2 0.2 0.24
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex KEYS A 0 0
+}
+
+Model CKeyAxe
+{
+	Path "models/Keys" 
+	Model 0 AxeKey.md3 
+	Skin 0 "materials/Keys/Keys.png"
+	Scale 0.2 0.2 0.24
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex KEYS A 0 0
+}
+
+Model CKeyCastle
+{
+	Path "models/Keys" 
+	Model 0 CastleKey.md3 
+	Skin 0 "materials/Keys/Keys.png"
+	Scale 0.2 0.2 0.24
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex KEYS A 0 0
+}
+
+Model CKeyCave
+{
+	Path "models/Keys" 
+	Model 0 CaveKey.md3 
+	Skin 0 "materials/Keys/Keys.png"
+	Scale 0.2 0.2 0.24
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex KEYS A 0 0
+}
+
+Model CKeyDungeon
+{
+	Path "models/Keys" 
+	Model 0 DungeonKey.md3 
+	Skin 0 "materials/Keys/Keys.png"
+	Scale 0.2 0.2 0.24
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex KEYS A 0 0
+}
+
+Model CKeyEmerald
+{
+	Path "models/Keys" 
+	Model 0 EmeraldKey.md3 
+	Skin 0 "materials/Keys/Keys.png"
+	Scale 0.2 0.2 0.24
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex KEYS A 0 0
+}
+
+Model CKeyFire
+{
+	Path "models/Keys" 
+	Model 0 FireKey.md3 
+	Skin 0 "materials/Keys/Keys.png"
+	Scale 0.2 0.2 0.24
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex KEYS A 0 0
+}
+
+Model CKeyHorn
+{
+	Path "models/Keys" 
+	Model 0 HornKey.md3 
+	Skin 0 "materials/Keys/Keys.png"
+	Scale 0.2 0.2 0.24
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex KEYS A 0 0
+}
+
+Model CKeyRusted
+{
+	Path "models/Keys" 
+	Model 0 RustyKey.md3 
+	Skin 0 "materials/Keys/Keys.png"
+	Scale 0.2 0.2 0.24
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex KEYS A 0 0
+}
+
+Model CKeySilver
+{
+	Path "models/Keys" 
+	Model 0 SilverKey.md3 
+	Skin 0 "materials/Keys/Keys.png"
+	Scale 0.2 0.2 0.24
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex KEYS A 0 0
+}
+
+Model CKeySwamp
+{
+	Path "models/Keys"
+	Model 0 SwampKey.md3 
+	Skin 0 "materials/Keys/Keys.png"
+	Scale 0.2 0.2 0.24
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex KEYS A 0 0
+}
+
+Model CZCauldron
+{
+	Path models 
+	Model 0 CauldronWood.md3 
+	Skin 0 "materials/Cauldron/Cauldron.png"
+	Scale 0.4 0.4 0.48
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex CAUL A 0 0
+}
+
+Model CZCauldron
+{
+	Path models 
+	Model 0 CauldronEmpty.md3 
+	Skin 0 "materials/Cauldron/Cauldron.png"
+	Scale 0.4 0.4 0.48
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex CAUL B 0 0
+}
+
+Model CZCauldronUnlit
+{
+	Path models 
+	Model 0 CauldronEmpty.md3 
+	Skin 0 "materials/Cauldron/Cauldron.png"
+	Scale 0.4 0.4 0.48
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex CAUL A 0 0
+}
+
+Model CZChandelier
+{
+	Path models 
+	Model 0 Chandelier.md3 
+	Skin 0 "materials/Chandelier/Chandelier.png"
+	Scale 0.8 0.8 0.96
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex CHDL A 0 0
+}
+
+Model CZChandelierUnlit
+{
+	Path models 
+	Model 0 Chandelier.md3 
+	Skin 0 "materials/Chandelier/Chandelier.png"
+	Scale  0.8 0.8 0.96
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex CHDL A 0 0
+}
+
+Model ChandelierChain
+{
+	Path models 
+	Model 0 ChandelierChain.md3 
+	Skin 0 "materials/Chandelier/Chandelier.png"
+	Scale  0.8 0.8 0.96
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+	FrameIndex CHDL A 0 0
+}
+
+Model CArtiTeleport
+{
+	Path models 
+	Model 0 ChaosDevice.md3 
+	Skin 0 "materials/ChaosDevice/ChaosDevice.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 30
+	AngleOffset 0 
+	ROTATING
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex CHDV A 0 0
+    FrameIndex CHDV B 0 1
+    FrameIndex CHDV C 0 2
+    FrameIndex CHDV D 0 3
+    FrameIndex CHDV E 0 4
+    FrameIndex CHDV F 0 5
+    FrameIndex CHDV G 0 6
+    FrameIndex CHDV H 0 7
+    FrameIndex CHDV I 0 8
+    FrameIndex CHDV J 0 9
+    FrameIndex CHDV K 0 10
+    FrameIndex CHDV L 0 11
+    FrameIndex CHDV M 0 12
+    FrameIndex CHDV N 0 13
+    FrameIndex CHDV O 0 14
+    FrameIndex CHDV P 0 15
+}
+
+Model CArtiTeleportOther
+{
+	Path models 
+	Model 0 ArtiTelo.md3 
+	Skin 0 "materials/ChaosDevice/ChaosDevice.png"
+	Scale  0.5 0.5 0.5
+	Offset 0 0 30
+	AngleOffset 0 
+	ROTATING
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex CHDV A 0 0
+    FrameIndex CHDV B 0 1
+    FrameIndex CHDV C 0 2
+    FrameIndex CHDV D 0 3
+    FrameIndex CHDV E 0 4
+    FrameIndex CHDV F 0 5
+    FrameIndex CHDV G 0 6
+    FrameIndex CHDV H 0 7
+    FrameIndex CHDV I 0 8
+    FrameIndex CHDV J 0 9
+    FrameIndex CHDV K 0 10
+    FrameIndex CHDV L 0 11
+    FrameIndex CHDV M 0 12
+    FrameIndex CHDV N 0 13
+    FrameIndex CHDV O 0 14
+}
+
+Model CZXmasTree
+{
+	Path models 
+	Model 0 ChristmasTree.md3 
+	Skin 0 "materials/ChristmasTree/ChristmasTree.png"
+	Scale  0.8 0.8 0.96
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex CTRE A 0 0
+}
+
+Model XmasTreeNeedles
+{
+	Path models 
+	Model 0 ChristmasTreeNeedles.md3 
+	Skin 0 "materials/ChristmasTree/ChristmasTree.png"
+	Scale  0.8 0.8 0.96
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex CTRE A 0 0
+}
+
+Model CZXmasTree
+{
+	Path models 
+	Model 0 ChristmasTreeBurned.md3 
+	Skin 0 "materials/ChristmasTree/ChristmasTree.png"
+	Scale  0.4 0.4 0.48
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex XTFX A 0 0
+    FrameIndex XTFX B 0 1
+    FrameIndex XTFX C 0 2
+    FrameIndex XTFX D 0 3
+    FrameIndex XTFX E 0 4
+    FrameIndex XTFX F 0 5
+    FrameIndex XTFX G 0 6
+    FrameIndex XTFX H 0 7
+    FrameIndex XTFX I 0 8
+    FrameIndex XTFX J 0 9
+    FrameIndex XTFX K 0 10
+    FrameIndex XTFX L 0 11
+    FrameIndex XTFX M 0 12
+    FrameIndex XTFX N 0 13
+    FrameIndex XTFX O 0 14
+    FrameIndex XTFX P 0 15
+    FrameIndex XTFX Q 0 16
+    FrameIndex XTFX R 0 17
+    FrameIndex XTFX S 0 18
+    FrameIndex XTFX T 0 19
+    FrameIndex XTFX U 0 20
+    FrameIndex XTFX V 0 21
+    FrameIndex XTFX W 0 22
+    FrameIndex XTFX X 0 23
+    FrameIndex XTFX Y 0 24
+    FrameIndex XTFX Z 0 25
+    FrameIndex XTFX [ 0 26
+    FrameIndex XTFX \ 0 27
+    FrameIndex XTFX ] 0 28
+    FrameIndex XTFY A 0 29
+    FrameIndex XTFY B 0 30
+}
+
+Model CZCorpseLynched
+{
+	Path models 
+	Model 0 Corpse1.md3 
+	SurfaceSkin 0 0 "materials/Corpses/Corpse1.png"
+	SurfaceSkin 0 1 "materials/Corpses/CorpseHair1.png"
+	Scale  0.4 0.4 0.48
+	Offset 0 0 10
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex CORP A 0 0
+}
+
+Model CZCorpseLynchedNoHeart
+{
+	Path models 
+	Model 0 Corpse2.md3 
+	SurfaceSkin 0 0 "materials/Corpses/Corpse2.png"
+	SurfaceSkin 0 1 "materials/Corpses/CorpseHair1.png"
+	SurfaceSkin 0 2 "materials/Corpses/Corpse1.png"
+	Scale  0.4 0.4 0.48
+	Offset 0 0 10
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex CORP A 0 0
+}
+
+Model CZCorpseHanging
+{
+	Path models 
+	Model 0 Corpse5.md3 
+	SurfaceSkin 0 0 "materials/Corpses/Corpse5.png"
+	SurfaceSkin 0 1 "materials/Corpses/CorpseHair3-6.png"
+	Scale  0.4 0.4 0.48
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex CORP A 0 0
+}
+
+Model CZCorpseSitting
+{
+	Path models 
+	Model 0 Corpse6.md3 
+	SurfaceSkin 0 0 "materials/Corpses/Corpse6.png"
+	SurfaceSkin 0 1 "materials/Corpses/CorpseHair3-6.png"
+	Scale  0.4 0.4 0.48
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex CORP A 0 0
+}
+
+Model CZCorpseSitting
+{
+	Path models 
+	Model 0 Corpse6Split.md3 
+	Skin 0 "materials/Corpses/Corpse6.png"
+	Scale  0.4 0.4 0.48
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex CORS A 0 0
+    FrameIndex CORS B 0 1
+    FrameIndex CORS C 0 2
+    FrameIndex CORS D 0 3
+    FrameIndex CORS E 0 4
+    FrameIndex CORS F 0 5
+    FrameIndex CORS G 0 6
+    FrameIndex CORS H 0 7
+    FrameIndex CORS I 0 8
+    FrameIndex CORS J 0 9
+    FrameIndex CORS K 0 10
+    FrameIndex CORS L 0 11
+    FrameIndex CORS M 0 12
+    FrameIndex CORS N 0 13
+    FrameIndex CORS O 0 14
+}
+
+Model CZCorpseKabob
+{
+	Path models 
+	Model 0 Corpse3.md3 
+	SurfaceSkin 0 0 "materials/Corpses/Corpse3-4.png"
+	SurfaceSkin 0 1 "materials/Corpses/CorpseHair3-6.png"
+	Scale  0.4 0.4 0.48
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex CORP A 0 0
+}
+
+Model CZCorpseSleeping
+{
+	Path models 
+	Model 0 Corpse4.md3 
+	SurfaceSkin 0 0 "materials/Corpses/Corpse3-4.png"
+	SurfaceSkin 0 1 "materials/Corpses/CorpseHair3-6.png"
+	Scale  0.4 0.4 0.48
+	Offset 0 0 0
+	AngleOffset 0 
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex CORP A 0 0
+}
+
+Model CArtiBoostMana
+{
+	Path models 
+	Model 0 CraterOfMagic.md3 
+	Skin 0 "materials/CraterOfMagic/CraterOfMagic.png"
+	Scale  0.2 0.2 0.24
+	Offset 0 0 10
+	AngleOffset 0
+	ROTATING
+
+    FrameIndex COMI A 0 0
+}
+
+Model CMana1
+{
+	Path models 
+	Model 0 ManaBlue.md3 
+	Skin 0 "materials/Mana/Runes.png"
+	Scale  0.1 0.1 0.12
+	Offset 0 0 10
+	AngleOffset 0
+	ROTATING
+
+    FrameIndex MAN1 A 0 0
+}
+
+Model CMana2
+{
+	Path models 
+	Model 0 ManaGreen.md3 
+	Skin 0 "materials/Mana/Runes.png"
+	Scale  0.1 0.1 0.12
+	Offset 0 0 10
+	AngleOffset 0
+	ROTATING
+
+    FrameIndex MAN2 A 0 0
+}
+
+Model CMana3
+{
+	Path models 
+	Model 0 ManaCombined.md3 
+	Skin 0 "materials/Mana/Runes.png"
+	Scale  0.15 0.15 0.18
+	Offset 0 0 10
+	AngleOffset 0
+	ROTATING
+
+    FrameIndex MAN3 A 0 0
+}
+
+Model TreeCrush
+{
+	Path models 
+	Model 0 TreeCrush.md3 
+	Skin 0 "materials/TreeCrush/TreeCrush.png"
+	Scale  1.0 1.0 1.2
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex TREC A 0 0
+    FrameIndex TREC B 0 1
+    FrameIndex TREC C 0 2
+    FrameIndex TREC D 0 3
+    FrameIndex TREC E 0 4
+    FrameIndex TREC F 0 5
+    FrameIndex TREC G 0 6
+    FrameIndex TREC H 0 7
+    FrameIndex TREC I 0 8
+    FrameIndex TREC J 0 9
+    FrameIndex TREC K 0 10
+    FrameIndex TREC L 0 11
+    FrameIndex TREC M 0 12
+    FrameIndex TREC N 0 13
+    FrameIndex TREC O 0 14
+    FrameIndex TREC P 0 15
+    FrameIndex TREC Q 0 16
+    FrameIndex TREC R 0 17
+    FrameIndex TREC S 0 18
+}
+
+Model TreeCrush
+{
+	Path models 
+	Model 0 TreeCrush.md3 
+	Skin 0 "materials/TreeCrush/TreeCrushB.png"
+	Scale  1.0 1.0 1.2
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex TREF A 0 0
+    FrameIndex TREF B 0 1
+    FrameIndex TREF C 0 2
+    FrameIndex TREF D 0 3
+    FrameIndex TREF E 0 4
+    FrameIndex TREF F 0 5
+    FrameIndex TREF G 0 6
+    FrameIndex TREF H 0 7
+    FrameIndex TREF I 0 8
+    FrameIndex TREF J 0 9
+    FrameIndex TREF K 0 10
+    FrameIndex TREF L 0 11
+    FrameIndex TREF M 0 12
+    FrameIndex TREF N 0 13
+    FrameIndex TREF O 0 14
+    FrameIndex TREF P 0 15
+    FrameIndex TREF Q 0 16
+    FrameIndex TREF R 0 17
+    FrameIndex TREF S 0 18
+}
+
+Model CZDeadTree
+{
+	Path models 
+	Model 0 DeadTree.md3 
+	Skin 0 "materials/DeadTree/DeadTree.png"
+	Scale  0.8 0.8 0.96
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex DTRE A 0 0
+}
+
+Model BeerCup
+{
+	Path models 
+	Model 0 BeerCup.md3 
+	Skin 0 "materials/Dishes/Dishes.png"
+	Scale  0.1 0.1 0.12
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex DISH A 0 0
+}
+
+Model BeerGlass
+{
+	Path models 
+	Model 0 BeerGlass.md3 
+	Skin 0 "materials/Dishes/Dishes.png"
+	Scale  0.1 0.1 0.12
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex DISH A 0 0
+}
+
+Model Cup1
+{
+	Path models 
+	Model 0 Cup1.md3 
+	Skin 0 "materials/Dishes/Dishes.png"
+	Scale  0.1 0.1 0.12
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex DISH A 0 0
+}
+
+Model Cup2
+{
+	Path models 
+	Model 0 Cup2.md3 
+	Skin 0 "materials/Dishes/Dishes.png"
+	Scale  0.1 0.1 0.12
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex DISH A 0 0
+}
+
+Model Cup3
+{
+	Path models 
+	Model 0 Cup3.md3 
+	Skin 0 "materials/Dishes/Dishes.png"
+	Scale  0.1 0.1 0.12
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex DISH A 0 0
+}
+
+Model Knife
+{
+	Path models 
+	Model 0 Knife.md3 
+	Skin 0 "materials/Dishes/Dishes.png"
+	Scale  0.1 0.1 0.12
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex DISH A 0 0
+}
+
+Model SpilledCup
+{
+	Path models 
+	Model 0 SpilledCup.md3 
+	Skin 0 "materials/Dishes/Dishes.png"
+	Scale  0.1 0.1 0.12
+	Offset 0 0 1
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex DISH A 0 0
+	
+}
+
+Model WoodCup
+{
+	Path models 
+	Model 0 WoodCup.md3 
+	Skin 0 "materials/Dishes/Dishes.png"
+	Scale  0.1 0.1 0.12
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex DISH A 0 0
+}
+
+Model CZWallTorch
+{
+	Path models 
+	Model 0 Torch.md3 
+	Skin 0 "materials/Chandelier/Chandelier.png"
+	Scale  0.4 0.4 0.48
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex TRCH A 0 0
+}
+
+Model CZWallTorchUnlit
+{
+	Path models 
+	Model 0 Torch.md3 
+	Skin 0 "materials/Chandelier/Chandelier.png"
+	Scale  0.4 0.4 0.48
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex TRCH A 0 0
+}
+
+Model ArtiBlastRadius
+{
+	Path models 
+	Model 0 DiskOfRepulsion.md3 
+	Skin 0 "materials/DiskOfRepulsion/DiskOfRepulsion.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 10
+	AngleOffset 0
+	ROTATING
+
+    FrameIndex BLST A 0 0
+	FrameIndex BLST B 0 0
+	FrameIndex BLST C 0 0
+	FrameIndex BLST D 0 0
+	FrameIndex BLST E 0 0
+	FrameIndex BLST F 0 0
+	FrameIndex BLST G 0 0
+	FrameIndex BLST H 0 0
+}
+
+Model DragonskinBracers
+{
+	Path models 
+	Model 0 DragonskinBracers.md3 
+	Skin 0 "materials/DragonskinBracers/DragonskinBracers.png"
+	Scale  0.2 0.2 0.2
+	Offset 0 0 10
+	AngleOffset 0
+	ROTATING
+
+    FrameIndex DSBR A 0 0
+}
+
+Model CTableShit4
+{
+	Path models 
+	Model 0 Candle1.md3 
+	Skin 0 "materials/Candles/Candles.png"
+	Scale  1.0 1.0 1.2
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex CND1 A 0 0
+}
+
+Model CTableShit5
+{
+	Path models 
+	Model 0 Candle2.md3 
+	Skin 0 "materials/Candles/Candles.png"
+	Scale  1.0 1.0 1.2
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex CND2 A 0 0
+}
+
+Model CTableShit3
+{
+	Path models 
+	Model 0 Candle2.md3 
+	Skin 0 "materials/Candles/Candles.png"
+	Scale  1.0 1.0 1.2
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex CNDW A 0 0
+}
+
+Model CZCandle
+{
+	Path models 
+	Model 0 CandleBig.md3 
+	Skin 0 "materials/Candles/Candles.png"
+	Scale  1.0 1.0 1.2
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex CBDB A 0 0
+}
+
+Model CandleWeb
+{
+	Path models 
+	Model 0 CandleWeb.md3 
+	Skin 0 "materials/Candles/Candles.png"
+	Scale  1.0 1.0 1.2
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex CNDW A 0 0
+}
+
+Model CZBlueCandle
+{
+	Path models 
+	Model 0 CandleBlue.md3 
+	Skin 0 "materials/Candles/Candles.png"
+	Scale  1.0 1.0 1.2
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex CNDB A 0 0
+}
+
+Model FaceTorch
+{
+	Path models 
+	Model 0 FaceTorch.md3 
+	Skin 0 "materials/FaceTorch/FaceTorch.png"
+	Scale  0.2 0.2 0.24
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex FCTC A 0 0
+}
+
+Model Flag
+{
+	Path models 
+	Model 0 Flag.md3 
+	Skin 0 "materials/Flag/Flag.png"
+	Scale  0.8 0.8 0.96
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex FLAG A 0 0
+}
+
+Model FlameMask
+{
+	Path models 
+	Model 0 FlameMask.md3 
+	Skin 0 "materials/FlameMask/FlameMask.png"
+	Scale  0.6 0.6 0.72
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex FLAM A 0 0
+}
+
+Model CPuzzGear1
+{
+	Path models 
+	Model 0 Gear1.md3 
+	Skin 0 "materials/Gears/Gears.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 10
+	AngleOffset 0
+	ROTATING
+
+    FrameIndex GEAR A 0 0
+}
+
+Model CPuzzGear2
+{
+	Path models 
+	Model 0 Gear2.md3 
+	Skin 0 "materials/Gears/Gears.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 10
+	AngleOffset 0
+	ROTATING
+
+    FrameIndex GEAR A 0 0
+}
+
+Model CPuzzGear3
+{
+	Path models 
+	Model 0 Gear3.md3 
+	Skin 0 "materials/Gears/Gears.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 10
+	AngleOffset 0
+	ROTATING
+
+    FrameIndex GEAR A 0 0
+}
+
+Model CPuzzGear4
+{
+	Path models 
+	Model 0 Gear4.md3 
+	Skin 0 "materials/Gears/Gears.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 10
+	AngleOffset 0
+	ROTATING
+
+    FrameIndex GEAR A 0 0
+}
+
+Model CPuzzGear4
+{
+	Path models 
+	Model 0 Gear4.md3 
+	Skin 0 "materials/Gears/Gears.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 10
+	AngleOffset 0
+	ROTATING
+
+    FrameIndex GEAR A 0 0
+}
+
+Model CPuzzGemBlue1
+{
+	Path models 
+	Model 0 GemBlue.md3 
+	Skin 0 "materials/Gems/Gems.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 10
+	AngleOffset 0
+	ROTATING
+
+    FrameIndex GEMS A 0 0
+}
+
+Model CPuzzGemBlue2
+{
+	Path models 
+	Model 0 GemBlue.md3 
+	Skin 0 "materials/Gems/Gems.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 10
+	AngleOffset 0
+	ROTATING
+
+    FrameIndex GEMS A 0 0
+}
+
+Model CPuzzGemGreen1
+{
+	Path models 
+	Model 0 GemGreen.md3 
+	Skin 0 "materials/Gems/Gems.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 10
+	AngleOffset 0
+	ROTATING
+
+    FrameIndex GEMS A 0 0
+}
+
+Model CPuzzGemGreen2
+{
+	Path models 
+	Model 0 GemGreen.md3 
+	Skin 0 "materials/Gems/Gems.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 10
+	AngleOffset 0
+	ROTATING
+
+    FrameIndex GEMS A 0 0
+}
+
+Model CPuzzGemRed
+{
+	Path models 
+	Model 0 GemRed.md3 
+	Skin 0 "materials/Gems/Gems.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 10
+	AngleOffset 0
+	ROTATING
+
+    FrameIndex GEMS A 0 0
+}
+
+Model CPuzzGemBig
+{
+	Path models 
+	Model 0 GemRed1.md3 
+	Skin 0 "materials/Gems/Gems.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 10
+	AngleOffset 0
+	ROTATING
+
+    FrameIndex GEMS A 0 0
+}
+
+Model CZRock1
+{
+	Path models 
+	Model 0 Rock1.md3 
+	Skin 0 "materials/Rocks/Rocks.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex ROCK A 0 0
+}
+
+Model CZRock2
+{
+	Path models 
+	Model 0 Rock2.md3 
+	Skin 0 "materials/Rocks/Rocks.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex ROCK A 0 0
+}
+
+Model CZRock3
+{
+	Path models 
+	Model 0 Rock3.md3 
+	Skin 0 "materials/Rocks/Rocks.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex ROCK A 0 0
+}
+
+Model CZRock4
+{
+	Path models 
+	Model 0 Rock4.md3 
+	Skin 0 "materials/Rocks/Rocks.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex ROCK A 0 0
+}
+
+Model CZChainEndHook1
+{
+	Path models 
+	Model 0 HookLong.md3 
+	Skin 0 "materials/Hooks/Hooks.png"
+	Scale  0.1 0.1 0.1
+	Offset 0 0 18
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex HOOK A 0 0
+}
+
+Model CZChainEndHook2
+{
+	Path models 
+	Model 0 HookShort.md3 
+	Skin 0 "materials/Hooks/Hooks.png"
+	Scale  0.1 0.1 0.1
+	Offset 0 0 18
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex HOOK A 0 0
+}
+
+Model CZChainEndSpike
+{
+	Path models 
+	Model 0 HookBall.md3 
+	Skin 0 "materials/Hooks/Hooks.png"
+	Scale  0.1 0.1 0.1
+	Offset 0 0 18
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex HOOK A 0 0
+}
+
+Model CZChainEndHeart
+{
+	Path models 
+	Model 0 HookHeart.md3 
+	Skin 0 "materials/Hooks/Hooks.png"
+	Scale  0.1 0.1 0.1
+	Offset 0 0 18
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex HOOK A 0 0
+}
+
+Model CZChainEndSkull
+{
+	Path models 
+	Model 0 HookSkull.md3 
+	Skin 0 "materials/Hooks/Hooks.png"
+	Scale  0.1 0.1 0.1
+	Offset 0 0 18
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex HOOK A 0 0
+}
+
+Model CZChainEndSkull
+{
+	Path models 
+	Model 0 HookSkull.md3 
+	Skin 0 "materials/Hooks/Hooks.png"
+	Scale  0.1 0.1 0.1
+	Offset 0 0 18
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex HOOK A 0 0
+}
+
+Model CZChainBit32
+{
+	Path models 
+	Model 0 ChainShort.md3 
+	Skin 0 "materials/Hooks/Hooks.png"
+	Scale  0.1 0.1 0.1
+	Offset 0 0 60
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex HOOK A 0 0
+}
+
+Model CZChainBit64
+{
+	Path models 
+	Model 0 ChainLong.md3 
+	Skin 0 "materials/Hooks/Hooks.png"
+	Scale  0.2 0.2 0.2
+	Offset 0 0 60
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex HOOK A 0 0
+}
+
+Model CZIronMaiden
+{
+	Path models 
+	Model 0 IronMaiden.md3 
+	Skin 0 "materials/Hooks/Hooks.png"
+	Scale  0.3 0.3 0.3
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex IRMD A 0 0
+}
+
+Model CArtiInvulnerability2
+{
+	Path models 
+	Model 0 IconOfDefender.md3 
+	Skin 0 "materials/IconOfDefender/IconOfDefender.png"
+	Scale  0.15 0.15 0.15
+	Offset 0 0 10
+	AngleOffset 0
+	ROTATING
+
+    FrameIndex IODF A 0 0
+}
+
+Model CZSuitOfArmor
+{
+	Path models 
+	Model 0 Knight.md3 
+	Skin 0 "materials/Knight/Knight.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex KNPC A 0 0
+}
+
+Model CZArmorChunk
+{
+	Path models 
+	Model 0 KnightPieces.md3 
+	Skin 0 "materials/Knight/Knight.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 2
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex KNPC B 0 0
+    FrameIndex KNPC C 0 1
+    FrameIndex KNPC D 0 2
+    FrameIndex KNPC E 0 3
+    FrameIndex KNPC F 0 4
+    FrameIndex KNPC G 0 5
+    FrameIndex KNPC H 0 6
+    FrameIndex KNPC I 0 7
+    FrameIndex KNPC J 0 8
+    FrameIndex KNPC K 0 9
+}
+
+Model CZStalagmitePillar
+{
+	Path models 
+	Model 0 StalagmitePillar.md3 
+	Skin 0 "materials/Stalactite/Stalactite.png"
+	Scale  0.4 0.4 0.48
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex STLC A 0 0
+}
+
+Model CZStalagmiteSmall
+{
+	Path models 
+	Model 0 StalagmiteSmall.md3 
+	Skin 0 "materials/Stalactite/Stalactite.png"
+	Scale  0.4 0.4 0.48
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex STLC A 0 0
+}
+
+Model CZStalagmiteMedium
+{
+	Path models 
+	Model 0 StalagmiteMedium.md3 
+	Skin 0 "materials/Stalactite/Stalactite.png"
+	Scale  0.4 0.4 0.48
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex STLC A 0 0
+}
+
+Model CZStalagmiteLarge
+{
+	Path models 
+	Model 0 StalagmiteLarge.md3 
+	Skin 0 "materials/Stalactite/Stalactite.png"
+	Scale  0.4 0.4 0.48
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex STLC A 0 0
+}
+
+Model CZStalactiteSmall
+{
+	Path models 
+	Model 0 StalactiteSmall.md3 
+	Skin 0 "materials/Stalactite/Stalactite.png"
+	Scale  0.4 0.4 0.48
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex STLC A 0 0
+}
+
+Model CZStalactiteMedium
+{
+	Path models 
+	Model 0 StalactiteMedium.md3 
+	Skin 0 "materials/Stalactite/Stalactite.png"
+	Scale  0.4 0.4 0.48
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex STLC A 0 0
+}
+
+Model CZStalactiteLarge
+{
+	Path models 
+	Model 0 StalactiteLarge.md3 
+	Skin 0 "materials/Stalactite/Stalactite.png"
+	Scale  0.4 0.4 0.48
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex STLC A 0 0
+}
+
+Model CPottery1
+{
+	Path models 
+	Model 0 Vase1.md3 
+	Skin 0 "materials/Vases/Vases.png"
+	Scale  0.4 0.4 0.48
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex VASE A 0 0
+}
+
+Model CPottery2
+{
+	Path models 
+	Model 0 Vase2.md3 
+	Skin 0 "materials/Vases/Vases.png"
+	Scale  0.4 0.4 0.48
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex VASE A 0 0
+}
+
+Model CPottery3
+{
+	Path models 
+	Model 0 Vase3.md3 
+	Skin 0 "materials/Vases/Vases.png"
+	Scale  0.4 0.4 0.48
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex VASE A 0 0
+}
+
+Model CPotteryBit
+{
+	Path models 
+	Model 0 Vase1Pieces.md3 
+	Skin 0 "materials/Vases/Vases.png"
+	Scale  0.4 0.4 0.48
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex POTB A 0 0
+	FrameIndex POTB B 0 1
+	FrameIndex POTB C 0 2
+}
+
+Model CPotteryBit
+{
+	Path models 
+	Model 0 Vase2Pieces.md3 
+	Skin 0 "materials/Vases/Vases.png"
+	Scale  0.4 0.4 0.48
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex POTB D 0 0
+	FrameIndex POTB E 0 1
+	FrameIndex POTB F 0 2
+}
+
+Model CPotteryBit
+{
+	Path models 
+	Model 0 Vase3Pieces.md3 
+	Skin 0 "materials/Vases/Vases.png"
+	Scale  0.4 0.4 0.48
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex POTB G 0 0
+	FrameIndex POTB H 0 1
+	FrameIndex POTB I 0 2
+}
+
+Model CZLog
+{
+	Path models 
+	Model 0 LogMoss.md3 
+	Skin 0 "materials/Logs/Logs.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex LOGS A 0 0
+}
+
+Model CZShroomLarge1
+{
+	Path models 
+	Model 0 ShroomLarge1.md3 
+	Skin 0 "materials/Shrooms/Shrooms.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex MUSH A 0 0
+}
+
+Model CZShroomLarge2
+{
+	Path models 
+	Model 0 ShroomLarge2.md3 
+	Skin 0 "materials/Shrooms/Shrooms.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex MUSH A 0 0
+}
+
+Model CZShroomLarge3
+{
+	Path models 
+	Model 0 ShroomLarge3.md3 
+	Skin 0 "materials/Shrooms/Shrooms.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex MUSH A 0 0
+}
+
+Model CZShroomSmall1
+{
+	Path models 
+	Model 0 ShroomSmall1.md3 
+	Skin 0 "materials/Shrooms/Shrooms.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex MUSH A 0 0
+}
+
+Model CZShroomSmall2
+{
+	Path models 
+	Model 0 ShroomSmall2.md3 
+	Skin 0 "materials/Shrooms/Shrooms.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex MUSH A 0 0
+}
+
+Model CZShroomSmall3
+{
+	Path models 
+	Model 0 ShroomSmall3.md3 
+	Skin 0 "materials/Shrooms/Shrooms.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex MUSH A 0 0
+}
+
+Model CZShroomSmall4
+{
+	Path models 
+	Model 0 ShroomSmall4.md3 
+	Skin 0 "materials/Shrooms/Shrooms.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex MUSH A 0 0
+}
+
+Model CZShroomSmall5
+{
+	Path models 
+	Model 0 ShroomSmall5.md3 
+	Skin 0 "materials/Shrooms/Shrooms.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex MUSH A 0 0
+}
+
+Model CZPoisonShroom
+{
+	Path models 
+	Model 0 MushStatic.md3 
+	Skin 0 "materials/Shrooms/Shrooms.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex MUSH A 0 0
+    FrameIndex MUSH B 0 1
+    FrameIndex MUSH C 0 2
+    FrameIndex MUSH D 0 3
+    FrameIndex MUSH E 0 4
+    FrameIndex MUSH F 0 5
+    FrameIndex MUSH G 0 6
+    FrameIndex MUSH H 0 7
+    FrameIndex MUSH I 0 8
+    FrameIndex MUSH J 0 9
+}
+
+Model CZPoisonShroom
+{
+	Path models 
+	Model 0 MushExplode.md3 
+	Skin 0 "materials/Shrooms/Shrooms.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex MUSH K 0 0
+}
+
+Model CArtiHealingRadius
+{
+	Path models 
+	Model 0 MagicIncant.md3 
+	Skin 0 "materials/MysticIncant/MysticIncant.png"
+	Scale  0.3 0.3 0.36
+	Offset 0 0 10
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex MYST A 0 0
+}
+
+Model CArtiSuperHealth
+{
+	Path models 
+	Model 0 MysticUrn.md3 
+	Skin 0 "materials/MysticUrn/MysticUrn.png"
+	Scale  0.3 0.3 0.36
+	Offset 0 0 10
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex MYST A 0 0
+}
+
+Model CZGemPedestal
+{
+	Path models 
+	Model 0 Piedestal.md3 
+	Skin 0 "materials/Piedestal/Piedestal.png"
+	Scale  0.2 0.2 0.2
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex PIED A 0 0
+}
+
+Model PiedestalGem
+{
+	Path models 
+	Model 0 PiedestalGem.md3 
+	Skin 0 "materials/Gems/Gems.png"
+	Scale  0.2 0.2 0.2
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex PIEG A 0 0
+}
+
+Model CZVasePillar
+{
+	Path models 
+	Model 0 PillarVase.md3 
+	Skin 0 "materials/PillarVase/PillarVase.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex PVAS A 0 0
+}
+
+Model CZStalactiteIceLarge
+{
+	Path models 
+	Model 0 StalacIceL.md3 
+	Skin 0 "materials/StalacIce/StalacIce.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+	
+    FrameIndex SICE A 0 0
+}
+
+Model CZStalactiteIceMedium
+{
+	Path models 
+	Model 0 StalacIceM.md3 
+	Skin 0 "materials/StalacIce/StalacIce.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+	
+    FrameIndex SICE A 0 0
+}
+
+Model CZStalactiteIceSmall
+{
+	Path models 
+	Model 0 StalacIceS.md3 
+	Skin 0 "materials/StalacIce/StalacIce.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+	
+    FrameIndex SICE A 0 0
+}
+
+Model CZStalactiteIceTiny
+{
+	Path models 
+	Model 0 StalacIceT.md3 
+	Skin 0 "materials/StalacIce/StalacIce.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex SICE A 0 0
+}
+
+Model CZStalagmiteIceLarge
+{
+	Path models 
+	Model 0 StalagIceL.md3 
+	Skin 0 "materials/StalacIce/StalacIce.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex SICE A 0 0
+}
+
+Model CZStalagmiteIceMedium
+{
+	Path models 
+	Model 0 StalagIceM.md3 
+	Skin 0 "materials/StalacIce/StalacIce.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex SICE A 0 0
+}
+
+Model CZStalagmiteIceSmall
+{
+	Path models 
+	Model 0 StalagIceS.md3 
+	Skin 0 "materials/StalacIce/StalacIce.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex SICE A 0 0
+}
+
+Model CZStalagmiteIceTiny
+{
+	Path models 
+	Model 0 StalagIceT.md3 
+	Skin 0 "materials/StalacIce/StalacIce.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex SICE A 0 0
+}
+
+Model CArtiEgg
+{
+	Path models 
+	Model 0 Porkelator.md3 
+	Skin 0 "materials/Porkelator/Porkelator.png"
+	Scale  0.1 0.1 0.1
+	Offset 0 0 10
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+	ROTATING
+
+    FrameIndex PRKE A 0 0
+}
+
+Model CEggFX
+{
+	Path models 
+	Model 0 PorkFX.md3 
+	Skin 0 "materials/Porkelator/Porkelator.png"
+	Scale  0.1 0.1 0.1
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex PRKE A 0 0
+}
+
+Model CArtiPork
+{
+	Path models 
+	Model 0 Porkelator.md3 
+	Skin 0 "materials/Porkelator/Porkelator.png"
+	Scale  0.1 0.1 0.1
+	Offset 0 0 10
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+	ROTATING
+
+    FrameIndex PRKE A 0 0
+}
+
+Model CPorkFX
+{
+	Path models 
+	Model 0 PorkFX.md3 
+	Skin 0 "materials/Porkelator/Porkelator.png"
+	Scale  0.1 0.1 0.1
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex PRKE A 0 0
+}
+
+Model CBrassTorch
+{
+	Path models 
+	Model 0 ScrewTorch.md3 
+	Skin 0 "materials/ScrewTorch/ScrewTorch.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex SCRE A 0 0
+}
+
+Model CZRubble1
+{
+	Path models 
+	Model 0 Rubble1.md3 
+	Skin 0 "materials/Stones/Stones.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex STNS A 0 0
+}
+
+Model CZRubble2
+{
+	Path models 
+	Model 0 Rubble2.md3 
+	Skin 0 "materials/Stones/Stones.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex STNS A 0 0
+}
+
+Model CZRubble3
+{
+	Path models 
+	Model 0 Rubble3.md3 
+	Skin 0 "materials/Stones/Stones.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex STNS A 0 0
+}
+
+Model CZRockBrown1
+{
+	Path models 
+	Model 0 RockBrown1.md3 
+	Skin 0 "materials/Stones/Stones.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex STNS A 0 0
+}
+
+Model CZRockBrown2
+{
+	Path models 
+	Model 0 RockBrown2.md3 
+	Skin 0 "materials/Stones/Stones.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex STNS A 0 0
+}
+
+Model CZRockBlack
+{
+	Path models 
+	Model 0 RockBlack.md3 
+	Skin 0 "materials/Stones/Stones.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex STNS A 0 0
+}
+
+Model CZStumpBare
+{
+	Path models 
+	Model 0 StumpBare.md3 
+	Skin 0 "materials/Stumps/Stumps.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex STMP A 0 0
+}
+
+Model CZStumpBurned
+{
+	Path models 
+	Model 0 StumpBurned.md3 
+	Skin 0 "materials/Stumps/Stumps.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex STMP A 0 0
+}
+
+Model CZStumpSwamp1
+{
+	Path models 
+	Model 0 StumpSwamp1.md3 
+	Skin 0 "materials/Stumps/Stumps2.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex STMP A 0 0
+}
+
+Model CZStumpSwamp2
+{
+	Path models 
+	Model 0 StumpSwamp2.md3 
+	Skin 0 "materials/Stumps/Stumps2.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex STMP A 0 0
+}
+
+Model CZTreeSwamp150
+{
+	Path models 
+	Model 0 SwampTree1.md3 
+	Skin 0 "materials/SwampTree/SwampTree.png"
+	Scale  0.9 0.9 1.08
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex SWMT A 0 0
+}
+
+Model CZTreeSwamp120
+{
+	Path models 
+	Model 0 SwampTree2.md3 
+	Skin 0 "materials/SwampTree/SwampTree.png"
+	Scale  0.9 0.9 1.08
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex SWMT A 0 0
+}
+
+Model CZTreeGnarled1
+{
+	Path models 
+	Model 0 GnarledTree1.md3 
+	Skin 0 "materials/SwampTree2/SwampTree2.png"
+	Scale  0.6 0.6 0.72
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex GNRT A 0 0
+}
+
+Model CZTreeGnarled2
+{
+	Path models 
+	Model 0 GnarledTree2.md3 
+	Skin 0 "materials/SwampTree2/SwampTree2.png"
+	Scale  0.6 0.6 0.72
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex GNRT A 0 0
+}
+
+Model CThrustFloor
+{
+	Path models 
+	Model 0 Spike.md3 
+	Skin 0 "materials/Spike/Spike.png"
+	Scale  0.6 0.6 0.72
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex SPIK A 0 0
+}
+
+Model CThrustFloorDown
+{
+	Path models 
+	Model 0 Spike.md3 
+	Skin 0 "materials/Spike/Spike.png"
+	Scale  0.6 0.6 0.72
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex SPIK A 0 0
+}
+
+Model CThrustFloorUp
+{
+	Path models 
+	Model 0 Spike.md3 
+	Skin 0 "materials/Spike/Spike.png"
+	Scale  0.6 0.6 0.72
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex SPIK A 0 0
+}
+
+Model CThrustFloorDown
+{
+	Path models 
+	Model 0 SpikeBlood.md3 
+	Skin 0 "materials/Spike/Spike.png"
+	Scale  0.6 0.6 0.72
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex SPIK B 0 0
+}
+
+Model CThrustFloorUp
+{
+	Path models 
+	Model 0 SpikeBlood.md3 
+	Skin 0 "materials/Spike/Spike.png"
+	Scale  0.6 0.6 0.72
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex SPIK B 0 0
+}
+
+Model CThrustFloor
+{
+	Path models 
+	Model 0 SpikeBlood.md3 
+	Skin 0 "materials/Spike/Spike.png"
+	Scale  0.6 0.6 0.72
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex SPIK B 0 0
+}
+
+Model CDirtClump
+{
+	Path models 
+	Model 0 SpikeGround.md3 
+	Skin 0 "materials/Spike/Spike.png"
+	Scale  0.6 0.6 0.72
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex DIRT A 0 0
+}
+
+Model CZMossCeiling1
+{
+	Path models 
+	Model 0 Moss1.md3 
+	Skin 0 "materials/Spike/Spike.png"
+	Scale  0.6 0.6 0.72
+	Offset 0 0 5
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex MOSS A 0 0
+}
+
+Model CZMossCeiling2
+{
+	Path models 
+	Model 0 Moss2.md3 
+	Skin 0 "materials/Spike/Spike.png"
+	Scale  0.6 0.6 0.72
+	Offset 0 0 5
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex MOSS A 0 0
+}
+
+Model CPuzzFWeapon
+{
+	Path models 
+	Model 0 TinyWeps.md3 
+	Skin 0 "materials/TinyWeps/TinyWeps.png"
+	Scale  0.1 0.1 0.12
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex TWPS A 0 0
+}
+
+Model CPuzzCWeapon
+{
+	Path models 
+	Model 0 TinyWeps.md3 
+	Skin 0 "materials/TinyWeps/TinyWeps.png"
+	Scale  0.1 0.1 0.12
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex TWPS A 0 1
+}
+
+Model CPuzzMWeapon
+{
+	Path models 
+	Model 0 TinyWeps.md3 
+	Skin 0 "materials/TinyWeps/TinyWeps.png"
+	Scale  0.1 0.1 0.12
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex TWPS A 0 2
+}
+
+Model CZTombstoneBigCross
+{
+	Path models 
+	Model 0 TombstoneBigCross.md3 
+	Skin 0 "materials/Tombs/Tombs.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex TOMB A 0 0
+}
+
+Model CZTombstoneBrianP
+{
+	Path models 
+	Model 0 TombstoneBrianP.md3 
+	Skin 0 "materials/Tombs/Tombs.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex TOMB A 0 0
+}
+
+Model CZTombstoneBrianR
+{
+	Path models 
+	Model 0 TombstoneBrianR.md3 
+	Skin 0 "materials/Tombs/Tombs.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex TOMB A 0 0
+}
+
+Model CZTombstoneCrossCircle
+{
+	Path models 
+	Model 0 TombstoneCrossCircle.md3 
+	Skin 0 "materials/Tombs/Tombs.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex TOMB A 0 0
+}
+
+Model CZTombstoneRip
+{
+	Path models 
+	Model 0 TombstoneRip.md3 
+	Skin 0 "materials/Tombs/Tombs.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex TOMB A 0 0
+}
+
+Model CZTombstoneShane
+{
+	Path models 
+	Model 0 TombstoneShane.md3 
+	Skin 0 "materials/Tombs/Tombs.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex TOMB A 0 0
+}
+
+Model CZTombstoneSmallCross
+{
+	Path models 
+	Model 0 TombstoneSmallCross.md3 
+	Skin 0 "materials/Tombs/Tombs.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex TOMB A 0 0
+}
+
+Model CArtiTorch
+{
+	Path models 
+	Model 0 TorchItem.md3 
+	Skin 0 "materials/Torch/Torch.png"
+	Scale  0.2 0.2 0.2
+	Offset 0 0 10
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+	ROTATING
+
+    FrameIndex TORC A 0 0
+}
+
+Model CArtiFly
+{
+	Path models 
+	Model 0 WingsOfWrath.md3 
+	Skin 0 "materials/WingsOfWrath/WingsOfWrath.png"
+	Scale  0.2 0.2 0.2
+	Offset 0 0 15
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+	ROTATING
+
+    FrameIndex SKUL A 0 0
+    FrameIndex SKUL B 0 1
+    FrameIndex SKUL C 0 2
+    FrameIndex SKUL D 0 3
+    FrameIndex SKUL E 0 4
+    FrameIndex SKUL F 0 5
+    FrameIndex SKUL G 0 6
+    FrameIndex SKUL H 0 7
+    FrameIndex SKUL I 0 8
+}
+
+Model CPuzzSkull
+{
+	Path models 
+	Model 0 PuzzleSkull.md3 
+	Skin 0 "materials/WingedStatue/WingedStatueM.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex WSTS A 0 0
+}
+
+Model CZWingedStatue
+{
+	Path models 
+	Model 0 WingedStatue.md3 
+	Skin 0 "materials/WingedStatue/WingedStatue.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex WSTS A 0 0
+}
+
+Model CZWingedStatueNoSkull
+{
+	Path models 
+	Model 0 StatueNoSkull.md3 
+	Skin 0 "materials/WingedStatue/WingedStatueM.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex WSTS A 0 0
+}
+
+Model CZWingedStatueNoSkull
+{
+	Path models 
+	Model 0 StatueNoSkull1.md3 
+	Skin 0 "materials/WingedStatue/WingedStatueM.png"
+	Scale  0.4 0.4 0.4
+	Offset 0 0 0
+	AngleOffset 0
+	USEACTORPITCH
+	USEACTORROLL
+
+    FrameIndex WSTS B 0 0
+}
+
+Model ShrubBig
+{ 
+   Path "models"
+   Model 0 "ShrubBig.md3"
+   Skin 0 "materials/Shrubs/Shrubs.png"
+   Scale 0.6 0.6 0.72
+   Offset 0 0 -5
+   USEACTORROLL
+   USEACTORPITCH
+
+   FrameIndex SHRU C 0 0
+   Skin 0 "materials/Shrubs/ShrubsBurned.png"
+   FrameIndex SHRU D 0 0
+}
+
+Model ShrubSmall
+{ 
+   Path "models"
+   Model 0 "ShrubSmall.md3"
+   Skin 0 "materials/Shrubs/Shrubs.png"
+   Scale 0.6 0.6 0.72
+   Offset 0 0 -5
+   USEACTORROLL
+   USEACTORPITCH
+
+   FrameIndex SHRU A 0 0
+   Skin 0 "materials/Shrubs/ShrubsBurned.png"
+   FrameIndex SHRU B 0 0
+}
